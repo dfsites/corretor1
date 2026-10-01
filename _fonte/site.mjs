@@ -7,6 +7,8 @@ export const site = {
   // O .htaccess redireciona http e o domínio sem www para cá.
   url: 'https://www.corretor1.com.br',
   idioma: 'pt-BR',
+  // Verificação de propriedade no Google Search Console (meta tag).
+  googleSiteVerification: 'tE0lujlWTsUE-eYKiytet6rVLgqj5y1F138MaNtylP8',
   chamada: 'Faça parte da elite do mercado imobiliário!',
   subchamada:
     'Alcance a Excelência: Integrando ao Grupo de Elite que Representa 1% dos Corretores de imóveis com Alto Desempenho em Vendas e Comissões!',

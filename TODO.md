@@ -7,12 +7,12 @@
 
 ## Próximo
 
-- Produzir o primeiro ciclo do `docs/PLANO-EDITORIAL.md` (começando pelos pilares de preço e mercado, visitas, negociação, carreira e tecnologia).
+- Segundo ciclo do `docs/PLANO-EDITORIAL.md` (27 pautas P1), após analisar os resultados do primeiro.
 - Foto do autor (quadrada) em `assets/img/autores/` e campo `foto` em `_fonte/autores.mjs`.
 
 - Cadastrar os e-books (capa, preço, link de compra) em `_fonte/produtos.mjs`.
 - Cadastrar os cursos quando houver link de venda.
-- Cadastrar no Google Search Console e enviar o sitemap.
+- Confirmar a propriedade no Google Search Console (meta tag já publicada) e enviar o sitemap.
 
 ## Depois
 
@@ -20,6 +20,8 @@
 - Confirmar a divisão de papéis com corretor50k.com.br.
 
 ## Concluído
+
+- 2026-10-01: primeiro ciclo editorial: 15 artigos publicados, interlinking com os 6 anteriores, categorias Começando na profissão e Captação.
 
 - 2026-10-01: ajustes finais da auditoria (registros pessoais × CRECI-J, redirect em um salto, nota do banco editorial).
 

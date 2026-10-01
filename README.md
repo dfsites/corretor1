@@ -37,7 +37,9 @@ Requer Node 18+. Não há `npm install`.
 
 ## Como adicionar um artigo
 
-Siga `docs/PLANO-EDITORIAL.md` (linha editorial, pautas, anti-canibalização). Adicione um objeto em `_fonte/artigos.mjs` com `slug`, `titulo` (até ~55 caracteres), `h1`, `descricao` (120–160), `editoria`, `personas`, `pilar` (`true` ou slug do pilar), `autor`, `data`, `atualizado` (só em revisão real), `avisoJuridico`, `fontes` e `corpo` (HTML). O build gera byline, schema, relacionados e, quando a editoria chegar a 3 artigos, a página de categoria. Se um slug mudar, registre o 301 em `redirecionamentosBlog`.
+Siga `docs/PLANO-EDITORIAL.md` (linha editorial, pautas, anti-canibalização). Cada artigo novo é um módulo em `_fonte/artigos/<slug>.mjs` (`export default { ... }`; o nome do arquivo deve ser igual ao `slug`). Campos: `slug`, `titulo` (até ~55 caracteres), `h1`, `descricao` (120 a 160), `editoria`, `personas`, `pilar` (`true` ou slug do pilar), `autor`, `data`, `atualizado` (só em revisão real), `avisoJuridico`, `fontes` e `corpo` (HTML; tabelas dentro de `<div class="tabela">`). Os 6 primeiros artigos ficam em `_fonte/artigos.mjs`. O build gera byline, schema, relacionados, satélites no pilar e, quando a editoria chegar a 3 artigos, a página de categoria. Trilhas de "Por onde começar" ficam em `_fonte/editorias.mjs`. Se um slug mudar, registre o 301 em `redirecionamentosBlog`.
+
+O verificador barra travessões e termos vetados no texto editorial e links externos que não sejam de fontes oficiais (.gov.br, .jus.br, .leg.br).
 
 ## Publicação
 

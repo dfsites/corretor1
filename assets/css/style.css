@@ -157,3 +157,15 @@ p { margin: 0 0 1em; }
 .secao-editoria h2 { margin-top: 0; }
 .cartao ul { padding-left: 18px; margin: 0; }
 .cartao li { margin-bottom: 8px; }
+
+/* Tabelas dentro dos artigos */
+.tabela { overflow-x: auto; margin: 1.5em 0; -webkit-overflow-scrolling: touch; }
+.tabela table { border-collapse: collapse; width: 100%; font-size: .95rem; }
+.tabela th, .tabela td { border: 1px solid var(--borda); padding: 10px 12px; text-align: left; vertical-align: top; }
+.tabela th { background: var(--fundo-2); color: var(--navy); font-weight: 700; }
+.artigo h3 { font-size: 1.15rem; margin-top: 1.4em; }
+.artigo { overflow-wrap: break-word; }
+@media (max-width: 600px) {
+  .tabela table { font-size: .84rem; }
+  .tabela th, .tabela td { padding: 7px 8px; overflow-wrap: anywhere; hyphens: auto; }
+}

@@ -12,7 +12,7 @@ HTML estático gerado por `_fonte/build.mjs` (Node, sem dependências). Verifica
 
 ## Conteúdo
 
-15 páginas: início, O Método, Cursos, Mentoria, E-books, Blog, 6 artigos, autor (Daniel Ferreira), Contato, Política de Privacidade (+404). Blog organizado em 11 editorias; plano de 117 pautas em `docs/PLANO-EDITORIAL.md`.
+32 páginas: início, O Método, Cursos, Mentoria, E-books, Blog, 21 artigos, 2 páginas de categoria, autor (Daniel Ferreira), Contato, Política de Privacidade (+404). Blog em 11 editorias; primeiro ciclo editorial (15 artigos) publicado em 2026-10-01; banco de 117 pautas em `docs/PLANO-EDITORIAL.md`.
 E-books e cursos: listas vazias — páginas mostram "em breve" até o proprietário cadastrar os produtos.
 
 ## SEO
@@ -33,7 +33,7 @@ Publicado: SIM — nova versão (2026-10-01). Site antigo removido; backup em `_
 
 - Informar WhatsApp e Instagram (opcional) em `_fonte/site.mjs`
 - Cadastrar e-books e cursos (`_fonte/produtos.mjs`)
-- Google Search Console + envio do sitemap
+- Google Search Console: meta tag de verificação publicada; falta confirmar a propriedade no painel e enviar o sitemap
 - Corrigir a pasta de destino do deploy via GitHub no painel da hospedagem
 - Confirmar a divisão de papéis com corretor50k.com.br
 

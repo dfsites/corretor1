@@ -104,6 +104,50 @@ for (const a of artigos) {
   for (const f of a.fontes || []) if (!/^https:\/\//.test(f.url)) erros.push(`${rel}: fonte sem https ${f.url}`);
   if (a.titulo.length > 56) avisos.push(`${rel}: titulo com ${a.titulo.length} caracteres (+ " | Corretor 1%")`);
 }
+// ---------- Regras editoriais no HTML do blog (artigos, índice, categorias, autor) ----------
+// Texto editorial: tudo dentro de <main> (o rodapé fica fora e tem o intervalo de anos do copyright).
+// Fronteira de palavra que reconhece letras acentuadas (o \b do JavaScript não reconhece).
+const palavra = (fonte) => new RegExp(`(?<!\\p{L})(?:${fonte})(?!\\p{L})`, 'iu');
+const TERMOS_TEXTO = [
+  'alta performance', 'milion[aá]ri[oa]s?', 'explodir', 'segredos?', 'f[oó]rmulas?', 'hacks?', 'infal[ií]vel',
+  'ganhar dinheiro r[aá]pido', 'faturar', 'faturamento garantido', 'resultados? garantidos?', 'campe[aã]o de vendas',
+  'vender como nunca', 'domine', 'mestre das vendas',
+].map(palavra);
+const CLICHES = [
+  'no cen[aá]rio atual', 'cada vez mais competitivo', 'mais do que nunca', '[eé] fundamental destacar',
+  'nesse contexto', 'diante desse cen[aá]rio', 'vale ressaltar', 'em suma',
+].map(palavra);
+// Links externos permitidos no texto editorial: só fontes oficiais e institucionais.
+const HOST_PERMITIDO = /(\.gov\.br|\.jus\.br|\.leg\.br|\.mp\.br|abnt\.org\.br)$/i;
+const paginasEditoriais = arquivos.filter((arq) => /^(blog|autor)[\\/]/.test(relative(RAIZ, arq)));
+for (const arq of paginasEditoriais) {
+  const rel = relative(RAIZ, arq).replace(/\\/g, '/');
+  const html = readFileSync(arq, 'utf8');
+  const main = html.match(/<main[^>]*>([\s\S]*?)<\/main>/)?.[1] ?? '';
+  const texto = main.replace(/<[^>]+>/g, ' ');
+  const titulo = html.match(/<title>([^<]*)<\/title>/)?.[1] ?? '';
+  const desc = html.match(/<meta name="description" content="([^"]*)"/)?.[1] ?? '';
+  for (const [nome, alvo] of [['texto', texto], ['title', titulo], ['description', desc]]) {
+    if (/[—–]/.test(alvo)) erros.push(`${rel}: travessão no ${nome}: "${alvo.match(/.{0,40}[—–].{0,40}/)?.[0].trim()}"`);
+  }
+  for (const re of TERMOS_TEXTO) if (re.test(texto)) erros.push(`${rel}: termo vetado no texto (${re}): "${texto.match(new RegExp('.{0,40}' + re.source + '.{0,40}', 'iu'))?.[0].trim()}"`);
+  for (const re of CLICHES) if (re.test(texto)) erros.push(`${rel}: clichê no texto (${re})`);
+  if (rel.startsWith('blog/')) {
+    for (const [, url] of main.matchAll(/href="(https?:\/\/[^"]+)"/g)) {
+      const host = new URL(url).host;
+      if (!HOST_PERMITIDO.test(host)) erros.push(`${rel}: link externo não permitido ${url}`);
+    }
+  }
+}
+// Editorias com artigos suficientes precisam ter página de categoria (e só elas).
+const { editorias, MIN_ARTIGOS_CATEGORIA } = await import('./editorias.mjs');
+for (const e of editorias) {
+  const n = artigos.filter((a) => a.editoria === e.id).length;
+  const existe = existsSync(join(RAIZ, 'blog', 'categoria', e.id, 'index.html'));
+  if (n >= MIN_ARTIGOS_CATEGORIA && !existe) erros.push(`categoria ${e.id}: ${n} artigos e sem página`);
+  if (n < MIN_ARTIGOS_CATEGORIA && existe) erros.push(`categoria ${e.id}: página com só ${n} artigo(s)`);
+}
+
 for (const [de, para] of redirecionamentosBlog) {
   if (!htaccess.includes(`Redirect 301 ${de} `)) erros.push(`.htaccess: falta redirecionamento ${de}`);
   if (!existeCaminho(para)) erros.push(`redirecionamento ${de} aponta para página inexistente ${para}`);

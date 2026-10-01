@@ -1,11 +1,11 @@
 // Artigos do blog. Cada artigo vira /blog/<slug>/.
 //
 // Linha editorial (ver docs/PLANO-EDITORIAL.md):
-//   biblioteca profissional de corretagem — sóbrio, específico, sem promessas de renda,
+//   biblioteca profissional de corretagem: sóbrio, específico, sem promessas de renda,
 //   sem números inventados, sem linguagem de "guru". Lei citada = fonte primária em `fontes`.
 //
 // Campos:
-//   slug, titulo (<= ~55 caracteres; o build acrescenta " | Corretor 1%"), h1, descricao (120–160)
+//   slug, titulo (<= ~55 caracteres; o build acrescenta " | Corretor 1%"), h1, descricao (120 a 160)
 //   editoria   id de _fonte/editorias.mjs
 //   personas   ['futuro' | 'iniciante' | 'desenvolvimento']
 //   pilar      true se for a página principal da editoria; senão, slug do pilar que o artigo reforça
@@ -13,29 +13,29 @@
 //   data       publicação original (AAAA-MM-DD)
 //   atualizado data da última revisão de conteúdo (opcional; só aparece se for diferente de `data`)
 //   avisoJuridico true para conteúdo com base legal (mostra aviso de caráter informativo)
-//   fontes     [{ titulo, url }] — preferir Planalto, COFECI, CRECI, STJ, Receita, BCB, Caixa
+//   fontes     [{ titulo, url }]; preferir Planalto, COFECI, CRECI, STJ, Receita, BCB, Caixa
 //   relacionados [slugs] (opcional; senão o build escolhe pela editoria/pilar)
 //   corpo      HTML
 
 const PLANALTO_LEI_6530 = {
-  titulo: 'Lei nº 6.530/1978 — regulamenta a profissão de Corretor de Imóveis (Planalto)',
+  titulo: 'Lei nº 6.530/1978: regulamenta a profissão de Corretor de Imóveis (Planalto)',
   url: 'https://www.planalto.gov.br/ccivil_03/leis/l6530.htm',
 };
 const PLANALTO_DECRETO_81871 = {
-  titulo: 'Decreto nº 81.871/1978 — regulamenta a Lei nº 6.530/1978 (Planalto)',
+  titulo: 'Decreto nº 81.871/1978: regulamenta a Lei nº 6.530/1978 (Planalto)',
   url: 'https://www.planalto.gov.br/ccivil_03/decreto/antigos/d81871.htm',
 };
 const PLANALTO_CODIGO_CIVIL = {
-  titulo: 'Código Civil (Lei nº 10.406/2002), arts. 722 a 729 — Da corretagem (Planalto)',
+  titulo: 'Código Civil (Lei nº 10.406/2002), arts. 722 a 729: da corretagem (Planalto)',
   url: 'https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm',
 };
 const PLANALTO_LGPD = {
-  titulo: 'Lei nº 13.709/2018 — Lei Geral de Proteção de Dados Pessoais (Planalto)',
+  titulo: 'Lei nº 13.709/2018: Lei Geral de Proteção de Dados Pessoais (Planalto)',
   url: 'https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm',
 };
-const COFECI = { titulo: 'Conselho Federal de Corretores de Imóveis — COFECI', url: 'https://www.cofeci.gov.br/' };
+const COFECI = { titulo: 'Conselho Federal de Corretores de Imóveis (COFECI)', url: 'https://www.cofeci.gov.br/' };
 
-export const artigos = [
+const artigosBase = [
   {
     slug: 'como-ser-corretor-de-imoveis',
     titulo: 'Como se tornar corretor de imóveis: formação e CRECI',
@@ -62,6 +62,7 @@ export const artigos = [
   <li>receber, apresentar e negociar propostas;</li>
   <li>acompanhar a documentação até a conclusão do negócio.</li>
 </ul>
+<p>As atribuições e os limites da profissão estão detalhados em <a href="/blog/o-que-faz-um-corretor-de-imoveis/">o que faz um corretor de imóveis</a>.</p>
 
 <h2>Formação exigida</h2>
 <p>Pelo art. 2º da Lei nº 6.530/1978, o exercício da profissão é permitido ao possuidor do título de <strong>Técnico em Transações Imobiliárias (TTI)</strong>. O curso é oferecido por instituições autorizadas, em formato presencial ou a distância.</p>
@@ -74,7 +75,7 @@ export const artigos = [
   <li><strong>O registro é condição para intermediar.</strong> Atuar sem inscrição é exercício irregular da profissão.</li>
   <li><strong>O número de inscrição deve constar de toda propaganda.</strong> O Decreto nº 81.871/1978 (art. 4º) determina que o número do CRECI apareça em toda publicidade e em qualquer impresso relativo à atividade profissional.</li>
 </ul>
-<p>A manutenção do registro depende do pagamento da anuidade ao conselho.</p>
+<p>A manutenção do registro depende do pagamento da anuidade ao conselho. As etapas, os documentos e os custos estão em <a href="/blog/inscricao-no-creci/">inscrição no CRECI</a>.</p>
 
 <h2>Modelos de atuação</h2>
 <p>Depois do registro, o corretor escolhe como vai trabalhar. Os modelos mais comuns são:</p>
@@ -103,10 +104,11 @@ export const artigos = [
 <ol>
   <li><strong>Defina onde vai atuar.</strong> Uma região ou um tipo de imóvel bem delimitado permite conhecer o estoque e os preços praticados em profundidade.</li>
   <li><strong>Estude a documentação básica.</strong> Matrícula do imóvel, certidões, escritura, registro e tributos da transação aparecem em praticamente todo negócio.</li>
-  <li><strong>Registre todos os contatos desde o primeiro dia.</strong> Uma planilha ou um CRM simples evita que oportunidades se percam.</li>
+  <li><strong>Registre todos os contatos desde o primeiro dia.</strong> Uma planilha ou um CRM simples evita que oportunidades se percam. Veja <a href="/blog/ferramentas-digitais-do-corretor/">ferramentas digitais do corretor</a>.</li>
   <li><strong>Organize uma rotina.</strong> Sem horário imposto, a organização da semana passa a ser responsabilidade do próprio corretor. Veja <a href="/blog/rotina-de-trabalho-do-corretor-de-imoveis/">rotina de trabalho do corretor de imóveis</a>.</li>
   <li><strong>Aprenda os processos centrais:</strong> <a href="/blog/como-captar-imoveis/">captação de imóveis</a> e <a href="/blog/atendimento-ao-comprador-de-imoveis/">atendimento ao comprador</a>.</li>
 </ol>
+<p>Um roteiro mais detalhado para esse período está em <a href="/blog/primeiros-passos-depois-do-creci/">primeiros passos depois de obter o CRECI</a>, e os caminhos de especialização ao longo da carreira em <a href="/blog/desenvolvimento-profissional-do-corretor/">desenvolvimento profissional do corretor</a>.</p>
 `,
   },
   {
@@ -144,7 +146,7 @@ export const artigos = [
 <p>Pelo costume do mercado, a comissão é paga por quem contratou o corretor; na venda, normalmente o proprietário. As partes podem combinar de outra forma, desde que isso fique claro e registrado. Deixar essa definição para o momento da assinatura é uma das principais fontes de desentendimento.</p>
 
 <h2>Parcerias e divisão de comissão</h2>
-<p>Em parcerias entre corretores — quando um capta o imóvel e outro apresenta o comprador, por exemplo — não há regra legal fixa para a divisão. Vale o que for combinado. Registre por escrito, antes do início da negociação, quem participa, qual a função de cada um e o percentual de cada parte.</p>
+<p>Em parcerias entre corretores (quando um capta o imóvel e outro apresenta o comprador, por exemplo), o art. 728 do Código Civil estabelece que, se o negócio se concluir com a intermediação de mais de um corretor, a remuneração será paga a todos em partes iguais, salvo ajuste em contrário. Por isso, quando a divisão pretendida for outra, ela precisa estar combinada. Registre por escrito, antes do início da negociação, quem participa, qual a função de cada um e o percentual de cada parte. O assunto está detalhado em <a href="/blog/parcerias-entre-corretores/">parcerias entre corretores</a>.</p>
 
 <h2>Formalização da contratação</h2>
 <p>Além de proteger a comissão, a formalização é exigência da própria regulamentação profissional:</p>
@@ -152,7 +154,7 @@ export const artigos = [
   <li>o Decreto nº 81.871/1978 (art. 5º) estabelece que somente pode anunciar publicamente o corretor que tiver contrato escrito de mediação ou autorização escrita para a alienação do imóvel;</li>
   <li>a Lei nº 6.530/1978 (art. 20, III) veda anunciar publicamente proposta de transação a que o corretor não esteja autorizado por documento escrito.</li>
 </ul>
-<p>Um documento de autorização deve identificar as partes e o imóvel, as condições de comercialização, o prazo, a existência ou não de exclusividade e a remuneração. O processo de captação e autorização está detalhado em <a href="/blog/como-captar-imoveis/">captação de imóveis</a>.</p>
+<p>Um documento de autorização deve identificar as partes e o imóvel, as condições de comercialização, o prazo, a existência ou não de exclusividade e a remuneração. O conteúdo recomendado do documento está em <a href="/blog/autorizacao-de-venda/">autorização de venda</a>, e o processo de captação em <a href="/blog/como-captar-imoveis/">captação de imóveis</a>.</p>
 `,
   },
   {
@@ -196,24 +198,25 @@ export const artigos = [
   <li>Existe financiamento, inventário ou outra pendência?</li>
   <li>O imóvel já foi anunciado? Por quanto tempo e com quais resultados?</li>
 </ul>
+<p>O roteiro completo, com o que registrar em cada bloco, está em <a href="/blog/entrevista-inicial-com-o-proprietario/">entrevista inicial com o proprietário</a>.</p>
 
 <h2>Visita de captação e levantamento de informações</h2>
 <p>Na visita, registre as características do imóvel com precisão: metragem, número de quartos e vagas, estado de conservação, reformas, posição solar, vista, áreas comuns, valor de condomínio e de IPTU. Fotografe com autorização e anote o que precisa ser verificado em documentos.</p>
 
 <h2>Documentação</h2>
-<p>Solicite ou oriente a obtenção da matrícula atualizada e verifique a situação de IPTU e condomínio. Divergências entre o imóvel real e o que consta na matrícula — como área construída não averbada — precisam ser identificadas cedo, porque podem afetar a venda e o financiamento do comprador.</p>
+<p>Solicite ou oriente a obtenção da matrícula atualizada e verifique a situação de IPTU e condomínio. Divergências entre o imóvel real e o que consta na matrícula (como área construída não averbada) precisam ser identificadas cedo, porque podem afetar a venda e o financiamento do comprador.</p>
 
 <h2>Preço</h2>
-<p>A lei permite ao corretor opinar quanto à comercialização imobiliária (Lei nº 6.530/1978, art. 3º). Fundamente a sugestão de preço com dados: imóveis semelhantes à venda, negócios concluídos na região quando houver informação disponível, e as características específicas do imóvel. Apresente os números ao proprietário de forma clara e combine um momento para revisar o preço caso não haja interesse no período definido.</p>
+<p>A lei permite ao corretor opinar quanto à comercialização imobiliária (Lei nº 6.530/1978, art. 3º). Fundamente a sugestão de preço com dados: imóveis semelhantes à venda, negócios concluídos na região quando houver informação disponível, e as características específicas do imóvel. Apresente os números ao proprietário de forma clara e combine um momento para revisar o preço caso não haja interesse no período definido. Os critérios para fundamentar essa sugestão estão em <a href="/blog/preco-de-mercado-de-imoveis/">preço de mercado de imóveis</a>.</p>
 
 <h2>Autorização por escrito</h2>
-<p>A autorização escrita não é apenas uma boa prática. O Decreto nº 81.871/1978 (art. 5º) estabelece que somente pode anunciar publicamente o corretor que tiver contrato escrito de mediação ou autorização escrita para a alienação do imóvel. O documento deve identificar o imóvel e os proprietários, o preço e as condições, o prazo, a remuneração e se há exclusividade.</p>
+<p>A autorização escrita não é apenas uma boa prática. O Decreto nº 81.871/1978 (art. 5º) estabelece que somente pode anunciar publicamente o corretor que tiver contrato escrito de mediação ou autorização escrita para a alienação do imóvel. O documento deve identificar o imóvel e os proprietários, o preço e as condições, o prazo, a remuneração e se há exclusividade. O conteúdo recomendado está em <a href="/blog/autorizacao-de-venda/">autorização de venda</a>.</p>
 
 <h2>Exclusividade</h2>
 <p>Pelo art. 726 do Código Civil, quando a corretagem é ajustada por escrito com exclusividade, o corretor tem direito à remuneração integral ainda que o negócio seja realizado sem a sua mediação, salvo se comprovada sua inércia ou ociosidade. Para o proprietário, a exclusividade faz sentido quando vem acompanhada de compromissos concretos: plano de divulgação, frequência de retorno, prazo definido e relatórios de visitas e propostas.</p>
 
 <h2>Depois da captação</h2>
-<p>Mantenha o proprietário informado sobre visitas, retornos dos interessados e propostas recebidas. O relacionamento ao longo da comercialização é o que sustenta conversas difíceis, como a revisão de preço. A divulgação do imóvel é tratada em <a href="/blog/marketing-para-corretor-de-imoveis/">marketing para corretor de imóveis</a>, e a formalização da remuneração em <a href="/blog/comissao-de-corretor-de-imoveis/">comissão de corretagem</a>.</p>
+<p>Mantenha o proprietário informado sobre visitas, retornos dos interessados e propostas recebidas. O relacionamento ao longo da comercialização é o que sustenta conversas difíceis, como a revisão de preço. A divulgação do imóvel é tratada em <a href="/blog/marketing-para-corretor-de-imoveis/">marketing para corretor de imóveis</a> (as regras de anúncio estão em <a href="/blog/regras-de-publicidade-do-corretor/">regras de publicidade do corretor</a>), e a formalização da remuneração em <a href="/blog/comissao-de-corretor-de-imoveis/">comissão de corretagem</a>.</p>
 `,
   },
   {
@@ -243,16 +246,16 @@ export const artigos = [
   <li><strong>decisores:</strong> quem mais participa da decisão;</li>
   <li><strong>critérios:</strong> o que é indispensável e o que é desejável.</li>
 </ul>
-<p>Registre essas informações. Elas orientam a seleção de imóveis e evitam visitas sem aderência ao perfil.</p>
+<p>Registre essas informações. Elas orientam a seleção de imóveis e evitam visitas sem aderência ao perfil. O roteiro detalhado está em <a href="/blog/qualificacao-do-comprador/">qualificação do comprador</a>.</p>
 
 <h2>3. Seleção de imóveis</h2>
 <p>Apresente poucas opções, coerentes com o perfil. Antes de agendar, confirme disponibilidade, preço, condições aceitas pelo proprietário e eventuais pendências de documentação. Sempre que possível, conheça o imóvel pessoalmente antes de levar o cliente.</p>
 
 <h2>4. Visitas</h2>
-<p>Combine horários com o proprietário ou responsável, confirme a visita com o cliente e prepare as informações relevantes: metragem, condomínio, IPTU, características da região. Durante a visita, observe as reações e pergunte o que o cliente achou de cada ambiente. Ao final, peça que compare as opções vistas: essa conversa revela o que realmente pesa na decisão.</p>
+<p>Combine horários com o proprietário ou responsável, confirme a visita com o cliente e prepare as informações relevantes: metragem, condomínio, IPTU, características da região. Durante a visita, observe as reações e pergunte o que o cliente achou de cada ambiente. Ao final, peça que compare as opções vistas: essa conversa revela o que realmente pesa na decisão. Preparação, condução e registro estão em <a href="/blog/visitas-a-imoveis/">visitas a imóveis</a>.</p>
 
 <h2>5. Acompanhamento após a visita</h2>
-<p>Muitos negócios não avançam por falta de acompanhamento, não por recusa do cliente. Registre a próxima ação e a data de cada atendimento em andamento. Cada novo contato deve trazer algo útil: um imóvel compatível, uma informação sobre a documentação, uma atualização sobre condições de pagamento.</p>
+<p>Muitos negócios não avançam por falta de acompanhamento, não por recusa do cliente. Registre a próxima ação e a data de cada atendimento em andamento. Cada novo contato deve trazer algo útil: um imóvel compatível, uma informação sobre a documentação, uma atualização sobre condições de pagamento. Veja como organizar esses retornos em <a href="/blog/controle-de-follow-up/">controle de follow-up</a>.</p>
 
 <h2>6. Proposta e negociação</h2>
 <ol>
@@ -261,6 +264,7 @@ export const artigos = [
   <li><strong>Considere todas as condições,</strong> não apenas o preço: prazo de entrega das chaves, itens que permanecem no imóvel e cronograma de pagamento também fazem parte do acordo.</li>
   <li><strong>Registre cada contraproposta</strong> para que as duas partes saibam exatamente o que está sendo negociado.</li>
 </ol>
+<p>A estrutura da proposta escrita e as diferenças entre proposta, contraproposta e contrato estão em <a href="/blog/proposta-de-compra-de-imovel/">proposta de compra de imóvel</a>.</p>
 
 <h2>7. Conclusão do negócio</h2>
 <p>O Código Civil (art. 723) determina que o corretor execute a mediação com diligência e prudência e preste ao cliente os esclarecimentos sobre a segurança ou o risco do negócio. Na prática, isso significa acompanhar a verificação da matrícula atualizada e das certidões necessárias, orientar sobre as etapas de escritura e registro e manter as partes informadas até a conclusão.</p>
@@ -281,7 +285,7 @@ export const artigos = [
     autor: 'daniel-ferreira',
     data: '2026-10-01',
     corpo: `
-<p>A maior parte dos corretores não tem horário definido por um empregador. Essa autonomia exige que o próprio profissional organize a semana; sem isso, o tempo tende a ser consumido por mensagens e demandas imediatas, enquanto atividades que sustentam o trabalho no médio prazo — como captação e acompanhamento — ficam para depois.</p>
+<p>A maior parte dos corretores não tem horário definido por um empregador. Essa autonomia exige que o próprio profissional organize a semana; sem isso, o tempo tende a ser consumido por mensagens e demandas imediatas, enquanto atividades que sustentam o trabalho no médio prazo (como captação e acompanhamento) ficam para depois.</p>
 
 <h2>As atividades centrais</h2>
 <ol>
@@ -304,7 +308,7 @@ export const artigos = [
 </ul>
 
 <h2>Registro de informações</h2>
-<p>Uma rotina só funciona se as informações estiverem registradas. Use uma planilha ou um sistema de CRM para manter, em um só lugar, os dados de clientes e proprietários, o histórico de contatos, a próxima ação de cada atendimento e a situação de cada imóvel e proposta.</p>
+<p>Uma rotina só funciona se as informações estiverem registradas. Use uma planilha ou um sistema de CRM para manter, em um só lugar, os dados de clientes e proprietários, o histórico de contatos, a próxima ação de cada atendimento e a situação de cada imóvel e proposta. As ferramentas para isso estão em <a href="/blog/ferramentas-digitais-do-corretor/">ferramentas digitais do corretor</a>, e a organização dos retornos em <a href="/blog/controle-de-follow-up/">controle de follow-up</a>.</p>
 
 <h2>Indicadores</h2>
 <p>Separe dois tipos de indicador:</p>
@@ -312,7 +316,7 @@ export const artigos = [
   <li><strong>De atividade</strong> (o que depende diretamente de você): contatos de prospecção, visitas de captação, visitas com compradores, propostas encaminhadas.</li>
   <li><strong>De conversão</strong> (a relação entre as etapas): quantos contatos geram visitas, quantas visitas geram propostas, quantas propostas resultam em negócio.</li>
 </ul>
-<p>Depois de algumas semanas de registro, esses números mostram onde o processo perde oportunidades — por exemplo, muitas visitas e poucas propostas indicam que vale revisar a qualificação dos clientes ou a seleção de imóveis.</p>
+<p>Depois de algumas semanas de registro, esses números mostram onde o processo perde oportunidades. Por exemplo, muitas visitas e poucas propostas indicam que vale revisar a qualificação dos clientes ou a seleção de imóveis.</p>
 
 <h2>Proteção dos períodos de trabalho</h2>
 <p>Durante os períodos de prospecção e captação, reduza interrupções: silencie notificações que não sejam de negociações em andamento e responda às demais mensagens em horários definidos.</p>
@@ -349,7 +353,7 @@ export const artigos = [
 </ul>
 
 <h2>Conteúdo informativo</h2>
-<p>Conteúdo que responde dúvidas reais — documentação, etapas da compra, financiamento, custos da transação, características da região — tende a atrair pessoas com interesse concreto e demonstra conhecimento. Evite promessas e afirmações que não possa comprovar.</p>
+<p>Conteúdo que responde dúvidas reais (documentação, etapas da compra, financiamento, custos da transação, características da região) tende a atrair pessoas com interesse concreto e demonstra conhecimento. Evite promessas e afirmações que não possa comprovar.</p>
 
 <h2>Anúncios de imóveis</h2>
 <ol>
@@ -366,10 +370,10 @@ export const artigos = [
   <li>somente pode anunciar publicamente o corretor que tiver contrato escrito de mediação ou autorização escrita do proprietário (Decreto nº 81.871/1978, art. 5º);</li>
   <li>no anúncio de imóvel loteado ou em condomínio, deve constar o número do registro do loteamento ou da incorporação no Registro de Imóveis (Lei nº 6.530/1978, art. 20, V).</li>
 </ul>
-<p>Consulte também as orientações do CRECI da sua região sobre publicidade.</p>
+<p>Consulte também as orientações do CRECI da sua região sobre publicidade. O tema está detalhado em <a href="/blog/regras-de-publicidade-do-corretor/">regras de publicidade do corretor</a>.</p>
 
 <h2>Dados pessoais de clientes</h2>
-<p>Formulários, listas de contatos e conversas por mensagem envolvem dados pessoais. A Lei Geral de Proteção de Dados (Lei nº 13.709/2018) exige que esses dados sejam tratados para finalidades legítimas e informadas ao titular, com segurança e com base legal adequada. Colete apenas o necessário e guarde as informações de forma protegida.</p>
+<p>Formulários, listas de contatos e conversas por mensagem envolvem dados pessoais. A Lei Geral de Proteção de Dados (Lei nº 13.709/2018) exige que esses dados sejam tratados para finalidades legítimas e informadas ao titular, com segurança e com base legal adequada. Colete apenas o necessário e guarde as informações de forma protegida. Veja <a href="/blog/lgpd-na-rotina-do-corretor/">LGPD na rotina do corretor</a>.</p>
 
 <h2>Reputação</h2>
 <p>Avaliações reais de clientes, histórico de atendimentos bem conduzidos e presença consistente na região de atuação constroem reputação ao longo do tempo. Peça avaliações apenas a quem foi efetivamente atendido e nunca publique depoimentos que não sejam autênticos.</p>
@@ -377,6 +381,21 @@ export const artigos = [
 `,
   },
 ];
+
+// Artigos novos: um módulo por artigo em _fonte/artigos/<slug>.mjs (export default { ... }).
+// Ordem: os 6 primeiros artigos e, depois, os módulos em ordem alfabética de arquivo.
+import { readdirSync } from 'node:fs';
+const pastaModulos = new URL('./artigos/', import.meta.url);
+const modulos = readdirSync(pastaModulos)
+  .filter((f) => f.endsWith('.mjs'))
+  .sort();
+const artigosModulos = await Promise.all(modulos.map((f) => import(new URL(f, pastaModulos)).then((m) => m.default)));
+for (const [i, a] of artigosModulos.entries()) {
+  if (`${a.slug}.mjs` !== modulos[i]) throw new Error(`Arquivo ${modulos[i]} tem slug "${a.slug}"`);
+}
+
+export const artigos = [...artigosBase, ...artigosModulos];
+if (new Set(artigos.map((a) => a.slug)).size !== artigos.length) throw new Error('Slug de artigo duplicado');
 
 // URLs antigas de artigos que mudaram de endereço (301 no .htaccess).
 export const redirecionamentosBlog = [

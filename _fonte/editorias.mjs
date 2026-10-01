@@ -67,3 +67,26 @@ export const personas = {
   iniciante: 'Corretor iniciante',
   desenvolvimento: 'Corretor em atividade',
 };
+
+// Trilhas de leitura do bloco "Por onde começar" (/blog/), em ordem de estudo.
+export const trilhas = {
+  futuro: [
+    'o-que-faz-um-corretor-de-imoveis',
+    'como-ser-corretor-de-imoveis',
+    'inscricao-no-creci',
+  ],
+  iniciante: [
+    'primeiros-passos-depois-do-creci',
+    'como-captar-imoveis',
+    'atendimento-ao-comprador-de-imoveis',
+    'visitas-a-imoveis',
+    'rotina-de-trabalho-do-corretor-de-imoveis',
+  ],
+  desenvolvimento: [
+    'desenvolvimento-profissional-do-corretor',
+    'preco-de-mercado-de-imoveis',
+    'proposta-de-compra-de-imovel',
+    'parcerias-entre-corretores',
+    'ferramentas-digitais-do-corretor',
+  ],
+};

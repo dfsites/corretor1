@@ -7,7 +7,7 @@ import { fileURLToPath } from 'node:url';
 import { site } from './site.mjs';
 import { artigos, redirecionamentosBlog } from './artigos.mjs';
 import { autores } from './autores.mjs';
-import { editorias, personas, MIN_ARTIGOS_CATEGORIA } from './editorias.mjs';
+import { editorias, personas, trilhas, MIN_ARTIGOS_CATEGORIA } from './editorias.mjs';
 import { ebooks, cursos } from './produtos.mjs';
 
 const RAIZ = join(dirname(fileURLToPath(import.meta.url)), '..');
@@ -62,6 +62,7 @@ function layout({ caminho, titulo, descricao, corpo, jsonld = [], tipoOg = 'webs
 <link rel="canonical" href="${abs(caminho)}">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <meta name="theme-color" content="#001D23">
+${site.googleSiteVerification ? `<meta name="google-site-verification" content="${esc(site.googleSiteVerification)}">` : ''}
 <meta property="og:locale" content="pt_BR">
 <meta property="og:type" content="${tipoOg}">
 <meta property="og:site_name" content="${esc(site.nome)}">
@@ -73,7 +74,7 @@ function layout({ caminho, titulo, descricao, corpo, jsonld = [], tipoOg = 'webs
 ${metaExtra}
 <link rel="icon" href="/assets/img/favicon.png" type="image/png">
 <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
-<link rel="stylesheet" href="/assets/css/style.css?v=${ATUALIZADO}e">
+<link rel="stylesheet" href="/assets/css/style.css?v=${ATUALIZADO}f">
 ${schemas}
 </head>
 <body>
@@ -91,7 +92,7 @@ ${schemas}
 ${corpo}
 </main>
 ${rodape()}
-<script src="/assets/js/site.js?v=${ATUALIZADO}e" defer></script>
+<script src="/assets/js/site.js?v=${ATUALIZADO}f" defer></script>
 </body>
 </html>
 `;
@@ -483,7 +484,11 @@ const rotuloPersonas = (a) => (a.personas || []).map((p) => personas[p]).join(' 
 // Blog (índice)
 const trilhasPersona = Object.keys(personas)
   .map((p) => {
-    const lista = artigos.filter((a) => a.personas?.includes(p)).slice(0, 3);
+    const lista = (trilhas[p] || []).map((slug) => {
+      const a = artigos.find((x) => x.slug === slug);
+      if (!a) throw new Error(`Trilha ${p}: artigo inexistente "${slug}"`);
+      return a;
+    });
     if (!lista.length) return '';
     return `<div class="cartao"><h3>${esc(personas[p])}</h3><ul>${lista
       .map((a) => `<li><a href="${urlArtigo(a)}">${esc(a.h1.split(':')[0])}</a></li>`)
@@ -527,7 +532,7 @@ for (const e of editorias.filter((x) => temCategoria(x.id))) {
   const caminho = `/blog/categoria/${e.id}/`;
   paginas.push({
     caminho,
-    titulo: `${e.nome} — artigos para corretores`,
+    titulo: `${e.nome}: artigos para corretores`,
     descricao: e.descricao,
     jsonld: [
       { '@context': 'https://schema.org', '@type': 'CollectionPage', name: e.nome, description: e.descricao, url: abs(caminho) },
@@ -605,7 +610,8 @@ ${
 }
 <aside class="caixa-autor">
   <p class="rotulo">Sobre o autor</p>
-  <p><a href="${urlAutor(a.autor)}"><strong>${esc(autor.nome)}</strong></a> — ${esc(autor.resumo)}</p>
+  <p><a href="${urlAutor(a.autor)}"><strong>${esc(autor.nome)}</strong></a></p>
+  <p>${esc(autor.resumo)}</p>
   <p class="cta-discreto">O Corretor 1% também oferece <a href="/cursos/">cursos</a> e <a href="/mentoria/">mentoria individualizada</a> para corretores de imóveis.</p>
 </aside>
 </div></article>
@@ -619,7 +625,7 @@ for (const [id, p] of Object.entries(autores)) {
   const lista = artigos.filter((a) => a.autor === id);
   paginas.push({
     caminho,
-    titulo: `${p.nome} — ${p.cargo}`,
+    titulo: `${p.nome}, ${p.cargo.charAt(0).toLowerCase()}${p.cargo.slice(1)}`,
     descricao: p.resumo,
     tipoOg: 'profile',
     jsonld: [
