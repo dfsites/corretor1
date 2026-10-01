@@ -86,5 +86,5 @@ Os 21 artigos, o blog, as 2 categorias, a página de autor e a home foram carreg
 
 - Os 6 pilares antigos (450 a 790 palavras) ficaram mais curtos que os novos satélites. Funcionam como visão geral com links, mas podem ser aprofundados no próximo ciclo.
 - O aviso de cookies é informativo: o Analytics carrega mesmo antes do clique, conforme o texto aprovado ("Ao continuar, você concorda").
-- Falta confirmar a propriedade no painel do Search Console e enviar o sitemap.
+- Search Console: propriedade verificada e sitemap enviado pelo proprietário.
 - A integração GitHub → hospedagem continua sem gravar em `/www`; a publicação está sendo feita por FTP.

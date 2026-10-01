@@ -21,7 +21,7 @@ Title/description únicos, canonical, Open Graph (+ article:*), JSON-LD (Organiz
 
 ## Analytics
 
-Google Analytics 4 (`G-QW0NECVSML`) em todas as páginas desde 2026-10-01, sem banner de consentimento (a Política de Privacidade informa o uso). Search Console: meta tag de verificação publicada.
+Google Analytics 4 (`G-QW0NECVSML`) em todas as páginas desde 2026-10-01, sem banner de consentimento (a Política de Privacidade informa o uso). Search Console: propriedade verificada e sitemap enviado pelo proprietário (2026-10-01).
 
 ## Infraestrutura
 
@@ -37,7 +37,6 @@ Publicado: SIM — nova versão (2026-10-01). Site antigo removido; backup em `_
 
 - Informar WhatsApp e Instagram (opcional) em `_fonte/site.mjs`
 - Cadastrar e-books e cursos (`_fonte/produtos.mjs`)
-- Google Search Console: meta tag de verificação publicada; falta confirmar a propriedade no painel e enviar o sitemap
 - Corrigir a pasta de destino do deploy via GitHub no painel da hospedagem
 - Confirmar a divisão de papéis com corretor50k.com.br
 
