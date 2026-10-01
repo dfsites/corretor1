@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-10-01 — Aviso de cookies
+
+- Aviso discreto (texto pequeno, rodapé da tela) com o texto definido pelo proprietário, botão "Concordo, continuar" e X para fechar; a escolha fica gravada no navegador (`localStorage`) e o aviso não reaparece. Implementado em `assets/js/site.js` e `assets/css/style.css`.
+
 ## 2026-10-01 — Google Analytics 4
 
 - Tag GA4 `G-QW0NECVSML` (gtag.js) no `<head>` de todas as páginas, configurada em `_fonte/site.mjs` (`ga4`).
