@@ -127,7 +127,8 @@ function rodape() {
       </div>
     </div>
     <div class="final">
-      <p>© 2024–${new Date(ATUALIZADO).getFullYear()} ${esc(site.nome)}. Todos os direitos reservados. · <a href="/politica-de-privacidade/">Política de Privacidade</a></p>
+      <p>Copyright © 2024–${new Date(ATUALIZADO).getFullYear()} • ${esc(site.nome)} • Todos os direitos reservados.</p>
+      <p><a href="/politica-de-privacidade/">Política de Privacidade</a></p>
     </div>
   </div>
 </footer>`;
