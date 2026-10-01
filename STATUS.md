@@ -38,3 +38,13 @@ Publicado: SIM — nova versão (2026-10-01). Site antigo removido; backup em `_
 ## Próxima ação
 
 Google Search Console + sitemap; configurar contato.
+
+
+## Auditoria editorial — 2026-10-01
+
+- Fonte do blog revisada em branch editorial-audit-2026-10-01.
+- Autoria de Daniel Ferreira preparada no gerador.
+- 6 artigos existentes remapeados por cluster/persona.
+- 55 pautas futuras registradas em EDITORIAL.md.
+- URLs existentes preservadas.
+- Pendente: executar build/verificar em ambiente Node com o repositório completo e publicar somente após validação.
