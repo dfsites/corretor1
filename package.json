@@ -1,0 +1,10 @@
+{
+  "name": "corretor1",
+  "private": true,
+  "type": "module",
+  "description": "Site Corretor 1% — corretor1.com.br",
+  "scripts": {
+    "build": "node _fonte/build.mjs",
+    "verificar": "node _fonte/verificar.mjs"
+  }
+}

@@ -1,0 +1,39 @@
+# Gerado por _fonte/build.mjs — não editar à mão.
+DirectoryIndex index.html
+ErrorDocument 404 /404.html
+Options -Indexes
+
+# Arquivos internos do projeto não devem ser servidos.
+RedirectMatch 404 ^/(_fonte|\.git|\.github)(/.*)?$
+RedirectMatch 404 (?i)^/.*\.(md|mjs)$
+RedirectMatch 404 ^/package\.json$
+
+# Páginas do template antigo -> páginas novas
+Redirect 301 /about.html http://corretor1.com.br/sobre/
+Redirect 301 /causes.html http://corretor1.com.br/cursos/
+Redirect 301 /service.html http://corretor1.com.br/cursos/
+Redirect 301 /donate.html http://corretor1.com.br/ebooks/
+Redirect 301 /team.html http://corretor1.com.br/sobre/
+Redirect 301 /testimonial.html http://corretor1.com.br/mentoria/
+Redirect 301 /contact.html http://corretor1.com.br/contato/
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  # www -> domínio sem www
+  RewriteCond %{HTTP_HOST} ^www\.corretor1\.com\.br$ [NC]
+  RewriteRule ^(.*)$ http://corretor1.com.br/$1 [R=301,L]
+</IfModule>
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/css "access plus 1 year"
+  ExpiresByType application/javascript "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType text/html "access plus 0 seconds"
+</IfModule>
+
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css application/javascript application/xml text/xml image/svg+xml
+</IfModule>

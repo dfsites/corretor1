@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://corretor1.com.br/sitemap.xml
