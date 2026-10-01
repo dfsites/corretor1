@@ -3,7 +3,7 @@ export default {
   titulo: 'Venda de imóvel financiado: quitação e transferência',
   h1: 'Venda de imóvel financiado: quitação, transferência e etapas',
   descricao:
-    'Como funciona a venda de imóvel ainda financiado com alienação fiduciária: saldo devedor, quitação, termo de quitação, transferência da dívida e ordem das etapas.',
+    'Como funciona a venda de imóvel ainda financiado com alienação fiduciária: saldo devedor, quitação, termo de quitação, transferência da dívida e etapas.',
   editoria: 'negociacao',
   personas: ['desenvolvimento'],
   pilar: 'proposta-de-compra-de-imovel',
@@ -62,6 +62,7 @@ export default {
 <p>Em muitas operações as etapas 4 a 6 são coordenadas para acontecer em sequência rápida. O importante é que o comprador não pague o saldo ao vendedor sem a garantia de que a dívida do imóvel será quitada.</p>
 
 <h2>Como isso entra na proposta</h2>
+<p>Além dos itens comuns de qualquer <a href="/blog/proposta-de-compra-de-imovel/">proposta de compra de imóvel</a>, a venda de imóvel financiado pede:</p>
 <ul>
   <li>informar o valor aproximado do saldo devedor e quem o quitará;</li>
   <li>separar o que vai para o credor e o que vai para o vendedor;</li>

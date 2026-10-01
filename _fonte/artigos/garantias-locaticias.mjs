@@ -86,6 +86,6 @@ export default {
   <li>Explicar a cada parte as regras básicas da modalidade escolhida, sem substituir a análise jurídica do contrato.</li>
   <li>Garantir que o contrato preveja uma única modalidade e que a garantia esteja formalizada antes da entrega das chaves.</li>
 </ul>
-<p>A remuneração do corretor na locação está em <a href="/blog/comissao-na-locacao/">comissão na locação</a>.</p>
+<p>O atendimento ao interessado segue a mesma estrutura do <a href="/blog/atendimento-ao-comprador-de-imoveis/">atendimento ao comprador de imóveis</a>, com as particularidades da locação. A remuneração do corretor na locação está em <a href="/blog/comissao-na-locacao/">comissão na locação</a>.</p>
 `,
 };

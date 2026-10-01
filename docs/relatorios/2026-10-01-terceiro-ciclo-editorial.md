@@ -16,3 +16,7 @@ Fontes: Lei 8.245/1991 (arts. 3º, 8º, 22, 23, 27 a 29, 33, 37, 43), Lei 6.015/
 - G (marketing e tecnologia): Perfil da Empresa no Google, site próprio, produção de conteúdo, portais, redes sociais, assinatura eletrônica, inteligência artificial, backup e segurança.
 
 Fontes principais: Lei 6.530/1978, Lei 4.591/1964, Lei 8.245/1991, Lei 10.192/2001, Lei 14.063/2020, MP 2.200-2/2001, Lei 6.015/1973, CLT art. 3º, Código Civil, LGPD, Res. COFECI 1.066/2007, STJ Tema 938. Muitos artigos ficaram entre 700 e 1.000 palavras; os agentes não alongaram sem conteúdo.
+
+## Bloco E: locação, FGTS e negociação (7 artigos)
+
+FGTS na compra do imóvel, atendimento ao interessado em locação, garantias locatícias, contraproposta, negociação de prazo e pagamento, imóvel em inventário, venda de imóvel financiado. Fontes: Lei 8.036/1990 (art. 20), Lei 8.245/1991 (arts. 3º, 4º, 20, 22, 23, 37 a 43), Código Civil (arts. 427, 428, 431, 723, 818, 1.647, 1.784, 1.791, 1.793 a 1.795, 1.991), CPC (arts. 610, 611, 619, 664), Lei 9.514/1997 (arts. 22, 25, 29). Todos com aviso jurídico.

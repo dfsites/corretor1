@@ -3,7 +3,7 @@ export default {
   titulo: 'Venda de imóvel em inventário: cuidados',
   h1: 'Venda de imóvel em inventário: cuidados na intermediação',
   descricao:
-    'Quem pode vender um imóvel de herança, quando é preciso autorização judicial, o que é cessão de direitos hereditários e como o corretor organiza a captação e a proposta.',
+    'Quem pode vender imóvel de herança, quando há autorização judicial, o que é cessão de direitos hereditários e como o corretor organiza captação e proposta.',
   editoria: 'negociacao',
   personas: ['desenvolvimento'],
   pilar: 'proposta-de-compra-de-imovel',
@@ -60,6 +60,7 @@ export default {
 <p>O art. 723 do Código Civil obriga o corretor a prestar ao cliente os esclarecimentos sobre a segurança ou o risco do negócio. Em imóvel de inventário, isso significa informar desde a primeira conversa que a venda depende de etapas próprias e de prazos que não estão sob controle das partes. Um comprador com urgência ou que dependa de financiamento com prazo curto pode não ser o perfil adequado.</p>
 
 <h2>Como estruturar a proposta</h2>
+<p>A estrutura geral segue o que está em <a href="/blog/proposta-de-compra-de-imovel/">proposta de compra de imóvel</a>. No caso de inventário, alguns pontos ganham peso:</p>
 <ul>
   <li>Defina por qual caminho a venda será feita: após a partilha ou mediante alvará.</li>
   <li>Preveja prazos condicionados à conclusão do inventário ou à expedição do alvará, com data limite e consequência se não forem cumpridos.</li>

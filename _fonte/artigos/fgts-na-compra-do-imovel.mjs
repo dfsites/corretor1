@@ -3,7 +3,7 @@ export default {
   titulo: 'Uso do FGTS na compra do imóvel: regras gerais',
   h1: 'Uso do FGTS na compra do imóvel: regras gerais que o corretor deve conhecer',
   descricao:
-    'O que a Lei do FGTS prevê para usar o saldo na compra da moradia própria, as restrições mais comuns e o que o corretor deve confirmar antes de fechar a proposta.',
+    'O que a Lei do FGTS prevê para usar o saldo na compra da moradia própria, as restrições mais comuns e o que o corretor confirma antes de fechar a proposta.',
   editoria: 'atendimento',
   personas: ['iniciante'],
   pilar: 'atendimento-ao-comprador-de-imoveis',
@@ -17,7 +17,7 @@ export default {
     },
   ],
   corpo: `
-<p>O uso do FGTS aparece em boa parte dos atendimentos de compra de moradia. Muitas vezes o comprador conta com esse recurso para compor a entrada ou para reduzir o valor financiado. O problema é que o direito de usar o saldo depende de condições legais e de uma análise que não é feita pelo corretor. Este artigo reúne as regras gerais previstas em lei e mostra como tratar o assunto no atendimento sem criar expectativas que podem não se confirmar. O funcionamento do financiamento em si está em <a href="/blog/financiamento-imobiliario-para-corretores/">financiamento imobiliário para corretores</a>.</p>
+<p>O uso do FGTS aparece em boa parte dos atendimentos de compra de moradia. Muitas vezes o comprador conta com esse recurso para compor a entrada ou para reduzir o valor financiado. O problema é que o direito de usar o saldo depende de condições legais e de uma análise que não é feita pelo corretor. Este artigo reúne as regras gerais previstas em lei e mostra como tratar o assunto no <a href="/blog/atendimento-ao-comprador-de-imoveis/">atendimento ao comprador</a> sem criar expectativas que podem não se confirmar. O funcionamento do financiamento em si está em <a href="/blog/financiamento-imobiliario-para-corretores/">financiamento imobiliário para corretores</a>.</p>
 
 <h2>O que a lei permite</h2>
 <p>A Lei nº 8.036/1990 lista, no art. 20, as situações em que a conta vinculada do FGTS pode ser movimentada. Três delas se relacionam diretamente com a moradia:</p>
