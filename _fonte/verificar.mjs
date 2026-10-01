@@ -5,7 +5,7 @@ import { dirname, join, relative } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const RAIZ = join(dirname(fileURLToPath(import.meta.url)), '..');
-const IGNORAR = new Set(['_fonte', '.git', 'node_modules']);
+const IGNORAR = new Set(['_fonte', '.git', 'node_modules', '_backup-servidor']);
 const erros = [];
 const avisos = [];
 

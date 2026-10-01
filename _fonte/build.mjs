@@ -59,7 +59,7 @@ function layout({ caminho, titulo, descricao, corpo, jsonld = [], tipoOg = 'webs
 <meta name="description" content="${esc(descricao)}">
 <link rel="canonical" href="${abs(caminho)}">
 <meta name="robots" content="index, follow, max-image-preview:large">
-<meta name="theme-color" content="#0b1628">
+<meta name="theme-color" content="#001D23">
 <meta property="og:locale" content="pt_BR">
 <meta property="og:type" content="${tipoOg}">
 <meta property="og:site_name" content="${esc(site.nome)}">
@@ -70,7 +70,7 @@ function layout({ caminho, titulo, descricao, corpo, jsonld = [], tipoOg = 'webs
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="/assets/img/favicon.png" type="image/png">
 <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
-<link rel="stylesheet" href="/assets/css/style.css?v=${ATUALIZADO}">
+<link rel="stylesheet" href="/assets/css/style.css?v=${ATUALIZADO}b">
 ${schemas}
 </head>
 <body>
@@ -88,7 +88,7 @@ ${schemas}
 ${corpo}
 </main>
 ${rodape()}
-<script src="/assets/js/site.js?v=${ATUALIZADO}" defer></script>
+<script src="/assets/js/site.js?v=${ATUALIZADO}b" defer></script>
 </body>
 </html>
 `;
