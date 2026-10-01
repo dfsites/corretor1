@@ -70,7 +70,7 @@ function layout({ caminho, titulo, descricao, corpo, jsonld = [], tipoOg = 'webs
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="/assets/img/favicon.png" type="image/png">
 <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
-<link rel="stylesheet" href="/assets/css/style.css?v=${ATUALIZADO}c">
+<link rel="stylesheet" href="/assets/css/style.css?v=${ATUALIZADO}d">
 ${schemas}
 </head>
 <body>
@@ -88,7 +88,7 @@ ${schemas}
 ${corpo}
 </main>
 ${rodape()}
-<script src="/assets/js/site.js?v=${ATUALIZADO}c" defer></script>
+<script src="/assets/js/site.js?v=${ATUALIZADO}d" defer></script>
 </body>
 </html>
 `;
@@ -128,7 +128,7 @@ function rodape() {
     </div>
     <div class="final">
       <p>Copyright © 2024–${new Date(ATUALIZADO).getFullYear()} • ${esc(site.nome)} • Todos os direitos reservados.</p>
-      <p>${esc(site.empresa.nome)} · CNPJ ${esc(site.empresa.cnpj)} · ${esc(site.empresa.endereco)}</p>
+      <p class="empresa">${esc(site.empresa.nome)} · CNPJ ${esc(site.empresa.cnpj)} · ${esc(site.empresa.endereco)}</p>
       <p><a href="/politica-de-privacidade/">Política de Privacidade</a></p>
     </div>
   </div>

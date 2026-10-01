@@ -132,6 +132,7 @@ p { margin: 0 0 1em; }
 .rodape li { margin-bottom: 6px; }
 .rodape a { color: #ffb27a; text-decoration: none; }
 .rodape a:hover { color: var(--ouro); }
+.rodape .empresa { font-size: 7pt; }
 .rodape .final { border-top: 1px solid rgba(255,255,255,.1); margin-top: 36px; padding-top: 20px; font-size: .88rem; }
 
 @media (max-width: 600px) {
