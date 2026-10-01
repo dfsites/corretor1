@@ -488,6 +488,17 @@ function schemaPessoa(id, completo = false) {
   };
 }
 
+// Links para artigos ainda não publicados viram texto simples (voltam a ser link quando o artigo existir).
+const slugsPublicados = new Set(artigos.map((a) => a.slug));
+const pendentes = new Set();
+function semLinksPendentes(html) {
+  return html.replace(/<a href="\/blog\/([a-z0-9-]+)\/">([\s\S]*?)<\/a>/g, (inteiro, slug, texto) => {
+    if (slugsPublicados.has(slug) || slug === 'categoria') return inteiro;
+    pendentes.add(slug);
+    return texto;
+  });
+}
+
 const rotuloPersonas = (a) => (a.personas || []).map((p) => personas[p]).join(' · ');
 
 // Blog (índice)
@@ -603,7 +614,7 @@ for (const a of artigos) {
 </div></section>
 <article class="artigo"><div class="container estreito">
 ${pilar ? `<p class="nota-pilar">Este artigo aprofunda um tema de <a href="${urlArtigo(pilar)}">${esc(pilar.h1.split(':')[0])}</a>.</p>` : ''}
-${a.corpo.trim()}
+${semLinksPendentes(a.corpo.trim())}
 ${
   satelites.length
     ? `<section class="neste-tema"><h2>Artigos deste tema</h2><ul>${satelites.map((s) => `<li><a href="${urlArtigo(s)}">${esc(s.h1)}</a></li>`).join('')}</ul></section>`
@@ -797,4 +808,5 @@ ${protocolo === 'https' ? `  # http -> https (considera proxy que informa X-Forw
 `,
 );
 
+if (pendentes.size) console.log(`Links para artigos ainda não publicados (renderizados como texto): ${[...pendentes].join(', ')}`);
 console.log(`Build concluído: ${paginas.length} páginas + 404, sitemap.xml, robots.txt, .htaccess`);
