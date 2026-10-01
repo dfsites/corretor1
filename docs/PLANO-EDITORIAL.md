@@ -149,6 +149,8 @@ Não publicar dois artigos que mudem só a forma do título ("como…", "guia de
 
 ## 5. Pautas futuras (117)
 
+> **Banco editorial, não fila de publicação.** O banco editorial não representa uma ordem automática de publicação. A produção deve ocorrer em ciclos, priorizando qualidade, intenção de busca, interlinking e análise dos resultados dos ciclos anteriores.
+
 Persona: `futuro` = quer ser corretor · `iniciante` = 0 a 24 meses · `desenvolvimento` = já atua.
 Prioridade: **P1** primeiro · **P2** depois · **P3** quando a base estiver formada.
 Slug sugerido = planejamento, não URL criada. Nenhuma página vazia deve ser publicada.

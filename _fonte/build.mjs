@@ -472,6 +472,8 @@ function schemaPessoa(id, completo = false) {
     description: p.resumo,
     ...(p.foto ? { image: abs(p.foto) } : {}),
     ...(p.sameAs?.length ? { sameAs: p.sameAs } : {}),
+    // A empresa entra como organização vinculada; o CRECI-J não é credencial da pessoa.
+    ...(p.empresa ? { worksFor: { '@type': 'Organization', name: p.empresa.nome } } : {}),
     knowsAbout: ['Corretagem de imóveis', 'Avaliação de imóveis', 'Direito imobiliário', 'Administração de imóveis'],
   };
 }
@@ -629,6 +631,7 @@ for (const [id, p] of Object.entries(autores)) {
 <section class="secao"><div class="container estreito">
   ${p.bio.map((par) => `<p>${esc(par)}</p>`).join('\n  ')}
   ${p.registros?.length ? `<h2>Registros profissionais</h2><ul class="lista-check">${p.registros.map((r) => `<li>${esc(r)}</li>`).join('')}</ul>` : ''}
+  ${p.empresa ? `<h2>Empresa</h2><p>${esc(p.nome)} é ${esc(p.empresa.vinculo)} da ${esc(p.empresa.nome)}, inscrita no ${esc(p.empresa.registro)} (registro de pessoa jurídica).</p>` : ''}
   ${p.formacao?.length ? `<h2>Formação</h2><ul class="lista-check">${p.formacao.map((r) => `<li>${esc(r)}</li>`).join('')}</ul>` : ''}
   ${p.sameAs?.length ? `<p>Mais informações: <a href="${esc(p.sameAs[0])}" target="_blank" rel="noopener me">página profissional de ${esc(p.nome)}</a>.</p>` : ''}
 </div></section>
@@ -751,6 +754,10 @@ Redirect 301 /contact.html ${site.url}/contato/
 
 <IfModule mod_rewrite.c>
   RewriteEngine On
+  # Artigos que mudaram de endereço: destino final em um único salto (vale para http e sem www)
+${redirecionamentosBlog
+  .map(([de, para]) => `  RewriteRule ^${de.replace(/^\//, '').replace(/\/$/, '').replace(/[.]/g, '\\.')}/?$ ${site.url}${para} [R=301,L]`)
+  .join('\n')}
   # Qualquer outro host (com/sem www) -> host canônico
   RewriteCond %{HTTP_HOST} !^${host.replace(/\./g, '\\.')}$ [NC]
   RewriteRule ^(.*)$ ${protocolo}://${host}/$1 [R=301,L]

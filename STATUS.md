@@ -29,6 +29,8 @@ Publicado: SIM — nova versão (2026-10-01). Site antigo removido; backup em `_
 
 ## Pendências
 
+- Foto real do autor (página de autor publicada sem foto, por decisão)
+
 - Informar WhatsApp e Instagram (opcional) em `_fonte/site.mjs`
 - Cadastrar e-books e cursos (`_fonte/produtos.mjs`)
 - Google Search Console + envio do sitemap

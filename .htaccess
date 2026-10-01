@@ -23,6 +23,9 @@ Redirect 301 /contact.html https://www.corretor1.com.br/contato/
 
 <IfModule mod_rewrite.c>
   RewriteEngine On
+  # Artigos que mudaram de endereço: destino final em um único salto (vale para http e sem www)
+  RewriteRule ^blog/como-vender-mais-imoveis/?$ https://www.corretor1.com.br/blog/atendimento-ao-comprador-de-imoveis/ [R=301,L]
+  RewriteRule ^blog/rotina-do-corretor-de-alta-performance/?$ https://www.corretor1.com.br/blog/rotina-de-trabalho-do-corretor-de-imoveis/ [R=301,L]
   # Qualquer outro host (com/sem www) -> host canônico
   RewriteCond %{HTTP_HOST} !^www\.corretor1\.com\.br$ [NC]
   RewriteRule ^(.*)$ https://www.corretor1.com.br/$1 [R=301,L]

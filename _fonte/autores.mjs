@@ -17,12 +17,18 @@ export const autores = {
       'Em 2013 passou a atuar de forma autônoma e, em 2017, fundou a Daniel Ferreira Imóveis. Concentra o trabalho na região sul de Brasília (Jardim Botânico, Lago Sul, DF-140 e Alphaville), com compra e venda, captação, negociação, locação, administração de imóveis, avaliação e documentação.',
       'É perito avaliador, bacharel em Administração e pós-graduado em Direito Imobiliário e Condominial. Antes do mercado imobiliário, trabalhou na área de tecnologia da informação, como programador e desenvolvedor web.',
     ],
+    // Registros PESSOAIS (pessoa física). Registro de empresa vai em `empresa`, nunca aqui.
     registros: [
       'Corretor de imóveis — CRECI-DF 12.668',
       'Perito avaliador — CNAI 27.316',
       'Administrador — CRA-DF 31.440',
-      'Daniel Ferreira Imóveis — CRECI-J/DF 30.400',
     ],
+    // Empresa da qual o autor é sócio. CRECI-J é registro de pessoa jurídica.
+    empresa: {
+      nome: 'Daniel Ferreira Imóveis',
+      registro: 'CRECI-J/DF 30.400',
+      vinculo: 'sócio-proprietário',
+    },
     formacao: ['Bacharel em Administração', 'Pós-graduado em Direito Imobiliário e Condominial'],
     regiao: 'Brasília/DF',
     desde: '2007',

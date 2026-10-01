@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-10-01 — Ajustes finais da auditoria editorial
+
+- Autor: registros pessoais (CRECI-DF 12.668, CNAI 27.316, CRA-DF 31.440) separados do registro da empresa; CRECI-J/DF 30.400 passa a constar só na seção "Empresa" (Daniel Ferreira Imóveis, pessoa jurídica). Person schema ganha `worksFor` com o nome da imobiliária, sem o CRECI-J.
+- `.htaccess`: regras de reescrita para os dois artigos renomeados, levando http/sem-www direto à URL nova em um único 301 (os `Redirect 301` existentes foram mantidos).
+- `docs/PLANO-EDITORIAL.md`: nota de que o banco editorial não é ordem automática de publicação.
+
 ## 2026-10-01 — Auditoria editorial do blog
 
 - Consolidadas 7 auditorias externas (Gemini, DeepSeek, Grok, Kimi, Meta, GPT, Claude) + auditoria própria; backup Git na tag `backup-pre-auditoria-editorial-2026-10-01`.

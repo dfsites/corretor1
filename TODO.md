@@ -21,6 +21,8 @@
 
 ## Concluído
 
+- 2026-10-01: ajustes finais da auditoria (registros pessoais × CRECI-J, redirect em um salto, nota do banco editorial).
+
 - 2026-10-01: auditoria editorial do blog (autoria, editorias, fontes, relacionados, 301 de dois slugs, plano de 117 pautas).
 
 - 2026-10-01: objetivo, público, monetização e chamada principal definidos (PROJECT.md).
