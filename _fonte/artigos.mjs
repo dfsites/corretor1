@@ -9,10 +9,14 @@ export const artigos = [
     h1: 'Como ser corretor de imóveis: do curso ao primeiro negócio',
     descricao:
       'Veja o que a lei exige para atuar como corretor de imóveis, como tirar o CRECI e o que fazer nos primeiros meses para entrar no mercado com o pé direito.',
-    tema: 'Carreira',
+    tema: 'Começando na profissão',
+    persona: 'quer ser corretor',
+    pilar: 'Carreira e entrada na profissão',
+    relacionados: ['rotina-do-corretor-de-alta-performance', 'marketing-para-corretor-de-imoveis'],
     data: '2026-10-01',
+    atualizado: '2026-10-01',
     corpo: `
-<p>Ser corretor de imóveis é uma das poucas profissões em que a renda depende quase só da sua capacidade de gerar resultado. Não há teto salarial, mas também não há salário garantido. Por isso, antes de pensar em comissão, vale entender o caminho completo: o que a lei exige, como se registrar e como sobreviver aos primeiros meses.</p>
+<p>A corretagem de imóveis é uma profissão regulamentada, com diferentes modelos de atuação e remuneração variável. Antes de pensar em comissão, vale entender o caminho completo: o que a lei exige, como se registrar e como estruturar os primeiros meses de trabalho.</p>
 
 <h2>A profissão é regulamentada</h2>
 <p>A corretagem de imóveis no Brasil é regulamentada pela <strong>Lei nº 6.530/1978</strong> e pelo <strong>Decreto nº 81.871/1978</strong>. Isso significa que só pode intermediar compra, venda, permuta e locação de imóveis quem estiver inscrito no Conselho Regional de Corretores de Imóveis (CRECI) do estado onde atua. Intermediar sem registro é exercício ilegal da profissão.</p>
@@ -31,7 +35,7 @@ export const artigos = [
   <li><strong>Associado:</strong> você ganha estrutura, carteira de imóveis, marca conhecida e alguém para tirar dúvidas. Em troca, recebe uma parte menor da comissão.</li>
   <li><strong>Autônomo:</strong> fica com a comissão inteira, mas precisa investir em anúncios, captação, contratos e na própria reputação desde o primeiro dia.</li>
 </ul>
-<p>Para a maioria, começar associado e migrar depois é o caminho mais seguro. Você aprende o processo com o dinheiro dos outros e constrói a carteira de contatos que vai sustentar a carreira independente.</p>
+<p>Não existe um único modelo adequado para todos. Trabalhar associado pode facilitar o acesso inicial a estrutura, carteira e orientação; atuar como autônomo exige maior capacidade de organização, prospecção e gestão de custos. A escolha depende do perfil, da região e da estrutura disponível.</p>
 
 <h2>Os primeiros 90 dias</h2>
 <p>O que separa quem desiste de quem fica é o que acontece nos primeiros meses. Concentre-se em quatro frentes:</p>
@@ -42,8 +46,8 @@ export const artigos = [
   <li><strong>Crie rotina.</strong> Defina horários fixos para prospecção, atendimento e acompanhamento. Veja como em <a href="/blog/rotina-do-corretor-de-alta-performance/">rotina do corretor de alta performance</a>.</li>
 </ol>
 
-<h2>O que diferencia o 1% que se destaca</h2>
-<p>Tirar o CRECI é o requisito mínimo, e todo corretor tem um. O que coloca um profissional entre os que mais vendem é a combinação de <strong>método, constância e posicionamento</strong>: saber captar bons imóveis, conduzir o cliente até o fechamento e ser lembrado quando alguém pensa em comprar ou vender. É exatamente isso que trabalhamos nos <a href="/cursos/">cursos</a> e na <a href="/mentoria/">mentoria individualizada</a>.</p>
+<h2>O que estudar depois do registro</h2>
+<p>O registro profissional é apenas o início. Nos primeiros meses, vale aprofundar conhecimento sobre a região de atuação, documentação imobiliária, atendimento, captação, visitas, propostas, negociação e organização da carteira. A evolução tende a vir da combinação entre estudo, prática supervisionada quando disponível e revisão constante dos próprios processos.</p>
 `,
   },
   {
@@ -52,8 +56,12 @@ export const artigos = [
     h1: 'Comissão de corretor de imóveis: quanto é, quem paga e como proteger a sua',
     descricao:
       'Entenda como funciona a comissão de corretagem, o que diz o Código Civil, como são as tabelas de referência e como negociar sem perder valor.',
-    tema: 'Comissão',
+    tema: 'Corretagem e comissão',
+    persona: 'corretor em desenvolvimento',
+    pilar: 'Corretagem e comissão',
+    relacionados: ['como-captar-imoveis', 'como-vender-mais-imoveis'],
     data: '2026-10-01',
+    atualizado: '2026-10-01',
     corpo: `
 <p>A comissão é a remuneração do corretor e, ao mesmo tempo, o ponto em que muitos profissionais perdem dinheiro sem perceber: aceitam descontos sem critério, trabalham sem contrato ou dividem o valor de forma desfavorável. Entender as regras é o primeiro passo para proteger o seu resultado.</p>
 
@@ -84,19 +92,23 @@ export const artigos = [
   <li><strong>Registre tudo.</strong> A autorização de venda assinada é a sua melhor proteção.</li>
 </ol>
 
-<p>Os corretores que mais faturam não são necessariamente os que cobram mais caro. São os que <strong>defendem o valor do próprio trabalho</strong> com método. Esse é um dos pilares do <a href="/sobre/">Método Corretor 1%</a>. Para aprofundar a captação com exclusividade, leia <a href="/blog/como-captar-imoveis/">como captar imóveis</a>.</p>
+<p>A comissão deve ser tratada com clareza desde a contratação da intermediação. Percentual, forma de pagamento, eventual exclusividade e divisão em parceria precisam estar documentados. Para aprofundar o tema relacionado, leia também <a href="/blog/como-captar-imoveis/">como organizar uma captação de imóveis</a>.</p>
 `,
   },
   {
     slug: 'como-captar-imoveis',
     titulo: 'Como captar imóveis e conquistar exclusividade',
-    h1: 'Como captar imóveis: estratégias práticas para conquistar boas exclusividades',
+    h1: 'Como captar imóveis: processo, visita e exclusividade',
     descricao:
       'Captação é o que sustenta a carreira do corretor. Veja onde encontrar proprietários, como conduzir a primeira visita e como conquistar a exclusividade.',
-    tema: 'Captação',
+    tema: 'Captação de imóveis',
+    persona: 'corretor iniciante',
+    pilar: 'Captação de imóveis',
+    relacionados: ['comissao-de-corretor-de-imoveis', 'marketing-para-corretor-de-imoveis', 'como-vender-mais-imoveis'],
     data: '2026-10-01',
+    atualizado: '2026-10-01',
     corpo: `
-<p>No mercado imobiliário existe uma frase repetida por quem vende muito: <em>quem tem o imóvel tem o cliente</em>. Compradores aparecem quando há bons imóveis bem precificados. Por isso, a captação é a atividade que mais influencia o faturamento de longo prazo de um corretor.</p>
+<p>A captação é uma das atividades centrais da corretagem porque define a qualidade da carteira que será apresentada aos compradores. Uma boa captação envolve informação correta, preço coerente, documentação organizada, alinhamento com o proprietário e definição clara das condições de intermediação.</p>
 
 <h2>Captar bem é melhor do que captar muito</h2>
 <p>Uma carteira cheia de imóveis acima do preço, sem documentação ou sem exclusividade dá muito trabalho e pouco resultado. O objetivo não é ter o maior número de anúncios, e sim ter <strong>imóveis vendáveis</strong>: preço coerente com o mercado, proprietário motivado e documentação em ordem.</p>
@@ -131,17 +143,21 @@ export const artigos = [
 <h2>Preço: a conversa mais importante</h2>
 <p>Aceitar um imóvel muito acima do valor de mercado só para não perder a captação é o erro mais caro do corretor. O imóvel fica parado, o proprietário se frustra e a culpa recai sobre você. Mostre os números com clareza e combine uma revisão de preço após um período sem propostas.</p>
 
-<p>Captação consistente é método, não sorte. É um dos módulos centrais dos <a href="/cursos/">cursos Corretor 1%</a>. Depois de captar, o próximo passo é <a href="/blog/como-vender-mais-imoveis/">vender mais imóveis</a> com um processo de atendimento eficiente.</p>
+<p>Depois da captação, o próximo passo é organizar o atendimento dos interessados, as visitas, o retorno ao proprietário e o registro de propostas. Veja também o artigo sobre <a href="/blog/como-vender-mais-imoveis/">processo de atendimento e venda de imóveis</a>.</p>
 `,
   },
   {
     slug: 'como-vender-mais-imoveis',
-    titulo: 'Como vender mais imóveis: processo que converte',
-    h1: 'Como vender mais imóveis: o processo dos corretores que mais fecham negócios',
+    titulo: 'Processo de atendimento e venda de imóveis',
+    h1: 'Processo de atendimento e venda de imóveis: do primeiro contato à proposta',
     descricao:
-      'Vender mais imóveis não depende de sorte. Veja como qualificar clientes, conduzir visitas, fazer follow-up e chegar ao fechamento com segurança.',
-    tema: 'Vendas',
+      'Entenda como organizar qualificação, visitas, acompanhamento, propostas e negociação em um processo comercial mais consistente.',
+    tema: 'Atendimento e negociação',
+    persona: 'corretor iniciante',
+    pilar: 'Atendimento ao cliente',
+    relacionados: ['como-captar-imoveis', 'rotina-do-corretor-de-alta-performance', 'comissao-de-corretor-de-imoveis'],
     data: '2026-10-01',
+    atualizado: '2026-10-01',
     corpo: `
 <p>Dois corretores podem receber o mesmo número de contatos no mês e terminar com resultados completamente diferentes. A diferença quase nunca está na quantidade de clientes, e sim no <strong>processo</strong>: o que acontece entre o primeiro contato e a assinatura.</p>
 
@@ -161,8 +177,8 @@ export const artigos = [
 <h2>3. Visitas com roteiro</h2>
 <p>Selecione poucos imóveis, coerentes com o perfil, e visite-os antes, se possível. Durante a visita, observe as reações e pergunte o que o cliente achou de cada ambiente. Ao final, peça que ele compare os imóveis vistos. Essa conversa mostra o que realmente pesa na decisão.</p>
 
-<h2>4. Follow-up é onde está o dinheiro</h2>
-<p>Muitas vendas se perdem por falta de acompanhamento. O cliente não disse "não", só esfriou. Tenha um sistema simples, uma planilha ou um CRM, com a próxima ação e a data de cada cliente. Cada contato de acompanhamento deve agregar valor: uma novidade, um imóvel novo, uma informação sobre financiamento. Nunca mande apenas "e aí, alguma novidade?".</p>
+<h2>4. Acompanhamento depois do contato e da visita</h2>
+<p>A falta de acompanhamento faz o histórico do cliente se perder e dificulta saber qual deve ser a próxima ação. Use uma planilha ou CRM para registrar preferências, visitas realizadas, objeções, pendências e a data do próximo contato. O acompanhamento deve ter motivo concreto, como uma nova informação, um imóvel compatível ou uma atualização da negociação.</p>
 
 <h2>5. Proposta e negociação</h2>
 <ol>
@@ -175,22 +191,26 @@ export const artigos = [
 <p>Um negócio só está fechado quando está documentado. Verifique a matrícula atualizada e as certidões necessárias, e acompanhe o cliente até a escritura e o registro. Um fechamento tranquilo vira indicação. Um fechamento problemático vira reclamação.</p>
 
 <h2>Meça para melhorar</h2>
-<p>Anote quantos contatos viram visitas, quantas visitas viram propostas e quantas propostas viram vendas. Esses números mostram exatamente onde o seu processo perde clientes e onde treinar. É assim que trabalhamos na <a href="/mentoria/">mentoria individualizada</a>: diagnóstico com os seus números e plano de ação sob medida.</p>
+<p>Anote quantos contatos viram visitas, quantas visitas viram propostas e quantas propostas resultaram em negócios. Esses números ajudam a identificar em qual etapa do processo há maior perda e onde faz sentido revisar abordagem, qualificação ou acompanhamento.</p>
 <p>Leia também: <a href="/blog/marketing-para-corretor-de-imoveis/">marketing para corretor de imóveis</a>.</p>
 `,
   },
   {
     slug: 'rotina-do-corretor-de-alta-performance',
-    titulo: 'Rotina do corretor de imóveis de alta performance',
-    h1: 'Rotina do corretor de alta performance: como organizar a semana para vender mais',
+    titulo: 'Rotina do corretor de imóveis: como organizar a semana',
+    h1: 'Rotina do corretor de imóveis: como organizar a semana de trabalho',
     descricao:
-      'Sem chefe e sem horário fixo, a rotina decide o resultado do corretor. Veja um modelo de semana com prospecção, atendimento, captação e estudo.',
-    tema: 'Produtividade',
+      'Veja como organizar uma semana de trabalho com prospecção, atendimento, captação, acompanhamento, tarefas administrativas e estudo.',
+    tema: 'Rotina e gestão',
+    persona: 'corretor iniciante',
+    pilar: 'Rotina e gestão',
+    relacionados: ['como-ser-corretor-de-imoveis', 'como-vender-mais-imoveis', 'marketing-para-corretor-de-imoveis'],
     data: '2026-10-01',
+    atualizado: '2026-10-01',
     corpo: `
-<p>A liberdade de horário é um dos atrativos da corretagem e também uma das maiores armadilhas. Sem uma rotina definida, o dia é consumido por mensagens, imprevistos e atividades que parecem trabalho mas não geram negócio. Os corretores que se destacam tratam a própria agenda como a de um atleta: <strong>blocos fixos para o que gera resultado</strong>.</p>
+<p>A autonomia de horário exige organização. Sem uma rotina definida, o dia pode ser consumido por mensagens, deslocamentos, imprevistos e tarefas administrativas. Uma agenda estruturada ajuda a reservar tempo para prospecção, captação, atendimento, acompanhamento e estudo.</p>
 
-<h2>As quatro atividades que geram dinheiro</h2>
+<h2>Atividades comerciais que precisam de espaço na agenda</h2>
 <ol>
   <li><strong>Prospecção:</strong> buscar novos compradores e proprietários.</li>
   <li><strong>Captação:</strong> visitar e conquistar imóveis bons para vender.</li>
@@ -218,15 +238,15 @@ export const artigos = [
   <li>visitas com compradores;</li>
   <li>propostas enviadas.</li>
 </ul>
-<p>Depois de algumas semanas, você vai descobrir a sua própria taxa de conversão e saber quanta atividade precisa para chegar à renda que deseja.</p>
+<p>Depois de algumas semanas, os registros permitem calcular taxas de conversão e entender melhor a relação entre atividade comercial, propostas e negócios concluídos.</p>
 
 <h2>Proteja seus blocos</h2>
 <p>Desligue as notificações durante a prospecção. Responda mensagens em horários definidos, exceto as urgentes de negociações em andamento. E aprenda a dizer não a atividades que não levam a nenhum negócio.</p>
 
-<h2>Descanso também é estratégia</h2>
-<p>Alta performance não é trabalhar todas as horas do dia. Reserve pelo menos um período de descanso real por semana. Corretor esgotado atende mal, negocia mal e desiste cedo.</p>
+<h2>Inclua descanso e limites na rotina</h2>
+<p>Uma rotina profissional precisa ser sustentável. Reserve períodos de descanso e defina limites para mensagens e tarefas fora do horário planejado, ajustando exceções apenas quando a negociação realmente exigir.</p>
 
-<p>Construir rotina sozinho é difícil, e a constância é justamente o que a <a href="/mentoria/">mentoria individualizada</a> trabalha: metas semanais, acompanhamento e ajustes com base nos seus números. Veja também <a href="/blog/como-ser-corretor-de-imoveis/">como ser corretor de imóveis</a> se você está começando.</p>
+<p>Se você está no início da profissão, leia também <a href="/blog/como-ser-corretor-de-imoveis/">como ser corretor de imóveis</a> e organize sua rotina a partir das atividades que realmente fazem parte do seu modelo de atuação.</p>
 `,
   },
   {
@@ -235,8 +255,12 @@ export const artigos = [
     h1: 'Marketing para corretor de imóveis: como ser lembrado e atrair clientes',
     descricao:
       'Guia prático de marketing para corretores: posicionamento, Instagram, anúncios de imóveis, fotos, conteúdo e regras de publicidade do CRECI.',
-    tema: 'Marketing',
+    tema: 'Marketing e posicionamento',
+    persona: 'corretor em desenvolvimento',
+    pilar: 'Marketing e posicionamento',
+    relacionados: ['como-captar-imoveis', 'como-vender-mais-imoveis', 'rotina-do-corretor-de-alta-performance'],
     data: '2026-10-01',
+    atualizado: '2026-10-01',
     corpo: `
 <p>O cliente escolhe o corretor muito antes do primeiro contato. Ele vê um anúncio, visita um perfil e lê um conteúdo, e é aí que decide se você parece alguém confiável. Marketing, para o corretor, é construir essa primeira impressão de forma intencional.</p>
 
@@ -251,7 +275,7 @@ export const artigos = [
   <li><strong>Constância:</strong> um ritmo que você consegue manter vale mais do que uma semana intensa seguida de um mês de silêncio.</li>
 </ul>
 
-<h2>Anúncios de imóveis que vendem</h2>
+<h2>Como estruturar anúncios de imóveis</h2>
 <ol>
   <li><strong>Fotos de qualidade:</strong> luz natural, ambientes arrumados, enquadramento horizontal. A foto é o primeiro filtro do comprador.</li>
   <li><strong>Título com o principal diferencial:</strong> localização, vista, área de lazer, reforma recente.</li>
@@ -263,9 +287,9 @@ export const artigos = [
 <p>As normas do sistema COFECI-CRECI exigem que a publicidade do corretor traga a sua identificação com o <strong>número de inscrição no CRECI</strong>. Anuncie apenas imóveis que você está autorizado a intermediar e nunca publique informações que não pode comprovar. Ao coletar dados de clientes, por formulário ou mensagem, respeite a Lei Geral de Proteção de Dados (LGPD).</p>
 
 <h2>Autoridade é o marketing de longo prazo</h2>
-<p>Anúncios trazem contatos hoje. Autoridade traz indicações por anos. Depoimentos reais de clientes, conteúdo consistente e presença na sua região de atuação constroem uma reputação que trabalha por você mesmo quando você não está postando.</p>
+<p>Presença digital, avaliações reais de clientes, conteúdo consistente e atuação reconhecida em uma região ou segmento ajudam a construir reputação ao longo do tempo. O objetivo não é aparecer por aparecer, mas facilitar que o cliente entenda sua área de atuação e encontre informações confiáveis sobre o seu trabalho.</p>
 
-<p>O 1% dos corretores que se destaca não é necessariamente o que mais aparece, e sim o que é <strong>lembrado pelo motivo certo</strong>. Marketing e posicionamento são trilhas dos nossos <a href="/cursos/">cursos</a> e dos <a href="/ebooks/">e-books Corretor 1%</a>.</p>
+<p>Marketing e posicionamento devem apoiar a atividade profissional, e não substituir conhecimento de mercado, atendimento, documentação e acompanhamento dos negócios. Uma presença digital coerente funciona melhor quando reflete uma atuação real e consistente.</p>
 `,
   },
 ];
