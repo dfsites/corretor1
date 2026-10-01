@@ -68,4 +68,27 @@ export default {
 
 <h2>Exemplo hipotético de prestação de contas</h2>
 <p>Para quem administra, uma prestação de contas mensal clara reduz dúvidas do proprietário. Um formato simples, com valores apenas ilustrativos:</p>
-<div c
+<div class="tabela"><table>
+<thead><tr><th>Lançamento</th><th>Valor (exemplo hipotético)</th></tr></thead>
+<tbody>
+<tr><td>Aluguel recebido do locatário</td><td>R$ 3.000,00</td></tr>
+<tr><td>Taxa de administração (conforme contrato)</td><td>R$ (valor contratado)</td></tr>
+<tr><td>Reparo pago por conta do proprietário (com comprovante)</td><td>R$ 250,00</td></tr>
+<tr><td><strong>Valor repassado ao proprietário</strong></td><td><strong>Aluguel menos taxa e despesas comprovadas</strong></td></tr>
+</tbody>
+</table></div>
+<p>O exemplo não indica percentual de mercado. A taxa de administração e as despesas autorizadas são as previstas no contrato de administração.</p>
+
+<h2>Parcerias na locação</h2>
+<p>Quando dois corretores participam da mesma locação, valem as mesmas regras da venda: o art. 728 do Código Civil prevê a divisão em partes iguais, salvo ajuste em contrário, e o ideal é combinar tudo por escrito antes. Veja <a href="/blog/parcerias-entre-corretores/">parcerias entre corretores</a>.</p>
+
+<h2>Erros comuns</h2>
+<ul>
+  <li>cobrar do pretendente à locação taxas que a lei atribui ao locador;</li>
+  <li>começar a administrar sem contrato escrito com o proprietário;</li>
+  <li>misturar valores de aluguel recebidos com dinheiro próprio;</li>
+  <li>deixar de prestar contas de forma regular e detalhada;</li>
+  <li>não definir por escrito quando a remuneração pela intermediação é devida.</li>
+</ul>
+`,
+};

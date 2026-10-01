@@ -62,4 +62,28 @@ export default {
   <li><strong>Saldo na entrega das chaves:</strong> o financiamento do saldo depende de análise de crédito no futuro, com as regras e condições vigentes naquela época.</li>
   <li><strong>Correção das parcelas:</strong> se e como as parcelas pagas durante a obra são corrigidas.</li>
   <li><strong>Custos posteriores:</strong> tributos e registro na transferência, condomínio a partir da entrega e eventuais custos de instalação.</li>
-  <li><strong>Diferença entre o decorado e o entregue:</strong> o que vale é o memorial descritivo, não o mobiliário do apa
+  <li><strong>Diferença entre o decorado e o entregue:</strong> o que vale é o memorial descritivo, não o mobiliário do apartamento modelo.</li>
+</ul>
+<p>Quando o comprador tiver dúvidas sobre cláusulas do contrato, oriente-o a buscar análise jurídica própria. O corretor informa, mas não substitui o advogado.</p>
+
+<h2>Antes de aceitar trabalhar com uma incorporadora</h2>
+<ul>
+  <li>confirme que o memorial de incorporação do empreendimento está registrado e anote o número;</li>
+  <li>peça por escrito as regras de cadastro de clientes, prazo de validade do cadastro e divisão da comissão;</li>
+  <li>pergunte quando e como a comissão é paga e quem a paga;</li>
+  <li>verifique se o material de divulgação fornecido contém as informações obrigatórias;</li>
+  <li>entenda quem responde às dúvidas técnicas e contratuais dos compradores.</li>
+</ul>
+
+<h2>Diferenças em relação à venda de imóvel usado</h2>
+<ul>
+  <li>O vendedor é uma empresa com regras próprias de comercialização, e não uma pessoa física.</li>
+  <li>O preço segue tabela; a margem de negociação, quando existe, é definida pela incorporadora.</li>
+  <li>O comprador paga durante a obra e só recebe o imóvel no futuro, o que exige informação cuidadosa sobre prazos e riscos.</li>
+  <li>O contrato é padronizado; o corretor deve conhecer suas cláusulas principais para responder dúvidas, sem substituir a orientação jurídica do comprador.</li>
+</ul>
+
+<h2>Lançamentos como etapa da carreira</h2>
+<p>Muitos corretores começam em lançamentos porque o fluxo de clientes é organizado pela incorporadora e há treinamento sobre o produto. É um bom ambiente para aprender atendimento e negociação. O ponto de atenção é que, em geral, o corretor não constrói a própria carteira de proprietários nesse modelo. Quem pretende atuar depois com imóveis usados deve, desde cedo, desenvolver também a captação. Veja <a href="/blog/como-captar-imoveis/">captação de imóveis</a>.</p>
+`,
+};

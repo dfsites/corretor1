@@ -69,4 +69,21 @@ export default {
 <p>Alguns momentos da rotina testam a reputação mais do que outros. Os exemplos abaixo são hipotéticos, apenas para ilustrar condutas:</p>
 <ul>
   <li><strong>O negócio não avança:</strong> o comprador desiste depois de várias visitas. Encerrar o atendimento com um retorno educado, sem cobrança, preserva a relação para o futuro.</li>
-  <li><strong>Surge uma pendência no im
+  <li><strong>Surge uma pendência no imóvel:</strong> uma averbação faltante aparece depois da proposta. Informar as duas partes de imediato, com as alternativas possíveis, vale mais do que tentar contornar o problema em silêncio. Veja <a href="/blog/imovel-com-pendencias-documentais/">imóvel com pendências documentais</a>.</li>
+  <li><strong>Erro do próprio corretor:</strong> um dado errado no anúncio, por exemplo. Corrigir rapidamente e avisar quem foi afetado mostra responsabilidade.</li>
+  <li><strong>Conflito com um colega:</strong> divergência sobre uma parceria. Resolver com base no que foi registrado, e não em versões de cada lado, evita que o conflito vire assunto do mercado.</li>
+</ul>
+
+<h2>Uma rotina mínima que protege a reputação</h2>
+<ol>
+  <li>responder a todos os contatos, mesmo para dizer que não há imóvel compatível no momento;</li>
+  <li>registrar cada combinado relevante por escrito, com data;</li>
+  <li>dar retorno ao proprietário em intervalos combinados, mesmo sem novidades;</li>
+  <li>conferir as informações de cada anúncio antes de publicar;</li>
+  <li>revisar periodicamente os atendimentos em aberto para não deixar ninguém sem resposta. Veja <a href="/blog/controle-de-follow-up/">controle de follow-up</a>.</li>
+</ol>
+
+<h2>Reputação se constrói devagar e se perde rápido</h2>
+<p>Não existe atalho. Cada atendimento conta, inclusive os que não resultam em negócio: o comprador que não fechou com você hoje pode voltar daqui a dois anos, ou indicar alguém, se tiver sido bem atendido. A melhor forma de proteger a reputação é ter processos claros de atendimento e registro, que tornam o bom atendimento a regra, e não a exceção.</p>
+`,
+};

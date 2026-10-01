@@ -61,4 +61,26 @@ export default {
   <li><strong>Vistoriar o imóvel:</strong> a data da vistoria é um dos elementos exigidos na descrição do imóvel (Resolução COFECI nº 1.066/2007, art. 5º, § 2º).</li>
   <li><strong>Pesquisar o mercado:</strong> selecionar e tratar dados de imóveis comparáveis.</li>
   <li><strong>Elaborar o parecer:</strong> com os requisitos mínimos do art. 5º.</li>
-  <li><strong>Emitir a declaração e afixar o selo:</strong> no cas
+  <li><strong>Emitir a declaração e afixar o selo:</strong> no caso de inscrito no CNAI.</li>
+  <li><strong>Arquivar:</strong> por cinco anos, conforme o art. 12.</li>
+</ol>
+
+<h2>Quando recusar ou encaminhar um pedido</h2>
+<ul>
+  <li>quando a finalidade exigir avaliação por profissional com outra habilitação legal ou por norma técnica que você não domina;</li>
+  <li>quando houver conflito de interesse, por exemplo, avaliar um imóvel que você mesmo intermedeia para uma das partes em disputa;</li>
+  <li>quando não for possível vistoriar o imóvel nem obter documentos mínimos;</li>
+  <li>quando o solicitante pedir um valor predeterminado.</li>
+</ul>
+
+<h2>Avaliação como especialização</h2>
+<p>A avaliação combina bem com a corretagem: o trabalho diário de pesquisa de preços alimenta os pareceres, e os pareceres aprofundam o conhecimento de mercado usado na captação. Para quem pensa nesse caminho, alguns passos ajudam:</p>
+<ol>
+  <li>estudar métodos de avaliação e a norma brasileira de avaliação de bens (ABNT NBR 14653);</li>
+  <li>praticar com pesquisas de mercado consistentes. Veja <a href="/blog/imoveis-comparaveis/">imóveis comparáveis</a> e <a href="/blog/caracteristicas-que-influenciam-o-valor/">características que influenciam o valor</a>;</li>
+  <li>verificar no COFECI os cursos reconhecidos e as regras atuais de inscrição;</li>
+  <li>organizar desde o início o arquivo dos pareceres e das declarações.</li>
+</ol>
+<p>A visão geral dos caminhos de especialização está em <a href="/blog/desenvolvimento-profissional-do-corretor/">desenvolvimento profissional do corretor</a>.</p>
+`,
+};

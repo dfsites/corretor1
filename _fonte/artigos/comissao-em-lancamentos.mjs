@@ -62,4 +62,17 @@ export default {
 <h2>Perguntas que o comprador costuma fazer</h2>
 <ul>
   <li><strong>"Por que estou pagando a comissão se quem contratou o corretor foi a incorporadora?"</strong> Explique que a transferência ao comprador é permitida pelo entendimento do STJ, desde que o preço total e o valor da comissão tenham sido informados previamente e com destaque, e mostre onde isso consta na proposta.</li>
-  <li><strong>"
+  <li><strong>"A comissão faz parte do preço do imóvel?"</strong> Mostre a composição: o preço total da aquisição é a soma do valor pago à incorporadora e do valor da corretagem.</li>
+  <li><strong>"Posso negociar a comissão?"</strong> Depende da política da incorporadora e da imobiliária. Não prometa desconto que não pode garantir.</li>
+  <li><strong>"Se eu desistir, recebo de volta?"</strong> A resposta depende do contrato e da situação concreta. Oriente o comprador a ler as cláusulas de desistência e, se necessário, buscar orientação jurídica.</li>
+</ul>
+
+<h2>Erros comuns</h2>
+<ul>
+  <li>informar apenas o valor da unidade e apresentar a comissão depois, como cobrança adicional;</li>
+  <li>chamar a comissão de "taxa" ou "assessoria" para disfarçar sua natureza;</li>
+  <li>cobrar SATI ou serviço congênere vinculado à promessa de compra e venda;</li>
+  <li>não guardar a prova de que o comprador foi informado antes da assinatura.</li>
+</ul>
+`,
+};

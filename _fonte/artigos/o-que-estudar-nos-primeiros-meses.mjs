@@ -65,4 +65,18 @@ export default {
 <h2>Onde consultar com segurança</h2>
 <p>Boa parte do que circula sobre corretagem em redes e grupos de mensagens é opinião, resumo desatualizado ou regra local apresentada como nacional. Para estudar, prefira as fontes primárias:</p>
 <ul>
-  <li><strong>Legislação:</strong> o portal da Presidência da República (Planalto) publica as leis com as alterações posteriores indicadas no próprio texto. Verifique sempre se está lendo a ver
+  <li><strong>Legislação:</strong> o portal da Presidência da República (Planalto) publica as leis com as alterações posteriores indicadas no próprio texto. Verifique sempre se está lendo a versão compilada e se o dispositivo foi alterado ou revogado.</li>
+  <li><strong>Normas da profissão:</strong> o COFECI publica as resoluções do sistema; o CRECI da sua região publica orientações, procedimentos e tabelas locais.</li>
+  <li><strong>Registro de imóveis e cartórios:</strong> os próprios cartórios e os serviços eletrônicos de registro informam documentos exigidos e prazos. Veja <a href="/blog/servicos-eletronicos-de-registro/">serviços eletrônicos de registro de imóveis</a>.</li>
+  <li><strong>Financiamento e FGTS:</strong> as instituições financeiras e os canais oficiais do FGTS definem condições que mudam com frequência; confirme sempre na fonte antes de orientar um cliente.</li>
+  <li><strong>Prefeitura:</strong> IPTU, ITBI e regras de uso do solo são municipais e variam de uma cidade para outra.</li>
+</ul>
+<p>Ao ler uma lei, anote o número do artigo junto com a data em que conferiu o texto. Isso facilita voltar à fonte quando surgir uma dúvida em um negócio.</p>
+
+<h2>Como medir o próprio avanço</h2>
+<p>Ao final de cada mês, tente explicar em voz alta, sem consultar nada, os temas estudados: o que deve constar em uma autorização de venda, quando a comissão é devida, o que uma matrícula mostra, quais etapas existem entre o aceite da proposta e o registro. Os pontos em que você hesitar são o roteiro do mês seguinte.</p>
+
+<h2>O que pode esperar</h2>
+<p>Tributação detalhada, avaliação formal de imóveis, inventários e operações mais complexas podem ficar para depois que a base estiver firme. Quando surgirem em um negócio, estude o caso concreto e, se necessário, envolva o profissional adequado. Para a formação ao longo da carreira, veja <a href="/blog/desenvolvimento-profissional-do-corretor/">desenvolvimento profissional do corretor</a>.</p>
+`,
+};

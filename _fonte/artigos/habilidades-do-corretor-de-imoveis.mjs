@@ -62,4 +62,15 @@ export default {
   <li>Tenho paciência para ler documentos e textos legais até entender o que dizem?</li>
   <li>Consigo apresentar uma informação desagradável (preço acima do mercado, pendência no imóvel) de forma clara e respeitosa?</li>
   <li>Fico confortável em dizer "não sei, vou confirmar" para um cliente?</li>
-  <li>Co
+  <li>Consigo manter a rotina de trabalho em semanas sem resultado visível?</li>
+  <li>Uso o celular e ferramentas simples (planilha, agenda, armazenamento) com segurança?</li>
+</ol>
+<p>Respostas negativas indicam o que estudar e praticar primeiro. A maior parte dessas habilidades melhora com método e repetição, e não com talento.</p>
+
+<h2>O que o trabalho não exige</h2>
+<p>Alguns traços costumam ser associados ao corretor sem que sejam necessários: falar muito, insistir com o cliente ou ter uma rede social grande desde o início. Atendimentos baseados em insistência tendem a desgastar a relação com clientes e a reputação do profissional. O que sustenta a carreira é informação correta, cumprimento do que foi combinado e conhecimento do mercado. Veja <a href="/blog/reputacao-profissional-na-corretagem/">reputação profissional na corretagem</a>.</p>
+
+<h2>Habilidades se aprendem</h2>
+<p>Nenhuma dessas habilidades é exclusiva de um tipo de personalidade. Pessoas mais reservadas costumam ter boa escuta; pessoas comunicativas costumam precisar de mais organização. O que importa é identificar onde está o seu ponto mais fraco e trabalhar nele com método. Para planejar os estudos dos primeiros meses, veja <a href="/blog/o-que-estudar-nos-primeiros-meses/">o que estudar nos primeiros meses como corretor</a>. Para avaliar se a profissão combina com você, veja <a href="/blog/vale-a-pena-ser-corretor-de-imoveis/">vale a pena ser corretor de imóveis</a>. O caminho completo está em <a href="/blog/como-ser-corretor-de-imoveis/">como se tornar corretor de imóveis</a>.</p>
+`,
+};

@@ -60,4 +60,17 @@ export default {
 <tr><td>Segunda, manhã</td><td>Atendimentos distribuídos pela imobiliária e retorno a contatos da semana anterior</td></tr>
 <tr><td>Terça</td><td>Visitas ao estoque da região escolhida e atualização dos registros</td></tr>
 <tr><td>Quarta</td><td>Acompanhamento de um negócio de colega (proposta, vistoria ou cartório), com concordância das partes</td></tr>
-<tr><td>Quinta</td><td>Estudo de um tema que surgiu nos atendi
+<tr><td>Quinta</td><td>Estudo de um tema que surgiu nos atendimentos da semana</td></tr>
+<tr><td>Sexta e sábado</td><td>Visitas com interessados</td></tr>
+</tbody></table></div>
+<p>O ponto central é manter, toda semana, alguma participação em negócios reais, ainda que pequena. A organização da agenda está em <a href="/blog/rotina-de-trabalho-do-corretor-de-imoveis/">rotina de trabalho do corretor</a>.</p>
+
+<h2>Quando a carteira própria começa a se formar</h2>
+<p>Os primeiros sinais costumam ser indicações de pessoas da sua rede, proprietários da região que lembram de você depois de uma conversa e clientes atendidos que retornam ou indicam outros. Registre a origem de cada contato desde o começo: essa informação mostra quais caminhos estão funcionando. Veja <a href="/blog/origem-dos-clientes/">origem dos clientes</a>. Quando a carteira própria crescer, a forma de atuar pode mudar, e o planejamento da carreira entra em cena. Veja <a href="/blog/desenvolvimento-profissional-do-corretor/">desenvolvimento profissional do corretor</a>.</p>
+
+<h2>Registre o que aprendeu</h2>
+<p>Ao final de cada negócio acompanhado, anote o que aconteceu em cada etapa, quais documentos foram exigidos, onde houve atraso e o que você faria diferente. Esse registro, revisto de tempos em tempos, transforma participação em experiência. Use o mesmo sistema em que registra clientes e imóveis, sem expor dados pessoais desnecessários. Veja <a href="/blog/crm-para-corretor/">CRM para corretor de imóveis</a>.</p>
+
+<p>Os demais passos de quem está começando estão em <a href="/blog/primeiros-passos-depois-do-creci/">primeiros passos depois de obter o CRECI</a> e <a href="/blog/como-ser-corretor-de-imoveis/">como se tornar corretor de imóveis</a>.</p>
+`,
+};

@@ -71,4 +71,28 @@ export default {
   <li>Você tem reserva financeira para atravessar esse ciclo?</li>
   <li>Há colegas experientes no segmento com quem você pode trabalhar em parceria no início?</li>
 </ul>
-<p>Se a maior parte das respostas for "não sei", o primeiro passo é e
+<p>Se a maior parte das respostas for "não sei", o primeiro passo é estudar e observar o segmento por algumas semanas, sem ainda mudar o seu posicionamento público.</p>
+
+<h2>Exemplo hipotético de transição</h2>
+<p>Para ilustrar, imagine um corretor que atua há dois anos com apartamentos usados e quer migrar para imóveis comerciais. Um caminho prudente seria: estudar zoneamento e regras de uso do município; acompanhar por alguns meses os anúncios de salas e lojas da região; fazer as primeiras captações comerciais em parceria com um colega do segmento; registrar o tempo de comercialização e a origem dos interessados; e só então ajustar perfil e conteúdo para o novo foco, sem abandonar de imediato a carteira residencial. O exemplo é hipotético e serve apenas para mostrar a lógica de uma transição gradual.</p>
+
+<h2>Sinais de que a especialização está funcionando</h2>
+<ul>
+  <li>aumento da proporção de contatos que chegam já pedindo o tipo de imóvel em que você atua;</li>
+  <li>mais indicações de colegas para negócios do segmento;</li>
+  <li>captações com preço mais próximo do mercado, porque a sua leitura de valor ficou mais precisa;</li>
+  <li>menos tempo gasto respondendo dúvidas técnicas básicas, porque você já as domina.</li>
+</ul>
+
+<h2>Quando rever a escolha</h2>
+<p>Mercados mudam. Um segmento que tinha boa demanda pode desacelerar, e outro pode crescer na mesma região. Revise a especialização quando os indicadores mostrarem queda persistente de oportunidades, quando o ciclo de recebimento ficar incompatível com as suas finanças ou quando o seu interesse profissional mudar. A transição pode ser gradual: atender o novo segmento em parceria antes de assumi-lo por completo reduz o risco.</p>
+
+<h2>Erros comuns</h2>
+<ul>
+  <li>Escolher um segmento só pelo valor médio dos negócios, sem considerar o volume e o ciclo de venda.</li>
+  <li>Declarar uma especialização sem ter estudado o segmento.</li>
+  <li>Mudar de foco a cada poucos meses, sem dar tempo para construir conhecimento e reputação.</li>
+  <li>Confundir especialização com exclusão: recusar atendimento em vez de encaminhar a um colega.</li>
+</ul>
+`,
+};

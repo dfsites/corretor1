@@ -73,4 +73,22 @@ export default {
 <h2>Vantagens e pontos de atenção</h2>
 <p>A locação oferece demanda constante e, no caso da administração, uma receita recorrente enquanto o contrato estiver vigente. Também aproxima o corretor de proprietários que, no futuro, podem decidir vender. Por outro lado:</p>
 <ul>
-  <li>a administração envolve dinheiro de terceiros, o que exige controle rigoroso, contas s
+  <li>a administração envolve dinheiro de terceiros, o que exige controle rigoroso, contas separadas e prestação de contas transparente;</li>
+  <li>os conflitos entre locador e locatário fazem parte da rotina e pedem equilíbrio;</li>
+  <li>inadimplência e devoluções antecipadas exigem conhecimento da lei e, muitas vezes, apoio jurídico;</li>
+  <li>o volume de documentos é grande. Veja <a href="/blog/organizacao-documental/">organização documental</a> e <a href="/blog/lgpd-na-rotina-do-corretor/">LGPD na rotina do corretor</a>.</li>
+</ul>
+
+<h2>O que estudar para atuar em locação</h2>
+<ul>
+  <li>a Lei nº 8.245/1991, com atenção às garantias, à revisão e à renovação do aluguel e às hipóteses de retomada;</li>
+  <li>vistoria e registro do estado do imóvel;</li>
+  <li>análise de cadastro e de renda do pretendente e do fiador;</li>
+  <li>organização financeira e prestação de contas;</li>
+  <li>tributação dos valores recebidos, com apoio de contador. Veja <a href="/blog/tributacao-da-comissao/">recibo, nota fiscal e tributos sobre a comissão</a>.</li>
+</ul>
+
+<h2>Para quem esse caminho faz sentido</h2>
+<p>A locação combina bem com quem gosta de processos organizados, atendimento frequente e relacionamento de longo prazo com proprietários. É também um caminho comum para quem quer construir uma imobiliária, porque a carteira de administração dá estabilidade ao negócio. Quem prefere negociações longas e de valor alto, com menos atendimentos, tende a se adaptar melhor à venda. Os demais segmentos estão em <a href="/blog/especializacao-por-tipo-de-imovel/">especialização por tipo de imóvel e segmento</a>.</p>
+`,
+};

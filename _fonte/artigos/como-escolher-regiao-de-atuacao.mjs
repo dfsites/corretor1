@@ -70,4 +70,15 @@ export default {
 <p>Na associação a uma imobiliária, a região costuma ser definida pela própria empresa. Ainda assim, dentro da área de atuação dela, você pode se concentrar em alguns condomínios ou bairros e se tornar a referência interna sobre eles. Antes de se associar, compare a região e o segmento da empresa com o que você pretende fazer. Veja <a href="/blog/como-avaliar-uma-imobiliaria/">como avaliar uma imobiliária antes de se associar</a>.</p>
 
 <h2>Revise depois de alguns meses</h2>
-<p>A primeira escolha é uma hipótese. Depois de alguns meses
+<p>A primeira escolha é uma hipótese. Depois de alguns meses de registro, observe: quantos atendimentos e captações a região gerou, quanto tempo foi gasto em deslocamento, se os negócios avançaram. Se os números mostrarem que a região não tem giro suficiente, ajuste a área ou o segmento com base nesses dados, e não por impressão. Veja <a href="/blog/indicadores-comerciais-do-corretor/">indicadores comerciais do corretor</a>.</p>
+
+<h2>Erros comuns</h2>
+<ul>
+  <li>Escolher uma região só porque os imóveis são caros, sem considerar o ciclo longo e a falta de contatos.</li>
+  <li>Delimitar uma área tão pequena que não há imóveis suficientes para trabalhar.</li>
+  <li>Mudar de região a cada mês, sem tempo para acumular conhecimento.</li>
+  <li>Atender pedidos fora da área sem estrutura, quando uma parceria com um corretor local resolveria melhor. Veja <a href="/blog/parcerias-entre-corretores/">parcerias entre corretores</a>.</li>
+</ul>
+<p>Os demais passos de quem está começando estão em <a href="/blog/primeiros-passos-depois-do-creci/">primeiros passos depois de obter o CRECI</a> e <a href="/blog/como-ser-corretor-de-imoveis/">como se tornar corretor de imóveis</a>.</p>
+`,
+};

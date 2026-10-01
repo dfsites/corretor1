@@ -60,4 +60,12 @@ export default {
 <p>Esse uso só é possível se a base estiver organizada e atualizada. Mantenha-a no mesmo sistema em que registra clientes e imóveis. Veja <a href="/blog/crm-para-corretor/">CRM para corretor de imóveis</a>.</p>
 
 <h2>Revisão periódica</h2>
-<p>Regiões mudam. A cada trimestre, revise a base: atualize preços, retire anúncios encerrados, registre novos empreendimentos e mudanças de infraestrutura. Observe também os seus nú
+<p>Regiões mudam. A cada trimestre, revise a base: atualize preços, retire anúncios encerrados, registre novos empreendimentos e mudanças de infraestrutura. Observe também os seus números: de onde vieram as captações e os atendimentos, quantos negócios a região gerou. Veja <a href="/blog/origem-dos-clientes/">origem dos clientes</a> e <a href="/blog/indicadores-comerciais-do-corretor/">indicadores comerciais</a>.</p>
+
+<h2>Quando ampliar a área</h2>
+<p>A especialização não impede o crescimento. Quando a região principal estiver bem coberta, ampliar para uma área vizinha, com perfil parecido de imóveis e de clientes, aproveita o conhecimento já acumulado. Ampliar para uma região muito diferente equivale a começar de novo, e nesse caso uma parceria com um corretor local pode ser mais adequada. Veja <a href="/blog/parcerias-entre-corretores/">parcerias entre corretores</a>.</p>
+
+<h2>Riscos da concentração</h2>
+<p>Depender de uma única região expõe o corretor a mudanças que ele não controla: queda de procura, aumento da concorrência, alteração de regras urbanísticas. Acompanhar os indicadores e manter algum conhecimento das áreas vizinhas reduz esse risco. A especialização por tipo de imóvel, que pode se combinar com a geográfica, está em <a href="/blog/especializacao-por-tipo-de-imovel/">especialização por tipo de imóvel e segmento</a>.</p>
+`,
+};

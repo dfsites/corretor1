@@ -73,4 +73,23 @@ export default {
 <p>A sequência abaixo é uma orientação geral. Documentos, taxas e prazos variam conforme o CRECI regional, a junta comercial ou o cartório e o município:</p>
 <ol>
   <li><strong>Análise com contador:</strong> regime tributário, natureza jurídica, atividade econômica e custos mensais.</li>
-  <li><strong>Constituição da empresa:</strong> contrato social ou ato constitutivo, com o corretor inscrito como sócio gerente ou diretor (Lei nº 
+  <li><strong>Constituição da empresa:</strong> contrato social ou ato constitutivo, com o corretor inscrito como sócio gerente ou diretor (Lei nº 6.530/1978, art. 6º, § 1º).</li>
+  <li><strong>Inscrições fiscais:</strong> CNPJ e inscrição municipal, quando exigida para emissão de nota fiscal de serviço.</li>
+  <li><strong>Inscrição no CRECI:</strong> pedido de registro da pessoa jurídica no Conselho Regional, com os documentos que ele exigir.</li>
+  <li><strong>Ajuste da comunicação:</strong> nome da empresa e número de inscrição em anúncios, site e documentos.</li>
+</ol>
+
+<h2>Tributos e documentos fiscais</h2>
+<p>A tributação da atividade de corretagem, tanto na pessoa física quanto na jurídica, depende de regras federais e municipais que mudam com frequência. O assunto está em <a href="/blog/tributacao-da-comissao/">recibo, nota fiscal e tributos sobre a comissão</a>. A recomendação é não decidir pela abertura da empresa com base em comparações genéricas, e sim em uma simulação feita pelo contador com os seus números.</p>
+
+<h2>Erros comuns</h2>
+<ul>
+  <li>abrir a empresa e anunciar sem que ela esteja inscrita no CRECI;</li>
+  <li>deixar o registro pessoal do responsável técnico vencer ou ficar irregular;</li>
+  <li>misturar as contas da empresa com as pessoais;</li>
+  <li>escolher o regime tributário sem orientação contábil;</li>
+  <li>esquecer de atualizar o número de inscrição nos anúncios e materiais.</li>
+</ul>
+<p>Para a visão geral da carreira e dos modelos de atuação, veja <a href="/blog/desenvolvimento-profissional-do-corretor/">desenvolvimento profissional do corretor</a> e <a href="/blog/corretor-autonomo-associado-ou-contratado/">corretor autônomo, associado ou contratado</a>.</p>
+`,
+};
