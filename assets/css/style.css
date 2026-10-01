@@ -207,3 +207,12 @@ p { margin: 0 0 1em; }
 .lista-indice span { display: block; font-size: .9rem; color: var(--texto-suave); margin-top: 4px; }
 
 .neste-tema .serie { color: var(--texto-suave); font-size: .88rem; }
+
+/* Autor: foto, reconhecimentos e avatar */
+.foto-autor { float: right; width: 200px; height: 200px; object-fit: cover; border-radius: 50%; margin: 0 0 16px 24px; }
+.galeria-autor { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 12px; margin: 16px 0; }
+.galeria-autor img { width: 100%; height: auto; border-radius: 8px; }
+.nota-reconhecimento { font-size: .88rem; color: var(--texto-suave); }
+.caixa-autor { overflow: hidden; }
+.avatar-autor { float: left; width: 64px; height: 64px; border-radius: 50%; margin: 0 14px 6px 0; }
+@media (max-width: 600px) { .foto-autor { float: none; display: block; margin: 0 auto 20px; width: 160px; height: 160px; } }

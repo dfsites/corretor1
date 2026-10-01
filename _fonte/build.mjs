@@ -84,7 +84,7 @@ ${site.googleSiteVerification ? `<meta name="google-site-verification" content="
 ${metaExtra}
 <link rel="icon" href="/assets/img/favicon.png" type="image/png">
 <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
-<link rel="stylesheet" href="/assets/css/style.css?v=${ATUALIZADO}l">
+<link rel="stylesheet" href="/assets/css/style.css?v=${ATUALIZADO}m">
 ${schemas}
 </head>
 <body>
@@ -102,7 +102,7 @@ ${schemas}
 ${corpo}
 </main>
 ${rodape()}
-<script src="/assets/js/site.js?v=${ATUALIZADO}l" defer></script>
+<script src="/assets/js/site.js?v=${ATUALIZADO}m" defer></script>
 </body>
 </html>
 `;
@@ -485,6 +485,7 @@ function schemaPessoa(id, completo = false) {
     jobTitle: p.cargo,
     description: p.resumo,
     ...(p.foto ? { image: abs(p.foto) } : {}),
+    ...(p.reconhecimentos?.length ? { award: p.reconhecimentos } : {}),
     ...(p.sameAs?.length ? { sameAs: p.sameAs } : {}),
     // A empresa entra como organização vinculada; o CRECI-J não é credencial da pessoa.
     ...(p.empresa ? { worksFor: { '@type': 'Organization', name: p.empresa.nome } } : {}),
@@ -668,6 +669,7 @@ ${
 }
 <aside class="caixa-autor">
   <p class="rotulo">Sobre o autor</p>
+  ${autor.fotoPequena ? `<img class="avatar-autor" src="${autor.fotoPequena}" alt="" width="64" height="64" loading="lazy">` : ''}
   <p><a href="${urlAutor(a.autor)}"><strong>${esc(autor.nome)}</strong></a></p>
   <p>${esc(autor.resumo)}</p>
 </aside>
@@ -692,9 +694,19 @@ for (const [id, p] of Object.entries(autores)) {
     ],
     corpo: `${cabecalho({ titulo: p.nome, texto: esc(p.cargo), trilha: [['/blog/', 'Blog'], [null, p.nome]] })}
 <section class="secao"><div class="container estreito">
+  ${p.foto ? `<img class="foto-autor" src="${p.foto}" alt="Foto de ${esc(p.nome)}" width="400" height="400">` : ''}
   ${p.bio.map((par) => `<p>${esc(par)}</p>`).join('\n  ')}
   ${p.registros?.length ? `<h2>Registros profissionais</h2><ul class="lista-check">${p.registros.map((r) => `<li>${esc(r)}</li>`).join('')}</ul>` : ''}
   ${p.empresa ? `<h2>Empresa</h2><p>${esc(p.nome)} é ${esc(p.empresa.vinculo)} da ${esc(p.empresa.nome)}, inscrita no ${esc(p.empresa.registro)} (registro de pessoa jurídica).</p>` : ''}
+  ${
+    p.reconhecimentos?.length
+      ? `<h2>Prêmios e reconhecimentos como corretor de imóveis</h2><ul class="lista-check">${p.reconhecimentos.map((r) => `<li>${esc(r)}</li>`).join('')}</ul>${
+          p.galeria?.length
+            ? `<div class="galeria-autor">${p.galeria.map((g) => `<img src="${g.src}" alt="${esc(g.alt)}" width="450" height="600" loading="lazy">`).join('')}</div>`
+            : ''
+        }<p class="nota-reconhecimento">Reconhecimentos de mercado não são garantia de resultado em uma negociação; cada caso exige análise própria.</p>`
+      : ''
+  }
   ${p.formacao?.length ? `<h2>Formação</h2><ul class="lista-check">${p.formacao.map((r) => `<li>${esc(r)}</li>`).join('')}</ul>` : ''}
   ${p.sameAs?.length ? `<p>Mais informações: <a href="${esc(p.sameAs[0])}" target="_blank" rel="noopener me">página profissional de ${esc(p.nome)}</a>.</p>` : ''}
 </div></section>
@@ -854,6 +866,7 @@ ${
 }
 <aside class="caixa-autor">
   <p class="rotulo">Sobre o autor</p>
+  ${autor.fotoPequena ? `<img class="avatar-autor" src="${autor.fotoPequena}" alt="" width="64" height="64" loading="lazy">` : ''}
   <p><a href="${urlAutor(idAutor)}"><strong>${esc(autor.nome)}</strong></a></p>
   <p>${esc(autor.resumo)}</p>
 </aside>

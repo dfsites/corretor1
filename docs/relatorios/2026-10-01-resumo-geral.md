@@ -46,7 +46,7 @@ Do proprietário:
 1. Trocar as senhas do FTP e do banco de dados (foram informadas na conversa).
 2. Apagar `F:\Program Files\Git\tmp_x.pdf` (arquivo de teste deixado por um agente; remoção bloqueada pelo sistema).
 3. Revisão jurídica das páginas com aviso jurídico.
-4. Foto do autor; WhatsApp e Instagram, se desejar.
+4. WhatsApp e Instagram, se desejar.
 5. Links de compra quando houver produtos.
 6. Opcional: corrigir a pasta de destino do deploy GitHub no painel da hospedagem.
 
@@ -57,3 +57,10 @@ Melhorias possíveis:
 4. Atualizar o registro geral do portfólio (`__PORTFOLIO_DOMINIOS__`), com autorização.
 
 Cuidado: `_backup-servidor/` contém `.ssh` e `.ftpaccess` da conta da hospedagem; fica só no computador local e fora do Git.
+
+## Atualização: página de autor
+
+- Foto de Daniel Ferreira e duas imagens de premiações (só troféus e certificados, sem terceiros identificáveis), hospedadas no próprio site; avatar na caixa de autor de todos os textos.
+- Seção "Prêmios e reconhecimentos como corretor de imóveis": Pódio DFimóveis 2026, Destaque Imobiliário Jardim Botânico, Evento Master Brasília (2023 e 2024) e Moção de Louvor da Câmara Legislativa do DF, com nota de que reconhecimento não é garantia de resultado.
+- Formação ampliada (pós-graduações em curso) e biografia com 19 anos de mercado, mais de 2.000 negociações e presença em redes sociais. Fonte: informações publicadas pelo próprio autor (kitcontratosimobiliarios.com.br), sem link para o site.
+- Schema Person com `image` e `award`.

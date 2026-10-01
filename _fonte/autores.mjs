@@ -3,6 +3,7 @@
 // Regra: só dados publicados pelo próprio autor. Fontes usadas (consultadas em 2026-10-01):
 //   - https://danielferreiracorretor.com/sobre
 //   - https://www.kitcontratosimobiliarios.com.br/ (seção "Quem escreveu")
+//   - https://www.kitcontratosimobiliarios.com.br/ (foto, premiações e número de negociações; consultado em 2026-10-01)
 // Não acrescentar títulos, números ou conquistas sem fonte do próprio autor.
 
 export const autores = {
@@ -14,7 +15,7 @@ export const autores = {
     // Parágrafos da biografia (página do autor).
     bio: [
       'Daniel Ferreira é corretor de imóveis desde 2007, em Brasília (DF). Iniciou a carreira em construtoras, atuando com lançamentos e imóveis prontos: apartamentos, casas, lotes em condomínios fechados, salas e lojas comerciais.',
-      'Em 2013 passou a atuar de forma autônoma e, em 2017, fundou a Daniel Ferreira Imóveis. Concentra o trabalho na região sul de Brasília (Jardim Botânico, Lago Sul, DF-140 e Alphaville), com compra e venda, captação, negociação, locação, administração de imóveis, avaliação e documentação.',
+      'Em 2013 passou a atuar de forma autônoma e, em 2017, fundou a Daniel Ferreira Imóveis. Concentra o trabalho na região sul de Brasília (Jardim Botânico, Lago Sul, DF-140 e Alphaville), com compra e venda, captação, negociação, locação, administração de imóveis, avaliação e documentação. São 19 anos de mercado e mais de 2.000 negociações imobiliárias em Brasília. Mantém também presença em redes sociais, com mais de 40 mil seguidores somados.',
       'É perito avaliador, bacharel em Administração e pós-graduado em Direito Imobiliário e Condominial. Antes do mercado imobiliário, trabalhou na área de tecnologia da informação, como programador e desenvolvedor web.',
     ],
     // Registros PESSOAIS (pessoa física). Registro de empresa vai em `empresa`, nunca aqui.
@@ -29,7 +30,12 @@ export const autores = {
       registro: 'CRECI-J/DF 30.400',
       vinculo: 'sócio-proprietário',
     },
-    formacao: ['Bacharel em Administração', 'Pós-graduado em Direito Imobiliário e Condominial'],
+    formacao: [
+      'Bacharel em Administração',
+      'Pós-graduado em Direito Imobiliário e Condominial',
+      'Pós-graduando em Direito Civil e Processo Civil',
+      'Pós-graduando em Economia e Finanças',
+    ],
     regiao: 'Brasília/DF',
     desde: '2007',
     // Perfis e sites do próprio autor (schema.org sameAs).
@@ -38,6 +44,19 @@ export const autores = {
       'https://www.facebook.com/danielferreiraimoveisdf/',
       'https://twitter.com/danielf_imoveis',
     ],
-    foto: '', // ex.: '/assets/img/autores/daniel-ferreira.webp' (quadrada). Vazio = sem foto.
+    foto: '/assets/img/autores/daniel-ferreira.webp', // quadrada, 400px
+    fotoPequena: '/assets/img/autores/daniel-ferreira-96.webp',
+    // Reconhecimentos publicados pelo próprio autor (kitcontratosimobiliarios.com.br, 2026-10-01).
+    reconhecimentos: [
+      'Pódio DFimóveis 2026: 1º lugar em vendas no Jardim Botânico (Brasília/DF)',
+      'Destaque Imobiliário Jardim Botânico: entre os cinco primeiros da região',
+      'Evento Master Brasília: 3º lugar nas edições de 2023 e 2024',
+      'Moção de Louvor da Câmara Legislativa do Distrito Federal, pelos serviços prestados e pela trajetória profissional',
+    ],
+    // Só imagens sem terceiros identificáveis.
+    galeria: [
+      { src: '/assets/img/autores/daniel-ferreira-certificados.webp', alt: 'Certificados e troféus de premiações do mercado imobiliário recebidos por Daniel Ferreira' },
+      { src: '/assets/img/autores/daniel-ferreira-trofeus-jardim-botanico.webp', alt: 'Troféus de Destaque Imobiliário Jardim Botânico expostos no escritório' },
+    ],
   },
 };
