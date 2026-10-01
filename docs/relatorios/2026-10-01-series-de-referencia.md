@@ -34,4 +34,5 @@ Data: 2026-10-01 · Glossário (`/glossario/`), Documentos explicados (`/documen
 - No ar: 54 verbetes, 11 documentos, 18 comentários de legislação e 5 perguntas; site com 234 páginas.
 - Ligação de volta: 64 artigos do blog ganharam a seção "Na biblioteca de referência", com os itens das séries que apontam para eles.
 - Build, verificador e testes no domínio real aprovados.
+- Layout: 234 páginas testadas com 390 px e 1.280 px (468 carregamentos): nenhuma rolagem lateral, um h1 por página, tabelas cabendo na tela.
 - Arquivo fora do projeto para apagar à mão: `F:\Program Files\Git	mp_x.pdf` (PDF público de resolução do COFECI baixado por um agente; a remoção automática foi bloqueada pela proteção do sistema).
