@@ -12,6 +12,9 @@ HTML estático gerado por `_fonte/build.mjs` (Node, sem dependências). Verifica
 
 ## Conteúdo
 
+Venda: nenhuma por enquanto (decisão do proprietário, 2026-10-01). Sem pré-cadastro. Estrutura de produtos pronta em `_fonte/produtos.mjs`.
+
+
 32 páginas: início, O Método, Cursos, Mentoria, E-books, Blog, 21 artigos, 2 páginas de categoria, autor (Daniel Ferreira), Contato, Política de Privacidade (+404). Blog em 11 editorias; primeiro ciclo editorial (15 artigos) publicado em 2026-10-01; banco de 117 pautas em `docs/PLANO-EDITORIAL.md`.
 E-books e cursos: listas vazias — páginas mostram "em breve" até o proprietário cadastrar os produtos.
 

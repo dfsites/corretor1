@@ -180,11 +180,12 @@ const ORGANIZACAO = {
   parentOrganization: { '@type': 'Organization', name: site.empresa.nome, taxID: site.empresa.cnpj },
 };
 
-function faixaCta(titulo, texto, assunto) {
+// Enquanto o site não vende produtos, a faixa leva à biblioteca do blog (sem cadastro nem contato comercial).
+function faixaCta(titulo, texto) {
   return `<section class="faixa-cta"><div class="container estreito">
   <h2>${esc(titulo)}</h2>
   <p>${esc(texto)}</p>
-  <div class="botoes">${botaoContato('Quero fazer parte', assunto)}</div>
+  <div class="botoes"><a class="botao" href="/blog/#por-onde-comecar">Comece por aqui</a></div>
 </div></section>`;
 }
 
@@ -193,9 +194,8 @@ function cartoesProdutos(lista, tipo) {
   if (!lista.length) {
     const nome = tipo === 'ebook' ? 'e-books' : 'cursos';
     return `<div class="aviso">
-  <h3>Novos ${nome} em breve</h3>
-  <p>Estamos finalizando os ${nome} Corretor 1%. Fale com a gente para ser avisado em primeira mão do lançamento.</p>
-  ${botaoContato('Quero ser avisado', `lançamento dos ${nome}`)}
+  <h3>${nome === 'e-books' ? 'E-books' : 'Cursos'} em preparação</h3>
+  <p>Os ${nome} Corretor 1% serão publicados nesta página. Enquanto isso, os temas estão disponíveis nos <a href="/blog/">artigos do blog</a>.</p>
 </div>`;
   }
   return `<div class="grade">${lista
@@ -205,7 +205,7 @@ function cartoesProdutos(lista, tipo) {
   <h3>${esc(p.titulo)}</h3>
   <p>${esc(p.descricao)}</p>
   ${p.preco ? `<p class="preco">${esc(p.preco)}</p>` : ''}
-  ${p.link ? `<a class="botao" href="${esc(p.link)}" rel="noopener" target="_blank">Comprar agora</a>` : botaoContato('Tenho interesse', p.titulo)}
+  ${p.link ? `<a class="botao" href="${esc(p.link)}" rel="noopener" target="_blank">Comprar agora</a>` : ''}
 </article>`,
     )
     .join('')}</div>`;
@@ -258,7 +258,7 @@ paginas.push({
     <h1>${esc(site.chamada)}</h1>
     <p class="sub">${esc(site.subchamada)}</p>
     <div class="botoes">
-      <a class="botao" href="/mentoria/">Conheça a mentoria</a>
+      <a class="botao" href="/blog/#por-onde-comecar">Comece por aqui</a>
       <a class="botao vazado" href="/cursos/">Ver cursos</a>
     </div>
   </div>
@@ -308,7 +308,7 @@ paginas.push({
   </div>
 </section>
 
-${faixaCta('Pronto para fazer parte do 1%?', 'Conte onde você está hoje na carreira e onde quer chegar. Vamos mostrar o caminho.', 'mentoria individualizada')}`,
+${faixaCta('Comece pela biblioteca', 'Artigos sobre carreira, captação, atendimento, negociação e gestão, organizados pelo seu momento na profissão.')}`,
 });
 
 // O Método
@@ -337,7 +337,7 @@ paginas.push({
   <h2>Como aplicar o método</h2>
   <p>Você pode começar pelos <a href="/ebooks/">e-books</a>, aprofundar com os <a href="/cursos/">cursos</a> ou ter acompanhamento próximo na <a href="/mentoria/">mentoria individualizada</a>. E o <a href="/blog/">blog</a> traz conteúdo gratuito sobre cada um dos pilares.</p>
 </div></section>
-${faixaCta('Comece a sua virada', 'Fale com a gente e descubra qual caminho faz mais sentido para o seu momento.', 'Método Corretor 1%')}`,
+${faixaCta('Estude os pilares', 'Cada pilar do método tem artigos no blog, com fontes e orientações práticas.')}`,
 });
 
 // Cursos
@@ -368,7 +368,7 @@ paginas.push({
   <h2>Prefere acompanhamento individual?</h2>
   <p>Os cursos ensinam o método. A <a href="/mentoria/">mentoria individualizada</a> aplica o método aos seus números, ao seu nicho e à sua rotina, com acompanhamento próximo.</p>
 </div></section>
-${faixaCta('Quer saber qual curso começar?', 'Conte o seu momento de carreira e indicamos a trilha certa.', 'cursos Corretor 1%')}`,
+${faixaCta('Enquanto os cursos não são publicados', 'Os temas das trilhas já são tratados nos artigos do blog.')}`,
 });
 
 // Mentoria
@@ -376,7 +376,7 @@ const FAQ_MENTORIA = [
   ['A mentoria é individual?', 'Sim. A mentoria Corretor 1% é individualizada: o plano é construído a partir dos seus números, do seu nicho e da sua rotina.'],
   ['Serve para quem está começando?', 'Sim. Para quem está começando, o foco é estruturar nicho, rotina e captação desde cedo, evitando os erros que mais atrasam a carreira.'],
   ['Preciso ter CRECI?', 'Para intermediar negócios, sim, porque a profissão é regulamentada. Se você ainda está em formação, a mentoria pode ajudar a planejar a entrada no mercado.'],
-  ['Como faço para participar?', 'Entre em contato pelo botão desta página. Fazemos uma conversa inicial para entender o seu momento e apresentar o formato e o investimento.'],
+  ['Como faço para participar?', 'A mentoria ainda não está aberta para inscrições. Quando estiver, as informações serão publicadas nesta página.'],
 ];
 paginas.push({
   caminho: '/mentoria/',
@@ -417,7 +417,7 @@ paginas.push({
   <h2>Perguntas frequentes</h2>
   ${FAQ_MENTORIA.map(([q, a]) => `<details><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join('\n  ')}
 </div></section>
-${faixaCta('Vamos conversar sobre a sua carreira?', 'A primeira conversa serve para entender o seu momento e ver se a mentoria é para você.', 'mentoria individualizada')}`,
+${faixaCta('Enquanto a mentoria não abre', 'O blog reúne o conteúdo de base sobre cada tema trabalhado na mentoria.')}`,
 });
 
 // E-books
@@ -621,7 +621,6 @@ ${
   <p class="rotulo">Sobre o autor</p>
   <p><a href="${urlAutor(a.autor)}"><strong>${esc(autor.nome)}</strong></a></p>
   <p>${esc(autor.resumo)}</p>
-  <p class="cta-discreto">O Corretor 1% também oferece <a href="/cursos/">cursos</a> e <a href="/mentoria/">mentoria individualizada</a> para corretores de imóveis.</p>
 </aside>
 </div></article>
 <section class="secao clara"><div class="container"><h2>Leituras relacionadas</h2>${cartoesArtigos(relacionadosDe(a))}</div></section>`,

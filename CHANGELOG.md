@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-10-01 — Site sem venda por enquanto
+
+- Removidas chamadas de venda e de pré-cadastro: "Quero ser avisado", "Quero fazer parte", "Tenho interesse", menção de oferta na caixa do autor e "investimento" no FAQ da mentoria.
+- Faixas de chamada e botão principal da home levam a "Comece por aqui" (trilhas do blog).
+- Cursos e E-books mostram "em preparação" com link para o blog; a estrutura de produtos (`_fonte/produtos.mjs`) continua pronta: um produto com `link` aparece com "Comprar agora".
+
 ## 2026-10-01 — Layout do texto
 
 - Coluna de leitura alinhada à esquerda, rente ao logo (antes centralizada); blocos centralizados da home e faixas de chamada continuam centralizados.
