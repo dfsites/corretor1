@@ -190,3 +190,7 @@ p { margin: 0 0 1em; }
 }
 .container.estreito.centro p, .faixa-cta p, .aviso p, .artigo .tabela td, .artigo .tabela th { text-align: inherit; }
 .artigo .tabela td, .artigo .tabela th { text-align: left; }
+
+/* Citações e exemplos destacados nos artigos */
+.artigo blockquote { margin: 1.5em 0; padding: 14px 18px; background: var(--fundo-2); border-left: 4px solid var(--ouro); border-radius: 6px; color: var(--texto); }
+.artigo blockquote p:last-child { margin-bottom: 0; }

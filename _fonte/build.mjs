@@ -83,7 +83,7 @@ ${site.googleSiteVerification ? `<meta name="google-site-verification" content="
 ${metaExtra}
 <link rel="icon" href="/assets/img/favicon.png" type="image/png">
 <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
-<link rel="stylesheet" href="/assets/css/style.css?v=${ATUALIZADO}i">
+<link rel="stylesheet" href="/assets/css/style.css?v=${ATUALIZADO}j">
 ${schemas}
 </head>
 <body>
@@ -101,7 +101,7 @@ ${schemas}
 ${corpo}
 </main>
 ${rodape()}
-<script src="/assets/js/site.js?v=${ATUALIZADO}i" defer></script>
+<script src="/assets/js/site.js?v=${ATUALIZADO}j" defer></script>
 </body>
 </html>
 `;
