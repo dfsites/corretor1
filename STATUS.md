@@ -25,7 +25,7 @@ Hospedagem: Uni5 (Apache), FTP/SSH ativos. HTTPS quebrado (certificado de outro 
 
 ## Publicação
 
-Publicado: versão antiga (template) até o primeiro push; nova versão publicada via GitHub.
+Publicado: ainda a versão antiga (template). Push para `dfsites/corretor1` (main) feito em 2026-10-01, mas o servidor não atualizou em ~2 min — verificar a integração GitHub no painel da Uni5.
 
 ## Pendências
 
