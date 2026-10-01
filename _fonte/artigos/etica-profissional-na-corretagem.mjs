@@ -1,0 +1,112 @@
+export default {
+  slug: 'etica-profissional-na-corretagem',
+  titulo: 'Ética profissional na corretagem de imóveis',
+  h1: 'Ética profissional na corretagem: deveres perante clientes, colegas e o conselho',
+  descricao:
+    'Os deveres do corretor de imóveis no Código de Ética do COFECI: conduta com clientes, colegas e o conselho, vedações, gravidade das faltas e sanções da lei.',
+  editoria: 'carreira',
+  personas: ['iniciante'],
+  pilar: 'desenvolvimento-profissional-do-corretor',
+  autor: 'daniel-ferreira',
+  data: '2026-10-01',
+  avisoJuridico: true,
+  fontes: [
+    {
+      titulo: 'Resolução COFECI nº 326/1992: Código de Ética Profissional dos Corretores de Imóveis (COFECI)',
+      url: 'https://intranet.cofeci.gov.br/arquivos/legislacao/resolucao_326_1992.pdf',
+    },
+    {
+      titulo: 'Lei nº 6.530/1978: regulamenta a profissão de Corretor de Imóveis (Planalto)',
+      url: 'https://www.planalto.gov.br/ccivil_03/leis/l6530.htm',
+    },
+    {
+      titulo: 'Código Civil (Lei nº 10.406/2002), art. 723: deveres do corretor (Planalto)',
+      url: 'https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm',
+    },
+  ],
+  corpo: `
+<p>A ética do corretor de imóveis não é apenas uma questão de boa conduta. Ela está escrita em norma, obriga todos os profissionais inscritos e pode gerar sanções aplicadas pelo Conselho Regional. Conhecer o conteúdo dessas regras ajuda a tomar decisões do dia a dia com segurança, especialmente em situações em que o interesse imediato aponta para outro caminho.</p>
+<p>A visão geral sobre o papel da ética na carreira está em <a href="/blog/desenvolvimento-profissional-do-corretor/">desenvolvimento profissional do corretor</a>. Aqui o foco é o conteúdo das normas e a sua aplicação prática.</p>
+
+<h2>O Código de Ética e a quem ele se aplica</h2>
+<p>O Código de Ética Profissional dos Corretores de Imóveis foi aprovado pela Resolução COFECI nº 326/1992. Ele tem por objetivo fixar a forma pela qual o corretor deve se conduzir no exercício profissional (art. 1º) e obriga os profissionais inscritos nos Conselhos Regionais (art. 9º).</p>
+<p>O art. 2º resume a lógica do código: os deveres do corretor compreendem a defesa do interesse que lhe é confiado, o zelo pelo prestígio da classe e o aperfeiçoamento da técnica das transações imobiliárias. Os artigos seguintes organizam esses deveres em três frentes: o exercício da profissão e os colegas (art. 3º), os clientes (art. 4º) e as condutas vedadas (art. 6º).</p>
+
+<h2>Deveres perante os clientes</h2>
+<p>O art. 4º lista o que cabe ao corretor em relação aos clientes. Cada item tem uma tradução prática:</p>
+<div class="tabela"><table>
+  <thead><tr><th>Dever (art. 4º)</th><th>Na prática</th></tr></thead>
+  <tbody>
+    <tr><td>I. Inteirar-se de todas as circunstâncias do negócio antes de oferecê-lo</td><td>Conferir documentação, titularidade e situação do imóvel antes de anunciar. Veja <a href="/blog/documentacao-na-captacao/">documentação na fase de captação</a>.</td></tr>
+    <tr><td>II. Apresentar dados rigorosamente certos, sem omitir detalhes que depreciem o negócio, informando riscos</td><td>Contar ao comprador sobre pendências, defeitos conhecidos e condições que possam comprometer o negócio.</td></tr>
+    <tr><td>III. Recusar transação que saiba ilegal, injusta ou imoral</td><td>Não participar de negócio com documento falso, valor declarado irreal ou finalidade ilícita.</td></tr>
+    <tr><td>IV. Comunicar imediatamente o recebimento de valores ou documentos destinados ao cliente</td><td>Informar no mesmo dia, por escrito, o que foi recebido e em nome de quem.</td></tr>
+    <tr><td>V. Prestar contas pormenorizadas quando solicitado ou ao concluir o negócio</td><td>Manter registro de valores recebidos, repassados e retidos.</td></tr>
+    <tr><td>VI. Zelar pela orientação técnica, reservando ao cliente as decisões pessoais</td><td>Orientar com dados, sem decidir pelo cliente nem pressioná-lo.</td></tr>
+    <tr><td>VII. Restituir os papéis de que não mais necessite</td><td>Devolver documentos originais e descartar cópias de forma segura.</td></tr>
+    <tr><td>VIII. Dar recibo das quantias que o cliente pague ou entregue</td><td>Recibo para todo valor, inclusive sinal, quando autorizado a recebê-lo.</td></tr>
+    <tr><td>IX. Contratar por escrito e previamente a prestação dos serviços</td><td>Autorização ou contrato assinado antes de começar. Veja <a href="/blog/contrato-de-corretagem/">contrato de corretagem</a>.</td></tr>
+    <tr><td>X. Receber comissão de uma única parte pelo mesmo serviço, salvo consentimento de todos ou praxe na jurisdição</td><td>Se as duas partes forem pagar, todos precisam saber e concordar.</td></tr>
+  </tbody>
+</table></div>
+<p>O dever de informação também está no Código Civil. O art. 723 obriga o corretor a executar a mediação com diligência e prudência e a prestar ao cliente, espontaneamente, as informações sobre o andamento do negócio. O parágrafo único acrescenta que o corretor deve prestar esclarecimentos sobre a segurança ou o risco do negócio, sob pena de responder por perdas e danos.</p>
+
+<h2>Deveres perante a profissão e os colegas</h2>
+<p>O art. 3º trata da relação com a profissão, a classe e os colegas. Entre os deveres listados, alguns aparecem com frequência na rotina:</p>
+<ul>
+  <li>exercer a profissão com zelo, discrição, lealdade e probidade, observando as prescrições legais e regulamentares (inciso VI);</li>
+  <li>zelar pela própria reputação mesmo fora do exercício profissional (inciso VIII);</li>
+  <li>auxiliar a fiscalização, comunicando com discrição aos órgãos competentes as infrações de que tiver ciência (inciso IX);</li>
+  <li>não se referir desairosamente aos colegas e relacionar-se com eles com consideração, respeito e solidariedade (incisos X e XI);</li>
+  <li>manter-se a par da legislação vigente (inciso XII).</li>
+</ul>
+<p>As regras específicas para o trabalho conjunto entre corretores, como a proibição de desviar cliente de colega e a necessidade de dar ciência por escrito ao corretor que já tem a incumbência, estão detalhadas em <a href="/blog/parcerias-entre-corretores/">parcerias entre corretores</a>.</p>
+
+<h2>Condutas vedadas</h2>
+<p>O art. 6º lista o que o corretor não pode fazer. Agrupadas por tema, as vedações ficam mais fáceis de lembrar:</p>
+<h3>Em relação ao cliente e ao negócio</h3>
+<ul>
+  <li>aceitar tarefas para as quais não esteja preparado, que não se ajustem às normas ou que possam servir a fraude (inciso I);</li>
+  <li>promover a intermediação com cobrança de "over-price" (inciso III), expressão usada para a prática de acrescentar um valor ao preço pedido pelo proprietário e ficar com a diferença;</li>
+  <li>locupletar-se, por qualquer forma, à custa do cliente (inciso IV);</li>
+  <li>receber honorários ou vantagens que não correspondam a serviços efetiva e licitamente prestados (inciso V);</li>
+  <li>abandonar negócios confiados aos seus cuidados sem motivo justo e prévia ciência do cliente (inciso XII);</li>
+  <li>reter negócio quando não tiver probabilidade de realizá-lo (inciso XVIII);</li>
+  <li>receber sinal nos negócios que lhe forem confiados sem estar expressamente autorizado (inciso XX).</li>
+</ul>
+<h3>Em relação aos colegas</h3>
+<ul>
+  <li>angariar serviços com prejuízo ou desprestígio para outro profissional (inciso VI);</li>
+  <li>desviar cliente de outro corretor (inciso VII) e praticar concorrência desleal (inciso X);</li>
+  <li>aceitar incumbência já entregue a outro corretor sem dar-lhe prévio conhecimento por escrito, ou sem contratar com o corretor com quem tenha de colaborar ou a quem substitua (incisos XV e XVI).</li>
+</ul>
+<h3>Em relação à lei e ao conselho</h3>
+<ul>
+  <li>manter sociedade profissional fora das normas (inciso II);</li>
+  <li>deixar de atender notificações da fiscalização ou intimações em processos (inciso VIII) e descumprir determinações dos Conselhos no prazo (inciso XIV);</li>
+  <li>acumpliciar-se com quem exerce ilegalmente a atividade (inciso IX);</li>
+  <li>promover transações contra disposição literal da lei (inciso XI);</li>
+  <li>anunciar capciosamente (inciso XVII). As regras de anúncio estão em <a href="/blog/regras-de-publicidade-do-corretor/">regras de publicidade do corretor</a>.</li>
+</ul>
+
+<h2>O que a Lei nº 6.530/1978 também proíbe</h2>
+<p>Além do Código de Ética, a lei que regulamenta a profissão traz vedações próprias no art. 20. Entre elas: prejudicar, por dolo ou culpa, os interesses confiados ao corretor; auxiliar ou facilitar o exercício da profissão por quem não é inscrito; anunciar proposta de transação sem autorização escrita; violar o sigilo profissional; negar prestação de contas ou recibo de quantias e documentos; e deixar de pagar a contribuição ao Conselho Regional.</p>
+<p>O sigilo profissional merece atenção especial. Informações sobre a situação financeira, familiar ou documental de clientes e proprietários circulam com frequência no atendimento e não devem ser repassadas a terceiros sem necessidade. O tratamento desses dados também está sujeito à LGPD; veja <a href="/blog/lgpd-na-rotina-do-corretor/">LGPD na rotina do corretor</a>.</p>
+
+<h2>Responsabilidade, apuração e sanções</h2>
+<p>O art. 5º do Código de Ética estabelece que o corretor responde civil e penalmente por atos profissionais danosos ao cliente a que tenha dado causa por imperícia, imprudência, negligência ou infrações éticas.</p>
+<p>A apuração das faltas cabe ao CRECI em cuja jurisdição o corretor estiver inscrito (art. 7º). O art. 8º separa as transgressões em graves e leves, indicando quais incisos dos arts. 3º, 4º e 6º configuram falta grave. Entre elas estão, por exemplo, apresentar dados incorretos ao cliente, deixar de contratar por escrito, cobrar "over-price", desviar cliente de colega e receber sinal sem autorização.</p>
+<p>As sanções disciplinares estão no art. 21 da Lei nº 6.530/1978: advertência verbal, censura, multa, suspensão da inscrição por até noventa dias e cancelamento da inscrição. A lei prevê que o Conselho considere as circunstâncias de cada caso, que a reincidência agrave a penalidade e que a multa seja aplicada em dobro na reincidência da mesma falta.</p>
+
+<h2>Situações em que a ética é testada</h2>
+<p>As situações abaixo são exemplos genéricos de dilemas comuns na rotina, com o caminho que as normas indicam:</p>
+<ul>
+  <li><strong>O proprietário pede para não mencionar um problema do imóvel.</strong> O art. 4º, II, exige dados rigorosamente certos e a informação dos riscos. O caminho é explicar ao proprietário que a omissão não é possível e registrar a orientação dada.</li>
+  <li><strong>O comprador entrega um valor de sinal diretamente ao corretor.</strong> Só é possível receber se houver autorização expressa (art. 6º, XX). Recebendo, é preciso comunicar imediatamente o cliente e dar recibo (art. 4º, IV e VIII).</li>
+  <li><strong>Um cliente atendido por outro corretor procura você.</strong> Antes de aceitar, verifique se a incumbência está com o colega e, se estiver, dê ciência por escrito ou combine a colaboração (art. 6º, XV e XVI).</li>
+  <li><strong>Surge a proposta de ajustar o preço para ficar com uma diferença.</strong> É a prática vedada pelo art. 6º, III. A remuneração deve ser a combinada no contrato, de conhecimento das partes.</li>
+  <li><strong>Um negócio claramente não vai se concretizar, mas o corretor mantém a exclusividade.</strong> Reter negócio sem probabilidade de realizá-lo é vedado (art. 6º, XVIII). A conversa franca com o proprietário é o caminho.</li>
+</ul>
+<p>Em todas essas situações, o registro por escrito do que foi orientado e combinado protege o cliente e o próprio corretor. A formalização das relações com clientes está em <a href="/blog/contrato-de-corretagem/">contrato de corretagem</a> e <a href="/blog/autorizacao-de-venda/">autorização de venda</a>.</p>
+`,
+};

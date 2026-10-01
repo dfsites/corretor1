@@ -1,0 +1,110 @@
+export default {
+  slug: 'crm-para-corretor',
+  titulo: 'CRM para corretor de imóveis: o que registrar',
+  h1: 'CRM para corretor de imóveis: o que registrar e como escolher (inclui planilha × CRM)',
+  descricao:
+    'O que registrar sobre clientes, proprietários, imóveis e negócios, quando a planilha basta, como escolher um CRM e como migrar sem perder o histórico de atendimento.',
+  editoria: 'rotina-e-gestao',
+  personas: ['iniciante', 'desenvolvimento'],
+  pilar: 'rotina-de-trabalho-do-corretor-de-imoveis',
+  autor: 'daniel-ferreira',
+  data: '2026-10-01',
+  fontes: [],
+  corpo: `
+<p>CRM é a sigla em inglês para gestão do relacionamento com clientes. Para o corretor de imóveis, o termo se refere ao registro organizado de quem são os clientes e proprietários, que imóveis estão na carteira, em que etapa está cada atendimento e qual é o próximo passo. Esse registro pode estar em uma planilha ou em um sistema próprio. O que define a qualidade do CRM não é a ferramenta, e sim o que se registra e com que disciplina.</p>
+<p>A visão geral das ferramentas de trabalho está em <a href="/blog/ferramentas-digitais-do-corretor/">ferramentas digitais do corretor</a>, e a organização dos retornos em <a href="/blog/controle-de-follow-up/">controle de follow-up</a>. Aqui o foco é o conteúdo do registro e a escolha da ferramenta.</p>
+
+<h2>A estrutura básica: quatro cadastros ligados</h2>
+<p>A maior parte da informação de um corretor cabe em quatro cadastros que se relacionam entre si:</p>
+<ol>
+  <li><strong>Contatos:</strong> compradores, locatários e demais interessados.</li>
+  <li><strong>Proprietários:</strong> quem tem imóvel captado ou em negociação de captação.</li>
+  <li><strong>Imóveis:</strong> a carteira, com características, situação e documentos.</li>
+  <li><strong>Negócios:</strong> cada oportunidade em andamento, que liga um contato a um imóvel (ou a uma busca) e tem etapa, valores e próxima ação.</li>
+</ol>
+<p>Separar o negócio do contato é o que permite acompanhar várias oportunidades com a mesma pessoa, por exemplo, um cliente que compra um apartamento e meses depois coloca outro à venda.</p>
+
+<h2>O que registrar em cada cadastro</h2>
+<div class="tabela"><table>
+  <thead><tr><th>Cadastro</th><th>Campos essenciais</th></tr></thead>
+  <tbody>
+    <tr><td>Contatos</td><td>Nome, telefone, e-mail, origem do contato, data do primeiro contato, perfil procurado (tipo, região, faixa de valor), forma de pagamento prevista, prazo, decisores, observações da qualificação</td></tr>
+    <tr><td>Proprietários</td><td>Nome, contato, imóveis ligados, situação da autorização (vigência, exclusividade), preço autorizado, histórico de conversas sobre preço</td></tr>
+    <tr><td>Imóveis</td><td>Endereço, tipo, metragem, quartos, vagas, condomínio, IPTU, preço, situação (disponível, reservado, vendido), documentos conferidos e pendências, data da última atualização</td></tr>
+    <tr><td>Negócios</td><td>Contato, imóvel, etapa, valor da proposta, parceiros envolvidos, próxima ação, data da próxima ação, motivo de perda quando encerrado</td></tr>
+  </tbody>
+</table></div>
+<p>Dois campos sustentam todo o resto: <strong>próxima ação</strong> e <strong>data da próxima ação</strong>. Um atendimento sem próximo passo definido tende a ser esquecido. A qualificação que alimenta o cadastro de contatos está detalhada em <a href="/blog/qualificacao-do-comprador/">qualificação do comprador</a>, e o que levantar sobre o imóvel em <a href="/blog/visita-de-captacao/">visita de captação</a>.</p>
+
+<h2>Padronize antes de registrar</h2>
+<p>Registros feitos de qualquer jeito não permitem análise. Antes de começar, defina listas fixas para os campos que serão usados em filtros e relatórios:</p>
+<ul>
+  <li><strong>Etapas do negócio</strong>, por exemplo: novo contato, qualificado, visita realizada, proposta enviada, contrato assinado, concluído, encerrado sem negócio.</li>
+  <li><strong>Origens do contato</strong>, por exemplo: indicação, portal, site próprio, redes sociais, placa, cliente antigo.</li>
+  <li><strong>Motivos de perda</strong>, por exemplo: preço, localização, financiamento não aprovado, comprou com outro corretor, desistiu da compra.</li>
+  <li><strong>Formato de datas e telefones</strong>, sempre o mesmo.</li>
+</ul>
+<p>Com essas listas, é possível contar quantos contatos de cada origem viraram visitas e propostas, que é a base dos <a href="/blog/indicadores-comerciais-do-corretor/">indicadores comerciais do corretor</a>.</p>
+
+<h2>Planilha ou sistema de CRM</h2>
+<p>Para quem está começando, com um volume pequeno de atendimentos e trabalhando sozinho, uma planilha bem estruturada costuma ser suficiente. Ela é gratuita, flexível e ensina a disciplina de registro que qualquer sistema vai exigir depois.</p>
+<p>Alguns sinais indicam que a planilha deixou de atender:</p>
+<ul>
+  <li>o número de contatos e negócios ativos torna difícil ver as próximas ações do dia;</li>
+  <li>você precisa de lembretes automáticos para não perder retornos;</li>
+  <li>mais de uma pessoa precisa registrar ou consultar as mesmas informações;</li>
+  <li>o histórico de conversas fica espalhado entre aplicativos e não aparece junto do cadastro;</li>
+  <li>você precisa registrar e consultar com frequência pelo celular, na rua, entre visitas;</li>
+  <li>a carteira de imóveis exige fotos, documentos e controle de situação que a planilha não organiza bem.</li>
+</ul>
+
+<h2>Como escolher um sistema</h2>
+<p>Existem sistemas genéricos de CRM e sistemas desenvolvidos para o mercado imobiliário. Em vez de partir de uma marca, avalie cada opção pelos critérios abaixo:</p>
+<ol>
+  <li><strong>Exportação dos dados.</strong> Confirme que é possível exportar todos os cadastros e o histórico em formato aberto (planilha ou CSV). Sem isso, trocar de sistema no futuro significa perder informação.</li>
+  <li><strong>Estrutura de cadastros.</strong> Verifique se o sistema separa contatos, proprietários, imóveis e negócios, ou se obriga a encaixar tudo em um só cadastro.</li>
+  <li><strong>Etapas e campos personalizáveis.</strong> As etapas e listas definidas por você precisam caber no sistema.</li>
+  <li><strong>Lembretes e agenda.</strong> A próxima ação precisa gerar aviso na data certa.</li>
+  <li><strong>Uso no celular.</strong> Teste o registro de um atendimento pelo celular antes de decidir.</li>
+  <li><strong>Controle de acesso.</strong> Em equipe, cada usuário deve ver apenas o que precisa, e o sistema deve registrar quem alterou o quê.</li>
+  <li><strong>Segurança e dados pessoais.</strong> Pergunte onde os dados ficam armazenados, como é feito o backup e o que o contrato prevê sobre o tratamento das informações dos seus clientes.</li>
+  <li><strong>Custo total.</strong> Considere mensalidade, cobrança por usuário, limites de cadastros e custos de integração.</li>
+  <li><strong>Integrações.</strong> Se você recebe contatos de portais ou do site próprio, verifique se eles chegam ao sistema sem digitação manual.</li>
+</ol>
+<p>Use o período de teste com dados reais de alguns atendimentos. É no uso diário que aparecem os problemas.</p>
+
+<h2>Migração da planilha para o sistema</h2>
+<p>A mudança de ferramenta é o momento em que mais se perde histórico. Um roteiro simples reduz esse risco:</p>
+<ol>
+  <li>revise a planilha antes: elimine duplicidades, complete campos importantes e padronize formatos;</li>
+  <li>faça o mapeamento de cada coluna da planilha para o campo correspondente do sistema;</li>
+  <li>importe uma amostra pequena e confira o resultado antes de importar tudo;</li>
+  <li>importe o restante e confira os negócios ativos, um a um;</li>
+  <li>mantenha a planilha antiga arquivada, sem novas alterações, por um período de transição;</li>
+  <li>a partir da data da migração, registre apenas no sistema novo.</li>
+</ol>
+
+<h2>A rotina de uso</h2>
+<p>O CRM só funciona se fizer parte da rotina:</p>
+<ul>
+  <li><strong>Registre no ato.</strong> Ao fim de cada ligação, visita ou mensagem relevante, anote o que foi combinado e a próxima ação.</li>
+  <li><strong>Comece o dia pela lista de próximas ações.</strong> Ela organiza os retornos e evita esquecimentos.</li>
+  <li><strong>Revise as etapas uma vez por semana.</strong> Negócios parados há muito tempo precisam de uma decisão: retomar ou encerrar.</li>
+  <li><strong>Atualize a carteira de imóveis.</strong> Preço, situação e disponibilidade desatualizados geram informação errada para o cliente.</li>
+</ul>
+<p>A organização da semana em torno dessas atividades está em <a href="/blog/rotina-de-trabalho-do-corretor-de-imoveis/">rotina de trabalho do corretor de imóveis</a>.</p>
+
+<h2>Dados pessoais no CRM</h2>
+<p>Um CRM reúne dados pessoais de clientes e proprietários. Registre apenas o necessário para o atendimento, controle quem tem acesso, não guarde cópias de documentos sem finalidade definida e saiba como atender a um pedido de exclusão. Os cuidados estão em <a href="/blog/lgpd-na-rotina-do-corretor/">LGPD na rotina do corretor</a>.</p>
+
+<h2>Erros comuns</h2>
+<ul>
+  <li>Registrar o nome e o telefone, mas não a próxima ação.</li>
+  <li>Usar textos livres onde deveria haver lista fixa, o que impede qualquer relatório.</li>
+  <li>Deixar a carteira de imóveis desatualizada.</li>
+  <li>Contratar um sistema sem verificar a exportação de dados.</li>
+  <li>Manter parte dos clientes no sistema e parte em cadernos ou aplicativos de mensagem.</li>
+  <li>Não registrar o motivo de perda dos negócios encerrados.</li>
+</ul>
+`,
+};
