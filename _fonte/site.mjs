@@ -12,6 +12,12 @@ export const site = {
     'Alcance a Excelência: Integrando ao Grupo de Elite que Representa 1% dos Corretores de imóveis com Alto Desempenho em Vendas e Comissões!',
   descricao:
     'Cursos, mentorias individualizadas e e-books para corretores de imóveis que querem alto desempenho em vendas e comissões.',
+  // Empresa responsável (mesmo padrão de rodapé do Guia Gramado e do 4D).
+  empresa: {
+    nome: '4D Desenvolvimento Pessoal Ltda.',
+    cnpj: '49.142.726/0001-58',
+    endereco: 'Av. Prefeito Osmar Cunha, 416 · Florianópolis/SC · CEP 88015-100',
+  },
   contato: {
     // Confirmado pelo proprietário em 2026-10-01.
     email: 'contato@corretor1.com.br',

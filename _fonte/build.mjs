@@ -128,6 +128,7 @@ function rodape() {
     </div>
     <div class="final">
       <p>Copyright © 2024–${new Date(ATUALIZADO).getFullYear()} • ${esc(site.nome)} • Todos os direitos reservados.</p>
+      <p>${esc(site.empresa.nome)} · CNPJ ${esc(site.empresa.cnpj)} · ${esc(site.empresa.endereco)}</p>
       <p><a href="/politica-de-privacidade/">Política de Privacidade</a></p>
     </div>
   </div>
@@ -163,6 +164,7 @@ const ORGANIZACAO = {
   logo: abs('/assets/img/apple-touch-icon.png'),
   description: site.descricao,
   email: site.contato.email,
+  parentOrganization: { '@type': 'Organization', name: site.empresa.nome, taxID: site.empresa.cnpj },
 };
 
 function faixaCta(titulo, texto, assunto) {
@@ -508,6 +510,8 @@ paginas.push({
   corpo: `${cabecalho({ titulo: 'Política de Privacidade', trilha: [[null, 'Política de Privacidade']] })}
 <section class="secao"><div class="container estreito">
   <p>Última atualização: ${dataBR(ATUALIZADO)}.</p>
+  <h2>Quem é o responsável</h2>
+  <p>O site ${esc(site.nome)} é mantido por ${esc(site.empresa.nome)}, CNPJ ${esc(site.empresa.cnpj)}, ${esc(site.empresa.endereco)}, controladora dos dados pessoais tratados por meio deste site.</p>
   <h2>Quais dados coletamos</h2>
   <p>Este site não possui cadastro nem formulários. Coletamos apenas os dados que você nos envia voluntariamente ao entrar em contato por e-mail${site.contato.whatsapp ? ' ou WhatsApp' : ''}, como nome, telefone, e-mail e o conteúdo da mensagem.</p>
   <h2>Para que usamos</h2>
