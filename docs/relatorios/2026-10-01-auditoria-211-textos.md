@@ -86,3 +86,7 @@ Sete frentes, sem sobreposição de arquivos: (1) começando na profissão e os 
 - 211 textos revisados; nenhuma página removida ou fundida (os pares próximos têm ângulos distintos e passaram a remeter um ao outro); nenhuma URL alterada.
 - Correções jurídicas: 13 (legislação comentada 7; rotina, negociação e corretagem 3; visitas 1; documentos 1; glossário 1 ressalva).
 - Ponto de restauração: tag `backup-pre-auditoria-211-2026-10-01`.
+
+## Ajuste de compartilhamento da home
+
+- Título "Corretor 1% — Cursos e mentoria para corretores de imóveis de elite" trocado por "Corretor 1%: formação e prática para corretores de imóveis", e a descrição geral do site passou a falar com quem quer ser corretor, com quem está começando e com quem quer evoluir na profissão. O conteúdo é lido principalmente por iniciantes, que ainda não se reconhecem como "elite". A chamada da home, definida pelo proprietário, foi mantida.

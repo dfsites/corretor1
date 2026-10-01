@@ -15,7 +15,7 @@ export const site = {
   subchamada:
     'Alcance a Excelência: Integrando ao Grupo de Elite que Representa 1% dos Corretores de imóveis com Alto Desempenho em Vendas e Comissões!',
   descricao:
-    'Cursos, mentorias individualizadas e e-books para corretores de imóveis que querem alto desempenho em vendas e comissões.',
+    'Artigos, glossário e legislação comentada para quem quer ser corretor de imóveis, para quem está começando e para quem quer evoluir na profissão.',
   // Empresa responsável (mesmo padrão de rodapé do Guia Gramado e do 4D).
   empresa: {
     nome: '4D Desenvolvimento Pessoal Ltda.',

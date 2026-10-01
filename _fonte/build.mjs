@@ -254,7 +254,7 @@ const paginas = [];
 // Início
 paginas.push({
   caminho: '/',
-  titulo: 'Corretor 1% — Cursos e mentoria para corretores de imóveis de elite',
+  titulo: 'Corretor 1%: formação e prática para corretores de imóveis',
   descricao: site.descricao,
   jsonld: [
     ORGANIZACAO,
