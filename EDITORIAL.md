@@ -60,7 +60,6 @@ ALTA | corretor iniciante | Carreira | Como ser corretor de imóveis | Como cons
 MÉDIA | corretor em desenvolvimento | Carreira | Como ser corretor de imóveis | Especialização por região ou por tipo de imóvel: como decidir
 MÉDIA | corretor em desenvolvimento | Carreira | Como ser corretor de imóveis | Como construir reputação profissional no mercado imobiliário
 MÉDIA | corretor em desenvolvimento | Carreira | Como ser corretor de imóveis | Formação continuada para corretores de imóveis
-BAIXA | corretor em desenvolvimento | Carreira | Como ser corretor de imóveis | Como organizar parcerias com outros profissionais do mercado
 
 ### 3. Captação de imóveis
 
@@ -70,14 +69,12 @@ ALTA | corretor iniciante | Captação | Como captar imóveis | Como preparar um
 ALTA | corretor iniciante | Captação | Como captar imóveis | Quais informações registrar ao captar um imóvel
 ALTA | corretor em desenvolvimento | Captação | Como captar imóveis | Autorização para intermediação: por que formalizar a captação
 ALTA | corretor em desenvolvimento | Captação | Como captar imóveis | Exclusividade na corretagem: como apresentar a proposta ao proprietário
-MÉDIA | corretor em desenvolvimento | Captação | Como captar imóveis | Como organizar e revisar a carteira de imóveis
 MÉDIA | corretor em desenvolvimento | Captação | Como captar imóveis | Como conversar com o proprietário quando o imóvel está acima do mercado
 
 ### 4. Avaliação e preço de mercado
 
 ALTA | corretor iniciante | Avaliação e preço | Como captar imóveis | Preço de anúncio e valor de mercado: qual é a diferença
 ALTA | corretor iniciante | Avaliação e preço | Como captar imóveis | Como usar imóveis comparáveis em uma pesquisa de mercado
-MÉDIA | corretor em desenvolvimento | Avaliação e preço | Como captar imóveis | Características do imóvel que influenciam a percepção de valor
 MÉDIA | corretor em desenvolvimento | Avaliação e preço | Como captar imóveis | Como apresentar uma pesquisa de mercado ao proprietário
 MÉDIA | corretor em desenvolvimento | Avaliação e preço | Como captar imóveis | Quando revisar o preço de um imóvel durante a comercialização
 
@@ -87,7 +84,6 @@ ALTA | corretor iniciante | Atendimento | Processo de atendimento e venda | Como
 ALTA | corretor iniciante | Atendimento | Processo de atendimento e venda | Como qualificar um comprador antes das visitas
 ALTA | corretor iniciante | Atendimento | Processo de atendimento e venda | Como registrar necessidades e preferências do cliente
 ALTA | corretor iniciante | Atendimento | Processo de atendimento e venda | Atendimento imobiliário por WhatsApp: organização e registro
-MÉDIA | corretor em desenvolvimento | Atendimento | Processo de atendimento e venda | Como acompanhar clientes que ainda estão indecisos
 MÉDIA | corretor em desenvolvimento | Atendimento | Processo de atendimento e venda | Como atender quem precisa vender outro imóvel antes de comprar
 
 ### 6. Visitas
@@ -97,7 +93,6 @@ ALTA | corretor iniciante | Visitas | Processo de atendimento e venda | Como org
 ALTA | corretor iniciante | Visitas | Processo de atendimento e venda | Como conduzir uma visita de forma profissional
 MÉDIA | corretor iniciante | Visitas | Processo de atendimento e venda | O que registrar depois de uma visita
 MÉDIA | corretor em desenvolvimento | Visitas | Processo de atendimento e venda | Como dar feedback de visitas ao proprietário
-MÉDIA | corretor em desenvolvimento | Visitas | Processo de atendimento e venda | Segurança em visitas imobiliárias: cuidados de rotina
 
 ### 7. Negociação
 
@@ -105,7 +100,6 @@ ALTA | corretor iniciante | Negociação | Processo de atendimento e venda | Com
 ALTA | corretor iniciante | Negociação | Processo de atendimento e venda | Como apresentar uma proposta ao proprietário
 ALTA | corretor iniciante | Negociação | Processo de atendimento e venda | Como registrar uma contraproposta
 MÉDIA | corretor em desenvolvimento | Negociação | Processo de atendimento e venda | Negociação imobiliária além do preço: prazo e forma de pagamento
-MÉDIA | corretor em desenvolvimento | Negociação | Processo de atendimento e venda | Como identificar quem participa da decisão de compra
 MÉDIA | corretor em desenvolvimento | Negociação | Processo de atendimento e venda | Como lidar com divergências entre comprador e vendedor sem pressionar as partes
 
 ### 8. Corretagem e comissão
@@ -113,7 +107,6 @@ MÉDIA | corretor em desenvolvimento | Negociação | Processo de atendimento e 
 ALTA | corretor iniciante | Corretagem e comissão | Comissão de corretor de imóveis | O que é contrato de corretagem
 ALTA | corretor iniciante | Corretagem e comissão | Comissão de corretor de imóveis | Quando a comissão de corretagem é devida
 ALTA | corretor iniciante | Corretagem e comissão | Comissão de corretor de imóveis | Como formalizar parceria entre corretores
-MÉDIA | corretor em desenvolvimento | Corretagem e comissão | Comissão de corretor de imóveis | Como registrar a divisão de comissão em uma parceria
 MÉDIA | corretor em desenvolvimento | Corretagem e comissão | Comissão de corretor de imóveis | Comissão na locação: intermediação e administração são coisas diferentes
 
 ### 9. Rotina e gestão
@@ -122,14 +115,12 @@ ALTA | corretor iniciante | Rotina e gestão | Rotina do corretor de imóveis | 
 ALTA | corretor iniciante | Rotina e gestão | Rotina do corretor de imóveis | Planilha ou CRM: quando cada solução faz sentido
 MÉDIA | corretor em desenvolvimento | Rotina e gestão | Rotina do corretor de imóveis | Quais indicadores comerciais acompanhar na corretagem
 MÉDIA | corretor em desenvolvimento | Rotina e gestão | Rotina do corretor de imóveis | Como calcular taxa de conversão de contatos, visitas e propostas
-MÉDIA | corretor em desenvolvimento | Rotina e gestão | Rotina do corretor de imóveis | Como organizar documentos e arquivos dos negócios em andamento
 
 ### 10. Marketing e posicionamento
 
 ALTA | corretor iniciante | Marketing e posicionamento | Marketing para corretor de imóveis | Site próprio para corretor de imóveis: o que realmente precisa ter
 ALTA | corretor em desenvolvimento | Marketing e posicionamento | Marketing para corretor de imóveis | Como construir autoridade local sem depender de conteúdo apelativo
 MÉDIA | corretor iniciante | Marketing e posicionamento | Marketing para corretor de imóveis | Como escrever uma descrição de imóvel clara e informativa
-MÉDIA | corretor em desenvolvimento | Marketing e posicionamento | Marketing para corretor de imóveis | Como pedir e organizar avaliações reais de clientes
 
 ### 11. Tecnologia aplicada à corretagem
 
@@ -137,7 +128,6 @@ ALTA | corretor iniciante | Tecnologia | Rotina do corretor de imóveis | Como u
 MÉDIA | corretor em desenvolvimento | Tecnologia | Rotina do corretor de imóveis | Assinatura eletrônica na rotina imobiliária: cuidados básicos
 MÉDIA | corretor em desenvolvimento | Tecnologia | Rotina do corretor de imóveis | Como usar inteligência artificial como apoio ao trabalho do corretor
 MÉDIA | corretor em desenvolvimento | Tecnologia | Rotina do corretor de imóveis | Automação na corretagem: o que automatizar e o que deve continuar humano
-MÉDIA | corretor em desenvolvimento | Tecnologia | Rotina do corretor de imóveis | Backup e organização de arquivos para corretores
 MÉDIA | corretor em desenvolvimento | Tecnologia | Rotina do corretor de imóveis | LGPD na rotina comercial do corretor: princípios para coleta e armazenamento de dados
 
 ## Ordem inicial de publicação recomendada
