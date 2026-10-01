@@ -71,7 +71,7 @@ export default {
   <li><strong>Inventário, separação ou vários titulares:</strong> a assinatura de todos pode ser necessária e o prazo pode ser maior.</li>
   <li><strong>Divergências entre o imóvel real e a matrícula:</strong> área construída não averbada, por exemplo, pode afetar o financiamento do comprador.</li>
 </ul>
-<p>Se alguma dessas situações existir, explique ao comprador que ela será tratada na negociação e na documentação, sem minimizar o assunto. Os conceitos de cada documento estão em <a href="/blog/documentos-imobiliarios-basicos/">documentos imobiliários que o corretor precisa conhecer</a>.</p>
+<p>Se alguma dessas situações existir, explique ao comprador que ela será tratada na negociação e na documentação, sem minimizar o assunto. Se algum desses documentos ainda for pouco familiar, consulte <a href="/blog/documentos-imobiliarios-basicos/">documentos imobiliários que o corretor precisa conhecer</a>.</p>
 
 <h2>Perguntas que o comprador costuma fazer</h2>
 <p>Antes da visita, leia a ficha e verifique se você consegue responder a perguntas como estas:</p>

@@ -44,7 +44,7 @@ export default {
 
 <h3>3. Plano de divulgação</h3>
 <p>Diga exatamente onde o imóvel será anunciado, quem vai produzir as fotos, como será a descrição e se haverá outras ações, como divulgação para corretores parceiros. Mostre exemplos de anúncios que você já publicou, desde que não exponham dados de outros clientes. A orientação sobre <a href="/blog/fotografia-de-imoveis/">fotografia</a> e <a href="/blog/descricao-de-imoveis/">descrição de imóveis</a> ajuda a definir esse padrão.</p>
-<p>Lembre ao proprietário que a divulgação só começa depois da autorização escrita. O Decreto nº 81.871/1978 (art. 5º) estabelece que somente pode anunciar publicamente o corretor que tiver contrato escrito de mediação ou autorização escrita para a alienação do imóvel.</p>
+<p>Lembre ao proprietário que a divulgação só começa depois da autorização escrita. O Decreto nº 81.871/1978 (art. 5º) condiciona o anúncio público à existência de contrato escrito de mediação ou de autorização escrita para a venda.</p>
 
 <h3>4. Atendimento e visitas</h3>
 <p>Explique como os interessados serão filtrados antes de conhecer o imóvel (<a href="/blog/qualificacao-do-comprador/">qualificação do comprador</a>), como as visitas serão agendadas, se o proprietário precisa estar presente e como o imóvel deve estar preparado. Proprietários costumam se preocupar com visitas de curiosos; mostrar que existe um filtro reduz essa resistência.</p>

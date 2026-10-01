@@ -71,6 +71,6 @@ export default {
 <h2>Registre o que aprendeu</h2>
 <p>Ao final de cada negócio acompanhado, anote o que aconteceu em cada etapa, quais documentos foram exigidos, onde houve atraso e o que você faria diferente. Esse registro, revisto de tempos em tempos, transforma participação em experiência. Use o mesmo sistema em que registra clientes e imóveis, sem expor dados pessoais desnecessários. Veja <a href="/blog/crm-para-corretor/">CRM para corretor de imóveis</a>.</p>
 
-<p>Os demais passos de quem está começando estão em <a href="/blog/primeiros-passos-depois-do-creci/">primeiros passos depois de obter o CRECI</a> e <a href="/blog/como-ser-corretor-de-imoveis/">como se tornar corretor de imóveis</a>.</p>
+<p>Para organizar o restante do início da carreira, veja <a href="/blog/primeiros-passos-depois-do-creci/">primeiros passos depois de obter o CRECI</a> e <a href="/blog/como-ser-corretor-de-imoveis/">como se tornar corretor de imóveis</a>.</p>
 `,
 };

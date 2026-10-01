@@ -67,3 +67,22 @@ Sete frentes, sem sobreposição de arquivos: (1) começando na profissão e os 
 - Afirmações sem fonte removidas ou relativizadas (base da divisão em parcerias; peso das indicações; "em regra" nas tabelas de honorários). Tributação: incluído o art. 8º-B da LC 116/2003 (transição do ISS).
 - Correções jurídicas: Lei 9.514/1997, art. 22: pessoa física pode contratar alienação fiduciária pelo § 1º, e não pelo "parágrafo único" (dois textos); CC art. 1.245, § 1º: sem registro, o comprador ainda não é proprietário (o texto dizia "perante terceiros").
 - Fusão ou remoção: nenhuma.
+
+### Marketing, tecnologia e documentos (29 textos)
+
+- Aberturas meta removidas em 16 textos, cada remissão com redação própria; links das páginas práticas para as páginas de documento e de legislação correspondentes (certidões online → documentos; publicidade → Res. COFECI 1.065; LGPD → comentários da LGPD; serviços eletrônicos → certidão de matrícula).
+- LGPD art. 48: prazo de comunicação de incidente "razoável, conforme definido pela ANPD" (§ 1º), como diz a lei.
+- Correção jurídica: certidão de nascimento ou casamento citava a Lei 6.015, art. 29, § 1º, para a averbação do divórcio; o divórcio está na Lei 6.515/1977, art. 32 (os arts. 29, § 1º, e 100 da Lei 6.015 tratam de nulidade, anulação e separação). Fontes atualizadas.
+- Fusão ou remoção: nenhuma.
+
+## Etapa 3: fechamento
+
+- Pilar de marketing passou a linkar no texto os 7 satélites que não citava (site próprio, Perfil da Empresa no Google, redes sociais, produção de conteúdo, portais, vídeos, avaliações).
+- Frase idêntica sobre o Decreto 81.871, art. 5º, reescrita em 3 textos; 3 frases de remissão repetidas em pares de textos reescritas.
+- Reanálise automática: aberturas "Este artigo…" caíram de 49 para 0; todos os textos têm ao menos um link interno no corpo; nenhum link quebrado ou para a própria página; restam apenas frases idênticas que são citações do mesmo dispositivo legal.
+
+## Resultado
+
+- 211 textos revisados; nenhuma página removida ou fundida (os pares próximos têm ângulos distintos e passaram a remeter um ao outro); nenhuma URL alterada.
+- Correções jurídicas: 13 (legislação comentada 7; rotina, negociação e corretagem 3; visitas 1; documentos 1; glossário 1 ressalva).
+- Ponto de restauração: tag `backup-pre-auditoria-211-2026-10-01`.

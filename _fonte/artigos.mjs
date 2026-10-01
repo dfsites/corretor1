@@ -362,9 +362,11 @@ const artigosBase = [
   <li><strong>Redes sociais:</strong> funcionam melhor com regularidade possível de manter do que com períodos intensos seguidos de ausência.</li>
 </ul>
 
+<p>Cada canal tem um artigo próprio: <a href="/blog/site-proprio-para-corretor/">site próprio para corretor</a>, <a href="/blog/perfil-da-empresa-no-google/">Perfil da Empresa no Google</a> e <a href="/blog/redes-sociais-do-corretor/">redes sociais do corretor</a>.</p>
 <h2>Conteúdo informativo</h2>
 <p>Conteúdo que responde dúvidas reais (documentação, etapas da compra, financiamento, custos da transação, características da região) tende a atrair pessoas com interesse concreto e demonstra conhecimento. Evite promessas e afirmações que não possa comprovar.</p>
 
+<p>Temas e regularidade estão em <a href="/blog/producao-de-conteudo/">produção de conteúdo para corretores</a>.</p>
 <h2>Anúncios de imóveis</h2>
 <ol>
   <li><strong>Fotografias:</strong> luz natural, ambientes organizados, enquadramento horizontal, sem distorções que alterem a percepção do imóvel.</li>
@@ -374,6 +376,7 @@ const artigosBase = [
 </ol>
 
 <p>Veja também <a href="/blog/fotografia-de-imoveis/">fotografia de imóveis com celular</a> e <a href="/blog/descricao-de-imoveis/">descrição de imóveis em anúncios</a>.</p>
+<p>Para anúncios em portais e em vídeo, veja <a href="/blog/portais-imobiliarios/">portais imobiliários</a> e <a href="/blog/videos-de-imoveis/">vídeos de imóveis</a>.</p>
 <h2>Regras de publicidade da profissão</h2>
 <p>A regulamentação da profissão traz exigências específicas para a publicidade:</p>
 <ul>
@@ -389,6 +392,7 @@ const artigosBase = [
 <h2>Reputação</h2>
 <p>Avaliações reais de clientes, histórico de atendimentos bem conduzidos e presença consistente na região de atuação constroem reputação ao longo do tempo. Peça avaliações apenas a quem foi efetivamente atendido e nunca publique depoimentos que não sejam autênticos.</p>
 <p>Leia também: <a href="/blog/como-captar-imoveis/">captação de imóveis</a>.</p>
+<p>Como pedir e responder avaliações está em <a href="/blog/avaliacoes-de-clientes/">avaliações de clientes e reputação digital</a>.</p>
 `,
   },
 ];

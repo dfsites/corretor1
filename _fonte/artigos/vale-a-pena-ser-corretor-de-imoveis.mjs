@@ -69,7 +69,7 @@ export default {
 <p>As escolhas desse período estão em <a href="/blog/primeiros-passos-depois-do-creci/">primeiros passos depois de obter o CRECI</a>.</p>
 
 <h2>Modelos de atuação mudam o risco</h2>
-<p>A decisão não é apenas "ser ou não ser corretor", mas também "como atuar". Um corretor associado a uma imobiliária, um corretor contratado por uma empresa e um corretor autônomo enfrentam riscos e rotinas diferentes. A Lei nº 6.530/1978 (art. 6º, § 2º) prevê que o corretor pode se associar a imobiliárias mantendo sua autonomia profissional, por meio de contrato de associação. As diferenças entre os modelos estão em <a href="/blog/corretor-autonomo-associado-ou-contratado/">corretor autônomo, associado ou contratado</a>.</p>
+<p>A decisão não é apenas "ser ou não ser corretor", mas também "como atuar". Um corretor associado a uma imobiliária, um corretor contratado por uma empresa e um corretor autônomo enfrentam riscos e rotinas diferentes. A Lei nº 6.530/1978 (art. 6º, § 2º) prevê que o corretor pode se associar a imobiliárias mantendo sua autonomia profissional, por meio de contrato de associação. Antes de decidir como atuar, compare as opções em <a href="/blog/corretor-autonomo-associado-ou-contratado/">corretor autônomo, associado ou contratado</a>.</p>
 
 <h2>Vantagens que costumam ser citadas por quem permanece</h2>
 <ul>
