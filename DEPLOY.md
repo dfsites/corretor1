@@ -18,15 +18,11 @@ Os arquivos gerados (HTML, sitemap.xml, robots.txt, .htaccess) são versionados,
 
 - `_fonte/`, `.git/`, arquivos `.md` e `.mjs` e `package.json` respondem 404.
 - Páginas do template antigo (`about.html`, `causes.html` etc.) redirecionam com 301 para as novas.
-- `www` redireciona para o domínio sem www.
+- http e domínio sem www redirecionam para `https://www.corretor1.com.br`.
 
-## Pendência: HTTPS
+## Endereço canônico
 
-O certificado do domínio está inválido (responde com o certificado de outro nome). Depois de ativar o SSL no painel da Uni5:
-
-1. Em `_fonte/site.mjs`, trocar `url` para `https://corretor1.com.br`.
-2. Rodar o build. Ele passa a gerar o redirecionamento http → https no `.htaccess` e os canonicals em https.
-3. Fazer commit e push.
+`https://www.corretor1.com.br` (SSL ativado em 2026-10-01). O `.htaccess` redireciona com 301 `http://` e o domínio sem www para esse endereço. Para mudar, altere `url` em `_fonte/site.mjs` e rode o build.
 
 ## Depois de publicar
 

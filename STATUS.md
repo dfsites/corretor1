@@ -21,7 +21,7 @@ Title/description únicos, canonical, Open Graph, JSON-LD (Organization, WebSite
 
 ## Infraestrutura
 
-Hospedagem: Uni5 (Apache), FTP/SSH ativos. HTTPS quebrado (certificado de outro nome) — canonical em http até corrigir (ver DEPLOY.md).
+Hospedagem: Uni5 (Apache), FTP/SSH ativos. HTTPS válido; canônico https://www.corretor1.com.br com 301 de http e sem-www.
 
 ## Publicação
 
@@ -32,7 +32,6 @@ Publicado: ainda a versão antiga (template). Push para `dfsites/corretor1` (mai
 - Confirmar se o e-mail contato@corretor1.com.br existe (é o único canal de contato configurado)
 - Informar WhatsApp e Instagram (opcional) em `_fonte/site.mjs`
 - Cadastrar e-books e cursos (`_fonte/produtos.mjs`)
-- Ativar SSL na Uni5 e trocar a URL para https
 - Google Search Console + envio do sitemap
 - Remover arquivos antigos do template no servidor, se a publicação não limpar
 - Confirmar a divisão de papéis com corretor50k.com.br

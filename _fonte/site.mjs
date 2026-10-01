@@ -3,9 +3,9 @@
 
 export const site = {
   nome: 'Corretor 1%',
-  // Enquanto o certificado SSL do domínio não estiver válido, a URL canônica fica em http.
-  // Quando o https funcionar, troque para 'https://corretor1.com.br' e rode o build.
-  url: 'http://corretor1.com.br',
+  // URL canônica (https + www, definida pelo proprietário em 2026-10-01).
+  // O .htaccess redireciona http e o domínio sem www para cá.
+  url: 'https://www.corretor1.com.br',
   idioma: 'pt-BR',
   chamada: 'Faça parte da elite do mercado imobiliário!',
   subchamada:

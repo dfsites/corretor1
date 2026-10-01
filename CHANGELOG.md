@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-10-01 — HTTPS e www
+
+- URL canônica passa a ser https://www.corretor1.com.br (canonicals, sitemap, Open Graph).
+- .htaccess: 301 de http e do domínio sem www para o endereço canônico.
+
 ## 2026-10-01 — Nova versão do site
 
 - Site refeito do zero: HTML estático gerado por `_fonte/build.mjs` (sem dependências), visual azul-marinho e dourado.

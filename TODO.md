@@ -4,7 +4,6 @@
 
 - Conferir o site no ar após a publicação via GitHub.
 - Confirmar o e-mail contato@corretor1.com.br (ou trocar em `_fonte/site.mjs`); informar WhatsApp.
-- Ativar SSL na Uni5 e trocar `url` para https (DEPLOY.md).
 
 ## Próximo
 
@@ -23,4 +22,5 @@
 
 - 2026-10-01: objetivo, público, monetização e chamada principal definidos (PROJECT.md).
 - 2026-10-01: verificação do site publicado, DNS e SSL (DOMAIN.md).
+- 2026-10-01: SSL ativo; canônico https://www com redirecionamentos 301.
 - 2026-10-01: nova versão do site (14 páginas, 6 artigos), build e verificação automática.

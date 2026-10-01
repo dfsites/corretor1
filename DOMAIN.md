@@ -3,7 +3,7 @@
 Domínio: corretor1.com.br
 Pasta atual: --corretor-1-novo
 Caminho: F:\REDE\IA - TREINAMENTO - CURSOS - PROMPTS - ETC\- 2026 - APPS E SITES - DANIEL\--corretor-1-novo
-URL canônica: A verificar (hoje só responde em http; https com certificado inválido)
+URL canônica: https://www.corretor1.com.br (definida pelo proprietário em 2026-10-01)
 Tipo: SITE
 Status: PUBLICADO (template antigo) — EM PLANEJAMENTO para refazer
 Categoria: CORRETORES
@@ -13,7 +13,7 @@ Redirect para: —
 Registradora: A verificar (.br — Registro.br)
 Hospedagem: Uni5 (Apache) — FTP e SSH ativos (credenciais fora do workspace; não registrar)
 DNS: ns dns1–4.sitesbrasilia.com.br; A 187.1.137.70; AAAA 2804:10:8015::137:70; MX uni5.net; SPF uni5
-SSL: INVÁLIDO — https retorna certificado de outro nome (SEC_E_WRONG_PRINCIPAL)
+SSL: VÁLIDO desde 2026-10-01 (com e sem www)
 Git: NÃO
 
 ## Evidências de identificação

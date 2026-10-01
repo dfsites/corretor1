@@ -584,11 +584,12 @@ Redirect 301 /contact.html ${site.url}/contato/
 
 <IfModule mod_rewrite.c>
   RewriteEngine On
-  # www -> domínio sem www
-  RewriteCond %{HTTP_HOST} ^www\\.${host.replace(/\./g, '\\.')}$ [NC]
+  # Qualquer outro host (com/sem www) -> host canônico
+  RewriteCond %{HTTP_HOST} !^${host.replace(/\./g, '\\.')}$ [NC]
   RewriteRule ^(.*)$ ${protocolo}://${host}/$1 [R=301,L]
-${protocolo === 'https' ? `  # http -> https
+${protocolo === 'https' ? `  # http -> https (considera proxy que informa X-Forwarded-Proto)
   RewriteCond %{HTTPS} off
+  RewriteCond %{HTTP:X-Forwarded-Proto} !https
   RewriteRule ^(.*)$ https://${host}/$1 [R=301,L]
 ` : ''}</IfModule>
 

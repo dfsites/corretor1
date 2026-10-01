@@ -9,19 +9,23 @@ RedirectMatch 404 (?i)^/.*\.(md|mjs)$
 RedirectMatch 404 ^/package\.json$
 
 # Páginas do template antigo -> páginas novas
-Redirect 301 /about.html http://corretor1.com.br/sobre/
-Redirect 301 /causes.html http://corretor1.com.br/cursos/
-Redirect 301 /service.html http://corretor1.com.br/cursos/
-Redirect 301 /donate.html http://corretor1.com.br/ebooks/
-Redirect 301 /team.html http://corretor1.com.br/sobre/
-Redirect 301 /testimonial.html http://corretor1.com.br/mentoria/
-Redirect 301 /contact.html http://corretor1.com.br/contato/
+Redirect 301 /about.html https://www.corretor1.com.br/sobre/
+Redirect 301 /causes.html https://www.corretor1.com.br/cursos/
+Redirect 301 /service.html https://www.corretor1.com.br/cursos/
+Redirect 301 /donate.html https://www.corretor1.com.br/ebooks/
+Redirect 301 /team.html https://www.corretor1.com.br/sobre/
+Redirect 301 /testimonial.html https://www.corretor1.com.br/mentoria/
+Redirect 301 /contact.html https://www.corretor1.com.br/contato/
 
 <IfModule mod_rewrite.c>
   RewriteEngine On
-  # www -> domínio sem www
-  RewriteCond %{HTTP_HOST} ^www\.corretor1\.com\.br$ [NC]
-  RewriteRule ^(.*)$ http://corretor1.com.br/$1 [R=301,L]
+  # Qualquer outro host (com/sem www) -> host canônico
+  RewriteCond %{HTTP_HOST} !^www\.corretor1\.com\.br$ [NC]
+  RewriteRule ^(.*)$ https://www.corretor1.com.br/$1 [R=301,L]
+  # http -> https (considera proxy que informa X-Forwarded-Proto)
+  RewriteCond %{HTTPS} off
+  RewriteCond %{HTTP:X-Forwarded-Proto} !https
+  RewriteRule ^(.*)$ https://www.corretor1.com.br/$1 [R=301,L]
 </IfModule>
 
 <IfModule mod_expires.c>
