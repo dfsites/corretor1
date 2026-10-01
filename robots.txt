@@ -1,4 +1,73 @@
+# robots.txt
+# Política: rastreamento público liberado para buscadores, IAs e crawlers compatíveis com robots.txt.
+
+# Regra geral: libera qualquer crawler atual ou futuro que respeite robots.txt
 User-agent: *
 Allow: /
 
+# Google Search
+User-agent: Googlebot
+Allow: /
+
+# Outros crawlers do ecossistema Google
+User-agent: GoogleOther
+Allow: /
+
+# Gemini / Google AI
+User-agent: Google-Extended
+Allow: /
+
+# Bing / Microsoft
+User-agent: bingbot
+Allow: /
+
+# OpenAI: ChatGPT Search
+User-agent: OAI-SearchBot
+Allow: /
+
+# OpenAI: treinamento/modelos
+User-agent: GPTBot
+Allow: /
+
+# OpenAI: acessos iniciados pelo usuário
+User-agent: ChatGPT-User
+Allow: /
+
+# OpenAI: validação de páginas de anúncios
+User-agent: OAI-AdsBot
+Allow: /
+
+# Anthropic: Claude
+User-agent: ClaudeBot
+Allow: /
+
+# Anthropic: Claude Search
+User-agent: Claude-SearchBot
+Allow: /
+
+# Anthropic: acessos iniciados pelo usuário
+User-agent: Claude-User
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# Meta AI / Facebook
+User-agent: Meta-ExternalAgent
+Allow: /
+
+User-agent: Meta-ExternalFetcher
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Facebot
+Allow: /
+
+# Sitemap principal
 Sitemap: https://www.corretor1.com.br/sitemap.xml

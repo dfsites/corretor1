@@ -1,5 +1,9 @@
 # Changelog
 
+## 2026-10-01 — robots.txt
+
+- `robots.txt` com a política do proprietário: liberação geral (`*`) e liberação explícita para Googlebot, GoogleOther, Google-Extended, bingbot, OAI-SearchBot, GPTBot, ChatGPT-User, OAI-AdsBot, ClaudeBot, Claude-SearchBot, Claude-User, PerplexityBot, Perplexity-User, Meta-ExternalAgent, Meta-ExternalFetcher, facebookexternalhit e Facebot; sitemap principal.
+
 ## 2026-10-01 — Segundo ciclo editorial (27 artigos)
 
 - 27 artigos novos em `_fonte/artigos/` (detalhes em `docs/relatorios/2026-10-01-segundo-ciclo-editorial.md`); blog com 48 artigos.

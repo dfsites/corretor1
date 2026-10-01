@@ -749,7 +749,29 @@ ${paginas
 `;
 escrever('sitemap.xml', sitemap);
 
-escrever('robots.txt', `User-agent: *\nAllow: /\n\nSitemap: ${abs('/sitemap.xml')}\n`);
+// robots.txt: rastreamento público liberado para buscadores, IAs e crawlers compatíveis (política do proprietário, 2026-10-01).
+const ROBOTS_GRUPOS = [
+  ['Regra geral: libera qualquer crawler atual ou futuro que respeite robots.txt', ['*']],
+  ['Google Search', ['Googlebot']],
+  ['Outros crawlers do ecossistema Google', ['GoogleOther']],
+  ['Gemini / Google AI', ['Google-Extended']],
+  ['Bing / Microsoft', ['bingbot']],
+  ['OpenAI: ChatGPT Search', ['OAI-SearchBot']],
+  ['OpenAI: treinamento/modelos', ['GPTBot']],
+  ['OpenAI: acessos iniciados pelo usuário', ['ChatGPT-User']],
+  ['OpenAI: validação de páginas de anúncios', ['OAI-AdsBot']],
+  ['Anthropic: Claude', ['ClaudeBot']],
+  ['Anthropic: Claude Search', ['Claude-SearchBot']],
+  ['Anthropic: acessos iniciados pelo usuário', ['Claude-User']],
+  ['Perplexity', ['PerplexityBot', 'Perplexity-User']],
+  ['Meta AI / Facebook', ['Meta-ExternalAgent', 'Meta-ExternalFetcher', 'facebookexternalhit', 'Facebot']],
+];
+escrever(
+  'robots.txt',
+  '# robots.txt\n# Política: rastreamento público liberado para buscadores, IAs e crawlers compatíveis com robots.txt.\n\n' +
+    ROBOTS_GRUPOS.map(([titulo, agentes]) => `# ${titulo}\n` + agentes.map((ag) => `User-agent: ${ag}\nAllow: /\n`).join('\n')).join('\n') +
+    `\n# Sitemap principal\nSitemap: ${abs('/sitemap.xml')}\n`,
+);
 
 const host = new URL(site.url).host;
 const protocolo = new URL(site.url).protocol.replace(':', '');
