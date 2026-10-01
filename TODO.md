@@ -7,7 +7,7 @@
 
 ## Próximo
 
-- Segundo ciclo do `docs/PLANO-EDITORIAL.md` (27 pautas P1), após analisar os resultados do primeiro.
+- Terceiro ciclo do `docs/PLANO-EDITORIAL.md` (55 pautas P2), após analisar os resultados no Search Console.
 - Foto do autor (quadrada) em `assets/img/autores/` e campo `foto` em `_fonte/autores.mjs`.
 
 - Cadastrar os e-books (capa, preço, link de compra) em `_fonte/produtos.mjs`.
@@ -19,6 +19,8 @@
 - Confirmar a divisão de papéis com corretor50k.com.br.
 
 ## Concluído
+
+- 2026-10-01: segundo ciclo editorial: 27 artigos publicados (blog com 48).
 
 - 2026-10-01: Search Console verificado e sitemap enviado (pelo proprietário).
 

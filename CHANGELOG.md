@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-10-01 — Segundo ciclo editorial (27 artigos)
+
+- 27 artigos novos em `_fonte/artigos/` (detalhes em `docs/relatorios/2026-10-01-segundo-ciclo-editorial.md`); blog com 48 artigos.
+- Build converte em texto os links para artigos ainda não publicados (publicação em blocos sem link quebrado).
+- Links contextuais dos pilares para os novos satélites; categorias geradas para 10 editorias.
+- Plano editorial: 27 pautas marcadas como publicadas; terceiro ciclo (P2) como próximo.
+
 ## 2026-10-01 — Site sem venda por enquanto
 
 - Removidas chamadas de venda e de pré-cadastro: "Quero ser avisado", "Quero fazer parte", "Tenho interesse", menção de oferta na caixa do autor e "investimento" no FAQ da mentoria.

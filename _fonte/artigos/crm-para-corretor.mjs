@@ -3,7 +3,7 @@ export default {
   titulo: 'CRM para corretor de imóveis: o que registrar',
   h1: 'CRM para corretor de imóveis: o que registrar e como escolher (inclui planilha × CRM)',
   descricao:
-    'O que registrar sobre clientes, proprietários, imóveis e negócios, quando a planilha basta, como escolher um CRM e como migrar sem perder o histórico de atendimento.',
+    'O que registrar sobre clientes, proprietários, imóveis e negócios, quando a planilha basta, como escolher um CRM e como migrar sem perder o histórico.',
   editoria: 'rotina-e-gestao',
   personas: ['iniciante', 'desenvolvimento'],
   pilar: 'rotina-de-trabalho-do-corretor-de-imoveis',

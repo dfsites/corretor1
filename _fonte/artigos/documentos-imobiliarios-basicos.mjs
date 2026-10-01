@@ -92,5 +92,6 @@ export default {
 
 <h2>O papel do corretor</h2>
 <p>O corretor não substitui o tabelião, o oficial de registro nem o advogado. Seu papel é conhecer esses documentos o suficiente para identificar pendências cedo, orientar as partes sobre o que será exigido e acompanhar o processo até a conclusão, cumprindo o dever de prestar esclarecimentos sobre a segurança do negócio. Os limites da atuação profissional estão em <a href="/blog/o-que-faz-um-corretor-de-imoveis/">o que faz um corretor de imóveis</a>. Para quem está começando, estudar esses documentos faz parte dos <a href="/blog/primeiros-passos-depois-do-creci/">primeiros passos depois de obter o CRECI</a>.</p>
+<p>Esses conceitos fazem parte da base de quem está começando na profissão. O caminho completo, da formação ao início da carreira, está em <a href="/blog/como-ser-corretor-de-imoveis/">como se tornar corretor de imóveis</a>.</p>
 `,
 };
