@@ -44,6 +44,9 @@ for (const arq of arquivos) {
   if (/lorem|ipsum|example\.com|Jhon Doe/i.test(html)) erros.push(`${rel}: texto de exemplo encontrado`);
   if (rel !== '404.html' && !/<link rel="canonical"/.test(html)) erros.push(`${rel}: sem canonical`);
   if (!html.includes('googletagmanager.com/gtag/js?id=G-')) erros.push(`${rel}: sem tag do Google Analytics`);
+  const og = html.match(/<meta property="og:image" content="([^"]*)"/)?.[1];
+  if (!og) erros.push(`${rel}: sem og:image`);
+  else if (!existeCaminho(new URL(og).pathname)) erros.push(`${rel}: capa de compartilhamento inexistente ${og}`);
 
   if (titulos.has(titulo)) erros.push(`${rel}: title duplicado com ${titulos.get(titulo)}`);
   titulos.set(titulo, rel);

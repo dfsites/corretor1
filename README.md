@@ -6,6 +6,8 @@ Site estático (HTML + CSS) gerado por um script Node sem dependências. A raiz 
 
 ## Comandos
 
+Capas de compartilhamento (rodar ao publicar texto novo ou mudar um h1; requer Python com Pillow): `node _fonte/gerar_capas.mjs`.
+
 ```bash
 node _fonte/build.mjs      # gera as páginas, sitemap.xml, robots.txt e .htaccess
 node _fonte/verificar.mjs  # confere links, títulos, descrições, h1 e JSON-LD

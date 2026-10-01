@@ -20,7 +20,7 @@ export default {
     },
   ],
   corpo: `
-<p>Automatizar é fazer com que uma ferramenta execute sozinha uma tarefa repetitiva: enviar um lembrete, gerar um relatório, copiar dados de um formulário para o registro de clientes. Bem usada, a automação libera tempo para o que exige atenção profissional. Mal usada, produz mensagens genéricas, informações desatualizadas e exposição de dados. Este artigo complementa o panorama de <a href="/blog/ferramentas-digitais-do-corretor/">ferramentas digitais do corretor</a> e não trata de produtos específicos.</p>
+<p>Automatizar é fazer com que uma ferramenta execute sozinha uma tarefa repetitiva: enviar um lembrete, gerar um relatório, copiar dados de um formulário para o registro de clientes. Bem usada, a automação libera tempo para o que exige atenção profissional. Mal usada, produz mensagens genéricas, informações desatualizadas e exposição de dados. O panorama das categorias de ferramentas está em <a href="/blog/ferramentas-digitais-do-corretor/">ferramentas digitais do corretor</a>; aqui não se indicam produtos específicos.</p>
 
 <h2>O critério: repetitivo, previsível e sem decisão</h2>
 <p>Uma tarefa é boa candidata à automação quando reúne três características:</p>

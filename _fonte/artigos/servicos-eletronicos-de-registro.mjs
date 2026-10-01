@@ -24,7 +24,7 @@ export default {
     },
   ],
   corpo: `
-<p>Até poucos anos atrás, pedir a certidão de uma matrícula exigia ir ao cartório ou contar com um despachante. Hoje a maior parte desse trabalho pode ser feita pela internet. Para o corretor, isso significa conferir a situação de um imóvel ainda na captação e acompanhar o registro sem deslocamentos. Este artigo explica a base legal desses serviços e como usá-los. O que é a matrícula e como lê-la está em <a href="/blog/documentos-imobiliarios-basicos/">documentos imobiliários que o corretor precisa conhecer</a>.</p>
+<p>Até poucos anos atrás, pedir a certidão de uma matrícula exigia ir ao cartório ou contar com um despachante. Hoje a maior parte desse trabalho pode ser feita pela internet. Para o corretor, isso significa conferir a situação de um imóvel ainda na captação e acompanhar o registro sem deslocamentos. O que é a matrícula e como lê-la está em <a href="/blog/documentos-imobiliarios-basicos/">documentos imobiliários que o corretor precisa conhecer</a>.</p>
 
 <h2>O Sistema Eletrônico dos Registros Públicos</h2>
 <p>A Lei nº 14.382/2022 dispõe sobre o Sistema Eletrônico dos Registros Públicos (Serp) e moderniza os procedimentos dos registros públicos tratados na Lei nº 6.015/1973. Segundo o art. 3º, o Serp tem como objetivos, entre outros:</p>
@@ -76,7 +76,7 @@ export default {
   <li><strong>Ônus e restrições:</strong> hipoteca, alienação fiduciária, penhora, usufruto, indisponibilidade. Verifique se cada ônus foi cancelado por averbação posterior.</li>
   <li><strong>Averbações de construção e de alterações:</strong> confirme se a construção existente está averbada.</li>
 </ol>
-<p>Qualquer dúvida na leitura deve ser esclarecida com o cartório ou com o advogado das partes antes de a negociação avançar.</p>
+<p>Qualquer dúvida na leitura deve ser esclarecida com o cartório ou com o advogado das partes antes de a negociação avançar. Prazo de validade, custo e pontos de atenção do documento estão em <a href="/documentos/certidao-de-matricula/">certidão de matrícula atualizada</a>.</p>
 
 <h2>Extrato eletrônico e contratos</h2>
 <p>A Lei nº 14.382/2022 também prevê a apresentação de extratos eletrônicos para registro. No caso de bens imóveis, o art. 6º, § 1º, III, estabelece que os extratos devem ser acompanhados do arquivamento da íntegra do instrumento contratual, em cópia simples, salvo quando apresentados por tabelião de notas. As instituições financeiras autorizadas a celebrar instrumentos particulares com caráter de escritura pública têm regras próprias. Para o corretor, o importante é saber que esses caminhos existem e que a escolha do procedimento cabe às partes, ao tabelião, à instituição financeira e ao registrador.</p>

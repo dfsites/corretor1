@@ -20,7 +20,7 @@ export default {
     },
   ],
   corpo: `
-<p>Conteúdo, para o corretor, é tudo o que ele publica para informar e não apenas para anunciar: explicações sobre documentação, etapas da compra, características de uma região, cuidados na locação. Bem feito, ele mostra conhecimento e responde dúvidas antes do primeiro contato. Mal feito, vira repetição de frases genéricas que ninguém lê. Este artigo trata de escolha de temas, formatos e regularidade; a visão geral está em <a href="/blog/marketing-para-corretor-de-imoveis/">marketing para corretor de imóveis</a>.</p>
+<p>Conteúdo, para o corretor, é tudo o que ele publica para informar e não apenas para anunciar: explicações sobre documentação, etapas da compra, características de uma região, cuidados na locação. Bem feito, ele mostra conhecimento e responde dúvidas antes do primeiro contato. Mal feito, vira repetição de frases genéricas que ninguém lê. O lugar do conteúdo no conjunto da divulgação é tratado em <a href="/blog/marketing-para-corretor-de-imoveis/">marketing para corretor de imóveis</a>.</p>
 
 <h2>Para que serve o conteúdo</h2>
 <ul>

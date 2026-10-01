@@ -11,7 +11,7 @@ export default {
   data: '2026-10-01',
   fontes: [],
   corpo: `
-<p>Todo corretor investe tempo e, muitas vezes, dinheiro para gerar contatos: anúncios em portais, publicações em redes sociais, placas, relacionamento com clientes antigos, prospecção em uma região. Sem saber de onde vêm os clientes que realmente compram, vendem ou alugam, fica impossível decidir onde investir mais e onde investir menos. Este artigo trata de como <strong>registrar</strong> a origem de forma confiável. Os cálculos de conversão por origem estão em <a href="/blog/indicadores-comerciais-do-corretor/">indicadores comerciais do corretor</a>.</p>
+<p>Todo corretor investe tempo e, muitas vezes, dinheiro para gerar contatos: anúncios em portais, publicações em redes sociais, placas, relacionamento com clientes antigos, prospecção em uma região. Sem saber de onde vêm os clientes que realmente compram, vendem ou alugam, fica impossível decidir onde investir mais e onde investir menos. O primeiro passo é <strong>registrar</strong> a origem de forma confiável. Os cálculos de conversão por origem estão em <a href="/blog/indicadores-comerciais-do-corretor/">indicadores comerciais do corretor</a>.</p>
 
 <h2>Origem e canal não são a mesma coisa</h2>
 <p>Um erro comum é confundir a origem do contato com o canal pelo qual ele chegou. O WhatsApp, o telefone e o e-mail são canais. A origem é o que levou a pessoa a procurar você: o anúncio no portal, a placa no imóvel, a indicação de um cliente. Registrar "WhatsApp" como origem não ajuda a decidir nada, porque quase todos os contatos chegam por ele.</p>
@@ -46,7 +46,7 @@ export default {
 <p>Quando você divulga um link do seu site em vários lugares, é possível acrescentar ao endereço parâmetros que identificam a origem do clique, recurso reconhecido pelas ferramentas de análise de acesso. Assim, um link publicado na biografia de uma rede social e o mesmo link enviado em uma campanha aparecem separados nos relatórios. Mantenha um padrão de nomes para esses parâmetros, como faria com as categorias. Veja <a href="/blog/site-proprio-para-corretor/">site próprio para corretor</a>.</p>
 
 <h2>Indicações merecem registro detalhado</h2>
-<p>Em muitas carreiras, as indicações respondem por parte relevante dos negócios. Registre quem indicou, além da categoria. Isso permite agradecer a quem indicou e entender quais relacionamentos geram mais oportunidades. Como envolve dados de terceiros, registre apenas o necessário para essa finalidade (veja <a href="/blog/lgpd-na-rotina-do-corretor/">LGPD na rotina do corretor</a>).</p>
+<p>Nas indicações, registre quem indicou, além da categoria. Isso permite agradecer a quem indicou e entender quais relacionamentos geram mais oportunidades. Como envolve dados de terceiros, registre apenas o necessário para essa finalidade (veja <a href="/blog/lgpd-na-rotina-do-corretor/">LGPD na rotina do corretor</a>).</p>
 
 <h2>Cuidados na atribuição</h2>
 <ul>

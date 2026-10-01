@@ -21,7 +21,7 @@ export default {
   fontes: [LEI_6530, CDC],
   corpo: `
 <p>A descrição é a parte do anúncio que o interessado lê depois de ver as fotos. Ela decide se a pessoa entra em contato ou passa para o próximo imóvel, e também se o contato que chega é de alguém com interesse real. Uma descrição clara filtra visitas sem aderência; uma descrição vaga ou exagerada atrai contatos que não avançam e gera desconfiança na visita.</p>
-<p>Este artigo trata da redação do texto. As exigências legais de publicidade, como o número do CRECI e a autorização escrita, estão em <a href="/blog/regras-de-publicidade-do-corretor/">regras de publicidade do corretor</a>, e a fotografia em <a href="/blog/fotografia-de-imoveis/">fotografia de imóveis com celular</a>.</p>
+<p>As exigências legais de publicidade, como o número do CRECI e a autorização escrita, estão em <a href="/blog/regras-de-publicidade-do-corretor/">regras de publicidade do corretor</a>, e a fotografia em <a href="/blog/fotografia-de-imoveis/">fotografia de imóveis com celular</a>.</p>
 
 <h2>Uma estrutura que funciona</h2>
 <ol>

@@ -25,7 +25,7 @@ export default {
   ],
   corpo: `
 <p>O vídeo mostra o que a fotografia não consegue: a circulação entre os ambientes, a sequência dos cômodos, a relação entre a sala e a varanda, o caminho da garagem até o elevador. Para o interessado, é uma forma de entender o imóvel antes de agendar uma visita. Para o corretor, é uma peça de divulgação que exige planejamento, porque um vídeo mal gravado ou editado de forma enganosa pode afastar o comprador certo e atrair visitas sem aderência.</p>
-<p>Este artigo trata da produção do vídeo. As fotografias têm orientações próprias em <a href="/blog/fotografia-de-imoveis/">fotografia de imóveis com celular</a>, e o uso de vídeo como substituto ou complemento da visita presencial está em <a href="/blog/visitas-virtuais/">visitas virtuais e vídeos</a>. A visão geral da divulgação está em <a href="/blog/marketing-para-corretor-de-imoveis/">marketing para corretor de imóveis</a>.</p>
+<p>As fotografias têm orientações próprias em <a href="/blog/fotografia-de-imoveis/">fotografia de imóveis com celular</a>, e o uso de vídeo como substituto ou complemento da visita presencial está em <a href="/blog/visitas-virtuais/">visitas virtuais e vídeos</a>. O vídeo como parte do plano de divulgação aparece em <a href="/blog/marketing-para-corretor-de-imoveis/">marketing para corretor de imóveis</a>.</p>
 
 <h2>Antes de gravar: autorização e combinados com o proprietário</h2>
 <p>O vídeo é publicidade do imóvel. Pelo art. 5º do Decreto nº 81.871/1978, somente pode anunciar publicamente o corretor que tiver contrato escrito de mediação ou autorização escrita para a alienação do imóvel. Por isso, o vídeo vem depois da <a href="/blog/autorizacao-de-venda/">autorização de venda</a>, e não antes.</p>

@@ -16,7 +16,7 @@ export default {
     },
   ],
   corpo: `
-<p>O trabalho do corretor depende de informações que ficam espalhadas entre celular, computador, nuvem e aplicativos de mensagem: contatos de clientes, histórico de negociações, documentos de imóveis, fotos, contratos assinados. A perda de um celular ou o acesso indevido a uma conta pode significar semanas de trabalho perdido e a exposição de dados de terceiros. Este artigo reúne práticas de cópia de segurança e proteção; a visão geral de ferramentas está em <a href="/blog/ferramentas-digitais-do-corretor/">ferramentas digitais do corretor</a>.</p>
+<p>O trabalho do corretor depende de informações que ficam espalhadas entre celular, computador, nuvem e aplicativos de mensagem: contatos de clientes, histórico de negociações, documentos de imóveis, fotos, contratos assinados. A perda de um celular ou o acesso indevido a uma conta pode significar semanas de trabalho perdido e a exposição de dados de terceiros. Os demais tipos de aplicativo e sistema aparecem em <a href="/blog/ferramentas-digitais-do-corretor/">ferramentas digitais do corretor</a>.</p>
 
 <h2>O que precisa ser protegido</h2>
 <div class="tabela"><table>
@@ -67,8 +67,8 @@ export default {
 <p>Algumas situações exigem atenção redobrada: mensagens que se passam por bancos, cartórios ou plataformas pedindo dados ou códigos; pedidos de alteração de conta bancária para pagamento de sinal ou comissão; links recebidos de contatos desconhecidos. Confirme qualquer pedido incomum por outro canal, ligando para um número que você já conhece.</p>
 
 <h2>A LGPD e a segurança</h2>
-<p>Quando trata dados pessoais de clientes e proprietários, o corretor deve adotar medidas de segurança, técnicas e administrativas, aptas a proteger os dados de acessos não autorizados e de situações acidentais ou ilícitas de destruição, perda, alteração ou comunicação (LGPD, art. 46). As práticas deste artigo são exatamente esse tipo de medida.</p>
-<p>Se ocorrer um incidente de segurança que possa acarretar risco ou dano relevante aos titulares, o controlador deve comunicá-lo à autoridade nacional (ANPD) e aos titulares, em prazo razoável, informando, entre outros pontos, a natureza dos dados afetados, os titulares envolvidos, os riscos e as medidas adotadas (LGPD, art. 48). O assunto está detalhado em <a href="/blog/lgpd-na-rotina-do-corretor/">LGPD na rotina do corretor</a>.</p>
+<p>Quando trata dados pessoais de clientes e proprietários, o corretor deve adotar medidas de segurança, técnicas e administrativas, aptas a proteger os dados de acessos não autorizados e de situações acidentais ou ilícitas de destruição, perda, alteração ou comunicação (LGPD, art. 46). Cópias de segurança, senhas fortes e controle de acesso são exemplos desse tipo de medida.</p>
+<p>Se ocorrer um incidente de segurança que possa acarretar risco ou dano relevante aos titulares, o controlador deve comunicá-lo à autoridade nacional (ANPD) e aos titulares, em prazo razoável, conforme definido pela ANPD, informando, entre outros pontos, a natureza dos dados afetados, os titulares envolvidos, os riscos e as medidas adotadas (LGPD, art. 48). O assunto está detalhado em <a href="/blog/lgpd-na-rotina-do-corretor/">LGPD na rotina do corretor</a>.</p>
 
 <h2>Se o celular for perdido ou roubado</h2>
 <ol>

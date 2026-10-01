@@ -11,7 +11,7 @@ export default {
   data: '2026-10-01',
   corpo: `
 <p>Indicadores são números simples, tirados do próprio registro de atendimentos, que mostram como o trabalho está funcionando. Eles respondem perguntas práticas: de onde vêm os clientes que avançam, em que etapa os atendimentos param, quanto tempo um imóvel leva para ser vendido. Sem esses números, as decisões sobre onde investir tempo e dinheiro ficam baseadas em impressão.</p>
-<p>O artigo sobre <a href="/blog/rotina-de-trabalho-do-corretor-de-imoveis/">rotina de trabalho do corretor de imóveis</a> apresenta a ideia geral de indicadores de atividade e de conversão. Aqui o foco é o detalhe: quais indicadores acompanhar, como calcular e como interpretar.</p>
+<p>O artigo sobre <a href="/blog/rotina-de-trabalho-do-corretor-de-imoveis/">rotina de trabalho do corretor de imóveis</a> apresenta a ideia geral de indicadores de atividade e de conversão. O detalhe está abaixo: quais indicadores acompanhar, como calcular e como interpretar.</p>
 
 <h2>Três tipos de indicador</h2>
 <ul>
@@ -59,7 +59,7 @@ export default {
 <p>Os números indicam onde investigar, não a causa. A causa aparece quando você relê os registros dos atendimentos daquela etapa.</p>
 
 <h2>Indicadores por origem do contato</h2>
-<p>Separe os contatos por origem: portais, redes sociais, placas, indicações, clientes antigos. Calcule a conversão de cada origem até a visita e até a proposta. É comum que uma origem traga muitos contatos e poucas visitas, enquanto outra traga poucos contatos e muitas propostas.</p>
+<p>Separe os contatos por origem (portais, redes sociais, placas, indicações, clientes antigos) e calcule a conversão de cada uma até a visita e até a proposta. Uma origem pode trazer muitos contatos e poucas visitas, enquanto outra traz poucos contatos e muitas propostas. As categorias e a forma de registrar a origem no primeiro contato estão em <a href="/blog/origem-dos-clientes/">origem dos clientes</a>.</p>
 <p>Quando há investimento em anúncios, um cálculo complementar ajuda a comparar canais: o custo por atendimento qualificado, que é o valor gasto no período dividido pelo número de atendimentos qualificados vindos daquele canal. Comparar canais pelo custo por contato recebido costuma enganar, porque contatos fora do perfil têm custo e não têm resultado.</p>
 
 <h2>Indicadores de captação</h2>

@@ -24,7 +24,7 @@ export default {
     },
   ],
   corpo: `
-<p>Redes sociais são, para muitos corretores, o primeiro canal de divulgação. Elas aproximam o profissional da sua rede de relacionamento, mostram o trabalho em andamento e geram contatos. Também são o canal em que mais se misturam vida pessoal e atividade profissional, e em que regras da profissão costumam ser esquecidas. Este artigo trata do uso profissional das redes; a visão geral está em <a href="/blog/marketing-para-corretor-de-imoveis/">marketing para corretor de imóveis</a>.</p>
+<p>Redes sociais são, para muitos corretores, o primeiro canal de divulgação. Elas aproximam o profissional da sua rede de relacionamento, mostram o trabalho em andamento e geram contatos. Também são o canal em que mais se misturam vida pessoal e atividade profissional, e em que regras da profissão costumam ser esquecidas. Como as redes se combinam com portais, site e indicações está em <a href="/blog/marketing-para-corretor-de-imoveis/">marketing para corretor de imóveis</a>.</p>
 
 <h2>Perfil profissional</h2>
 <p>O perfil é a primeira coisa que alguém vê ao receber uma indicação sua. Ele deve deixar claro:</p>

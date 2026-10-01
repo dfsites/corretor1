@@ -12,7 +12,7 @@ export default {
   fontes: [],
   corpo: `
 <p>CRM é a sigla em inglês para gestão do relacionamento com clientes. Para o corretor de imóveis, o termo se refere ao registro organizado de quem são os clientes e proprietários, que imóveis estão na carteira, em que etapa está cada atendimento e qual é o próximo passo. Esse registro pode estar em uma planilha ou em um sistema próprio. O que define a qualidade do CRM não é a ferramenta, e sim o que se registra e com que disciplina.</p>
-<p>A visão geral das ferramentas de trabalho está em <a href="/blog/ferramentas-digitais-do-corretor/">ferramentas digitais do corretor</a>, e a organização dos retornos em <a href="/blog/controle-de-follow-up/">controle de follow-up</a>. Aqui o foco é o conteúdo do registro e a escolha da ferramenta.</p>
+<p>A visão geral das ferramentas de trabalho está em <a href="/blog/ferramentas-digitais-do-corretor/">ferramentas digitais do corretor</a>, e a organização dos retornos em <a href="/blog/controle-de-follow-up/">controle de follow-up</a>. O que segue trata do conteúdo do registro e da escolha da ferramenta.</p>
 
 <h2>A estrutura básica: quatro cadastros ligados</h2>
 <p>A maior parte da informação de um corretor cabe em quatro cadastros que se relacionam entre si:</p>

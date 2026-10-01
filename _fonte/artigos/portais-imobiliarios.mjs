@@ -20,7 +20,7 @@ export default {
     },
   ],
   corpo: `
-<p>Os portais imobiliários concentram boa parte da procura por imóveis e, por isso, são um canal importante para o corretor. Também são o lugar onde informações erradas aparecem com mais frequência: metragem divergente, preço desatualizado, imóvel já vendido, o mesmo imóvel anunciado várias vezes com valores diferentes. Este artigo trata do anúncio em portais; a visão geral de divulgação está em <a href="/blog/marketing-para-corretor-de-imoveis/">marketing para corretor de imóveis</a>.</p>
+<p>Os portais imobiliários concentram boa parte da procura por imóveis e, por isso, são um canal importante para o corretor. Também são o lugar onde informações erradas aparecem com mais frequência: metragem divergente, preço desatualizado, imóvel já vendido, o mesmo imóvel anunciado várias vezes com valores diferentes. Os demais canais de divulgação estão em <a href="/blog/marketing-para-corretor-de-imoveis/">marketing para corretor de imóveis</a>.</p>
 
 <h2>Antes de anunciar: autorização escrita</h2>
 <p>O Decreto nº 81.871/1978 (art. 5º) estabelece que somente pode anunciar publicamente o corretor que tiver contrato escrito de mediação ou autorização escrita para a alienação do imóvel. A Lei nº 6.530/1978 (art. 20, III) veda anunciar proposta de transação sem autorização por documento escrito. Não basta o proprietário dizer que pode anunciar: tenha o documento antes de publicar. O que ele deve conter está em <a href="/blog/autorizacao-de-venda/">autorização de venda</a>.</p>

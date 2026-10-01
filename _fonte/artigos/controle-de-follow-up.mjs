@@ -11,7 +11,7 @@ export default {
   data: '2026-10-01',
   corpo: `
 <p>Follow-up é o acompanhamento organizado de cada atendimento até que ele tenha uma conclusão: negócio realizado, cliente que desistiu ou atendimento encerrado de comum acordo. Não se trata de mandar mensagens com frequência, e sim de saber, para cada cliente, qual é o próximo passo, quando ele deve acontecer e por quê.</p>
-<p>Na prática, muitos atendimentos não avançam por falta de acompanhamento, e não por recusa do cliente. O interessado visitou um imóvel, ficou de conversar com a família, e ninguém retomou o assunto. Este artigo mostra como registrar e organizar esses retornos, com que frequência fazê-los e onde está o limite entre acompanhar e insistir.</p>
+<p>Muitos atendimentos não avançam por falta de acompanhamento, e não por recusa do cliente. O interessado visitou um imóvel, ficou de conversar com a família, e ninguém retomou o assunto. Evitar isso depende de registrar cada retorno, definir a frequência adequada e respeitar o limite entre acompanhar e insistir.</p>
 
 <h2>Os elementos de um retorno bem registrado</h2>
 <p>Cada atendimento em andamento deve ter, no seu registro de clientes, pelo menos estas informações:</p>
@@ -26,7 +26,7 @@ export default {
   </tbody>
 </table></div>
 <p>O motivo é o elemento mais negligenciado. Um retorno sem motivo vira a mensagem genérica "alguma novidade?", que transfere ao cliente o trabalho de puxar o assunto. Um retorno com motivo traz algo útil: um imóvel novo compatível com o perfil, uma informação sobre documentação, a resposta a uma dúvida que ficou pendente.</p>
-<p>O registro pode ser feito em uma planilha ou em um sistema de CRM; as diferenças entre as duas opções estão em <a href="/blog/ferramentas-digitais-do-corretor/">ferramentas digitais do corretor</a>. O importante é que todos os atendimentos estejam no mesmo lugar e que cada um tenha uma data de próximo contato.</p>
+<p>O registro pode ser feito em uma planilha ou em um sistema; o que registrar e quando migrar de um para o outro está em <a href="/blog/crm-para-corretor/">CRM para corretor de imóveis</a>. O importante é que todos os atendimentos estejam no mesmo lugar e que cada um tenha uma data de próximo contato.</p>
 
 <h2>Combinar o próximo contato com o cliente</h2>
 <p>A forma mais simples de definir a data do retorno é combiná-la com o próprio cliente. Ao final de cada conversa ou visita, pergunte quando faz sentido voltar a falar e por qual canal ele prefere ser procurado. Isso tem três vantagens:</p>

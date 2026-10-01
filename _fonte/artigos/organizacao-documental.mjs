@@ -16,7 +16,7 @@ export default {
     },
   ],
   corpo: `
-<p>Uma intermediação imobiliária produz muitos documentos: autorização, matrícula, certidões, propostas, contratos, comprovantes, mensagens. Quando eles ficam espalhados entre o celular, o e-mail e pastas sem padrão, o corretor perde tempo procurando, envia versões erradas e, no pior caso, não consegue comprovar o próprio trabalho. Este artigo propõe uma organização simples, que funciona tanto em papel quanto em arquivos digitais. O que conferir em cada documento está em <a href="/blog/documentacao-na-captacao/">documentação na fase de captação</a> e <a href="/blog/documentos-imobiliarios-basicos/">documentos imobiliários básicos</a>.</p>
+<p>Uma intermediação imobiliária produz muitos documentos: autorização, matrícula, certidões, propostas, contratos, comprovantes, mensagens. Quando eles ficam espalhados entre o celular, o e-mail e pastas sem padrão, o corretor perde tempo procurando, envia versões erradas e, no pior caso, não consegue comprovar o próprio trabalho. A organização proposta abaixo é simples e funciona tanto em papel quanto em arquivos digitais. O que conferir em cada documento está em <a href="/blog/documentacao-na-captacao/">documentação na fase de captação</a> e <a href="/blog/documentos-imobiliarios-basicos/">documentos imobiliários básicos</a>.</p>
 
 <h2>Dois eixos: imóvel e negócio</h2>
 <p>Os documentos se dividem naturalmente em dois grupos:</p>

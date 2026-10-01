@@ -20,7 +20,7 @@ export default {
     },
   ],
   corpo: `
-<p>Ferramentas de inteligência artificial que escrevem, resumem e organizam textos já fazem parte da rotina de muitos profissionais. Para o corretor, elas podem economizar tempo em tarefas de escrita e organização. Não substituem, porém, o conhecimento do imóvel, a conferência de documentos, a conversa com as partes nem a responsabilidade profissional. Este artigo trata de usos, limites e cuidados; a visão geral de ferramentas está em <a href="/blog/ferramentas-digitais-do-corretor/">ferramentas digitais do corretor</a>.</p>
+<p>Ferramentas de inteligência artificial que escrevem, resumem e organizam textos já fazem parte da rotina de muitos profissionais. Para o corretor, elas podem economizar tempo em tarefas de escrita e organização. Não substituem, porém, o conhecimento do imóvel, a conferência de documentos, a conversa com as partes nem a responsabilidade profissional. Como a IA se encaixa entre os outros recursos da rotina é assunto de <a href="/blog/ferramentas-digitais-do-corretor/">ferramentas digitais do corretor</a>.</p>
 
 <h2>Onde a IA ajuda</h2>
 <div class="tabela"><table>

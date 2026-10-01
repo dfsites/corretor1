@@ -1,7 +1,7 @@
 // Gera o site estático Corretor 1% na raiz do repositório.
 // Uso: node _fonte/build.mjs   (sem dependências externas)
 
-import { mkdirSync, rmSync, writeFileSync } from 'node:fs';
+import { existsSync, mkdirSync, rmSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { site } from './site.mjs';
@@ -46,7 +46,11 @@ function botaoContato(rotulo, assunto, classe = 'botao') {
 }
 
 // ---------- Layout ----------
-function layout({ caminho, titulo, descricao, corpo, jsonld = [], tipoOg = 'website', imagem = '/assets/img/og-corretor1.jpg', metaExtra = '' }) {
+// Capas de compartilhamento: geradas por _fonte/gerar_capas.mjs; sem capa própria, usa a capa geral.
+const CAPA_PADRAO = '/assets/img/capa-corretor1.jpg';
+const capaDe = (tipo, slug) => (existsSync(join(RAIZ, 'assets', 'img', 'capas', tipo, `${slug}.jpg`)) ? `/assets/img/capas/${tipo}/${slug}.jpg` : CAPA_PADRAO);
+
+function layout({ caminho, titulo, descricao, corpo, jsonld = [], tipoOg = 'website', imagem = CAPA_PADRAO, metaExtra = '' }) {
   const tituloCompleto = caminho === '/' ? titulo : `${titulo} | ${site.nome}`;
   const menu = MENU.map(
     ([href, rotulo]) =>
@@ -80,7 +84,11 @@ ${site.googleSiteVerification ? `<meta name="google-site-verification" content="
 <meta property="og:description" content="${esc(descricao)}">
 <meta property="og:url" content="${abs(caminho)}">
 <meta property="og:image" content="${abs(imagem)}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="${esc(tituloCompleto)}">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="${abs(imagem)}">
 ${metaExtra}
 <link rel="icon" href="/assets/img/favicon.png" type="image/png">
 <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
@@ -607,6 +615,7 @@ for (const a of artigos) {
     titulo: a.titulo,
     descricao: a.descricao,
     tipoOg: 'article',
+    imagem: capaDe('blog', a.slug),
     metaExtra: [
       `<meta name="author" content="${esc(autor.nome)}">`,
       `<meta property="article:published_time" content="${a.data}">`,
@@ -624,7 +633,7 @@ for (const a of artigos) {
         dateModified: a.atualizado || a.data,
         inLanguage: 'pt-BR',
         mainEntityOfPage: abs(caminho),
-        image: abs('/assets/img/og-corretor1.jpg'),
+        image: abs(capaDe('blog', a.slug)),
         articleSection: ed.nome,
         author: { '@type': 'Person', '@id': idPessoa(a.autor), name: autor.nome, url: abs(urlAutor(a.autor)) },
         publisher: { '@id': abs('/#organizacao') },
@@ -815,6 +824,7 @@ ${conteudoIndice}
       titulo: it.titulo,
       descricao: it.descricao,
       tipoOg: 'article',
+      imagem: capaDe(c.id, it.slug),
       metaExtra: [
         `<meta name="author" content="${esc(autor.nome)}">`,
         `<meta property="article:published_time" content="${it.data}">`,
@@ -832,7 +842,7 @@ ${conteudoIndice}
           dateModified: it.atualizado || it.data,
           inLanguage: 'pt-BR',
           mainEntityOfPage: abs(caminho),
-          image: abs('/assets/img/og-corretor1.jpg'),
+          image: abs(capaDe(c.id, it.slug)),
           articleSection: c.nome,
           author: { '@type': 'Person', '@id': idPessoa(idAutor), name: autor.nome, url: abs(urlAutor(idAutor)) },
           publisher: { '@id': abs('/#organizacao') },

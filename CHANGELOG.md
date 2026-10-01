@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-10-01 — Capas de compartilhamento
+
+- Capa geral nova (`assets/img/capa-corretor1.jpg`) e capa própria com o título de cada um dos 211 textos (`assets/img/capas/<tipo>/<slug>.jpg`), geradas por `_fonte/gerar_capas.mjs`.
+- `og:image` com dimensões e texto alternativo, `twitter:image` e imagem nos dados estruturados de cada texto; verificador confere a existência da capa.
+
 ## 2026-10-01 — Séries de referência
 
 - Glossário (54 verbetes), Documentos explicados (11) e Legislação comentada (18), com índices, schema e verificação próprios; 5 perguntas de quem quer ser corretor no blog. Detalhes em `docs/relatorios/2026-10-01-series-de-referencia.md`.

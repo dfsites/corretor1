@@ -64,7 +64,7 @@ export default {
 <p>A forma de apresentar o número está na Resolução COFECI nº 458/1995: o número da inscrição deve vir precedido da sigla CRECI e acrescido da letra "J" quando se tratar de pessoa jurídica (art. 2º).</p>
 
 <h2>Nome profissional, expressão obrigatória e tamanho mínimo</h2>
-<p>A Resolução COFECI nº 1.065/2007 padronizou a identificação nas divulgações.</p>
+<p>A Resolução COFECI nº 1.065/2007 padronizou a identificação nas divulgações. O comentário de cada artigo da resolução está em <a href="/legislacao/res-cofeci-1065-publicidade/">Resolução COFECI 1.065/2007 comentada</a>; abaixo, o que ela muda na prática.</p>
 <h3>Pessoa física</h3>
 <ul>
   <li>O nome por extenso ou abreviado deve ser seguido da expressão "corretor de imóveis", "gestor imobiliário" ou "profissional liberal" (art. 2º, com a redação da Resolução nº 1.402/2017). A expressão "gestor imobiliário" foi incluída com o objetivo de identificar portadores de diploma de curso superior na área das Ciências Imobiliárias.</li>

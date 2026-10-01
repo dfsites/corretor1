@@ -20,7 +20,7 @@ export default {
     },
   ],
   corpo: `
-<p>Antes de entrar em contato, muitos clientes leem o que outras pessoas disseram sobre o corretor. Avaliações em perfis públicos, comentários em redes sociais e depoimentos publicados no próprio site formam uma parte visível da reputação. Este artigo trata de como lidar com esse conjunto de forma profissional: pedir, responder, organizar e aprender com as avaliações.</p>
+<p>Antes de entrar em contato, muitos clientes leem o que outras pessoas disseram sobre o corretor. Avaliações em perfis públicos, comentários em redes sociais e depoimentos publicados no próprio site formam uma parte visível da reputação. Lidar com esse conjunto de forma profissional envolve quatro tarefas: pedir, responder, organizar e aprender com as avaliações.</p>
 <p>A reputação como um todo, construída no atendimento, nos registros e na relação com colegas, está em <a href="/blog/reputacao-profissional-na-corretagem/">reputação profissional na corretagem</a>. As regras específicas do perfil no Google estão em <a href="/blog/perfil-da-empresa-no-google/">Perfil da Empresa no Google</a>. A visão geral da divulgação está em <a href="/blog/marketing-para-corretor-de-imoveis/">marketing para corretor de imóveis</a>.</p>
 
 <h2>Por que avaliações reais importam</h2>

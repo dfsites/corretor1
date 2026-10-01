@@ -20,7 +20,7 @@ export default {
     },
   ],
   corpo: `
-<p>Em anúncios de imóveis, as fotos são o primeiro filtro. É por elas que o interessado decide se lê a descrição e se pede a visita. Um fotógrafo profissional costuma fazer diferença em imóveis de maior valor ou de difícil leitura, mas um celular atual, usado com cuidado, produz fotos adequadas para a maior parte dos anúncios. Este artigo reúne as orientações práticas; o contexto geral do anúncio está em <a href="/blog/marketing-para-corretor-de-imoveis/">marketing para corretor de imóveis</a>.</p>
+<p>Em anúncios de imóveis, as fotos são o primeiro filtro. É por elas que o interessado decide se lê a descrição e se pede a visita. Um fotógrafo profissional costuma fazer diferença em imóveis de maior valor ou de difícil leitura, mas um celular atual, usado com cuidado, produz fotos adequadas para a maior parte dos anúncios. O contexto geral do anúncio está em <a href="/blog/marketing-para-corretor-de-imoveis/">marketing para corretor de imóveis</a>.</p>
 
 <h2>Combinar com o proprietário</h2>
 <p>Antes de fotografar, combine com o proprietário:</p>

@@ -29,7 +29,7 @@ export default {
   ],
   corpo: `
 <p>O trabalho do corretor de imóveis acontece em muitos lugares ao mesmo tempo: conversas por mensagem, visitas, documentos de proprietários e compradores, fotos, anúncios e prazos de negociação. As ferramentas digitais ajudam a manter tudo isso organizado, mas só quando escolhidas a partir de um problema concreto. Ferramenta adotada sem propósito costuma virar mais um lugar onde a informação se perde.</p>
-<p>Este artigo apresenta as principais categorias de ferramentas usadas na corretagem, o que cada uma resolve, seus limites e seus riscos. Não se trata de indicar marcas: o mercado de software muda rápido, e a escolha depende do volume de trabalho, do orçamento e do modelo de atuação de cada profissional.</p>
+<p>As seções a seguir percorrem as principais categorias de ferramentas usadas na corretagem, o que cada uma resolve, seus limites e seus riscos, sem indicar marcas: o mercado de software muda rápido, e a escolha depende do volume de trabalho, do orçamento e do modelo de atuação de cada profissional.</p>
 
 <h2>Como avaliar uma ferramenta antes de adotar</h2>
 <p>Antes de contratar ou instalar qualquer sistema, responda a algumas perguntas:</p>
@@ -123,7 +123,7 @@ export default {
   <li>Não sabe dizer quem tem acesso às pastas e planilhas que compartilhou.</li>
   <li>Passou a trabalhar com assistente ou parceiros e as informações não circulam entre vocês.</li>
 </ul>
-<p>Nesses casos, volte à primeira pergunta deste artigo: qual é o problema concreto? A ferramenta certa é a que resolve esse problema com o menor esforço de manutenção e sem expor os dados das pessoas que confiaram em você.</p>
+<p>Nesses casos, volte à primeira pergunta: qual é o problema concreto? A ferramenta certa é a que resolve esse problema com o menor esforço de manutenção e sem expor os dados das pessoas que confiaram em você.</p>
 <p>Os usos possíveis, os limites e os cuidados com dados estão aprofundados em <a href="/blog/inteligencia-artificial-na-corretagem/">inteligência artificial como apoio ao trabalho do corretor</a>.</p>
 `,
 };

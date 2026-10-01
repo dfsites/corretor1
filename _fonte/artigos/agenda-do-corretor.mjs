@@ -11,7 +11,7 @@ export default {
   data: '2026-10-01',
   fontes: [],
   corpo: `
-<p>A agenda é o instrumento que transforma a <a href="/blog/rotina-de-trabalho-do-corretor-de-imoveis/">rotina de trabalho</a> em compromissos concretos. Para o corretor, que divide o dia entre visitas, captações, retornos, documentação e atendimento por mensagem, uma agenda mal organizada se traduz em atrasos, visitas esquecidas e clientes sem resposta. Este artigo trata do que registrar, de como distribuir os compromissos e de como usar a agenda digital sem que ela substitua o registro de clientes.</p>
+<p>A agenda é o instrumento que transforma a <a href="/blog/rotina-de-trabalho-do-corretor-de-imoveis/">rotina de trabalho</a> em compromissos concretos. Para o corretor, que divide o dia entre visitas, captações, retornos, documentação e atendimento por mensagem, uma agenda mal organizada se traduz em atrasos, visitas esquecidas e clientes sem resposta. Organizá-la envolve três decisões: o que registrar, como distribuir os compromissos e como usar a agenda digital sem que ela substitua o registro de clientes.</p>
 
 <h2>O que entra na agenda</h2>
 <p>Nem tudo pertence à agenda. Ela deve conter o que tem data e hora, ou o que precisa de tempo reservado:</p>

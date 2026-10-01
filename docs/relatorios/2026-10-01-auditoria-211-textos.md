@@ -58,3 +58,12 @@ Sete frentes, sem sobreposição de arquivos: (1) começando na profissão e os 
 - Correção jurídica: visita a imóvel alugado depende de combinação prévia de dia e hora (Lei 8.245/1991, art. 23, IX), e não dos "termos do contrato".
 - Conferidos sem erro: Res. COFECI 1.066/2007, CTN, CDC, Leis 6.015, 8.245, 10.192, 8.036, 9.514, 4.380, Código Civil, LGPD, Decreto 81.871.
 - Fusão ou remoção: nenhuma.
+
+### Rotina, negociação e corretagem (27 textos)
+
+- Aberturas meta e "Na prática" reescritos em 21 textos.
+- Duplicação enxugada com link: proposta de compra × sinal e arras (arras só no artigo próprio); negociação de prazo × parcelamento direto; do aceite ao contrato × escritura e registro.
+- Links corrigidos: contraproposta, CRM e origem dos clientes passaram a apontar para o texto que de fato trata do assunto; links para os comentários do Código Civil.
+- Afirmações sem fonte removidas ou relativizadas (base da divisão em parcerias; peso das indicações; "em regra" nas tabelas de honorários). Tributação: incluído o art. 8º-B da LC 116/2003 (transição do ISS).
+- Correções jurídicas: Lei 9.514/1997, art. 22: pessoa física pode contratar alienação fiduciária pelo § 1º, e não pelo "parágrafo único" (dois textos); CC art. 1.245, § 1º: sem registro, o comprador ainda não é proprietário (o texto dizia "perante terceiros").
+- Fusão ou remoção: nenhuma.

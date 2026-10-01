@@ -24,7 +24,7 @@ export default {
     },
   ],
   corpo: `
-<p>Portais, redes sociais e o perfil em mapas de busca pertencem a terceiros, que definem regras, alcance e formato. Um site próprio é o único endereço que o corretor controla por completo: o conteúdo permanece, os imóveis aparecem como você decidir e o cliente encontra todas as informações em um só lugar. Ao mesmo tempo, um site exige manutenção, e um site abandonado prejudica mais do que ajuda. Este artigo complementa a visão geral de <a href="/blog/marketing-para-corretor-de-imoveis/">marketing para corretor de imóveis</a>.</p>
+<p>Portais, redes sociais e o perfil em mapas de busca pertencem a terceiros, que definem regras, alcance e formato. Um site próprio é o único endereço que o corretor controla por completo: o conteúdo permanece, os imóveis aparecem como você decidir e o cliente encontra todas as informações em um só lugar. Ao mesmo tempo, um site exige manutenção, e um site abandonado prejudica mais do que ajuda. A visão geral de divulgação está em <a href="/blog/marketing-para-corretor-de-imoveis/">marketing para corretor de imóveis</a>.</p>
 
 <h2>Quando faz sentido</h2>
 <ul>

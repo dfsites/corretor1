@@ -16,7 +16,7 @@ export default {
     },
   ],
   corpo: `
-<p>Entre a primeira proposta e o registro da escritura, um negócio imobiliário passa por várias etapas com prazos, documentos e pessoas diferentes. Quando o corretor acompanha dois ou três negócios ao mesmo tempo, a memória deixa de ser suficiente: um prazo de validade de proposta vence, uma certidão expira, a resposta do banco fica sem retorno. Este artigo trata do controle dos <strong>negócios</strong>. O acompanhamento de clientes está em <a href="/blog/controle-de-follow-up/">controle de follow-up</a>, e o cadastro geral em <a href="/blog/crm-para-corretor/">CRM para corretor de imóveis</a>.</p>
+<p>Entre a primeira proposta e o registro da escritura, um negócio imobiliário passa por várias etapas com prazos, documentos e pessoas diferentes. Quando o corretor acompanha dois ou três negócios ao mesmo tempo, a memória deixa de ser suficiente: um prazo de validade de proposta vence, uma certidão expira, a resposta do banco fica sem retorno. O controle descrito aqui é o dos <strong>negócios</strong>; o acompanhamento de clientes está em <a href="/blog/controle-de-follow-up/">controle de follow-up</a>, e o cadastro geral em <a href="/blog/crm-para-corretor/">CRM para corretor de imóveis</a>.</p>
 
 <h2>Por que controlar o negócio, e não só o cliente</h2>
 <p>Um cliente pode estar envolvido em mais de um negócio, e um negócio envolve pelo menos três partes: comprador, vendedor e corretor, além de instituição financeira, cartório, condomínio e, às vezes, outros corretores. O controle por negócio responde a perguntas que o cadastro de clientes não responde bem: em que etapa está, o que falta, quem é o responsável, qual é o próximo prazo.</p>
