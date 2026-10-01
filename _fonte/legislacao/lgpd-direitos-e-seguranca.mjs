@@ -38,7 +38,7 @@ export default {
   <li>revogação do consentimento (IX).</li>
 </ul>
 <p>O § 2º permite ao titular se opor a tratamento feito com dispensa de consentimento, em caso de descumprimento da lei. O § 5º estabelece que o requerimento é atendido sem custos. O § 6º exige que o responsável informe aos agentes com quem compartilhou os dados a correção ou eliminação, para que façam o mesmo, salvo impossibilidade ou esforço desproporcional.</p>
-<p>Na prática: se um cliente pede para não receber mais ofertas e ter seus dados apagados, o corretor deve atender e avisar parceiros com quem tenha compartilhado aquele cadastro. O art. 16 autoriza conservar dados em hipóteses específicas, como o cumprimento de obrigação legal ou regulatória; o que se enquadra nelas deve ser avaliado caso a caso.</p>
+<p>Na prática: se um cliente pede para não receber mais ofertas e ter seus dados apagados, o pedido precisa ser analisado conforme a base legal usada. Quando o tratamento se apoia no consentimento, a revogação vale a qualquer momento (art. 8º, § 5º) e a eliminação é direito do titular (art. 18, VI); nas demais bases, a oposição do § 2º depende de descumprimento da lei. Havendo eliminação, os parceiros com quem o cadastro foi compartilhado devem ser informados (art. 18, § 6º). O art. 16 autoriza conservar dados em hipóteses específicas, como o cumprimento de obrigação legal ou regulatória; o que se enquadra nelas deve ser avaliado caso a caso.</p>
 
 <h2>Art. 19: prazos de resposta</h2>
 <p>A confirmação de existência ou o acesso aos dados deve ser fornecido em formato simplificado, imediatamente, ou por declaração clara e completa, indicando origem, critérios e finalidade, em até 15 dias do requerimento (incisos I e II). Os dados devem ser armazenados em formato que facilite esse acesso (§ 1º). Um cadastro organizado em um só lugar torna esse atendimento simples; dados espalhados em conversas, planilhas e e-mails tornam difícil.</p>
@@ -60,7 +60,7 @@ export default {
 <h2>Art. 49: sistemas seguros</h2>
 <p>Os sistemas usados no tratamento devem atender aos requisitos de segurança, às boas práticas e aos princípios da lei. Ao escolher um <a href="/blog/crm-para-corretor/">CRM</a> ou outra ferramenta, vale verificar controle de acesso, registro de atividades e possibilidade de exportar e eliminar dados.</p>
 
-<h2>Limites deste comentário</h2>
+<h2>Prazos e incidentes nos regulamentos da ANPD</h2>
 <p>Prazos, forma de comunicação de incidentes e regras para agentes de pequeno porte são detalhados em regulamentos da ANPD, que devem ser consultados no caso concreto. A aplicação diária está em <a href="/blog/lgpd-na-rotina-do-corretor/">LGPD na rotina do corretor</a>.</p>
 `,
 };

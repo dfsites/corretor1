@@ -20,7 +20,7 @@ export default {
     '/legislacao/res-cofeci-1065-publicidade/',
   ],
   corpo: `
-<p>A Resolução COFECI nº 326/1992 aprovou o Código de Ética Profissional dos Corretores de Imóveis. É uma norma curta, com dez artigos, mas que orienta boa parte das condutas cobradas pelos Conselhos Regionais. Este comentário percorre o código artigo por artigo. A visão aplicada à carreira está em <a href="/blog/etica-profissional-na-corretagem/">ética profissional na corretagem</a>.</p>
+<p>A Resolução COFECI nº 326/1992 aprovou o Código de Ética Profissional dos Corretores de Imóveis. É uma norma curta, com dez artigos, mas que orienta boa parte das condutas cobradas pelos Conselhos Regionais. A visão aplicada à carreira está em <a href="/blog/etica-profissional-na-corretagem/">ética profissional na corretagem</a>.</p>
 
 <h2>Arts. 1º e 2º: objetivo e deveres gerais</h2>
 <p>O código fixa a forma pela qual o corretor deve se conduzir no exercício profissional (art. 1º). O art. 2º resume os deveres em três frentes: a defesa do interesse que lhe é confiado, o zelo pelo prestígio da classe e o aperfeiçoamento da técnica das transações imobiliárias.</p>
@@ -63,7 +63,7 @@ export default {
 <h2>Arts. 9º e 10</h2>
 <p>As regras obrigam todos os profissionais inscritos nos Conselhos Regionais (art. 9º), e as diretorias dos conselhos devem divulgar o código (art. 10).</p>
 
-<h2>Limites deste comentário</h2>
-<p>A aplicação do código a um caso concreto é feita pelo Conselho Regional, em processo próprio. Outras resoluções do COFECI complementam essas regras. Consulte sempre o texto oficial e o CRECI da sua região.</p>
+<h2>Como o código é aplicado</h2>
+<p>Quem aplica o código a um caso concreto é o Conselho Regional, em processo disciplinar próprio, e outras resoluções do COFECI completam essas regras. A redação de referência é sempre a oficial, com as alterações posteriores.</p>
 `,
 };

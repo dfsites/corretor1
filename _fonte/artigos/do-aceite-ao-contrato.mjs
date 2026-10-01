@@ -26,7 +26,7 @@ export default {
   fontes: [CODIGO_CIVIL, LEI_6015, LEI_9514],
   corpo: `
 <p>O aceite da proposta encerra a negociação de preço e condições, mas não conclui a compra. Entre esse momento e a escritura há um período em que as partes formalizam o acordo, conferem documentos, cumprem condições (como a aprovação do financiamento) e preparam a transferência. Boa parte dos negócios que se desfazem depois de "fechados" se perde justamente nessa fase.</p>
-<p>Este artigo descreve as etapas desse período. A estrutura da proposta está em <a href="/blog/proposta-de-compra-de-imovel/">proposta de compra de imóvel</a>; o que acontece depois do contrato, até a transferência da propriedade, está em <a href="/blog/escritura-e-registro/">escritura e registro</a>.</p>
+<p>As etapas abaixo partem do aceite já obtido (a estrutura da proposta está em <a href="/blog/proposta-de-compra-de-imovel/">proposta de compra de imóvel</a>) e vão até a véspera da escritura; a lavratura, o ITBI e o registro estão em <a href="/blog/escritura-e-registro/">escritura e registro</a>.</p>
 
 <h2>1. Registrar o aceite</h2>
 <p>O aceite deve ficar documentado: a proposta assinada pelo proprietário ou uma manifestação escrita com as condições aceitas. Se houve contrapropostas, confirme qual versão final foi aceita, com preço, forma de pagamento, prazos e itens que permanecem no imóvel. Divergência sobre o que foi combinado é mais fácil de resolver nesse momento do que na assinatura do contrato.</p>
@@ -42,7 +42,7 @@ export default {
 <p>A Lei de Registros Públicos inclui entre os atos de registro os contratos de compromisso de compra e venda de imóveis não loteados (Lei nº 6.015/1973, art. 167, I, item 9). Se e quando registrar a promessa é uma decisão das partes, normalmente orientada pelo advogado, considerando prazo até a escritura, valor envolvido e riscos do negócio.</p>
 
 <h3>Escritura direta</h3>
-<p>Quando o pagamento é à vista e a documentação está pronta, as partes podem ir diretamente à escritura. O art. 108 do Código Civil exige escritura pública para negócios que transfiram direitos reais sobre imóveis de valor superior a trinta vezes o maior salário mínimo vigente, salvo disposição legal em contrário. Nas operações de financiamento com alienação fiduciária, a Lei nº 9.514/1997 (art. 38) permite que os contratos sejam celebrados por instrumento particular com caráter de escritura pública. Confirme com a instituição financeira qual será o instrumento usado no caso.</p>
+<p>Quando o pagamento é à vista e a documentação está pronta, as partes podem ir diretamente à escritura pública, exigida pelo art. 108 do Código Civil para imóveis de valor superior a trinta vezes o maior salário mínimo, salvo disposição legal em contrário. No financiamento com alienação fiduciária, o contrato bancário pode ter efeitos de escritura pública (Lei nº 9.514/1997, art. 38). As duas hipóteses estão explicadas em <a href="/blog/escritura-e-registro/">escritura e registro</a>.</p>
 
 <h2>3. Conferir a documentação</h2>
 <p>A análise documental deveria ter começado na captação (veja <a href="/blog/documentacao-na-captacao/">documentação na captação</a>). Agora ela precisa ser atualizada e completada para a escritura. Em geral, o comprador, o advogado ou o cartório solicitam:</p>

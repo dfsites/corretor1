@@ -20,7 +20,7 @@ export default {
     '/legislacao/res-cofeci-326-codigo-de-etica/',
   ],
   corpo: `
-<p>A Resolução COFECI nº 1.066/2007 regulamenta o Cadastro Nacional de Avaliadores Imobiliários (CNAI) e o Parecer Técnico de Avaliação Mercadológica (PTAM). O Ato Normativo nº 001/2011, publicado junto com ela no documento oficial, detalha a inscrição no CNAI. Este comentário explica o que cada parte significa para o corretor. A trajetória de quem quer atuar com avaliação está em <a href="/blog/perito-avaliador-cnai/">perito avaliador e registro no CNAI</a>.</p>
+<p>A Resolução COFECI nº 1.066/2007 regulamenta o Cadastro Nacional de Avaliadores Imobiliários (CNAI) e o Parecer Técnico de Avaliação Mercadológica (PTAM). O Ato Normativo nº 001/2011, publicado junto com ela no documento oficial, detalha a inscrição no CNAI. A trajetória de quem quer atuar com avaliação está em <a href="/blog/perito-avaliador-cnai/">perito avaliador e registro no CNAI</a>.</p>
 
 <h2>Os fundamentos da resolução</h2>
 <p>Os considerandos citam o art. 3º da Lei nº 6.530/1978, que dá ao corretor competência para opinar sobre comercialização imobiliária; o art. 39, VIII, do Código de Defesa do Consumidor, que impede o fornecimento de serviços em desacordo com normas oficiais ou, na falta delas, com normas da ABNT; e as normas ABNT NBR 14653, partes 1, 2 e 3, sobre avaliação de bens, imóveis urbanos e imóveis rurais.</p>
@@ -51,7 +51,7 @@ export default {
 <h2>Arts. 13 e 14: normas complementares e infração</h2>
 <p>O presidente do COFECI regulamenta por ato normativo a inscrição, a prova, os modelos de documentos e do selo e o modelo básico de parecer (art. 13), o que foi feito pelo Ato Normativo nº 001/2011. O inscrito no CNAI se submete às regras da resolução, e sua transgressão, assim como comportamento antiético que comprometa o cadastro, é infração ética grave nos termos do <a href="/legislacao/res-cofeci-326-codigo-de-etica/">Código de Ética</a> (art. 14).</p>
 
-<h2>Limites deste comentário</h2>
-<p>Normas técnicas de avaliação, exigências de órgãos públicos ou do Judiciário e requisitos de instituições financeiras podem exigir outro tipo de laudo ou outro profissional, conforme a finalidade. Antes de aceitar um trabalho de avaliação, confira a finalidade e o documento exigido. A fundamentação comercial do preço está em <a href="/blog/preco-de-mercado-de-imoveis/">preço de mercado</a>.</p>
+<h2>PTAM, laudo e outras exigências</h2>
+<p>Conforme a finalidade, normas técnicas de avaliação, órgãos públicos, o Judiciário ou instituições financeiras podem exigir outro tipo de laudo ou outro profissional. Antes de aceitar um trabalho de avaliação, vale confirmar para que ele serve e qual documento foi pedido. A fundamentação comercial do preço está em <a href="/blog/preco-de-mercado-de-imoveis/">preço de mercado</a>.</p>
 `,
 };

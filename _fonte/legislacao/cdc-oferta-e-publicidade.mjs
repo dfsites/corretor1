@@ -20,11 +20,11 @@ export default {
     '/legislacao/res-cofeci-1065-publicidade/',
   ],
   corpo: `
-<p>O anúncio de um imóvel é, muitas vezes, o primeiro contato do comprador ou locatário com o negócio. Quando houver relação de consumo, as regras do Código de Defesa do Consumidor (Lei nº 8.078/1990) sobre oferta e publicidade passam a valer para esse anúncio. Este comentário reúne os dispositivos que mais afetam o trabalho do corretor. As regras próprias da profissão sobre publicidade estão em <a href="/blog/regras-de-publicidade-do-corretor/">regras de publicidade do corretor</a>.</p>
+<p>O anúncio de um imóvel é, muitas vezes, o primeiro contato do comprador ou locatário com o negócio. Quando houver relação de consumo, as regras do Código de Defesa do Consumidor (Lei nº 8.078/1990) sobre oferta e publicidade passam a valer para esse anúncio. As regras próprias da profissão sobre publicidade estão em <a href="/blog/regras-de-publicidade-do-corretor/">regras de publicidade do corretor</a>.</p>
 
 <h2>Arts. 2º e 3º: quando o CDC se aplica</h2>
 <p>O CDC define consumidor como quem adquire ou utiliza produto ou serviço como destinatário final (art. 2º) e fornecedor como quem desenvolve atividade de comercialização de produtos ou prestação de serviços (art. 3º). O § 1º do art. 3º inclui expressamente o bem imóvel no conceito de produto, e o § 2º define serviço como atividade fornecida no mercado de consumo mediante remuneração.</p>
-<p>Se uma intermediação concreta configura relação de consumo depende de quem são as partes e de como o negócio se estrutura, e cada situação exige análise própria. Na dúvida, a postura mais segura é anunciar sempre como se as regras do CDC se aplicassem: informação correta e completa não é exigência só do consumidor.</p>
+<p>Se uma intermediação concreta configura relação de consumo depende de quem são as partes e de como o negócio se estrutura, e cada situação exige análise própria. Na dúvida, a postura mais segura é anunciar sempre como se as regras do CDC se aplicassem: informação correta e completa não é exigência apenas do CDC: também decorre do art. 723 do Código Civil e das normas da profissão.</p>
 
 <h2>Art. 30: a oferta vincula</h2>
 <p>Toda informação ou publicidade suficientemente precisa sobre produtos ou serviços obriga o fornecedor que a veicular ou dela se utilizar e integra o contrato. Na prática, um anúncio que informa "vaga de garagem coberta", "condomínio de R$ 600" ou "aceita financiamento" cria uma expectativa que pode ser exigida. Por isso, o que se publica precisa estar conferido com o proprietário e com os documentos.</p>
@@ -57,7 +57,7 @@ export default {
 <h2>Relação com as normas da profissão</h2>
 <p>As regras do CDC somam-se às da Lei nº 6.530/1978, do Decreto nº 81.871/1978 e das resoluções do COFECI, como a exigência do número do CRECI nos anúncios. Veja o comentário à <a href="/legislacao/res-cofeci-1065-publicidade/">Resolução COFECI nº 1.065/2007</a> e o guia de <a href="/blog/portais-imobiliarios/">portais imobiliários</a>.</p>
 
-<h2>Limites deste comentário</h2>
-<p>A configuração de relação de consumo, a responsabilidade de cada participante e as consequências de um anúncio incorreto dependem do caso concreto e da interpretação dos tribunais. Este texto é informativo.</p>
+<h2>Relação de consumo e responsabilidade</h2>
+<p>Se há relação de consumo, quem responde por um anúncio incorreto e quais são as consequências são questões decididas caso a caso, à luz da interpretação dos tribunais.</p>
 `,
 };

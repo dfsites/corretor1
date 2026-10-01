@@ -32,7 +32,7 @@ export default {
 <p>As pessoas jurídicas inscritas "sujeitam-se aos mesmos deveres e têm os mesmos direitos das pessoas físicas" inscritas. Na prática, a imobiliária responde perante o Conselho pelas mesmas regras de conduta que o corretor: identificação nos anúncios, autorização escrita para anunciar, sigilo, prestação de contas e as demais vedações do <a href="/legislacao/lei-6530-vedacoes-e-sancoes/">art. 20</a>.</p>
 
 <h2>§ 1º: corretor como sócio gerente ou diretor</h2>
-<p>A pessoa jurídica deve ter como sócio gerente ou diretor um corretor de imóveis individualmente inscrito. É esse profissional que responde tecnicamente pela empresa perante o Conselho. Para quem pensa em abrir a própria imobiliária, o requisito está detalhado em <a href="/blog/corretor-pessoa-juridica/">corretor pessoa jurídica</a>.</p>
+<p>A pessoa jurídica deve ter como sócio gerente ou diretor um corretor de imóveis individualmente inscrito. A exigência garante que a gestão da empresa esteja a cargo de um corretor habilitado. Para quem pensa em abrir a própria imobiliária, o requisito está detalhado em <a href="/blog/corretor-pessoa-juridica/">corretor pessoa jurídica</a>.</p>
 
 <h2>§ 2º: associação com uma ou mais imobiliárias</h2>
 <p>O § 2º permite que o corretor se associe a uma ou mais imobiliárias "mantendo sua autonomia profissional, sem qualquer outro vínculo, inclusive empregatício e previdenciário", por meio de contrato de associação específico. A lei prevê o registro desse contrato no Sindicato dos Corretores de Imóveis ou, onde não houver sindicato, nas delegacias da Federação Nacional de Corretores de Imóveis.</p>

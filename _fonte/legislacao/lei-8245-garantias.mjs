@@ -34,7 +34,7 @@ export default {
 <p>Salvo disposição contratual em contrário, qualquer garantia se estende até a efetiva devolução do imóvel, ainda que a locação seja prorrogada por prazo indeterminado (redação da Lei nº 12.112/2009). O ponto importante é a ressalva: o contrato pode dispor de forma diferente, e por isso a cláusula sobre a duração da garantia deve ser lida com atenção.</p>
 
 <h2>Art. 40: quando o locador pode exigir nova garantia</h2>
-<p>O art. 40 lista situações em que o locador pode exigir novo fiador ou outra modalidade, como morte, ausência, interdição, recuperação judicial, falência ou insolvência do fiador, alienação de todos os bens imóveis do fiador sem comunicação, exoneração do fiador, prorrogação por prazo indeterminado quando a fiança era por prazo certo e liquidação do fundo de investimento.</p>
+<p>O art. 40 lista situações em que o locador pode exigir novo fiador ou outra modalidade, como morte, ausência, interdição, recuperação judicial, falência ou insolvência do fiador, alienação ou gravação de todos os bens imóveis do fiador ou sua mudança de residência sem comunicação ao locador, exoneração do fiador, prorrogação por prazo indeterminado quando a fiança era por prazo certo e liquidação do fundo de investimento.</p>
 <p>O inciso X trata do fiador que notifica o locador da intenção de se desonerar quando a locação está prorrogada por prazo indeterminado: ele continua obrigado por 120 dias após a notificação. O parágrafo único permite ao locador notificar o locatário para apresentar nova garantia em 30 dias, sob pena de desfazimento da locação.</p>
 
 <h2>Art. 41: o seguro-fiança</h2>
@@ -60,7 +60,7 @@ export default {
   <li>Na <a href="/blog/captacao-para-locacao/">captação para locação</a>, alinhar com o proprietário que a escolha de uma garantia exclui as demais.</li>
 </ul>
 
-<h2>Limites deste comentário</h2>
-<p>A análise de cada garantia no caso concreto, inclusive a idoneidade do fiador e a cobertura do seguro, depende de documentos e condições específicas. Este comentário não substitui a orientação jurídica nem a leitura do contrato e da apólice.</p>
+<h2>Garantia no caso concreto</h2>
+<p>A escolha e a aceitação de cada garantia, inclusive a idoneidade do fiador e a cobertura do seguro, dependem dos documentos e das condições de cada negócio. O contrato e a apólice precisam ser lidos por inteiro, e a dúvida sobre uma cláusula específica pede orientação jurídica.</p>
 `,
 };

@@ -39,7 +39,7 @@ export default {
 </ul>
 
 <h3>Relação com imobiliárias</h3>
-<p>Quando o corretor atua associado a uma imobiliária, a partilha dos resultados entre os dois segue o contrato de associação previsto no art. 6º da Lei nº 6.530/1978. Esse contrato é o "ajuste em contrário" que organiza a divisão; veja <a href="/legislacao/lei-6530-pessoa-juridica-e-associacao/">Lei nº 6.530/1978, art. 6º</a> e <a href="/blog/contrato-de-associacao-corretor-imobiliaria/">contrato de associação</a>.</p>
+<p>Quando o corretor atua associado a uma imobiliária, a partilha dos resultados entre os dois segue o contrato de associação previsto no art. 6º da Lei nº 6.530/1978. Esse contrato funciona como o ajuste que organiza a divisão entre eles; veja <a href="/legislacao/lei-6530-pessoa-juridica-e-associacao/">Lei nº 6.530/1978, art. 6º</a> e <a href="/blog/contrato-de-associacao-corretor-imobiliaria/">contrato de associação</a>.</p>
 
 <h3>Cuidados com o cliente</h3>
 <p>A divisão entre corretores é um assunto interno dos profissionais. Para o cliente, o valor total da remuneração e quem a paga devem estar claros desde o início. Parcerias não devem aumentar o custo combinado sem o conhecimento e a concordância de quem paga.</p>

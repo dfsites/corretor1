@@ -59,7 +59,7 @@ export default {
   <li>Em vídeo ou áudio, o número é falado?</li>
 </ul>
 
-<h2>Limites deste comentário</h2>
-<p>A resolução convive com outras normas sobre publicidade, inclusive o Código de Defesa do Consumidor; veja <a href="/legislacao/cdc-oferta-e-publicidade/">CDC: oferta e publicidade</a>. Consulte o CRECI da sua região sobre a aplicação em situações específicas.</p>
+<h2>Outras normas sobre anúncios</h2>
+<p>A resolução convive com outras normas sobre publicidade, entre elas o Código de Defesa do Consumidor, comentado em <a href="/legislacao/cdc-oferta-e-publicidade/">CDC: oferta e publicidade</a>. Dúvidas sobre situações específicas podem ser levadas ao CRECI da região.</p>
 `,
 };

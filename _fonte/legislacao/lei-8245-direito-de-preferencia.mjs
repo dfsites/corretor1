@@ -58,7 +58,7 @@ export default {
   <li>Documentar a resposta do inquilino.</li>
 </ol>
 
-<h2>Limites deste comentário</h2>
+<h2>Pontos discutidos nos tribunais</h2>
 <p>Há discussões nos tribunais sobre a forma da comunicação, sobre o que são "igualdade de condições" e sobre situações específicas. Diante de uma venda com inquilino que manifesta interesse, ou de dúvida sobre se a operação está entre as exceções do art. 32, a orientação de um advogado é recomendável. O conceito está resumido no verbete <a href="/glossario/direito-de-preferencia/">direito de preferência</a>.</p>
 `,
 };

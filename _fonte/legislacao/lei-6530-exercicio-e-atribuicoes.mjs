@@ -55,7 +55,7 @@ export default {
   <li><strong>Ao trabalhar com imobiliária:</strong> a empresa também precisa estar inscrita, e o atendimento ao público em transações patrocinadas por pessoa jurídica deve ser feito por corretor inscrito, conforme o decreto regulamentador.</li>
 </ul>
 
-<h2>Limites deste comentário</h2>
-<p>Os arts. 1º a 4º tratam da habilitação e das atribuições. Deveres, proibições e sanções estão nos <a href="/legislacao/lei-6530-vedacoes-e-sancoes/">arts. 20 e 21</a>, e a estrutura dos conselhos nos <a href="/legislacao/lei-6530-conselhos/">arts. 5º e 7º a 19</a>. Regras detalhadas de inscrição dependem de resoluções do COFECI, que podem mudar; confirme sempre a norma vigente no Conselho Regional.</p>
+<h2>Onde estão os demais temas da lei</h2>
+<p>Os arts. 1º a 4º tratam da habilitação e das atribuições. Deveres, proibições e sanções estão nos <a href="/legislacao/lei-6530-vedacoes-e-sancoes/">arts. 20 e 21</a>, e a estrutura dos conselhos nos <a href="/legislacao/lei-6530-conselhos/">arts. 5º e 7º a 19</a>. Regras detalhadas de inscrição dependem de resoluções do COFECI, que podem mudar; a norma vigente pode ser confirmada no Conselho Regional.</p>
 `,
 };

@@ -64,7 +64,7 @@ export default {
   <li>Informar ao inquilino, no <a href="/blog/atendimento-ao-interessado-em-locacao/">atendimento ao interessado em locação</a>, quais encargos ele vai pagar além do aluguel, para que a decisão seja tomada com o custo total.</li>
 </ul>
 
-<h2>Limites deste comentário</h2>
+<h2>Modalidades de locação e contrato</h2>
 <p>A Lei do Inquilinato tem regras específicas para locação não residencial, temporada e outras situações, e o contrato pode ajustar vários pontos dentro dos limites da lei. A aplicação a um caso concreto depende do contrato assinado e dos fatos. Quem atua com locação de forma recorrente encontra uma visão mais ampla em <a href="/blog/atuacao-em-locacao-e-administracao/">atuação em locação e administração de imóveis</a>.</p>
 `,
 };

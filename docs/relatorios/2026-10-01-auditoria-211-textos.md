@@ -27,3 +27,11 @@ Sete frentes, sem sobreposição de arquivos: (1) começando na profissão e os 
 - Duplicação: "corretor autônomo, associado ou contratado" transcrevia os §§ 2º a 4º do art. 6º da Lei 6.530 e repetia o checklist do artigo sobre contrato de associação; trocado por resumo e link.
 - Erros jurídicos: nenhum. Conferidos: Lei 6.530/1978, Decreto 81.871/1978, Código Civil, CLT, Lei 8.906/1994, LCP art. 47, Lei 6.015/1973, Res. COFECI 326/1992, 327/1992 e 1.476/2022, página do CRECI-SP.
 - Fusão ou remoção: nenhuma (pares próximos têm ângulos distintos).
+
+### Carreira e captação (26 textos)
+
+- Aberturas meta reescritas em 19 textos; "Na prática, isso" retirado onde sobrava; frase sem base removida ("melhor do que a maioria dos profissionais", especialização por região).
+- Links repetidos reduzidos ao primeiro em 4 textos; ligações que faltavam: exclusividade → renovação da autorização; documentação na captação → imóvel com pendências documentais.
+- Remissões idênticas reescritas (prospecção; organização da carteira).
+- Erros jurídicos: nenhum. Conferidos: Leis 8.245/1991, 6.530/1978, 6.015/1973, 4.591/1964, 4.947/1966, 9.393/1996, 12.651/2012, Código Civil, CTN art. 130, Res. COFECI 326/1992 e 1.066/2007.
+- Fusão ou remoção: nenhuma; pares próximos (pessoa jurídica, CNAI/PTAM, autorização/exclusividade/renovação, documentação/pendências) têm ângulos distintos e remissões entre si.
