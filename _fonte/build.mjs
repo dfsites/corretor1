@@ -84,7 +84,7 @@ ${site.googleSiteVerification ? `<meta name="google-site-verification" content="
 ${metaExtra}
 <link rel="icon" href="/assets/img/favicon.png" type="image/png">
 <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
-<link rel="stylesheet" href="/assets/css/style.css?v=${ATUALIZADO}k">
+<link rel="stylesheet" href="/assets/css/style.css?v=${ATUALIZADO}l">
 ${schemas}
 </head>
 <body>
@@ -102,7 +102,7 @@ ${schemas}
 ${corpo}
 </main>
 ${rodape()}
-<script src="/assets/js/site.js?v=${ATUALIZADO}k" defer></script>
+<script src="/assets/js/site.js?v=${ATUALIZADO}l" defer></script>
 </body>
 </html>
 `;
@@ -507,6 +507,17 @@ function semLinksPendentes(html) {
   });
 }
 
+// Itens das séries de referência que apontam para cada artigo do blog (ligação de volta).
+const referenciasDoArtigo = {};
+for (const c of colecoes) {
+  for (const it of itensColecao[c.id]) {
+    for (const r of it.relacionados || []) {
+      const m = r.match(/^\/blog\/([a-z0-9-]+)\/$/);
+      if (m) (referenciasDoArtigo[m[1]] ||= []).push({ caminho: `/${c.id}/${it.slug}/`, nome: it.termo || it.h1, serie: c.nome });
+    }
+  }
+}
+
 const rotuloPersonas = (a) => (a.personas || []).map((p) => personas[p]).join(' · ');
 
 // Blog (índice)
@@ -637,6 +648,14 @@ ${semLinksPendentes(a.corpo.trim())}
 ${
   satelites.length
     ? `<section class="neste-tema"><h2>Artigos deste tema</h2><ul>${satelites.map((s) => `<li><a href="${urlArtigo(s)}">${esc(s.h1)}</a></li>`).join('')}</ul></section>`
+    : ''
+}
+${
+  referenciasDoArtigo[a.slug]?.length
+    ? `<section class="neste-tema"><h2>Na biblioteca de referência</h2><ul>${referenciasDoArtigo[a.slug]
+        .slice(0, 8)
+        .map((r) => `<li><a href="${r.caminho}">${esc(r.nome)}</a> <span class="serie">(${esc(r.serie)})</span></li>`)
+        .join('')}</ul></section>`
     : ''
 }
 ${a.avisoJuridico ? '<p class="aviso-juridico">Conteúdo informativo, elaborado a partir da legislação citada. Não substitui a orientação de um advogado para um caso concreto.</p>' : ''}

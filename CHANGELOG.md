@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-10-01 — Séries de referência
+
+- Glossário (54 verbetes), Documentos explicados (11) e Legislação comentada (18), com índices, schema e verificação próprios; 5 perguntas de quem quer ser corretor no blog. Detalhes em `docs/relatorios/2026-10-01-series-de-referencia.md`.
+- Artigos do blog listam os itens das séries relacionados ("Na biblioteca de referência").
+- Envio por FTP incremental e com reconexão.
+
 ## 2026-10-01 — Quarto ciclo editorial (20 artigos): banco de 117 pautas concluído
 
 - 20 artigos novos (detalhes em `docs/relatorios/2026-10-01-quarto-ciclo-editorial.md`); blog com 123 artigos.

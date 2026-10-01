@@ -205,3 +205,5 @@ p { margin: 0 0 1em; }
 .lista-indice li { background: #fff; border: 1px solid var(--borda); border-radius: var(--raio); padding: 14px 16px; }
 .lista-indice a { font-weight: 700; text-decoration: none; }
 .lista-indice span { display: block; font-size: .9rem; color: var(--texto-suave); margin-top: 4px; }
+
+.neste-tema .serie { color: var(--texto-suave); font-size: .88rem; }

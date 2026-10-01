@@ -7,7 +7,7 @@
 
 ## Próximo
 
-- Avaliar no Search Console quais artigos aprofundar e iniciar as séries de expansão (seção 6 do plano).
+- Avaliar no Search Console quais artigos aprofundar e ampliar as séries de referência (novos verbetes, documentos e normas).
 - Foto do autor (quadrada) em `assets/img/autores/` e campo `foto` em `_fonte/autores.mjs`.
 
 - Cadastrar os e-books (capa, preço, link de compra) em `_fonte/produtos.mjs`.
@@ -19,6 +19,8 @@
 - Confirmar a divisão de papéis com corretor50k.com.br.
 
 ## Concluído
+
+- 2026-10-01: séries de referência publicadas (glossário 54, documentos 11, legislação 18, perguntas 5).
 
 - 2026-10-01: quarto ciclo editorial: 20 artigos; banco de 117 pautas concluído (blog com 123).
 

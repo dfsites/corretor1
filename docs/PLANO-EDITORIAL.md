@@ -473,6 +473,8 @@ Pautas descartadas ou fundidas na consolidação, por canibalização: "Corretor
 
 ## 6. Expansões de escala (fase 2)
 
+> **Status (2026-10-01):** primeira leva publicada: Glossário com 54 verbetes (`/glossario/`), Documentos explicados com 11 páginas (`/documentos/`), Legislação comentada com 18 páginas (`/legislacao/`) e 5 perguntas de quem quer ser corretor no blog. Conteúdo em `_fonte/glossario/`, `_fonte/documentos/`, `_fonte/legislacao/` e `_fonte/artigos/`; configuração em `_fonte/colecoes.mjs`. Novos itens seguem os mesmos critérios desta seção.
+
 O proprietário aceita um site com centenas de páginas. As séries abaixo crescem sem conteúdo raso, desde que cada página responda a uma dúvida real e traga conteúdo próprio. Elas só começam depois do primeiro e do segundo ciclo das pautas da seção 5.
 
 Cada série terá prefixo de URL e template próprios. Isso exige implementação no `build.mjs` antes da primeira publicação.

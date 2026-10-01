@@ -21,3 +21,17 @@ Data: 2026-10-01 · Glossário (`/glossario/`), Documentos explicados (`/documen
 - Documentos: certidão de matrícula, negativa de IPTU, quitação condominial, distribuição cível e de execução, nascimento ou casamento, procuração pública, débitos federais, CNDT, protesto, guia de ITBI, laudo de vistoria de locação.
 - Fontes: Lei 6.015/1973, Lei 7.433/1985, Decreto 93.240/1986, Lei 13.097/2015, CTN, Código Civil, Lei 4.591/1964, CLT art. 642-A, Lei 9.492/1997, Lei 8.245/1991, CF, Decretos-Leis 9.760/1946 e 2.398/1987, páginas oficiais do gov.br (certidão de regularidade fiscal) e do TST.
 - Verificador: a regra de "definitiva" passou a barrar só o sentido promocional ("técnica definitiva"), para não bloquear termos jurídicos como "venda definitiva".
+
+## Bloco: glossário parte 3 (12 verbetes), legislação parte 2 (9 páginas) e perguntas (5 artigos)
+
+- Glossário: outorga conjugal, procuração, inventário, partilha, espólio, adjudicação, cessão de direitos, dação em pagamento, comodato, locação por temporada, ação renovatória, ação de despejo.
+- Legislação: Lei 8.245/1991 (deveres e taxas, direito de preferência, garantias), LGPD (conceitos e bases legais; direitos e segurança), CDC (oferta e publicidade), Resoluções COFECI 326/1992, 1.065/2007 e 1.066/2007.
+- Perguntas no blog: atuar em outro estado, ter outro emprego, estagiário intermediar, vender imóvel próprio ou de parentes, quem não tem CRECI receber comissão.
+- Fontes adicionais lidas: CPC, Lei 6.015/1973 art. 216-B, Res. COFECI 327/1992 e 1.476/2022, Lei das Contravenções Penais art. 47, CLT art. 482.
+
+## Fechamento das séries
+
+- No ar: 54 verbetes, 11 documentos, 18 comentários de legislação e 5 perguntas; site com 234 páginas.
+- Ligação de volta: 64 artigos do blog ganharam a seção "Na biblioteca de referência", com os itens das séries que apontam para eles.
+- Build, verificador e testes no domínio real aprovados.
+- Arquivo fora do projeto para apagar à mão: `F:\Program Files\Git	mp_x.pdf` (PDF público de resolução do COFECI baixado por um agente; a remoção automática foi bloqueada pela proteção do sistema).
