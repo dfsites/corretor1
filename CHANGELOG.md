@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-10-01 — Layout do texto
+
+- Coluna de leitura alinhada à esquerda, rente ao logo (antes centralizada); blocos centralizados da home e faixas de chamada continuam centralizados.
+- Texto corrido justificado, com hifenização em português.
+
 ## 2026-10-01 — Aviso de cookies
 
 - Aviso discreto (texto pequeno, rodapé da tela) com o texto definido pelo proprietário, botão "Concordo, continuar" e X para fechar; a escolha fica gravada no navegador (`localStorage`) e o aviso não reaparece. Implementado em `assets/js/site.js` e `assets/css/style.css`.
