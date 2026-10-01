@@ -4,7 +4,7 @@
 
 ## Situação atual
 
-EM DESENVOLVIMENTO — nova versão do site gerada e verificada localmente; publicação via GitHub (`dfsites/corretor1`, branch `main`).
+PUBLICADO — nova versão no ar em https://www.corretor1.com.br desde 2026-10-01 (enviada por FTP).
 
 ## Desenvolvimento
 
@@ -25,7 +25,7 @@ Hospedagem: Uni5 (Apache), FTP/SSH ativos. HTTPS válido; canônico https://www.
 
 ## Publicação
 
-Publicado: ainda a versão antiga (template). Push para `dfsites/corretor1` (main) feito em 2026-10-01, mas o servidor não atualizou em ~2 min — verificar a integração GitHub no painel da Uni5.
+Publicado: SIM — nova versão (2026-10-01). Site antigo removido; backup em `_backup-servidor/`. Integração GitHub → hospedagem não grava em `/www` (ver DEPLOY.md).
 
 ## Pendências
 
@@ -33,9 +33,9 @@ Publicado: ainda a versão antiga (template). Push para `dfsites/corretor1` (mai
 - Informar WhatsApp e Instagram (opcional) em `_fonte/site.mjs`
 - Cadastrar e-books e cursos (`_fonte/produtos.mjs`)
 - Google Search Console + envio do sitemap
-- Remover arquivos antigos do template no servidor, se a publicação não limpar
+- Corrigir a pasta de destino do deploy via GitHub no painel da hospedagem
 - Confirmar a divisão de papéis com corretor50k.com.br
 
 ## Próxima ação
 
-Conferir o site no ar após o push.
+Google Search Console + sitemap; configurar contato.

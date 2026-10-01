@@ -5,7 +5,7 @@ Pasta atual: --corretor-1-novo
 Caminho: F:\REDE\IA - TREINAMENTO - CURSOS - PROMPTS - ETC\- 2026 - APPS E SITES - DANIEL\--corretor-1-novo
 URL canônica: https://www.corretor1.com.br (definida pelo proprietário em 2026-10-01)
 Tipo: SITE
-Status: PUBLICADO (template antigo) — EM PLANEJAMENTO para refazer
+Status: PUBLICADO — nova versão desde 2026-10-01
 Categoria: CORRETORES
 Projeto relacionado: corretor50k.com.br; corretordf.com.br
 Alias de: —

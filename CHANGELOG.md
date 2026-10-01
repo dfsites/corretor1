@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-10-01 — Publicação
+
+- Backup completo do site antigo (100 arquivos) em `_backup-servidor/2026-10-01/` (fora do git).
+- Nova versão enviada por FTP para `/www`; site antigo e `phpinfo` removidos a pedido do proprietário.
+- Testado no ar: 14 páginas 200; http e sem-www → 301 https://www; páginas antigas → 301; 404 funcionando.
+
 ## 2026-10-01 — HTTPS e www
 
 - URL canônica passa a ser https://www.corretor1.com.br (canonicals, sitemap, Open Graph).
