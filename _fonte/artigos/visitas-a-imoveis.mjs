@@ -113,5 +113,6 @@ export default {
     <tr><td>Depois</td><td>Impressões e objeções registradas; próximo passo e data definidos; retorno ao proprietário programado.</td></tr>
   </tbody>
 </table></div>
+<p>As orientações que o corretor pode passar ao proprietário antes das visitas estão em <a href="/blog/preparacao-do-imovel-para-visita/">preparação do imóvel para visitação</a>.</p>
 `,
 };

@@ -7,7 +7,7 @@
 
 ## Próximo
 
-- Terceiro ciclo do `docs/PLANO-EDITORIAL.md` (55 pautas P2), após analisar os resultados no Search Console.
+- Quarto ciclo do `docs/PLANO-EDITORIAL.md` (20 pautas P3).
 - Foto do autor (quadrada) em `assets/img/autores/` e campo `foto` em `_fonte/autores.mjs`.
 
 - Cadastrar os e-books (capa, preço, link de compra) em `_fonte/produtos.mjs`.
@@ -19,6 +19,8 @@
 - Confirmar a divisão de papéis com corretor50k.com.br.
 
 ## Concluído
+
+- 2026-10-01: terceiro ciclo editorial: 55 artigos publicados (blog com 103).
 
 - 2026-10-01: segundo ciclo editorial: 27 artigos publicados (blog com 48).
 

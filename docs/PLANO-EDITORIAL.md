@@ -133,6 +133,61 @@ Todos de autoria de Daniel Ferreira, publicados em 2026-10-01. As URLs abaixo s�
 | 46 | /blog/indicadores-comerciais-do-corretor/ | rotina-e-gestao | Satélite de /blog/rotina-de-trabalho-do-corretor-de-imoveis/ | desenvolvimento | Indicadores comerciais do corretor: quais acompanhar e como calcular a taxa de conversão | Segundo ciclo (2026-10-01) |
 | 47 | /blog/fotografia-de-imoveis/ | marketing | Satélite de /blog/marketing-para-corretor-de-imoveis/ | iniciante | Fotografia de imóveis com celular: orientações práticas | Segundo ciclo (2026-10-01) |
 | 48 | /blog/descricao-de-imoveis/ | marketing | Satélite de /blog/marketing-para-corretor-de-imoveis/ | iniciante | Descrição de imóveis em anúncios: como escrever com clareza e correção | Segundo ciclo (2026-10-01) |
+| 49 | /blog/quanto-custa-comecar-como-corretor/ | comecando-na-profissao | Satélite de /blog/como-ser-corretor-de-imoveis/ | futuro | Quanto custa começar como corretor de imóveis | Terceiro ciclo (2026-10-01) |
+| 50 | /blog/contrato-de-associacao-corretor-imobiliaria/ | comecando-na-profissao | Satélite de /blog/como-ser-corretor-de-imoveis/ | iniciante | Contrato de associação entre corretor e imobiliária: o que observar | Terceiro ciclo (2026-10-01) |
+| 51 | /blog/como-avaliar-uma-imobiliaria/ | comecando-na-profissao | Satélite de /blog/como-ser-corretor-de-imoveis/ | futuro, iniciante | Como avaliar uma imobiliária antes de se associar | Terceiro ciclo (2026-10-01) |
+| 52 | /blog/habilidades-do-corretor-de-imoveis/ | comecando-na-profissao | Satélite de /blog/como-ser-corretor-de-imoveis/ | futuro | Habilidades importantes para o trabalho do corretor de imóveis | Terceiro ciclo (2026-10-01) |
+| 53 | /blog/como-escolher-regiao-de-atuacao/ | comecando-na-profissao | Satélite de /blog/como-ser-corretor-de-imoveis/ | iniciante | Como escolher a região ou o segmento de atuação no início da carreira | Terceiro ciclo (2026-10-01) |
+| 54 | /blog/o-que-estudar-nos-primeiros-meses/ | comecando-na-profissao | Satélite de /blog/como-ser-corretor-de-imoveis/ | iniciante | O que estudar nos primeiros meses como corretor | Terceiro ciclo (2026-10-01) |
+| 55 | /blog/como-ganhar-experiencia-no-inicio/ | comecando-na-profissao | Satélite de /blog/como-ser-corretor-de-imoveis/ | iniciante | Como ganhar experiência no início da carreira sem carteira própria | Terceiro ciclo (2026-10-01) |
+| 56 | /blog/especializacao-por-regiao/ | carreira | Satélite de /blog/desenvolvimento-profissional-do-corretor/ | desenvolvimento | Especialização por região: como construir conhecimento local | Terceiro ciclo (2026-10-01) |
+| 57 | /blog/especializacao-por-tipo-de-imovel/ | carreira | Satélite de /blog/desenvolvimento-profissional-do-corretor/ | desenvolvimento | Especialização por tipo de imóvel e segmento | Terceiro ciclo (2026-10-01) |
+| 58 | /blog/reputacao-profissional-na-corretagem/ | carreira | Satélite de /blog/desenvolvimento-profissional-do-corretor/ | iniciante, desenvolvimento | Como a reputação profissional se constrói na corretagem | Terceiro ciclo (2026-10-01) |
+| 59 | /blog/corretagem-em-lancamentos/ | carreira | Satélite de /blog/desenvolvimento-profissional-do-corretor/ | iniciante, desenvolvimento | Corretagem em lançamentos: como funciona o trabalho com incorporadoras | Terceiro ciclo (2026-10-01) |
+| 60 | /blog/atuacao-em-locacao-e-administracao/ | carreira | Satélite de /blog/desenvolvimento-profissional-do-corretor/ | iniciante, desenvolvimento | Atuação em locação e administração de imóveis | Terceiro ciclo (2026-10-01) |
+| 61 | /blog/perito-avaliador-cnai/ | carreira | Satélite de /blog/desenvolvimento-profissional-do-corretor/ | desenvolvimento | Perito avaliador imobiliário: o que é e como funciona o registro no CNAI | Terceiro ciclo (2026-10-01) |
+| 62 | /blog/corretor-pessoa-juridica/ | carreira | Satélite de /blog/desenvolvimento-profissional-do-corretor/ | desenvolvimento | Corretor pessoa jurídica: quando abrir empresa e como funciona o registro no CRECI | Terceiro ciclo (2026-10-01) |
+| 63 | /blog/como-apresentar-os-servicos-ao-proprietario/ | captacao | Satélite de /blog/como-captar-imoveis/ | iniciante | Como apresentar os serviços do corretor ao proprietário | Terceiro ciclo (2026-10-01) |
+| 64 | /blog/prospeccao-de-proprietarios/ | captacao | Satélite de /blog/como-captar-imoveis/ | iniciante | Prospecção de proprietários em uma região de atuação | Terceiro ciclo (2026-10-01) |
+| 65 | /blog/organizacao-da-carteira-de-imoveis/ | captacao | Satélite de /blog/como-captar-imoveis/ | desenvolvimento | Organização e atualização da carteira de imóveis | Terceiro ciclo (2026-10-01) |
+| 66 | /blog/retorno-ao-proprietario/ | captacao | Satélite de /blog/como-captar-imoveis/ | iniciante, desenvolvimento | Retorno ao proprietário: visitas, interessados e relatórios periódicos | Terceiro ciclo (2026-10-01) |
+| 67 | /blog/captacao-para-locacao/ | captacao | Satélite de /blog/como-captar-imoveis/ | iniciante | Captação de imóvel para locação: particularidades | Terceiro ciclo (2026-10-01) |
+| 68 | /blog/imovel-com-pendencias-documentais/ | captacao | Satélite de /blog/como-captar-imoveis/ | desenvolvimento | Imóvel com pendências documentais: como conduzir a captação | Terceiro ciclo (2026-10-01) |
+| 69 | /blog/imoveis-comparaveis/ | preco-e-mercado | Satélite de /blog/preco-de-mercado-de-imoveis/ | iniciante, desenvolvimento | Imóveis comparáveis: como selecionar e analisar | Terceiro ciclo (2026-10-01) |
+| 70 | /blog/caracteristicas-que-influenciam-o-valor/ | preco-e-mercado | Satélite de /blog/preco-de-mercado-de-imoveis/ | iniciante | Características que influenciam o valor de um imóvel | Terceiro ciclo (2026-10-01) |
+| 71 | /blog/revisao-de-preco-durante-a-comercializacao/ | preco-e-mercado | Satélite de /blog/preco-de-mercado-de-imoveis/ | desenvolvimento | Imóvel acima do preço de mercado: revisão de preço durante a comercialização | Terceiro ciclo (2026-10-01) |
+| 72 | /blog/valor-do-aluguel/ | preco-e-mercado | Satélite de /blog/preco-de-mercado-de-imoveis/ | iniciante | Valor do aluguel: como orientar o proprietário na locação | Terceiro ciclo (2026-10-01) |
+| 73 | /blog/historico-do-cliente/ | atendimento | Satélite de /blog/atendimento-ao-comprador-de-imoveis/ | iniciante | Registro das preferências e do histórico do cliente | Terceiro ciclo (2026-10-01) |
+| 74 | /blog/comprador-que-precisa-vender-outro-imovel/ | atendimento | Satélite de /blog/atendimento-ao-comprador-de-imoveis/ | desenvolvimento | Comprador que precisa vender outro imóvel: como conduzir o atendimento | Terceiro ciclo (2026-10-01) |
+| 75 | /blog/fgts-na-compra-do-imovel/ | atendimento | Satélite de /blog/atendimento-ao-comprador-de-imoveis/ | iniciante | Uso do FGTS na compra do imóvel: regras gerais que o corretor deve conhecer | Terceiro ciclo (2026-10-01) |
+| 76 | /blog/atendimento-ao-interessado-em-locacao/ | atendimento | Satélite de /blog/atendimento-ao-comprador-de-imoveis/ | iniciante | Atendimento ao interessado em locação: do primeiro contato à assinatura | Terceiro ciclo (2026-10-01) |
+| 77 | /blog/garantias-locaticias/ | atendimento | Satélite de /blog/atendimento-ao-comprador-de-imoveis/ | iniciante | Garantias locatícias: caução, fiador, seguro-fiança e título de capitalização | Terceiro ciclo (2026-10-01) |
+| 78 | /blog/pos-venda-na-corretagem/ | atendimento | Satélite de /blog/atendimento-ao-comprador-de-imoveis/ | desenvolvimento | Pós-venda: acompanhamento do cliente depois da conclusão do negócio | Terceiro ciclo (2026-10-01) |
+| 79 | /blog/preparacao-do-imovel-para-visita/ | visitas | Satélite de /blog/visitas-a-imoveis/ | iniciante | Preparação do imóvel para visitação: orientações ao proprietário | Terceiro ciclo (2026-10-01) |
+| 80 | /blog/registro-apos-a-visita/ | visitas | Satélite de /blog/visitas-a-imoveis/ | iniciante | O que registrar depois da visita | Terceiro ciclo (2026-10-01) |
+| 81 | /blog/visita-a-imovel-ocupado/ | visitas | Satélite de /blog/visitas-a-imoveis/ | desenvolvimento | Visita a imóvel ocupado por inquilino: regras e cuidados | Terceiro ciclo (2026-10-01) |
+| 82 | /blog/contraproposta/ | negociacao | Satélite de /blog/proposta-de-compra-de-imovel/ | iniciante, desenvolvimento | Contraproposta: como conduzir e registrar | Terceiro ciclo (2026-10-01) |
+| 83 | /blog/negociacao-de-prazo-e-pagamento/ | negociacao | Satélite de /blog/proposta-de-compra-de-imovel/ | desenvolvimento | Negociação de prazo e forma de pagamento | Terceiro ciclo (2026-10-01) |
+| 84 | /blog/imovel-em-inventario/ | negociacao | Satélite de /blog/proposta-de-compra-de-imovel/ | desenvolvimento | Venda de imóvel em inventário: cuidados na intermediação | Terceiro ciclo (2026-10-01) |
+| 85 | /blog/venda-de-imovel-financiado/ | negociacao | Satélite de /blog/proposta-de-compra-de-imovel/ | desenvolvimento | Venda de imóvel financiado: quitação, transferência e etapas | Terceiro ciclo (2026-10-01) |
+| 86 | /blog/quando-a-comissao-e-devida/ | corretagem-e-comissao | Satélite de /blog/comissao-de-corretor-de-imoveis/ | iniciante, desenvolvimento | Quando a comissão é devida: resultado útil, desistência e arrependimento | Terceiro ciclo (2026-10-01) |
+| 87 | /blog/comissao-na-locacao/ | corretagem-e-comissao | Satélite de /blog/comissao-de-corretor-de-imoveis/ | iniciante | Comissão na locação: intermediação e administração | Terceiro ciclo (2026-10-01) |
+| 88 | /blog/tabelas-de-honorarios/ | corretagem-e-comissao | Satélite de /blog/comissao-de-corretor-de-imoveis/ | iniciante | Tabelas de honorários de referência: o que são e como consultar | Terceiro ciclo (2026-10-01) |
+| 89 | /blog/tributacao-da-comissao/ | corretagem-e-comissao | Satélite de /blog/comissao-de-corretor-de-imoveis/ | iniciante | Recibo, nota fiscal e tributos sobre a comissão | Terceiro ciclo (2026-10-01) |
+| 90 | /blog/comissao-em-lancamentos/ | corretagem-e-comissao | Satélite de /blog/comissao-de-corretor-de-imoveis/ | desenvolvimento | Comissão em lançamentos imobiliários: quem paga e como informar o comprador | Terceiro ciclo (2026-10-01) |
+| 91 | /blog/controle-de-negocios-em-andamento/ | rotina-e-gestao | Satélite de /blog/rotina-de-trabalho-do-corretor-de-imoveis/ | desenvolvimento | Controle de propostas e negócios em andamento | Terceiro ciclo (2026-10-01) |
+| 92 | /blog/organizacao-documental/ | rotina-e-gestao | Satélite de /blog/rotina-de-trabalho-do-corretor-de-imoveis/ | iniciante | Organização documental da intermediação | Terceiro ciclo (2026-10-01) |
+| 93 | /blog/origem-dos-clientes/ | rotina-e-gestao | Satélite de /blog/rotina-de-trabalho-do-corretor-de-imoveis/ | desenvolvimento | Origem dos clientes: como medir de onde vêm os contatos | Terceiro ciclo (2026-10-01) |
+| 94 | /blog/perfil-da-empresa-no-google/ | marketing | Satélite de /blog/marketing-para-corretor-de-imoveis/ | desenvolvimento | Perfil da Empresa no Google para corretores de imóveis | Terceiro ciclo (2026-10-01) |
+| 95 | /blog/site-proprio-para-corretor/ | marketing | Satélite de /blog/marketing-para-corretor-de-imoveis/ | desenvolvimento | Site próprio para corretor de imóveis: quando faz sentido e o que deve conter | Terceiro ciclo (2026-10-01) |
+| 96 | /blog/producao-de-conteudo/ | marketing | Satélite de /blog/marketing-para-corretor-de-imoveis/ | desenvolvimento | Produção de conteúdo para corretores: temas úteis e regularidade | Terceiro ciclo (2026-10-01) |
+| 97 | /blog/portais-imobiliarios/ | marketing | Satélite de /blog/marketing-para-corretor-de-imoveis/ | iniciante | Portais imobiliários: como anunciar com informações corretas | Terceiro ciclo (2026-10-01) |
+| 98 | /blog/redes-sociais-do-corretor/ | marketing | Satélite de /blog/marketing-para-corretor-de-imoveis/ | iniciante | Redes sociais do corretor: uso profissional e cuidados | Terceiro ciclo (2026-10-01) |
+| 99 | /blog/assinatura-eletronica/ | tecnologia | Satélite de /blog/ferramentas-digitais-do-corretor/ | desenvolvimento | Assinatura eletrônica em documentos imobiliários: usos e limites | Terceiro ciclo (2026-10-01) |
+| 100 | /blog/inteligencia-artificial-na-corretagem/ | tecnologia | Satélite de /blog/ferramentas-digitais-do-corretor/ | desenvolvimento | Inteligência artificial como apoio ao trabalho do corretor | Terceiro ciclo (2026-10-01) |
+| 101 | /blog/backup-e-seguranca-da-informacao/ | tecnologia | Satélite de /blog/ferramentas-digitais-do-corretor/ | desenvolvimento | Backup e segurança da informação para corretores | Terceiro ciclo (2026-10-01) |
+| 102 | /blog/certidoes-online/ | tecnologia | Satélite de /blog/ferramentas-digitais-do-corretor/ | iniciante | Certidões online: onde emitir e como conferir | Terceiro ciclo (2026-10-01) |
+| 103 | /blog/servicos-eletronicos-de-registro/ | tecnologia | Satélite de /blog/ferramentas-digitais-do-corretor/ | iniciante | Matrícula online e serviços eletrônicos de registro de imóveis | Terceiro ciclo (2026-10-01) |
 
 Os pilares mantêm a visão geral. Cada satélite aprofunda um trecho e aponta de volta para o pilar. Quando o satélite for publicado, o trecho correspondente do pilar ganha um link para ele.
 
@@ -205,16 +260,16 @@ Slug sugerido = planejamento, não URL criada. Nenhuma página vazia deve ser pu
 | 2 | Vale a pena ser corretor de imóveis? O que considerar antes de decidir · **publicado** em /blog/vale-a-pena-ser-corretor-de-imoveis/ | vale-a-pena-ser-corretor-de-imoveis | futuro | satélite | como-ser-corretor-de-imoveis | P1 | — |
 | 3 | Curso de Técnico em Transações Imobiliárias (TTI): como funciona e como escolher a escola · **publicado** em /blog/curso-tecnico-em-transacoes-imobiliarias/ | curso-tecnico-em-transacoes-imobiliarias | futuro | satélite | como-ser-corretor-de-imoveis | P1 | Lei 6.530/1978, art. 2º (conferido); normas COFECI sobre formações aceitas e habilitação de escolas (verificar antes de publicar) |
 | 4 | Inscrição no CRECI: etapas, documentos e custos · **publicado** em /blog/inscricao-no-creci/ | inscricao-no-creci | futuro | satélite | como-ser-corretor-de-imoveis | P1 | Lei 6.530/1978, art. 4º (conferido); resoluções COFECI de inscrição; site do CRECI regional (verificar antes de publicar) |
-| 5 | Quanto custa começar como corretor de imóveis | quanto-custa-comecar-como-corretor | futuro | satélite | como-ser-corretor-de-imoveis | P2 | Valores de anuidade e taxas no CRECI regional (verificar antes de publicar; citar data da consulta) |
+| 5 | Quanto custa começar como corretor de imóveis · **publicado** em /blog/quanto-custa-comecar-como-corretor/ | quanto-custa-comecar-como-corretor | futuro | satélite | como-ser-corretor-de-imoveis | P2 | Valores de anuidade e taxas no CRECI regional (verificar antes de publicar; citar data da consulta) |
 | 6 | Como funciona a remuneração do corretor de imóveis · **publicado** em /blog/como-funciona-a-remuneracao-do-corretor/ | como-funciona-a-remuneracao-do-corretor | futuro | satélite | como-ser-corretor-de-imoveis | P1 | CC arts. 724–725 (conferido) |
 | 7 | Corretor autônomo, associado ou contratado: diferenças entre os modelos de atuação · **publicado** em /blog/corretor-autonomo-associado-ou-contratado/ | corretor-autonomo-associado-ou-contratado | futuro, iniciante | satélite | como-ser-corretor-de-imoveis | P1 | Lei 6.530/1978, art. 6º (conferido); CLT (verificar antes de publicar) |
-| 8 | Contrato de associação entre corretor e imobiliária: o que observar | contrato-de-associacao-corretor-imobiliaria | iniciante | satélite | como-ser-corretor-de-imoveis | P2 | Lei 6.530/1978, art. 6º (conferido) |
-| 9 | Como avaliar uma imobiliária antes de se associar | como-avaliar-uma-imobiliaria | futuro, iniciante | satélite | como-ser-corretor-de-imoveis | P2 | — |
-| 10 | Habilidades importantes para o trabalho do corretor de imóveis | habilidades-do-corretor-de-imoveis | futuro | satélite | como-ser-corretor-de-imoveis | P2 | — |
+| 8 | Contrato de associação entre corretor e imobiliária: o que observar · **publicado** em /blog/contrato-de-associacao-corretor-imobiliaria/ | contrato-de-associacao-corretor-imobiliaria | iniciante | satélite | como-ser-corretor-de-imoveis | P2 | Lei 6.530/1978, art. 6º (conferido) |
+| 9 | Como avaliar uma imobiliária antes de se associar · **publicado** em /blog/como-avaliar-uma-imobiliaria/ | como-avaliar-uma-imobiliaria | futuro, iniciante | satélite | como-ser-corretor-de-imoveis | P2 | — |
+| 10 | Habilidades importantes para o trabalho do corretor de imóveis · **publicado** em /blog/habilidades-do-corretor-de-imoveis/ | habilidades-do-corretor-de-imoveis | futuro | satélite | como-ser-corretor-de-imoveis | P2 | — |
 | 11 | Primeiros passos depois de obter o CRECI · **publicado** em /blog/primeiros-passos-depois-do-creci/ | primeiros-passos-depois-do-creci | iniciante | satélite | como-ser-corretor-de-imoveis | P1 | Decreto 81.871/1978, art. 4º (conferido) |
-| 12 | Como escolher a região ou o segmento de atuação no início da carreira | como-escolher-regiao-de-atuacao | iniciante | satélite | como-ser-corretor-de-imoveis | P2 | — |
-| 13 | O que estudar nos primeiros meses como corretor | o-que-estudar-nos-primeiros-meses | iniciante | satélite | como-ser-corretor-de-imoveis | P2 | — |
-| 14 | Como ganhar experiência no início da carreira sem carteira própria | como-ganhar-experiencia-no-inicio | iniciante | satélite | como-ser-corretor-de-imoveis | P2 | — |
+| 12 | Como escolher a região ou o segmento de atuação no início da carreira · **publicado** em /blog/como-escolher-regiao-de-atuacao/ | como-escolher-regiao-de-atuacao | iniciante | satélite | como-ser-corretor-de-imoveis | P2 | — |
+| 13 | O que estudar nos primeiros meses como corretor · **publicado** em /blog/o-que-estudar-nos-primeiros-meses/ | o-que-estudar-nos-primeiros-meses | iniciante | satélite | como-ser-corretor-de-imoveis | P2 | — |
+| 14 | Como ganhar experiência no início da carreira sem carteira própria · **publicado** em /blog/como-ganhar-experiencia-no-inicio/ | como-ganhar-experiencia-no-inicio | iniciante | satélite | como-ser-corretor-de-imoveis | P2 | — |
 | 15 | Documentos imobiliários que o corretor precisa conhecer: matrícula, certidões, escritura, ITBI e registro · **publicado** em /blog/documentos-imobiliarios-basicos/ | documentos-imobiliarios-basicos | iniciante | satélite | como-ser-corretor-de-imoveis | P1 | Lei 6.015/1973 (Registros Públicos); CC arts. 108 e 1.245 (verificar antes de publicar) |
 
 ### 5.2 Carreira e desenvolvimento profissional (pilar a criar: pauta 16)
@@ -223,17 +278,17 @@ Slug sugerido = planejamento, não URL criada. Nenhuma página vazia deve ser pu
 |---|---|---|---|---|---|---|---|
 | 16 | Desenvolvimento profissional do corretor de imóveis: etapas e caminhos de especialização · **publicado** em /blog/desenvolvimento-profissional-do-corretor/ | desenvolvimento-profissional-do-corretor | iniciante, desenvolvimento | **pilar** | — | P1 | — |
 | 17 | Ética profissional na corretagem: deveres perante clientes, colegas e o conselho · **publicado** em /blog/etica-profissional-na-corretagem/ | etica-profissional-na-corretagem | iniciante | satélite | desenvolvimento-profissional-do-corretor | P1 | Res. COFECI 326/1992, Código de Ética (verificar antes de publicar); Lei 6.530/1978, art. 20 (conferido) |
-| 18 | Especialização por região: como construir conhecimento local | especializacao-por-regiao | desenvolvimento | satélite | desenvolvimento-profissional-do-corretor | P2 | — |
-| 19 | Especialização por tipo de imóvel e segmento | especializacao-por-tipo-de-imovel | desenvolvimento | satélite | desenvolvimento-profissional-do-corretor | P2 | — |
-| 20 | Como a reputação profissional se constrói na corretagem | reputacao-profissional-na-corretagem | iniciante, desenvolvimento | satélite | desenvolvimento-profissional-do-corretor | P2 | — |
+| 18 | Especialização por região: como construir conhecimento local · **publicado** em /blog/especializacao-por-regiao/ | especializacao-por-regiao | desenvolvimento | satélite | desenvolvimento-profissional-do-corretor | P2 | — |
+| 19 | Especialização por tipo de imóvel e segmento · **publicado** em /blog/especializacao-por-tipo-de-imovel/ | especializacao-por-tipo-de-imovel | desenvolvimento | satélite | desenvolvimento-profissional-do-corretor | P2 | — |
+| 20 | Como a reputação profissional se constrói na corretagem · **publicado** em /blog/reputacao-profissional-na-corretagem/ | reputacao-profissional-na-corretagem | iniciante, desenvolvimento | satélite | desenvolvimento-profissional-do-corretor | P2 | — |
 | 21 | Formação continuada do corretor: cursos, especializações e atualização | formacao-continuada-do-corretor | desenvolvimento | satélite | desenvolvimento-profissional-do-corretor | P3 | — |
 | 22 | Planejamento e controle financeiro do corretor com renda variável · **publicado** em /blog/planejamento-financeiro-do-corretor/ | planejamento-financeiro-do-corretor | futuro, iniciante | satélite | desenvolvimento-profissional-do-corretor | P1 | — |
 | 23 | Relacionamento com outros profissionais: despachantes, correspondentes bancários, advogados e cartórios | relacionamento-com-profissionais-do-mercado | desenvolvimento | satélite | desenvolvimento-profissional-do-corretor | P3 | — |
-| 24 | Corretagem em lançamentos: como funciona o trabalho com incorporadoras | corretagem-em-lancamentos | iniciante, desenvolvimento | satélite | desenvolvimento-profissional-do-corretor | P2 | Lei 4.591/1964 (verificar antes de publicar) |
+| 24 | Corretagem em lançamentos: como funciona o trabalho com incorporadoras · **publicado** em /blog/corretagem-em-lancamentos/ | corretagem-em-lancamentos | iniciante, desenvolvimento | satélite | desenvolvimento-profissional-do-corretor | P2 | Lei 4.591/1964 (verificar antes de publicar) |
 | 25 | Corretagem de imóveis rurais: particularidades da intermediação | corretagem-de-imoveis-rurais | desenvolvimento | satélite | desenvolvimento-profissional-do-corretor | P3 | CCIR, ITR e georreferenciamento: Lei 10.267/2001 e normas do INCRA (verificar antes de publicar) |
-| 26 | Atuação em locação e administração de imóveis | atuacao-em-locacao-e-administracao | iniciante, desenvolvimento | satélite | desenvolvimento-profissional-do-corretor | P2 | Lei 8.245/1991 (verificar antes de publicar) |
-| 27 | Perito avaliador imobiliário: o que é e como funciona o registro no CNAI | perito-avaliador-cnai | desenvolvimento | satélite | desenvolvimento-profissional-do-corretor | P2 | Res. COFECI 1.066/2007 (verificar antes de publicar) |
-| 28 | Corretor pessoa jurídica: quando abrir empresa e como funciona o registro no CRECI | corretor-pessoa-juridica | desenvolvimento | satélite | desenvolvimento-profissional-do-corretor | P2 | Lei 6.530/1978, arts. 3º, parágrafo único, e 4º (conferido); resoluções COFECI de inscrição de PJ (verificar antes de publicar) |
+| 26 | Atuação em locação e administração de imóveis · **publicado** em /blog/atuacao-em-locacao-e-administracao/ | atuacao-em-locacao-e-administracao | iniciante, desenvolvimento | satélite | desenvolvimento-profissional-do-corretor | P2 | Lei 8.245/1991 (verificar antes de publicar) |
+| 27 | Perito avaliador imobiliário: o que é e como funciona o registro no CNAI · **publicado** em /blog/perito-avaliador-cnai/ | perito-avaliador-cnai | desenvolvimento | satélite | desenvolvimento-profissional-do-corretor | P2 | Res. COFECI 1.066/2007 (verificar antes de publicar) |
+| 28 | Corretor pessoa jurídica: quando abrir empresa e como funciona o registro no CRECI · **publicado** em /blog/corretor-pessoa-juridica/ | corretor-pessoa-juridica | desenvolvimento | satélite | desenvolvimento-profissional-do-corretor | P2 | Lei 6.530/1978, arts. 3º, parágrafo único, e 4º (conferido); resoluções COFECI de inscrição de PJ (verificar antes de publicar) |
 
 ### 5.3 Captação de imóveis (pilar: /blog/como-captar-imoveis/)
 
@@ -244,13 +299,13 @@ Slug sugerido = planejamento, não URL criada. Nenhuma página vazia deve ser pu
 | 31 | Autorização de venda: o que deve constar no documento · **publicado** em /blog/autorizacao-de-venda/ | autorizacao-de-venda | iniciante | satélite | como-captar-imoveis | P1 | Decreto 81.871/1978, art. 5º; Lei 6.530/1978, art. 20, III (conferidos). `avisoJuridico` |
 | 32 | Exclusividade na intermediação: como funciona e como apresentar ao proprietário · **publicado** em /blog/exclusividade-na-intermediacao/ | exclusividade-na-intermediacao | iniciante, desenvolvimento | satélite | como-captar-imoveis | P1 | CC art. 726 (conferido). `avisoJuridico` |
 | 33 | Documentação na fase de captação: o que verificar antes de anunciar · **publicado** em /blog/documentacao-na-captacao/ | documentacao-na-captacao | iniciante | satélite | como-captar-imoveis | P1 | Lei 6.015/1973 (verificar antes de publicar) |
-| 34 | Como apresentar os serviços do corretor ao proprietário | como-apresentar-os-servicos-ao-proprietario | iniciante | satélite | como-captar-imoveis | P2 | — |
-| 35 | Prospecção de proprietários em uma região de atuação | prospeccao-de-proprietarios | iniciante | satélite | como-captar-imoveis | P2 | LGPD (conferido) para contatos |
-| 36 | Organização e atualização da carteira de imóveis | organizacao-da-carteira-de-imoveis | desenvolvimento | satélite | como-captar-imoveis | P2 | — |
-| 37 | Retorno ao proprietário: visitas, interessados e relatórios periódicos | retorno-ao-proprietario | iniciante, desenvolvimento | satélite | como-captar-imoveis | P2 | — |
+| 34 | Como apresentar os serviços do corretor ao proprietário · **publicado** em /blog/como-apresentar-os-servicos-ao-proprietario/ | como-apresentar-os-servicos-ao-proprietario | iniciante | satélite | como-captar-imoveis | P2 | — |
+| 35 | Prospecção de proprietários em uma região de atuação · **publicado** em /blog/prospeccao-de-proprietarios/ | prospeccao-de-proprietarios | iniciante | satélite | como-captar-imoveis | P2 | LGPD (conferido) para contatos |
+| 36 | Organização e atualização da carteira de imóveis · **publicado** em /blog/organizacao-da-carteira-de-imoveis/ | organizacao-da-carteira-de-imoveis | desenvolvimento | satélite | como-captar-imoveis | P2 | — |
+| 37 | Retorno ao proprietário: visitas, interessados e relatórios periódicos · **publicado** em /blog/retorno-ao-proprietario/ | retorno-ao-proprietario | iniciante, desenvolvimento | satélite | como-captar-imoveis | P2 | — |
 | 38 | Proprietário que anuncia por conta própria: como abordar com profissionalismo | proprietario-que-anuncia-por-conta-propria | iniciante | satélite | como-captar-imoveis | P3 | — |
-| 39 | Captação de imóvel para locação: particularidades | captacao-para-locacao | iniciante | satélite | como-captar-imoveis | P2 | Lei 8.245/1991 (verificar antes de publicar) |
-| 40 | Imóvel com pendências documentais: como conduzir a captação | imovel-com-pendencias-documentais | desenvolvimento | satélite | como-captar-imoveis | P2 | Lei 6.015/1973 (verificar antes de publicar) |
+| 39 | Captação de imóvel para locação: particularidades · **publicado** em /blog/captacao-para-locacao/ | captacao-para-locacao | iniciante | satélite | como-captar-imoveis | P2 | Lei 8.245/1991 (verificar antes de publicar) |
+| 40 | Imóvel com pendências documentais: como conduzir a captação · **publicado** em /blog/imovel-com-pendencias-documentais/ | imovel-com-pendencias-documentais | desenvolvimento | satélite | como-captar-imoveis | P2 | Lei 6.015/1973 (verificar antes de publicar) |
 | 41 | Renovação e encerramento da autorização de venda | renovacao-da-autorizacao-de-venda | desenvolvimento | satélite | como-captar-imoveis | P3 | CC art. 727 (conferido). `avisoJuridico` |
 
 ### 5.4 Preço e mercado (pilar a criar: pauta 42)
@@ -261,13 +316,13 @@ Limite editorial: não transformar em curso de avaliação formal. Diferenciar s
 |---|---|---|---|---|---|---|---|
 | 42 | Preço de mercado: como o corretor fundamenta a sugestão de preço de um imóvel · **publicado** em /blog/preco-de-mercado-de-imoveis/ | preco-de-mercado-de-imoveis | iniciante, desenvolvimento | **pilar** | — | P1 | Lei 6.530/1978, art. 3º (conferido) |
 | 43 | Preço de anúncio, preço de venda e valor de mercado: diferenças · **publicado** em /blog/preco-de-anuncio-e-valor-de-mercado/ | preco-de-anuncio-e-valor-de-mercado | iniciante | satélite | preco-de-mercado-de-imoveis | P1 | — |
-| 44 | Imóveis comparáveis: como selecionar e analisar | imoveis-comparaveis | iniciante, desenvolvimento | satélite | preco-de-mercado-de-imoveis | P2 | — |
-| 45 | Características que influenciam o valor de um imóvel | caracteristicas-que-influenciam-o-valor | iniciante | satélite | preco-de-mercado-de-imoveis | P2 | — |
+| 44 | Imóveis comparáveis: como selecionar e analisar · **publicado** em /blog/imoveis-comparaveis/ | imoveis-comparaveis | iniciante, desenvolvimento | satélite | preco-de-mercado-de-imoveis | P2 | — |
+| 45 | Características que influenciam o valor de um imóvel · **publicado** em /blog/caracteristicas-que-influenciam-o-valor/ | caracteristicas-que-influenciam-o-valor | iniciante | satélite | preco-de-mercado-de-imoveis | P2 | — |
 | 46 | Como conversar com o proprietário sobre preço (inclui a apresentação da pesquisa de mercado) · **publicado** em /blog/conversa-sobre-preco-com-o-proprietario/ | conversa-sobre-preco-com-o-proprietario | iniciante | satélite | preco-de-mercado-de-imoveis | P1 | — |
-| 47 | Imóvel acima do preço de mercado: revisão de preço durante a comercialização | revisao-de-preco-durante-a-comercializacao | desenvolvimento | satélite | preco-de-mercado-de-imoveis | P2 | — |
+| 47 | Imóvel acima do preço de mercado: revisão de preço durante a comercialização · **publicado** em /blog/revisao-de-preco-durante-a-comercializacao/ | revisao-de-preco-durante-a-comercializacao | desenvolvimento | satélite | preco-de-mercado-de-imoveis | P2 | — |
 | 48 | Opinião de mercado do corretor e avaliação formal (PTAM): diferenças e limites · **publicado** em /blog/opiniao-de-mercado-e-avaliacao-formal/ | opiniao-de-mercado-e-avaliacao-formal | desenvolvimento | satélite | preco-de-mercado-de-imoveis | P1 | Res. COFECI 1.066/2007; ABNT NBR 14653 (verificar antes de publicar). `avisoJuridico` |
 | 49 | Fontes de dados para pesquisa de mercado imobiliário | fontes-de-dados-de-mercado | desenvolvimento | satélite | preco-de-mercado-de-imoveis | P3 | Bases públicas municipais de ITBI, quando existirem (verificar antes de publicar) |
-| 50 | Valor do aluguel: como orientar o proprietário na locação | valor-do-aluguel | iniciante | satélite | preco-de-mercado-de-imoveis | P2 | Lei 8.245/1991 (verificar antes de publicar) |
+| 50 | Valor do aluguel: como orientar o proprietário na locação · **publicado** em /blog/valor-do-aluguel/ | valor-do-aluguel | iniciante | satélite | preco-de-mercado-de-imoveis | P2 | Lei 8.245/1991 (verificar antes de publicar) |
 
 ### 5.5 Atendimento ao cliente (pilar: /blog/atendimento-ao-comprador-de-imoveis/)
 
@@ -277,14 +332,14 @@ Limite editorial: não transformar em curso de avaliação formal. Diferenciar s
 | 52 | Qualificação do comprador: necessidades, capacidade de pagamento e prazo · **publicado** em /blog/qualificacao-do-comprador/ | qualificacao-do-comprador | iniciante | satélite | atendimento-ao-comprador-de-imoveis | P1 | — |
 | 53 | Atendimento por WhatsApp: organização, registros e cuidados profissionais · **publicado** em /blog/atendimento-por-whatsapp/ | atendimento-por-whatsapp | iniciante | satélite | atendimento-ao-comprador-de-imoveis | P1 | LGPD (conferido) |
 | 54 | Atendimento telefônico na corretagem | atendimento-telefonico | iniciante | satélite | atendimento-ao-comprador-de-imoveis | P3 | — |
-| 55 | Registro das preferências e do histórico do cliente | historico-do-cliente | iniciante | satélite | atendimento-ao-comprador-de-imoveis | P2 | LGPD (conferido) |
-| 56 | Comprador que precisa vender outro imóvel: como conduzir o atendimento | comprador-que-precisa-vender-outro-imovel | desenvolvimento | satélite | atendimento-ao-comprador-de-imoveis | P2 | — |
+| 55 | Registro das preferências e do histórico do cliente · **publicado** em /blog/historico-do-cliente/ | historico-do-cliente | iniciante | satélite | atendimento-ao-comprador-de-imoveis | P2 | LGPD (conferido) |
+| 56 | Comprador que precisa vender outro imóvel: como conduzir o atendimento · **publicado** em /blog/comprador-que-precisa-vender-outro-imovel/ | comprador-que-precisa-vender-outro-imovel | desenvolvimento | satélite | atendimento-ao-comprador-de-imoveis | P2 | — |
 | 57 | Clientes indecisos: como apoiar a decisão sem pressionar | clientes-indecisos | desenvolvimento | satélite | atendimento-ao-comprador-de-imoveis | P3 | — |
 | 58 | Financiamento imobiliário: o que o corretor precisa saber para orientar o comprador · **publicado** em /blog/financiamento-imobiliario-para-corretores/ | financiamento-imobiliario-para-corretores | iniciante | satélite | atendimento-ao-comprador-de-imoveis | P1 | Lei 9.514/1997; normas da Caixa e do Banco Central (verificar antes de publicar) |
-| 59 | Uso do FGTS na compra do imóvel: regras gerais que o corretor deve conhecer | fgts-na-compra-do-imovel | iniciante | satélite | atendimento-ao-comprador-de-imoveis | P2 | Lei 8.036/1990; regras da Caixa (verificar antes de publicar) |
-| 60 | Atendimento ao interessado em locação: do primeiro contato à assinatura | atendimento-ao-interessado-em-locacao | iniciante | satélite | atendimento-ao-comprador-de-imoveis | P2 | Lei 8.245/1991 (verificar antes de publicar) |
-| 61 | Garantias locatícias: caução, fiador, seguro-fiança e título de capitalização | garantias-locaticias | iniciante | satélite | atendimento-ao-comprador-de-imoveis | P2 | Lei 8.245/1991, art. 37 (verificar antes de publicar). `avisoJuridico` |
-| 62 | Pós-venda: acompanhamento do cliente depois da conclusão do negócio | pos-venda-na-corretagem | desenvolvimento | satélite | atendimento-ao-comprador-de-imoveis | P2 | — |
+| 59 | Uso do FGTS na compra do imóvel: regras gerais que o corretor deve conhecer · **publicado** em /blog/fgts-na-compra-do-imovel/ | fgts-na-compra-do-imovel | iniciante | satélite | atendimento-ao-comprador-de-imoveis | P2 | Lei 8.036/1990; regras da Caixa (verificar antes de publicar) |
+| 60 | Atendimento ao interessado em locação: do primeiro contato à assinatura · **publicado** em /blog/atendimento-ao-interessado-em-locacao/ | atendimento-ao-interessado-em-locacao | iniciante | satélite | atendimento-ao-comprador-de-imoveis | P2 | Lei 8.245/1991 (verificar antes de publicar) |
+| 61 | Garantias locatícias: caução, fiador, seguro-fiança e título de capitalização · **publicado** em /blog/garantias-locaticias/ | garantias-locaticias | iniciante | satélite | atendimento-ao-comprador-de-imoveis | P2 | Lei 8.245/1991, art. 37 (verificar antes de publicar). `avisoJuridico` |
+| 62 | Pós-venda: acompanhamento do cliente depois da conclusão do negócio · **publicado** em /blog/pos-venda-na-corretagem/ | pos-venda-na-corretagem | desenvolvimento | satélite | atendimento-ao-comprador-de-imoveis | P2 | — |
 | 63 | Atendimento a compradores de outras cidades ou à distância | atendimento-a-distancia | desenvolvimento | satélite | atendimento-ao-comprador-de-imoveis | P3 | — |
 
 ### 5.6 Visitas (pilar a criar: pauta 64)
@@ -293,12 +348,12 @@ Limite editorial: não transformar em curso de avaliação formal. Diferenciar s
 |---|---|---|---|---|---|---|---|
 | 64 | Visitas a imóveis: preparação, condução e registro · **publicado** em /blog/visitas-a-imoveis/ | visitas-a-imoveis | iniciante | **pilar** | — | P1 | — |
 | 65 | O que o corretor deve saber sobre o imóvel antes da visita · **publicado** em /blog/informacoes-antes-da-visita/ | informacoes-antes-da-visita | iniciante | satélite | visitas-a-imoveis | P1 | — |
-| 66 | Preparação do imóvel para visitação: orientações ao proprietário | preparacao-do-imovel-para-visita | iniciante | satélite | visitas-a-imoveis | P2 | — |
+| 66 | Preparação do imóvel para visitação: orientações ao proprietário · **publicado** em /blog/preparacao-do-imovel-para-visita/ | preparacao-do-imovel-para-visita | iniciante | satélite | visitas-a-imoveis | P2 | — |
 | 67 | Como organizar uma sequência de visitas | sequencia-de-visitas | iniciante | satélite | visitas-a-imoveis | P3 | — |
 | 68 | Segurança do corretor durante visitas · **publicado** em /blog/seguranca-em-visitas/ | seguranca-em-visitas | iniciante, desenvolvimento | satélite | visitas-a-imoveis | P1 | — |
-| 69 | O que registrar depois da visita | registro-apos-a-visita | iniciante | satélite | visitas-a-imoveis | P2 | — |
+| 69 | O que registrar depois da visita · **publicado** em /blog/registro-apos-a-visita/ | registro-apos-a-visita | iniciante | satélite | visitas-a-imoveis | P2 | — |
 | 70 | Visitas com famílias e mais de um decisor | visitas-com-varios-decisores | desenvolvimento | satélite | visitas-a-imoveis | P3 | — |
-| 71 | Visita a imóvel ocupado por inquilino: regras e cuidados | visita-a-imovel-ocupado | desenvolvimento | satélite | visitas-a-imoveis | P2 | Lei 8.245/1991, art. 23, IX (verificar antes de publicar) |
+| 71 | Visita a imóvel ocupado por inquilino: regras e cuidados · **publicado** em /blog/visita-a-imovel-ocupado/ | visita-a-imovel-ocupado | desenvolvimento | satélite | visitas-a-imoveis | P2 | Lei 8.245/1991, art. 23, IX (verificar antes de publicar) |
 | 72 | Visitas virtuais e vídeos: quando usar e quais os limites | visitas-virtuais | desenvolvimento | satélite | visitas-a-imoveis | P3 | — |
 
 ### 5.7 Negociação (pilar a criar: pauta 73)
@@ -307,13 +362,13 @@ Limite editorial: não transformar em curso de avaliação formal. Diferenciar s
 |---|---|---|---|---|---|---|---|
 | 73 | Proposta de compra de imóvel: como estruturar e formalizar · **publicado** em /blog/proposta-de-compra-de-imovel/ | proposta-de-compra-de-imovel | iniciante | **pilar** | — | P1 | CC (verificar dispositivos antes de publicar) |
 | 74 | Como apresentar uma proposta ao proprietário · **publicado** em /blog/apresentacao-da-proposta-ao-proprietario/ | apresentacao-da-proposta-ao-proprietario | iniciante | satélite | proposta-de-compra-de-imovel | P1 | CC art. 723 (conferido) |
-| 75 | Contraproposta: como conduzir e registrar | contraproposta | iniciante, desenvolvimento | satélite | proposta-de-compra-de-imovel | P2 | — |
-| 76 | Negociação de prazo e forma de pagamento | negociacao-de-prazo-e-pagamento | desenvolvimento | satélite | proposta-de-compra-de-imovel | P2 | — |
+| 75 | Contraproposta: como conduzir e registrar · **publicado** em /blog/contraproposta/ | contraproposta | iniciante, desenvolvimento | satélite | proposta-de-compra-de-imovel | P2 | — |
+| 76 | Negociação de prazo e forma de pagamento · **publicado** em /blog/negociacao-de-prazo-e-pagamento/ | negociacao-de-prazo-e-pagamento | desenvolvimento | satélite | proposta-de-compra-de-imovel | P2 | — |
 | 77 | Sinal e arras na compra de imóvel: noções para o corretor · **publicado** em /blog/sinal-e-arras/ | sinal-e-arras | iniciante | satélite | proposta-de-compra-de-imovel | P1 | CC arts. 417 a 420 (verificar antes de publicar). `avisoJuridico` |
 | 78 | Do aceite da proposta ao contrato: etapas até a escritura · **publicado** em /blog/do-aceite-ao-contrato/ | do-aceite-ao-contrato | iniciante, desenvolvimento | satélite | proposta-de-compra-de-imovel | P1 | CC arts. 1.417–1.418, promessa de compra e venda (verificar antes de publicar). `avisoJuridico` |
 | 79 | Divergências entre comprador e vendedor: o papel do corretor | divergencias-entre-as-partes | desenvolvimento | satélite | proposta-de-compra-de-imovel | P3 | CC art. 723 (conferido) |
-| 80 | Venda de imóvel em inventário: cuidados na intermediação | imovel-em-inventario | desenvolvimento | satélite | proposta-de-compra-de-imovel | P2 | CC e CPC, sucessões e alvará (verificar antes de publicar). `avisoJuridico` |
-| 81 | Venda de imóvel financiado: quitação, transferência e etapas | venda-de-imovel-financiado | desenvolvimento | satélite | proposta-de-compra-de-imovel | P2 | Lei 9.514/1997; normas dos bancos (verificar antes de publicar) |
+| 80 | Venda de imóvel em inventário: cuidados na intermediação · **publicado** em /blog/imovel-em-inventario/ | imovel-em-inventario | desenvolvimento | satélite | proposta-de-compra-de-imovel | P2 | CC e CPC, sucessões e alvará (verificar antes de publicar). `avisoJuridico` |
+| 81 | Venda de imóvel financiado: quitação, transferência e etapas · **publicado** em /blog/venda-de-imovel-financiado/ | venda-de-imovel-financiado | desenvolvimento | satélite | proposta-de-compra-de-imovel | P2 | Lei 9.514/1997; normas dos bancos (verificar antes de publicar) |
 | 82 | Permuta de imóveis: como funciona a intermediação | permuta-de-imoveis | desenvolvimento | satélite | proposta-de-compra-de-imovel | P3 | CC art. 533 (verificar antes de publicar) |
 | 83 | Venda com parcelamento direto com o vendedor: cuidados | parcelamento-direto-com-o-vendedor | desenvolvimento | satélite | proposta-de-compra-de-imovel | P3 | CC (verificar antes de publicar). `avisoJuridico` |
 | 84 | Escritura e registro: o que o corretor acompanha até a conclusão · **publicado** em /blog/escritura-e-registro/ | escritura-e-registro | iniciante | satélite | proposta-de-compra-de-imovel | P1 | Lei 6.015/1973; CC arts. 108 e 1.245 (verificar antes de publicar) |
@@ -323,13 +378,13 @@ Limite editorial: não transformar em curso de avaliação formal. Diferenciar s
 | nº | Título | Slug sugerido | Persona | Tipo | Pilar que reforça | Prior. | Fontes primárias |
 |---|---|---|---|---|---|---|---|
 | 85 | Contrato de corretagem: o que diz o Código Civil (inclui deveres de diligência e informação) · **publicado** em /blog/contrato-de-corretagem/ | contrato-de-corretagem | iniciante, desenvolvimento | satélite | comissao-de-corretor-de-imoveis | P1 | CC arts. 722–729 (conferido). `avisoJuridico` |
-| 86 | Quando a comissão é devida: resultado útil, desistência e arrependimento | quando-a-comissao-e-devida | iniciante, desenvolvimento | satélite | comissao-de-corretor-de-imoveis | P2 | CC arts. 725–727 (conferido); jurisprudência do STJ (verificar antes de publicar). `avisoJuridico` |
+| 86 | Quando a comissão é devida: resultado útil, desistência e arrependimento · **publicado** em /blog/quando-a-comissao-e-devida/ | quando-a-comissao-e-devida | iniciante, desenvolvimento | satélite | comissao-de-corretor-de-imoveis | P2 | CC arts. 725–727 (conferido); jurisprudência do STJ (verificar antes de publicar). `avisoJuridico` |
 | 87 | Parcerias entre corretores: como combinar, formalizar e dividir a comissão · **publicado** em /blog/parcerias-entre-corretores/ | parcerias-entre-corretores | iniciante, desenvolvimento | satélite | comissao-de-corretor-de-imoveis | P1 | Código de Ética COFECI (verificar antes de publicar) |
-| 88 | Comissão na locação: intermediação e administração | comissao-na-locacao | iniciante | satélite | comissao-de-corretor-de-imoveis | P2 | Lei 8.245/1991 (verificar antes de publicar) |
-| 89 | Tabelas de honorários de referência: o que são e como consultar | tabelas-de-honorarios | iniciante | satélite | comissao-de-corretor-de-imoveis | P2 | CC art. 724 (conferido); tabelas regionais (verificar antes de publicar) |
-| 90 | Recibo, nota fiscal e tributos sobre a comissão | tributacao-da-comissao | iniciante | satélite | comissao-de-corretor-de-imoveis | P2 | Receita Federal (carnê-leão, IRPF); ISS municipal (verificar antes de publicar) |
+| 88 | Comissão na locação: intermediação e administração · **publicado** em /blog/comissao-na-locacao/ | comissao-na-locacao | iniciante | satélite | comissao-de-corretor-de-imoveis | P2 | Lei 8.245/1991 (verificar antes de publicar) |
+| 89 | Tabelas de honorários de referência: o que são e como consultar · **publicado** em /blog/tabelas-de-honorarios/ | tabelas-de-honorarios | iniciante | satélite | comissao-de-corretor-de-imoveis | P2 | CC art. 724 (conferido); tabelas regionais (verificar antes de publicar) |
+| 90 | Recibo, nota fiscal e tributos sobre a comissão · **publicado** em /blog/tributacao-da-comissao/ | tributacao-da-comissao | iniciante | satélite | comissao-de-corretor-de-imoveis | P2 | Receita Federal (carnê-leão, IRPF); ISS municipal (verificar antes de publicar) |
 | 91 | Contratação do corretor pelo comprador: como formalizar | corretor-contratado-pelo-comprador | desenvolvimento | satélite | comissao-de-corretor-de-imoveis | P3 | CC arts. 722–729 (conferido). `avisoJuridico` |
-| 92 | Comissão em lançamentos imobiliários: quem paga e como informar o comprador | comissao-em-lancamentos | desenvolvimento | satélite | comissao-de-corretor-de-imoveis | P2 | STJ, Tema 938 (verificar antes de publicar). `avisoJuridico` |
+| 92 | Comissão em lançamentos imobiliários: quem paga e como informar o comprador · **publicado** em /blog/comissao-em-lancamentos/ | comissao-em-lancamentos | desenvolvimento | satélite | comissao-de-corretor-de-imoveis | P2 | STJ, Tema 938 (verificar antes de publicar). `avisoJuridico` |
 
 ### 5.9 Rotina e gestão (pilar: /blog/rotina-de-trabalho-do-corretor-de-imoveis/)
 
@@ -338,10 +393,10 @@ Limite editorial: não transformar em curso de avaliação formal. Diferenciar s
 | 93 | CRM para corretor de imóveis: o que registrar e como escolher (inclui planilha × CRM) · **publicado** em /blog/crm-para-corretor/ | crm-para-corretor | iniciante, desenvolvimento | satélite | rotina-de-trabalho-do-corretor-de-imoveis | P1 | LGPD (conferido) |
 | 94 | Indicadores comerciais do corretor: quais acompanhar e como calcular a taxa de conversão · **publicado** em /blog/indicadores-comerciais-do-corretor/ | indicadores-comerciais-do-corretor | desenvolvimento | satélite | rotina-de-trabalho-do-corretor-de-imoveis | P1 | — |
 | 95 | Controle de follow-up: organização e frequência dos retornos · **publicado** em /blog/controle-de-follow-up/ | controle-de-follow-up | iniciante | satélite | rotina-de-trabalho-do-corretor-de-imoveis | P1 | — |
-| 96 | Controle de propostas e negócios em andamento | controle-de-negocios-em-andamento | desenvolvimento | satélite | rotina-de-trabalho-do-corretor-de-imoveis | P2 | — |
-| 97 | Organização documental da intermediação | organizacao-documental | iniciante | satélite | rotina-de-trabalho-do-corretor-de-imoveis | P2 | LGPD (conferido) |
+| 96 | Controle de propostas e negócios em andamento · **publicado** em /blog/controle-de-negocios-em-andamento/ | controle-de-negocios-em-andamento | desenvolvimento | satélite | rotina-de-trabalho-do-corretor-de-imoveis | P2 | — |
+| 97 | Organização documental da intermediação · **publicado** em /blog/organizacao-documental/ | organizacao-documental | iniciante | satélite | rotina-de-trabalho-do-corretor-de-imoveis | P2 | LGPD (conferido) |
 | 98 | Agenda do corretor: compromissos, visitas e retornos (inclui agenda digital) | agenda-do-corretor | iniciante | satélite | rotina-de-trabalho-do-corretor-de-imoveis | P3 | — |
-| 99 | Origem dos clientes: como medir de onde vêm os contatos | origem-dos-clientes | desenvolvimento | satélite | rotina-de-trabalho-do-corretor-de-imoveis | P2 | — |
+| 99 | Origem dos clientes: como medir de onde vêm os contatos · **publicado** em /blog/origem-dos-clientes/ | origem-dos-clientes | desenvolvimento | satélite | rotina-de-trabalho-do-corretor-de-imoveis | P2 | — |
 
 ### 5.10 Marketing e posicionamento (pilar: /blog/marketing-para-corretor-de-imoveis/)
 
@@ -350,13 +405,13 @@ Limite editorial: não transformar em curso de avaliação formal. Diferenciar s
 | 100 | Regras de publicidade do corretor de imóveis · **publicado** em /blog/regras-de-publicidade-do-corretor/ | regras-de-publicidade-do-corretor | iniciante, desenvolvimento | satélite | marketing-para-corretor-de-imoveis | P1 | Decreto 81.871/1978, arts. 4º e 5º; Lei 6.530/1978, art. 20, III, IV e V (conferidos); normas COFECI de publicidade (verificar antes de publicar) |
 | 101 | Fotografia de imóveis com celular: orientações práticas · **publicado** em /blog/fotografia-de-imoveis/ | fotografia-de-imoveis | iniciante | satélite | marketing-para-corretor-de-imoveis | P1 | — |
 | 102 | Descrição de imóveis em anúncios: como escrever com clareza e correção · **publicado** em /blog/descricao-de-imoveis/ | descricao-de-imoveis | iniciante | satélite | marketing-para-corretor-de-imoveis | P1 | Lei 6.530/1978, art. 20, V (conferido) |
-| 103 | Perfil da Empresa no Google para corretores de imóveis | perfil-da-empresa-no-google | desenvolvimento | satélite | marketing-para-corretor-de-imoveis | P2 | Diretrizes do Google (verificar antes de publicar) |
-| 104 | Site próprio para corretor de imóveis: quando faz sentido e o que deve conter | site-proprio-para-corretor | desenvolvimento | satélite | marketing-para-corretor-de-imoveis | P2 | LGPD (conferido) |
-| 105 | Produção de conteúdo para corretores: temas úteis e regularidade | producao-de-conteudo | desenvolvimento | satélite | marketing-para-corretor-de-imoveis | P2 | — |
+| 103 | Perfil da Empresa no Google para corretores de imóveis · **publicado** em /blog/perfil-da-empresa-no-google/ | perfil-da-empresa-no-google | desenvolvimento | satélite | marketing-para-corretor-de-imoveis | P2 | Diretrizes do Google (verificar antes de publicar) |
+| 104 | Site próprio para corretor de imóveis: quando faz sentido e o que deve conter · **publicado** em /blog/site-proprio-para-corretor/ | site-proprio-para-corretor | desenvolvimento | satélite | marketing-para-corretor-de-imoveis | P2 | LGPD (conferido) |
+| 105 | Produção de conteúdo para corretores: temas úteis e regularidade · **publicado** em /blog/producao-de-conteudo/ | producao-de-conteudo | desenvolvimento | satélite | marketing-para-corretor-de-imoveis | P2 | — |
 | 106 | Vídeos de imóveis: gravação, edição e cuidados | videos-de-imoveis | iniciante | satélite | marketing-para-corretor-de-imoveis | P3 | — |
 | 107 | Avaliações de clientes e reputação digital | avaliacoes-de-clientes | desenvolvimento | satélite | marketing-para-corretor-de-imoveis | P3 | — |
-| 108 | Portais imobiliários: como anunciar com informações corretas | portais-imobiliarios | iniciante | satélite | marketing-para-corretor-de-imoveis | P2 | Decreto 81.871/1978, arts. 4º e 5º (conferido) |
-| 109 | Redes sociais do corretor: uso profissional e cuidados | redes-sociais-do-corretor | iniciante | satélite | marketing-para-corretor-de-imoveis | P2 | Decreto 81.871/1978, art. 4º (conferido) |
+| 108 | Portais imobiliários: como anunciar com informações corretas · **publicado** em /blog/portais-imobiliarios/ | portais-imobiliarios | iniciante | satélite | marketing-para-corretor-de-imoveis | P2 | Decreto 81.871/1978, arts. 4º e 5º (conferido) |
+| 109 | Redes sociais do corretor: uso profissional e cuidados · **publicado** em /blog/redes-sociais-do-corretor/ | redes-sociais-do-corretor | iniciante | satélite | marketing-para-corretor-de-imoveis | P2 | Decreto 81.871/1978, art. 4º (conferido) |
 
 ### 5.11 Tecnologia (pilar a criar: pauta 110)
 
@@ -366,12 +421,12 @@ Regra: a IA é apresentada como ferramenta de apoio, nunca como substituta do tr
 |---|---|---|---|---|---|---|---|
 | 110 | Ferramentas digitais do corretor: organização, comunicação e documentos · **publicado** em /blog/ferramentas-digitais-do-corretor/ | ferramentas-digitais-do-corretor | iniciante | **pilar** | — | P1 | — |
 | 111 | LGPD na rotina do corretor: dados de clientes e proprietários · **publicado** em /blog/lgpd-na-rotina-do-corretor/ | lgpd-na-rotina-do-corretor | iniciante, desenvolvimento | satélite | ferramentas-digitais-do-corretor | P1 | Lei 13.709/2018 (conferido); orientações da ANPD (verificar antes de publicar). `avisoJuridico` |
-| 112 | Assinatura eletrônica em documentos imobiliários: usos e limites | assinatura-eletronica | desenvolvimento | satélite | ferramentas-digitais-do-corretor | P2 | Lei 14.063/2020; MP 2.200-2/2001 (verificar antes de publicar). `avisoJuridico` |
-| 113 | Inteligência artificial como apoio ao trabalho do corretor | inteligencia-artificial-na-corretagem | desenvolvimento | satélite | ferramentas-digitais-do-corretor | P2 | LGPD (conferido) |
-| 114 | Backup e segurança da informação para corretores | backup-e-seguranca-da-informacao | desenvolvimento | satélite | ferramentas-digitais-do-corretor | P2 | LGPD, art. 46 (verificar antes de publicar) |
+| 112 | Assinatura eletrônica em documentos imobiliários: usos e limites · **publicado** em /blog/assinatura-eletronica/ | assinatura-eletronica | desenvolvimento | satélite | ferramentas-digitais-do-corretor | P2 | Lei 14.063/2020; MP 2.200-2/2001 (verificar antes de publicar). `avisoJuridico` |
+| 113 | Inteligência artificial como apoio ao trabalho do corretor · **publicado** em /blog/inteligencia-artificial-na-corretagem/ | inteligencia-artificial-na-corretagem | desenvolvimento | satélite | ferramentas-digitais-do-corretor | P2 | LGPD (conferido) |
+| 114 | Backup e segurança da informação para corretores · **publicado** em /blog/backup-e-seguranca-da-informacao/ | backup-e-seguranca-da-informacao | desenvolvimento | satélite | ferramentas-digitais-do-corretor | P2 | LGPD, art. 46 (verificar antes de publicar) |
 | 115 | Automação na corretagem: o que automatizar e o que deve continuar pessoal | automacao-na-corretagem | desenvolvimento | satélite | ferramentas-digitais-do-corretor | P3 | — |
-| 116 | Certidões online: onde emitir e como conferir | certidoes-online | iniciante | satélite | ferramentas-digitais-do-corretor | P2 | Órgãos emissores: tribunais, Receita, prefeituras (verificar antes de publicar) |
-| 117 | Matrícula online e serviços eletrônicos de registro de imóveis | servicos-eletronicos-de-registro | iniciante | satélite | ferramentas-digitais-do-corretor | P2 | Lei 14.382/2022; ONR/SAEC (verificar antes de publicar) |
+| 116 | Certidões online: onde emitir e como conferir · **publicado** em /blog/certidoes-online/ | certidoes-online | iniciante | satélite | ferramentas-digitais-do-corretor | P2 | Órgãos emissores: tribunais, Receita, prefeituras (verificar antes de publicar) |
+| 117 | Matrícula online e serviços eletrônicos de registro de imóveis · **publicado** em /blog/servicos-eletronicos-de-registro/ | servicos-eletronicos-de-registro | iniciante | satélite | ferramentas-digitais-do-corretor | P2 | Lei 14.382/2022; ONR/SAEC (verificar antes de publicar) |
 
 ### 5.12 Resumo
 
@@ -482,11 +537,11 @@ Prioridade:
 
 Pautas: 2, 3, 6, 7, 15, 17, 22, 30, 32, 33, 43, 46, 48, 51, 53, 58, 65, 68, 74, 77, 78, 84, 85, 93, 94, 101, 102.
 
-### Terceiro ciclo (55 P2): próximo ciclo
+### Terceiro ciclo (55 P2): concluído e publicado em 2026-10-01
 
 Ordem: primeiro as editorias com pilar recém-criado (preço, visitas, negociação, carreira, tecnologia), depois as demais.
 
-### Quarto ciclo (20 P3)
+### Quarto ciclo (20 P3): próximo ciclo
 
 Depois disso, começam as expansões da seção 6.
 

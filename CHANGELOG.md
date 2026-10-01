@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-10-01 — Terceiro ciclo editorial (55 artigos)
+
+- 55 artigos novos (detalhes em `docs/relatorios/2026-10-01-terceiro-ciclo-editorial.md`); blog com 103 artigos e 11 categorias.
+- Estilo de citação (`blockquote`) no CSS; script de FTP com novas tentativas de conexão.
+- Plano editorial: 55 pautas marcadas como publicadas; quarto ciclo (P3) como próximo.
+
 ## 2026-10-01 — robots.txt
 
 - `robots.txt` com a política do proprietário: liberação geral (`*`) e liberação explícita para Googlebot, GoogleOther, Google-Extended, bingbot, OAI-SearchBot, GPTBot, ChatGPT-User, OAI-AdsBot, ClaudeBot, Claude-SearchBot, Claude-User, PerplexityBot, Perplexity-User, Meta-ExternalAgent, Meta-ExternalFetcher, facebookexternalhit e Facebot; sitemap principal.

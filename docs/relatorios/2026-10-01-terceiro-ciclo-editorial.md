@@ -24,3 +24,11 @@ FGTS na compra do imóvel, atendimento ao interessado em locação, garantias lo
 ## Bloco F: comissão, rotina e registro eletrônico (8 artigos)
 
 Quando a comissão é devida, tabelas de honorários, tributação da comissão, controle de negócios em andamento, organização documental, origem dos clientes, certidões online, serviços eletrônicos de registro. Fontes: Código Civil (723 a 727), Lei 6.530/1978 (art. 17, IV), Decreto 81.871/1978 (art. 16, VIII), Res. COFECI 326/1992 (art. 6º), LC 116/2003, páginas do carnê-leão (Receita Federal), Lei 14.382/2022, Lei 6.015/1973 (art. 19), Lei 13.465/2017 (art. 76), CLT (art. 642-A), páginas oficiais da PGFN/Receita e do TST.
+
+## Fechamento do terceiro ciclo
+
+- 55 artigos publicados; blog com 103 artigos (cerca de 106 mil palavras) e 11 páginas de categoria (todas as editorias).
+- Ligação: 5 artigos que não recebiam link no corpo ganharam link a partir do artigo mais próximo (habilidades, quanto custa começar, perito avaliador, preparação do imóvel, inteligência artificial).
+- Plano editorial: 97 de 117 pautas marcadas como publicadas; quarto ciclo (20 pautas P3) como próximo.
+- Build: 123 páginas + 404. Verificador e testes no domínio real aprovados a cada bloco.
+- Pontos para revisar: a maioria dos artigos do terceiro ciclo ficou entre 700 e 1.100 palavras (os agentes não alongaram sem conteúdo). Fontes que não puderam ser lidas: tabela de honorários do CRECISP (página inexistente) e site do ONR (domínio oficial não confirmado, sem link).

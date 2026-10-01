@@ -107,5 +107,6 @@ export default {
 
 <h2>Próximos passos para quem está avaliando a profissão</h2>
 <p>Se a descrição deste artigo corresponde ao tipo de trabalho que você procura, o passo seguinte é conhecer a formação exigida e o processo de registro. Comece por <a href="/blog/como-ser-corretor-de-imoveis/">como se tornar corretor de imóveis</a> e, em seguida, veja as etapas e os documentos da <a href="/blog/inscricao-no-creci/">inscrição no CRECI</a>.</p>
+<p>As competências que esse trabalho exige estão detalhadas em <a href="/blog/habilidades-do-corretor-de-imoveis/">habilidades importantes para o trabalho do corretor de imóveis</a>.</p>
 `,
 };

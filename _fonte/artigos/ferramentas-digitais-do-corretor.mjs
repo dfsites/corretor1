@@ -124,5 +124,6 @@ export default {
   <li>Passou a trabalhar com assistente ou parceiros e as informações não circulam entre vocês.</li>
 </ul>
 <p>Nesses casos, volte à primeira pergunta deste artigo: qual é o problema concreto? A ferramenta certa é a que resolve esse problema com o menor esforço de manutenção e sem expor os dados das pessoas que confiaram em você.</p>
+<p>Os usos possíveis, os limites e os cuidados com dados estão aprofundados em <a href="/blog/inteligencia-artificial-na-corretagem/">inteligência artificial como apoio ao trabalho do corretor</a>.</p>
 `,
 };

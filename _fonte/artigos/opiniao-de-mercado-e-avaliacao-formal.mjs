@@ -113,5 +113,6 @@ export default {
   <li>Não guardar cópias do parecer e dos documentos vinculados.</li>
 </ul>
 <p>Para a rotina de precificação na captação, veja também <a href="/blog/preco-de-anuncio-e-valor-de-mercado/">preço de anúncio, preço de venda e valor de mercado</a> e <a href="/blog/conversa-sobre-preco-com-o-proprietario/">como conversar com o proprietário sobre preço</a>. A perícia e a avaliação também são caminhos de especialização tratados em <a href="/blog/desenvolvimento-profissional-do-corretor/">desenvolvimento profissional do corretor</a>.</p>
+<p>Para quem pretende atuar com avaliações, o cadastro e as exigências estão em <a href="/blog/perito-avaliador-cnai/">perito avaliador imobiliário e registro no CNAI</a>.</p>
 `,
 };

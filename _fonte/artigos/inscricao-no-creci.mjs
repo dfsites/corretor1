@@ -112,5 +112,6 @@ export default {
 
 <h2>Depois da inscrição</h2>
 <p>Com o número de inscrição, o corretor passa a poder intermediar e assume as obrigações da profissão. Uma delas aparece logo nos primeiros dias: o número deve constar de toda propaganda e de qualquer impresso relativo à atividade profissional (Decreto nº 81.871/1978, art. 4º), o que inclui perfis em redes sociais e anúncios. Veja <a href="/blog/regras-de-publicidade-do-corretor/">regras de publicidade do corretor</a> e, para organizar o começo da atuação, <a href="/blog/primeiros-passos-depois-do-creci/">primeiros passos depois de obter o CRECI</a>.</p>
+<p>A inscrição é só uma parte do investimento inicial. O conjunto de despesas está em <a href="/blog/quanto-custa-comecar-como-corretor/">quanto custa começar como corretor de imóveis</a>.</p>
 `,
 };
