@@ -120,7 +120,7 @@ const CLICHES = [
 ].map(palavra);
 // Links externos permitidos no texto editorial: só fontes oficiais e institucionais.
 const HOST_PERMITIDO = /(\.gov\.br|\.jus\.br|\.leg\.br|\.mp\.br|abnt\.org\.br)$/i;
-const paginasEditoriais = arquivos.filter((arq) => /^(blog|autor)[\\/]/.test(relative(RAIZ, arq)));
+const paginasEditoriais = arquivos.filter((arq) => /^(blog|autor|glossario|documentos|legislacao)[\\/]/.test(relative(RAIZ, arq)));
 for (const arq of paginasEditoriais) {
   const rel = relative(RAIZ, arq).replace(/\\/g, '/');
   const html = readFileSync(arq, 'utf8');
@@ -133,13 +133,32 @@ for (const arq of paginasEditoriais) {
   }
   for (const re of TERMOS_TEXTO) if (re.test(texto)) erros.push(`${rel}: termo vetado no texto (${re}): "${texto.match(new RegExp('.{0,40}' + re.source + '.{0,40}', 'iu'))?.[0].trim()}"`);
   for (const re of CLICHES) if (re.test(texto)) erros.push(`${rel}: clichê no texto (${re})`);
-  if (rel.startsWith('blog/')) {
+  if (/^(blog|glossario|documentos|legislacao)\//.test(rel)) {
     for (const [, url] of main.matchAll(/href="(https?:\/\/[^"]+)"/g)) {
       const host = new URL(url).host;
       if (!HOST_PERMITIDO.test(host)) erros.push(`${rel}: link externo não permitido ${url}`);
     }
   }
 }
+// Séries de referência: tamanho mínimo, autoria, termos vetados e índice.
+const { colecoes, itensColecao } = await import('./colecoes.mjs');
+for (const c of colecoes) {
+  for (const it of itensColecao[c.id]) {
+    const rel = `${c.id}/${it.slug}/index.html`;
+    if (!existsSync(join(RAIZ, rel))) {
+      erros.push(`${rel}: página não gerada`);
+      continue;
+    }
+    const palavras = it.corpo.replace(/<[^>]+>/g, ' ').split(/\s+/).filter(Boolean).length;
+    if (palavras < c.minPalavras) erros.push(`${rel}: ${palavras} palavras (mínimo ${c.minPalavras})`);
+    if (it.titulo.length > 56) avisos.push(`${rel}: titulo com ${it.titulo.length} caracteres`);
+    const html = readFileSync(join(RAIZ, rel), 'utf8');
+    if (!/rel="author" href="\/autor\//.test(html)) erros.push(`${rel}: sem link de autor`);
+    for (const re of PROIBIDOS) for (const campo of ['titulo', 'h1', 'descricao']) if (re.test(it[campo] || '')) erros.push(`${rel}: termo proibido em ${campo}`);
+  }
+  if (itensColecao[c.id].length && !existsSync(join(RAIZ, c.id, 'index.html'))) erros.push(`${c.id}: índice não gerado`);
+}
+
 // Editorias com artigos suficientes precisam ter página de categoria (e só elas).
 const { editorias, MIN_ARTIGOS_CATEGORIA } = await import('./editorias.mjs');
 for (const e of editorias) {
