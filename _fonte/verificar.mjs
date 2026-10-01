@@ -78,7 +78,7 @@ for (const arq of arquivos) {
 // ---------- Regras do blog ----------
 const { artigos, redirecionamentosBlog } = await import('./artigos.mjs');
 const PROIBIDOS = [
-  /alta performance/i, /segredo/i, /explod/i, /milionári/i, /definitiv/i, /imparável/i, /domine o mercado/i,
+  /alta performance/i, /segredo/i, /explod/i, /milionári/i, /(t[ée]cnica|solu[çc][ãa]o|m[ée]todo|f[óo]rmula|guia|estrat[ée]gia) definitiv/i, /imparável/i, /domine o mercado/i,
   /que mais fecham/i, /faturar/i, /vend(a|er) mais/i, /ganh(e|ar) mais/i, /ninguém te conta/i,
 ];
 const htaccess = readFileSync(join(RAIZ, '.htaccess'), 'utf8');
