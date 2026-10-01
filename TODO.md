@@ -3,7 +3,7 @@
 ## Agora
 
 - Corrigir a pasta de destino do deploy GitHub no painel (hoje não grava em /www).
-- Confirmar o e-mail contato@corretor1.com.br (ou trocar em `_fonte/site.mjs`); informar WhatsApp.
+- Informar WhatsApp (e-mail contato@corretor1.com.br confirmado).
 
 ## Próximo
 

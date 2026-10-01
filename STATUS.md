@@ -29,7 +29,6 @@ Publicado: SIM — nova versão (2026-10-01). Site antigo removido; backup em `_
 
 ## Pendências
 
-- Confirmar se o e-mail contato@corretor1.com.br existe (é o único canal de contato configurado)
 - Informar WhatsApp e Instagram (opcional) em `_fonte/site.mjs`
 - Cadastrar e-books e cursos (`_fonte/produtos.mjs`)
 - Google Search Console + envio do sitemap

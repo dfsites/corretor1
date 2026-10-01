@@ -13,7 +13,7 @@ export const site = {
   descricao:
     'Cursos, mentorias individualizadas e e-books para corretores de imóveis que querem alto desempenho em vendas e comissões.',
   contato: {
-    // Confirmar se esta caixa de e-mail existe na hospedagem.
+    // Confirmado pelo proprietário em 2026-10-01.
     email: 'contato@corretor1.com.br',
     // Número com DDI e DDD, só dígitos (ex.: '5561999999999'). Vazio = botão de WhatsApp oculto.
     whatsapp: '',
