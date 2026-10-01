@@ -20,6 +20,9 @@ Requer Node 18+. Não há `npm install`.
 | Nome, chamada, URL, e-mail, WhatsApp, Instagram | `_fonte/site.mjs` |
 | E-books e cursos à venda | `_fonte/produtos.mjs` |
 | Artigos do blog | `_fonte/artigos.mjs` |
+| Autores (bio, registros) | `_fonte/autores.mjs` |
+| Editorias e personas | `_fonte/editorias.mjs` |
+| Planejamento editorial (interno) | `docs/PLANO-EDITORIAL.md` |
 | Páginas, layout, menu, rodapé | `_fonte/build.mjs` |
 | Visual | `assets/css/style.css` |
 
@@ -34,7 +37,7 @@ Requer Node 18+. Não há `npm install`.
 
 ## Como adicionar um artigo
 
-Adicione um objeto em `_fonte/artigos.mjs` com `slug`, `titulo` (até ~55 caracteres), `h1`, `descricao` (120–160 caracteres), `tema`, `data` e `corpo` (HTML). Público: corretores de imóveis. Não invente números.
+Siga `docs/PLANO-EDITORIAL.md` (linha editorial, pautas, anti-canibalização). Adicione um objeto em `_fonte/artigos.mjs` com `slug`, `titulo` (até ~55 caracteres), `h1`, `descricao` (120–160), `editoria`, `personas`, `pilar` (`true` ou slug do pilar), `autor`, `data`, `atualizado` (só em revisão real), `avisoJuridico`, `fontes` e `corpo` (HTML). O build gera byline, schema, relacionados e, quando a editoria chegar a 3 artigos, a página de categoria. Se um slug mudar, registre o 301 em `redirecionamentosBlog`.
 
 ## Publicação
 

@@ -5,12 +5,14 @@ import { mkdirSync, rmSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { site } from './site.mjs';
-import { artigos } from './artigos.mjs';
+import { artigos, redirecionamentosBlog } from './artigos.mjs';
+import { autores } from './autores.mjs';
+import { editorias, personas, MIN_ARTIGOS_CATEGORIA } from './editorias.mjs';
 import { ebooks, cursos } from './produtos.mjs';
 
 const RAIZ = join(dirname(fileURLToPath(import.meta.url)), '..');
 // Pastas geradas pelo build (apagadas e recriadas a cada execução).
-const PASTAS_GERADAS = ['sobre', 'cursos', 'mentoria', 'ebooks', 'blog', 'contato', 'politica-de-privacidade'];
+const PASTAS_GERADAS = ['sobre', 'cursos', 'mentoria', 'ebooks', 'blog', 'contato', 'politica-de-privacidade', 'autor'];
 const ATUALIZADO = '2026-10-01';
 
 const esc = (s = '') =>
@@ -19,11 +21,11 @@ const abs = (caminho) => site.url + caminho;
 const dataBR = (iso) => iso.split('-').reverse().join('/');
 
 const MENU = [
+  ['/blog/', 'Blog'],
   ['/sobre/', 'O Método'],
   ['/cursos/', 'Cursos'],
   ['/mentoria/', 'Mentoria'],
   ['/ebooks/', 'E-books'],
-  ['/blog/', 'Blog'],
 ];
 
 // ---------- Contato ----------
@@ -43,7 +45,7 @@ function botaoContato(rotulo, assunto, classe = 'botao') {
 }
 
 // ---------- Layout ----------
-function layout({ caminho, titulo, descricao, corpo, jsonld = [], tipoOg = 'website', imagem = '/assets/img/og-corretor1.jpg' }) {
+function layout({ caminho, titulo, descricao, corpo, jsonld = [], tipoOg = 'website', imagem = '/assets/img/og-corretor1.jpg', metaExtra = '' }) {
   const tituloCompleto = caminho === '/' ? titulo : `${titulo} | ${site.nome}`;
   const menu = MENU.map(
     ([href, rotulo]) =>
@@ -68,9 +70,10 @@ function layout({ caminho, titulo, descricao, corpo, jsonld = [], tipoOg = 'webs
 <meta property="og:url" content="${abs(caminho)}">
 <meta property="og:image" content="${abs(imagem)}">
 <meta name="twitter:card" content="summary_large_image">
+${metaExtra}
 <link rel="icon" href="/assets/img/favicon.png" type="image/png">
 <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
-<link rel="stylesheet" href="/assets/css/style.css?v=${ATUALIZADO}d">
+<link rel="stylesheet" href="/assets/css/style.css?v=${ATUALIZADO}e">
 ${schemas}
 </head>
 <body>
@@ -80,7 +83,7 @@ ${schemas}
     <a class="marca" href="/" aria-label="${esc(site.nome)} — página inicial">Corretor<span>1%</span></a>
     <button class="menu-botao" type="button" aria-expanded="false" aria-controls="menu">Menu</button>
     <nav aria-label="Principal">
-      <ul class="menu" id="menu">${menu}<li><a class="botao" href="/contato/">Fale conosco</a></li></ul>
+      <ul class="menu" id="menu">${menu}<li><a class="botao" href="/blog/#por-onde-comecar">Comece por aqui</a></li></ul>
     </nav>
   </div>
 </header>
@@ -88,7 +91,7 @@ ${schemas}
 ${corpo}
 </main>
 ${rodape()}
-<script src="/assets/js/site.js?v=${ATUALIZADO}d" defer></script>
+<script src="/assets/js/site.js?v=${ATUALIZADO}e" defer></script>
 </body>
 </html>
 `;
@@ -111,7 +114,7 @@ function rodape() {
     <div class="grade">
       <div>
         <p class="marca">Corretor<span>1%</span></p>
-        <p>Cursos, mentorias individualizadas e e-books para corretores de imóveis que querem fazer parte do 1% que se destaca.</p>
+        <p>Conteúdo, cursos, mentoria e e-books para a formação profissional do corretor de imóveis.</p>
       </div>
       <div>
         <h2>Navegação</h2>
@@ -202,7 +205,7 @@ function cartoesArtigos(lista) {
   return `<div class="grade">${lista
     .map(
       (a) => `<article class="cartao">
-  <span class="tema">${esc(a.tema)}</span>
+  <span class="tema">${esc(editorias.find((e) => e.id === a.editoria)?.nome || '')}</span>
   <h3><a href="/blog/${a.slug}/">${esc(a.h1)}</a></h3>
   <p>${esc(a.descricao)}</p>
   <a class="mais" href="/blog/${a.slug}/">Ler artigo →</a>
@@ -272,7 +275,7 @@ paginas.push({
 <section class="secao escura">
   <div class="container">
     <h2>O Método Corretor 1%</h2>
-    <p class="intro" style="color:#c9cbd2">Cinco pilares que separam o corretor de alta performance da média do mercado.</p>
+    <p class="intro" style="color:#c9cbd2">Cinco frentes que organizam o trabalho do corretor de imóveis.</p>
     ${pilaresHtml(true)}
     <p style="margin-top:28px"><a href="/sobre/" style="color:var(--ouro)">Entenda o método completo →</a></p>
   </div>
@@ -289,7 +292,7 @@ paginas.push({
 <section class="secao clara">
   <div class="container">
     <h2>Conteúdo para corretores</h2>
-    <p class="intro">Artigos sobre carreira, comissão, captação, vendas e marketing imobiliário.</p>
+    <p class="intro">Biblioteca profissional sobre carreira, captação, atendimento, comissão e rotina de trabalho.</p>
     ${cartoesArtigos(artigos.slice(0, 3))}
     <p style="margin-top:28px"><a href="/blog/">Ver todos os artigos →</a></p>
   </div>
@@ -301,9 +304,9 @@ ${faixaCta('Pronto para fazer parte do 1%?', 'Conte onde você está hoje na car
 // O Método
 paginas.push({
   caminho: '/sobre/',
-  titulo: 'O Método Corretor 1%: 5 pilares da alta performance',
+  titulo: 'O Método Corretor 1%: os cinco pilares',
   descricao:
-    'Conheça o Método Corretor 1%: posicionamento, captação, conversão, rotina e reputação, os pilares dos corretores de imóveis que mais vendem.',
+    'Conheça o Método Corretor 1%: posicionamento, captação, conversão, rotina e reputação, os pilares que organizam o trabalho do corretor de imóveis.',
   jsonld: [ORGANIZACAO, schemaTrilha([['/sobre/', 'O Método']])],
   corpo: `${cabecalho({ titulo: 'O Método Corretor 1%', texto: 'Por que alguns poucos corretores vendem muito mais do que todos os outros, e como fazer parte desse grupo.', trilha: [[null, 'O Método']] })}
 <section class="secao"><div class="container estreito">
@@ -339,7 +342,7 @@ paginas.push({
   caminho: '/cursos/',
   titulo: 'Cursos para corretores de imóveis',
   descricao:
-    'Cursos práticos para corretores de imóveis: captação e exclusividade, atendimento e fechamento, comissão, marketing imobiliário e rotina de alta performance.',
+    'Cursos práticos para corretores de imóveis: captação e exclusividade, atendimento e fechamento, comissão, marketing imobiliário e organização da rotina.',
   jsonld: [ORGANIZACAO, schemaTrilha([['/cursos/', 'Cursos']])],
   corpo: `${cabecalho({ titulo: 'Cursos para corretores de imóveis', texto: 'Formação prática, organizada nos pilares do Método Corretor 1%, para você aplicar no dia a dia e ver resultado nas comissões.', trilha: [[null, 'Cursos']] })}
 <section class="secao"><div class="container">
@@ -412,7 +415,7 @@ paginas.push({
   caminho: '/ebooks/',
   titulo: 'E-books para corretores de imóveis',
   descricao:
-    'E-books Corretor 1% para corretores de imóveis: captação, negociação, comissão, marketing e rotina de alta performance, com roteiros e modelos práticos.',
+    'E-books Corretor 1% para corretores de imóveis: captação, negociação, comissão, marketing e rotina de trabalho, com roteiros e modelos práticos.',
   jsonld: [ORGANIZACAO, schemaTrilha([['/ebooks/', 'E-books']])],
   corpo: `${cabecalho({ titulo: 'E-books para corretores de imóveis', texto: 'Materiais objetivos, com roteiros e modelos para usar no atendimento, na captação e na negociação.', trilha: [[null, 'E-books']] })}
 <section class="secao"><div class="container">
@@ -425,26 +428,134 @@ paginas.push({
 </div></section>`,
 });
 
+// ---------- Blog: editorias, autoria e relações ----------
+const ED = Object.fromEntries(editorias.map((e) => [e.id, e]));
+for (const a of artigos) {
+  if (!ED[a.editoria]) throw new Error(`Artigo ${a.slug}: editoria inexistente "${a.editoria}"`);
+  if (!autores[a.autor]) throw new Error(`Artigo ${a.slug}: autor inexistente "${a.autor}"`);
+  if (typeof a.pilar === 'string' && !artigos.some((x) => x.slug === a.pilar)) throw new Error(`Artigo ${a.slug}: pilar inexistente "${a.pilar}"`);
+  for (const p of a.personas || []) if (!personas[p]) throw new Error(`Artigo ${a.slug}: persona inexistente "${p}"`);
+}
+const urlArtigo = (a) => `/blog/${a.slug}/`;
+const urlAutor = (id) => `/autor/${id}/`;
+const idPessoa = (id) => abs(`${urlAutor(id)}#pessoa`);
+const artigosDa = (id) => artigos.filter((a) => a.editoria === id);
+const temCategoria = (id) => artigosDa(id).length >= MIN_ARTIGOS_CATEGORIA;
+const urlEditoria = (id) => (temCategoria(id) ? `/blog/categoria/${id}/` : `/blog/#${id}`);
+const pilarDaEditoria = (id) => artigos.find((a) => a.editoria === id && a.pilar === true);
+const satelitesDe = (a) => artigos.filter((x) => x.pilar === a.slug);
+
+/** Relacionados: explícitos; senão pilar, satélites, mesma editoria e pilares das próximas etapas da trilha. */
+function relacionadosDe(a) {
+  if (a.relacionados?.length) return a.relacionados.map((s) => artigos.find((x) => x.slug === s)).filter(Boolean).slice(0, 3);
+  const ordem = editorias.map((e) => e.id);
+  const i = ordem.indexOf(a.editoria);
+  const proximas = [...ordem.slice(i + 1), ...ordem.slice(0, i)];
+  const candidatos = [
+    typeof a.pilar === 'string' ? artigos.find((x) => x.slug === a.pilar) : null,
+    pilarDaEditoria(a.editoria),
+    ...satelitesDe(a),
+    ...artigosDa(a.editoria),
+    ...proximas.map(pilarDaEditoria),
+  ];
+  const vistos = new Set([a.slug]);
+  return candidatos.filter((x) => x && !vistos.has(x.slug) && vistos.add(x.slug)).slice(0, 3);
+}
+
+function schemaPessoa(id, completo = false) {
+  const p = autores[id];
+  const base = { '@context': 'https://schema.org', '@type': 'Person', '@id': idPessoa(id), name: p.nome, url: abs(urlAutor(id)) };
+  if (!completo) return base;
+  return {
+    ...base,
+    jobTitle: p.cargo,
+    description: p.resumo,
+    ...(p.foto ? { image: abs(p.foto) } : {}),
+    ...(p.sameAs?.length ? { sameAs: p.sameAs } : {}),
+    knowsAbout: ['Corretagem de imóveis', 'Avaliação de imóveis', 'Direito imobiliário', 'Administração de imóveis'],
+  };
+}
+
+const rotuloPersonas = (a) => (a.personas || []).map((p) => personas[p]).join(' · ');
+
 // Blog (índice)
+const trilhasPersona = Object.keys(personas)
+  .map((p) => {
+    const lista = artigos.filter((a) => a.personas?.includes(p)).slice(0, 3);
+    if (!lista.length) return '';
+    return `<div class="cartao"><h3>${esc(personas[p])}</h3><ul>${lista
+      .map((a) => `<li><a href="${urlArtigo(a)}">${esc(a.h1.split(':')[0])}</a></li>`)
+      .join('')}</ul></div>`;
+  })
+  .join('');
+const secoesEditoria = editorias
+  .filter((e) => artigosDa(e.id).length)
+  .map(
+    (e) => `<section class="secao-editoria" id="${e.id}">
+  <h2>${esc(e.nome)}</h2>
+  <p class="intro">${esc(e.descricao)}</p>
+  ${cartoesArtigos(artigosDa(e.id))}
+  ${temCategoria(e.id) ? `<p><a href="/blog/categoria/${e.id}/">Todos os artigos de ${esc(e.nome)} →</a></p>` : ''}
+</section>`,
+  )
+  .join('\n');
 paginas.push({
   caminho: '/blog/',
   titulo: 'Blog para corretores de imóveis',
   descricao:
-    'Artigos para corretores de imóveis sobre carreira, CRECI, comissão, captação, vendas, marketing imobiliário e rotina de alta performance.',
+    'Artigos sobre a profissão de corretor de imóveis: formação e CRECI, captação, atendimento, comissão de corretagem, rotina de trabalho e presença profissional.',
   jsonld: [ORGANIZACAO, schemaTrilha([['/blog/', 'Blog']])],
-  corpo: `${cabecalho({ titulo: 'Blog Corretor 1%', texto: 'Conteúdo prático para corretores de imóveis que querem vender mais e ganhar mais.', trilha: [[null, 'Blog']] })}
-<section class="secao"><div class="container">${cartoesArtigos(artigos)}</div></section>`,
+  corpo: `${cabecalho({
+    titulo: 'Blog Corretor 1%',
+    texto: `Biblioteca profissional sobre a corretagem de imóveis: entrada na profissão, captação, atendimento, comissão, rotina e presença profissional. Artigos de <a href="${urlAutor('daniel-ferreira')}">Daniel Ferreira</a>.`,
+    trilha: [[null, 'Blog']],
+  })}
+<section class="secao clara" id="por-onde-comecar"><div class="container">
+  <h2>Por onde começar</h2>
+  <p class="intro">Escolha a trilha que corresponde ao seu momento na profissão.</p>
+  <div class="grade">${trilhasPersona}</div>
+</div></section>
+<section class="secao"><div class="container">
+${secoesEditoria}
+</div></section>`,
 });
+
+// Páginas de categoria (só editorias com artigos suficientes)
+for (const e of editorias.filter((x) => temCategoria(x.id))) {
+  const caminho = `/blog/categoria/${e.id}/`;
+  paginas.push({
+    caminho,
+    titulo: `${e.nome} — artigos para corretores`,
+    descricao: e.descricao,
+    jsonld: [
+      { '@context': 'https://schema.org', '@type': 'CollectionPage', name: e.nome, description: e.descricao, url: abs(caminho) },
+      schemaTrilha([['/blog/', 'Blog'], [caminho, e.nome]]),
+    ],
+    corpo: `${cabecalho({ titulo: e.nome, texto: esc(e.descricao), trilha: [['/blog/', 'Blog'], [null, e.nome]] })}
+<section class="secao"><div class="container">${cartoesArtigos(artigosDa(e.id))}</div></section>`,
+  });
+}
 
 // Artigos
 for (const a of artigos) {
-  const caminho = `/blog/${a.slug}/`;
-  const outros = artigos.filter((o) => o.slug !== a.slug).slice(0, 3);
+  const caminho = urlArtigo(a);
+  const autor = autores[a.autor];
+  const ed = ED[a.editoria];
+  const atualizado = a.atualizado && a.atualizado !== a.data ? a.atualizado : null;
+  const satelites = a.pilar === true ? satelitesDe(a) : [];
+  const pilar = typeof a.pilar === 'string' ? artigos.find((x) => x.slug === a.pilar) : null;
   paginas.push({
     caminho,
     titulo: a.titulo,
     descricao: a.descricao,
     tipoOg: 'article',
+    metaExtra: [
+      `<meta name="author" content="${esc(autor.nome)}">`,
+      `<meta property="article:published_time" content="${a.data}">`,
+      `<meta property="article:modified_time" content="${a.atualizado || a.data}">`,
+      `<meta property="article:author" content="${abs(urlAutor(a.autor))}">`,
+      `<meta property="article:section" content="${esc(ed.nome)}">`,
+    ].join('\n'),
     jsonld: [
       {
         '@context': 'https://schema.org',
@@ -456,27 +567,75 @@ for (const a of artigos) {
         inLanguage: 'pt-BR',
         mainEntityOfPage: abs(caminho),
         image: abs('/assets/img/og-corretor1.jpg'),
-        author: { '@id': abs('/#organizacao') },
+        articleSection: ed.nome,
+        author: { '@type': 'Person', '@id': idPessoa(a.autor), name: autor.nome, url: abs(urlAutor(a.autor)) },
         publisher: { '@id': abs('/#organizacao') },
+        ...(a.fontes?.length ? { citation: a.fontes.map((f) => f.url) } : {}),
       },
+      schemaPessoa(a.autor),
       ORGANIZACAO,
-      schemaTrilha([['/blog/', 'Blog'], [caminho, a.h1]]),
+      schemaTrilha([['/blog/', 'Blog'], [urlEditoria(a.editoria), ed.nome], [caminho, a.h1]]),
     ],
     corpo: `<section class="cabecalho-pagina"><div class="container estreito">
-  <p class="trilha"><a href="/">Início</a> › <a href="/blog/">Blog</a> › ${esc(a.tema)}</p>
+  <p class="trilha"><a href="/">Início</a> › <a href="/blog/">Blog</a> › <a href="${urlEditoria(a.editoria)}">${esc(ed.nome)}</a></p>
   <h1>${esc(a.h1)}</h1>
   <p>${esc(a.descricao)}</p>
-  <p class="meta-artigo">Publicado em <time datetime="${a.data}">${dataBR(a.data)}</time> · ${esc(a.tema)}</p>
+  <p class="meta-artigo">Por <a rel="author" href="${urlAutor(a.autor)}">${esc(autor.nome)}</a> · Publicado em <time datetime="${a.data}">${dataBR(a.data)}</time>${
+    atualizado ? ` · Atualizado em <time datetime="${atualizado}">${dataBR(atualizado)}</time>` : ''
+  }</p>
+  ${a.personas?.length ? `<p class="personas">Indicado para: ${esc(rotuloPersonas(a))}</p>` : ''}
 </div></section>
 <article class="artigo"><div class="container estreito">
+${pilar ? `<p class="nota-pilar">Este artigo aprofunda um tema de <a href="${urlArtigo(pilar)}">${esc(pilar.h1.split(':')[0])}</a>.</p>` : ''}
 ${a.corpo.trim()}
+${
+  satelites.length
+    ? `<section class="neste-tema"><h2>Artigos deste tema</h2><ul>${satelites.map((s) => `<li><a href="${urlArtigo(s)}">${esc(s.h1)}</a></li>`).join('')}</ul></section>`
+    : ''
+}
+${a.avisoJuridico ? '<p class="aviso-juridico">Conteúdo informativo, elaborado a partir da legislação citada. Não substitui a orientação de um advogado para um caso concreto.</p>' : ''}
+${
+  a.fontes?.length
+    ? `<section class="fontes"><h2>Fontes e referências</h2><ul>${a.fontes
+        .map((f) => `<li><a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.titulo)}</a></li>`)
+        .join('')}</ul></section>`
+    : ''
+}
 <aside class="caixa-autor">
-  <h2>Quer aplicar isso com acompanhamento?</h2>
-  <p>Na <a href="/mentoria/">mentoria individualizada Corretor 1%</a> você transforma o conteúdo em plano de ação para a sua realidade.</p>
-  ${botaoContato('Falar sobre a mentoria', 'mentoria individualizada')}
+  <p class="rotulo">Sobre o autor</p>
+  <p><a href="${urlAutor(a.autor)}"><strong>${esc(autor.nome)}</strong></a> — ${esc(autor.resumo)}</p>
+  <p class="cta-discreto">O Corretor 1% também oferece <a href="/cursos/">cursos</a> e <a href="/mentoria/">mentoria individualizada</a> para corretores de imóveis.</p>
 </aside>
 </div></article>
-<section class="secao clara"><div class="container"><h2>Continue lendo</h2>${cartoesArtigos(outros)}</div></section>`,
+<section class="secao clara"><div class="container"><h2>Leituras relacionadas</h2>${cartoesArtigos(relacionadosDe(a))}</div></section>`,
+  });
+}
+
+// Páginas de autor
+for (const [id, p] of Object.entries(autores)) {
+  const caminho = urlAutor(id);
+  const lista = artigos.filter((a) => a.autor === id);
+  paginas.push({
+    caminho,
+    titulo: `${p.nome} — ${p.cargo}`,
+    descricao: p.resumo,
+    tipoOg: 'profile',
+    jsonld: [
+      { '@context': 'https://schema.org', '@type': 'ProfilePage', url: abs(caminho), mainEntity: { '@id': idPessoa(id) } },
+      schemaPessoa(id, true),
+      schemaTrilha([['/blog/', 'Blog'], [caminho, p.nome]]),
+    ],
+    corpo: `${cabecalho({ titulo: p.nome, texto: esc(p.cargo), trilha: [['/blog/', 'Blog'], [null, p.nome]] })}
+<section class="secao"><div class="container estreito">
+  ${p.bio.map((par) => `<p>${esc(par)}</p>`).join('\n  ')}
+  ${p.registros?.length ? `<h2>Registros profissionais</h2><ul class="lista-check">${p.registros.map((r) => `<li>${esc(r)}</li>`).join('')}</ul>` : ''}
+  ${p.formacao?.length ? `<h2>Formação</h2><ul class="lista-check">${p.formacao.map((r) => `<li>${esc(r)}</li>`).join('')}</ul>` : ''}
+  ${p.sameAs?.length ? `<p>Mais informações: <a href="${esc(p.sameAs[0])}" target="_blank" rel="noopener me">página profissional de ${esc(p.nome)}</a>.</p>` : ''}
+</div></section>
+<section class="secao clara"><div class="container">
+  <h2>Artigos de ${esc(p.nome)}</h2>
+  ${cartoesArtigos(lista)}
+</div></section>`,
   });
 }
 
@@ -577,6 +736,9 @@ Options -Indexes
 RedirectMatch 404 ^/(_fonte|\\.git|\\.github)(/.*)?$
 RedirectMatch 404 (?i)^/.*\\.(md|mjs)$
 RedirectMatch 404 ^/package\\.json$
+
+# Artigos que mudaram de endereço
+${redirecionamentosBlog.map(([de, para]) => `Redirect 301 ${de} ${site.url}${para}`).join('\n')}
 
 # Páginas do template antigo -> páginas novas
 Redirect 301 /about.html ${site.url}/sobre/

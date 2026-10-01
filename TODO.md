@@ -7,17 +7,21 @@
 
 ## Próximo
 
+- Produzir o primeiro ciclo do `docs/PLANO-EDITORIAL.md` (começando pelos pilares de preço e mercado, visitas, negociação, carreira e tecnologia).
+- Foto do autor (quadrada) em `assets/img/autores/` e campo `foto` em `_fonte/autores.mjs`.
+
 - Cadastrar os e-books (capa, preço, link de compra) em `_fonte/produtos.mjs`.
 - Cadastrar os cursos quando houver link de venda.
 - Cadastrar no Google Search Console e enviar o sitemap.
 
 ## Depois
 
-- Novos artigos para os temas: CRECI, financiamento para corretores, scripts de atendimento, parcerias.
 - Depoimentos reais de alunos/mentorados (nunca inventar).
 - Confirmar a divisão de papéis com corretor50k.com.br.
 
 ## Concluído
+
+- 2026-10-01: auditoria editorial do blog (autoria, editorias, fontes, relacionados, 301 de dois slugs, plano de 117 pautas).
 
 - 2026-10-01: objetivo, público, monetização e chamada principal definidos (PROJECT.md).
 - 2026-10-01: verificação do site publicado, DNS e SSL (DOMAIN.md).

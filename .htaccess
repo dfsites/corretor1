@@ -8,6 +8,10 @@ RedirectMatch 404 ^/(_fonte|\.git|\.github)(/.*)?$
 RedirectMatch 404 (?i)^/.*\.(md|mjs)$
 RedirectMatch 404 ^/package\.json$
 
+# Artigos que mudaram de endereço
+Redirect 301 /blog/como-vender-mais-imoveis/ https://www.corretor1.com.br/blog/atendimento-ao-comprador-de-imoveis/
+Redirect 301 /blog/rotina-do-corretor-de-alta-performance/ https://www.corretor1.com.br/blog/rotina-de-trabalho-do-corretor-de-imoveis/
+
 # Páginas do template antigo -> páginas novas
 Redirect 301 /about.html https://www.corretor1.com.br/sobre/
 Redirect 301 /causes.html https://www.corretor1.com.br/cursos/

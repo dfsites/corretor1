@@ -12,12 +12,12 @@ HTML estático gerado por `_fonte/build.mjs` (Node, sem dependências). Verifica
 
 ## Conteúdo
 
-14 páginas: início, O Método, Cursos, Mentoria, E-books, Blog, 6 artigos, Contato, Política de Privacidade (+404).
+15 páginas: início, O Método, Cursos, Mentoria, E-books, Blog, 6 artigos, autor (Daniel Ferreira), Contato, Política de Privacidade (+404). Blog organizado em 11 editorias; plano de 117 pautas em `docs/PLANO-EDITORIAL.md`.
 E-books e cursos: listas vazias — páginas mostram "em breve" até o proprietário cadastrar os produtos.
 
 ## SEO
 
-Title/description únicos, canonical, Open Graph, JSON-LD (Organization, WebSite, BlogPosting, BreadcrumbList, FAQPage), sitemap.xml, robots.txt, redirecionamentos 301 das páginas do template antigo.
+Title/description únicos, canonical, Open Graph (+ article:*), JSON-LD (Organization, WebSite, BlogPosting com autor Person, ProfilePage, BreadcrumbList, FAQPage), sitemap.xml, robots.txt, redirecionamentos 301 das páginas do template antigo.
 
 ## Infraestrutura
 

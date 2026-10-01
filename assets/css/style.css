@@ -139,3 +139,21 @@ p { margin: 0 0 1em; }
   .hero .container { padding-top: 72px; padding-bottom: 72px; }
   .secao { padding: 52px 0; }
 }
+
+/* Blog: autoria, fontes, editorias */
+.meta-artigo a { color: #ffb27a; }
+.meta-artigo a:hover { color: #fff; }
+.personas { color: #b9bcc6; font-size: .9rem; margin: 6px 0 0; }
+.nota-pilar { font-size: .95rem; color: var(--texto-suave); border-left: 3px solid var(--ouro); padding-left: 12px; }
+.neste-tema, .fontes { margin-top: 40px; }
+.fontes h2, .neste-tema h2 { font-size: 1.25rem; }
+.fontes ul { padding-left: 20px; font-size: .95rem; }
+.fontes li { margin-bottom: 6px; }
+.aviso-juridico { margin-top: 32px; font-size: .9rem; color: var(--texto-suave); background: var(--fundo-2); padding: 14px 16px; border-radius: 6px; }
+.caixa-autor .rotulo { font-size: .8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--ouro-escuro); margin-bottom: 6px; }
+.caixa-autor .cta-discreto { font-size: .92rem; color: var(--texto-suave); margin: 0; }
+.secao-editoria { margin-bottom: 56px; }
+.secao-editoria:last-child { margin-bottom: 0; }
+.secao-editoria h2 { margin-top: 0; }
+.cartao ul { padding-left: 18px; margin: 0; }
+.cartao li { margin-bottom: 8px; }

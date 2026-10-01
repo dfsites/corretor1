@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-10-01 — Auditoria editorial do blog
+
+- Consolidadas 7 auditorias externas (Gemini, DeepSeek, Grok, Kimi, Meta, GPT, Claude) + auditoria própria; backup Git na tag `backup-pre-auditoria-editorial-2026-10-01`.
+- Autoria: Daniel Ferreira (`_fonte/autores.mjs`, dados de danielferreiracorretor.com/sobre e kitcontratosimobiliarios.com.br), página `/autor/daniel-ferreira/`, byline com `rel="author"`, Person/ProfilePage no JSON-LD, `meta author` e `article:*`.
+- Editorias (`_fonte/editorias.mjs`, 11 áreas); índice do blog reorganizado por editoria + "Por onde começar" por persona; páginas `/blog/categoria/<id>/` geradas só com 3+ artigos.
+- Os 6 artigos revisados: tom sóbrio, sem termos de "guru", sem faixa de comissão sem fonte, com "Fontes e referências" (Planalto) e aviso jurídico quando aplicável.
+- Dois endereços trocados (publicados no mesmo dia): `/blog/como-vender-mais-imoveis/` → `/blog/atendimento-ao-comprador-de-imoveis/` e `/blog/rotina-do-corretor-de-alta-performance/` → `/blog/rotina-de-trabalho-do-corretor-de-imoveis/` (301).
+- Relacionados por pilar/editoria/trilha; CTA de mentoria trocado por caixa de autor com menção discreta.
+- Topo: botão "Fale conosco" → "Comece por aqui" (/blog/#por-onde-comecar); Blog primeiro no menu.
+- `docs/PLANO-EDITORIAL.md`: 117 pautas por editoria, persona, pilar e prioridade.
+- Verificador ampliado: autoria, meta article, BlogPosting/Person, termos proibidos, sitemap completo, redirecionamentos.
+
 ## 2026-10-01 — Publicação
 
 - Backup completo do site antigo (100 arquivos) em `_backup-servidor/2026-10-01/` (fora do git).

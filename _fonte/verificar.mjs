@@ -64,8 +64,50 @@ for (const arq of arquivos) {
 }
 
 const sitemap = readFileSync(join(RAIZ, 'sitemap.xml'), 'utf8');
-for (const [, loc] of sitemap.matchAll(/<loc>([^<]*)<\/loc>/g)) {
-  if (!existeCaminho(new URL(loc).pathname)) erros.push(`sitemap: URL sem página ${loc}`);
+const locs = [...sitemap.matchAll(/<loc>([^<]*)<\/loc>/g)].map((m) => new URL(m[1]).pathname);
+for (const loc of locs) {
+  if (!existeCaminho(loc)) erros.push(`sitemap: URL sem página ${loc}`);
+}
+// Toda página indexável deve estar no sitemap.
+for (const arq of arquivos) {
+  const rel = '/' + relative(RAIZ, arq).replace(/\\/g, '/').replace(/index\.html$/, '');
+  if (rel !== '/404.html' && !locs.includes(rel)) erros.push(`sitemap: página ausente ${rel}`);
+}
+
+// ---------- Regras do blog ----------
+const { artigos, redirecionamentosBlog } = await import('./artigos.mjs');
+const PROIBIDOS = [
+  /alta performance/i, /segredo/i, /explod/i, /milionári/i, /definitiv/i, /imparável/i, /domine o mercado/i,
+  /que mais fecham/i, /faturar/i, /vend(a|er) mais/i, /ganh(e|ar) mais/i, /ninguém te conta/i,
+];
+const htaccess = readFileSync(join(RAIZ, '.htaccess'), 'utf8');
+for (const a of artigos) {
+  const rel = `blog/${a.slug}/index.html`;
+  const html = readFileSync(join(RAIZ, rel), 'utf8');
+  for (const campo of ['titulo', 'h1', 'descricao']) {
+    for (const re of PROIBIDOS) if (re.test(a[campo])) erros.push(`${rel}: termo proibido em ${campo} (${re})`);
+  }
+  if (!/rel="author" href="\/autor\//.test(html)) erros.push(`${rel}: sem link de autor`);
+  for (const m of ['article:published_time', 'article:modified_time', 'article:author', 'name="author"']) {
+    if (!html.includes(m)) erros.push(`${rel}: sem meta ${m}`);
+  }
+  const posting = [...html.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)]
+    .map((m) => JSON.parse(m[1]))
+    .find((j) => j['@type'] === 'BlogPosting');
+  if (!posting) erros.push(`${rel}: sem BlogPosting`);
+  else {
+    if (posting.author?.['@type'] !== 'Person' || !posting.author?.name) erros.push(`${rel}: author do BlogPosting não é Person`);
+    for (const k of ['headline', 'datePublished', 'dateModified', 'mainEntityOfPage', 'publisher']) {
+      if (!posting[k]) erros.push(`${rel}: BlogPosting sem ${k}`);
+    }
+  }
+  for (const f of a.fontes || []) if (!/^https:\/\//.test(f.url)) erros.push(`${rel}: fonte sem https ${f.url}`);
+  if (a.titulo.length > 56) avisos.push(`${rel}: titulo com ${a.titulo.length} caracteres (+ " | Corretor 1%")`);
+}
+for (const [de, para] of redirecionamentosBlog) {
+  if (!htaccess.includes(`Redirect 301 ${de} `)) erros.push(`.htaccess: falta redirecionamento ${de}`);
+  if (!existeCaminho(para)) erros.push(`redirecionamento ${de} aponta para página inexistente ${para}`);
+  if (locs.includes(de)) erros.push(`sitemap: contém URL redirecionada ${de}`);
 }
 
 console.log(`${arquivos.length} páginas verificadas.`);

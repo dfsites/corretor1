@@ -1,271 +1,385 @@
 // Artigos do blog. Cada artigo vira /blog/<slug>/.
-// Regras editoriais: público = corretores de imóveis; nada de números inventados;
-// citar a lei quando houver base legal; recomendar a consulta ao CRECI regional quando variar por estado.
+//
+// Linha editorial (ver docs/PLANO-EDITORIAL.md):
+//   biblioteca profissional de corretagem — sóbrio, específico, sem promessas de renda,
+//   sem números inventados, sem linguagem de "guru". Lei citada = fonte primária em `fontes`.
+//
+// Campos:
+//   slug, titulo (<= ~55 caracteres; o build acrescenta " | Corretor 1%"), h1, descricao (120–160)
+//   editoria   id de _fonte/editorias.mjs
+//   personas   ['futuro' | 'iniciante' | 'desenvolvimento']
+//   pilar      true se for a página principal da editoria; senão, slug do pilar que o artigo reforça
+//   autor      id de _fonte/autores.mjs
+//   data       publicação original (AAAA-MM-DD)
+//   atualizado data da última revisão de conteúdo (opcional; só aparece se for diferente de `data`)
+//   avisoJuridico true para conteúdo com base legal (mostra aviso de caráter informativo)
+//   fontes     [{ titulo, url }] — preferir Planalto, COFECI, CRECI, STJ, Receita, BCB, Caixa
+//   relacionados [slugs] (opcional; senão o build escolhe pela editoria/pilar)
+//   corpo      HTML
+
+const PLANALTO_LEI_6530 = {
+  titulo: 'Lei nº 6.530/1978 — regulamenta a profissão de Corretor de Imóveis (Planalto)',
+  url: 'https://www.planalto.gov.br/ccivil_03/leis/l6530.htm',
+};
+const PLANALTO_DECRETO_81871 = {
+  titulo: 'Decreto nº 81.871/1978 — regulamenta a Lei nº 6.530/1978 (Planalto)',
+  url: 'https://www.planalto.gov.br/ccivil_03/decreto/antigos/d81871.htm',
+};
+const PLANALTO_CODIGO_CIVIL = {
+  titulo: 'Código Civil (Lei nº 10.406/2002), arts. 722 a 729 — Da corretagem (Planalto)',
+  url: 'https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm',
+};
+const PLANALTO_LGPD = {
+  titulo: 'Lei nº 13.709/2018 — Lei Geral de Proteção de Dados Pessoais (Planalto)',
+  url: 'https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm',
+};
+const COFECI = { titulo: 'Conselho Federal de Corretores de Imóveis — COFECI', url: 'https://www.cofeci.gov.br/' };
 
 export const artigos = [
   {
     slug: 'como-ser-corretor-de-imoveis',
-    titulo: 'Como ser corretor de imóveis: requisitos e CRECI',
-    h1: 'Como ser corretor de imóveis: do curso ao primeiro negócio',
+    titulo: 'Como se tornar corretor de imóveis: formação e CRECI',
+    h1: 'Como se tornar corretor de imóveis: formação, registro no CRECI e início da carreira',
     descricao:
-      'Veja o que a lei exige para atuar como corretor de imóveis, como tirar o CRECI e o que fazer nos primeiros meses para entrar no mercado com o pé direito.',
-    tema: 'Carreira',
+      'O que a lei exige para exercer a corretagem, como funciona a inscrição no CRECI, os modelos de atuação e o que esperar dos primeiros meses na profissão.',
+    editoria: 'comecando-na-profissao',
+    personas: ['futuro', 'iniciante'],
+    pilar: true,
+    autor: 'daniel-ferreira',
     data: '2026-10-01',
+    fontes: [PLANALTO_LEI_6530, PLANALTO_DECRETO_81871, PLANALTO_CODIGO_CIVIL, COFECI],
     corpo: `
-<p>Ser corretor de imóveis é uma das poucas profissões em que a renda depende quase só da sua capacidade de gerar resultado. Não há teto salarial, mas também não há salário garantido. Por isso, antes de pensar em comissão, vale entender o caminho completo: o que a lei exige, como se registrar e como sobreviver aos primeiros meses.</p>
+<p>A corretagem de imóveis é uma profissão regulamentada no Brasil. Antes de pensar em clientes e negócios, quem pretende atuar na área precisa cumprir requisitos formais de formação e registro. Este artigo reúne esse caminho e os pontos práticos do início da carreira, para quem está avaliando a profissão ou acabou de obter o registro.</p>
 
-<h2>A profissão é regulamentada</h2>
-<p>A corretagem de imóveis no Brasil é regulamentada pela <strong>Lei nº 6.530/1978</strong> e pelo <strong>Decreto nº 81.871/1978</strong>. Isso significa que só pode intermediar compra, venda, permuta e locação de imóveis quem estiver inscrito no Conselho Regional de Corretores de Imóveis (CRECI) do estado onde atua. Intermediar sem registro é exercício ilegal da profissão.</p>
-
-<h2>Os requisitos para tirar o CRECI</h2>
-<ol>
-  <li><strong>Formação:</strong> o caminho mais comum é o curso de <strong>Técnico em Transações Imobiliárias (TTI)</strong>, oferecido por escolas autorizadas, inclusive a distância. Também é aceito o curso superior em Ciências Imobiliárias ou Gestão Imobiliária.</li>
-  <li><strong>Estágio e documentação:</strong> as exigências de estágio supervisionado e a lista de documentos variam conforme a escola e o CRECI regional. Confira no site do CRECI do seu estado.</li>
-  <li><strong>Inscrição:</strong> com o diploma em mãos, você solicita a inscrição no CRECI, paga as taxas e passa a ter um número de registro, que deve aparecer em toda a sua publicidade.</li>
-  <li><strong>Anuidade:</strong> o registro é mantido com o pagamento da anuidade ao conselho.</li>
-</ol>
-
-<h2>Autônomo ou associado a uma imobiliária?</h2>
-<p>Quem está começando costuma ter duas opções: trabalhar como <strong>corretor associado</strong> em uma imobiliária, dividindo a comissão, ou atuar como <strong>autônomo</strong>, com a comissão integral e todos os custos por conta própria.</p>
+<h2>O que faz um corretor de imóveis</h2>
+<p>A <strong>Lei nº 6.530/1978</strong> define, no art. 3º, que compete ao corretor de imóveis exercer a intermediação na compra, venda, permuta e locação de imóveis, podendo ainda opinar quanto à comercialização imobiliária.</p>
+<p>No dia a dia, isso se traduz em atividades como:</p>
 <ul>
-  <li><strong>Associado:</strong> você ganha estrutura, carteira de imóveis, marca conhecida e alguém para tirar dúvidas. Em troca, recebe uma parte menor da comissão.</li>
-  <li><strong>Autônomo:</strong> fica com a comissão inteira, mas precisa investir em anúncios, captação, contratos e na própria reputação desde o primeiro dia.</li>
+  <li>captar imóveis e formalizar a autorização do proprietário para intermediar;</li>
+  <li>pesquisar o mercado e orientar o proprietário sobre preço e condições de venda ou locação;</li>
+  <li>divulgar os imóveis e atender os interessados;</li>
+  <li>organizar e acompanhar visitas;</li>
+  <li>receber, apresentar e negociar propostas;</li>
+  <li>acompanhar a documentação até a conclusão do negócio.</li>
 </ul>
-<p>Para a maioria, começar associado e migrar depois é o caminho mais seguro. Você aprende o processo com o dinheiro dos outros e constrói a carteira de contatos que vai sustentar a carreira independente.</p>
 
-<h2>Os primeiros 90 dias</h2>
-<p>O que separa quem desiste de quem fica é o que acontece nos primeiros meses. Concentre-se em quatro frentes:</p>
+<h2>Formação exigida</h2>
+<p>Pelo art. 2º da Lei nº 6.530/1978, o exercício da profissão é permitido ao possuidor do título de <strong>Técnico em Transações Imobiliárias (TTI)</strong>. O curso é oferecido por instituições autorizadas, em formato presencial ou a distância.</p>
+<p>Outras formações na área imobiliária podem ser aceitas para a inscrição, conforme as normas do sistema COFECI-CRECI. Antes de se matricular em qualquer curso, confirme no CRECI da sua região se aquela formação permite o registro.</p>
+
+<h2>Inscrição no CRECI</h2>
+<p>Com a formação concluída, o próximo passo é a inscrição no Conselho Regional de Corretores de Imóveis (CRECI) do estado onde você vai atuar. A lei atribui ao Conselho Federal (COFECI) a regulamentação da inscrição; documentos, taxas e prazos são informados por cada CRECI regional.</p>
+<p>Dois pontos merecem atenção desde o início:</p>
+<ul>
+  <li><strong>O registro é condição para intermediar.</strong> Atuar sem inscrição é exercício irregular da profissão.</li>
+  <li><strong>O número de inscrição deve constar de toda propaganda.</strong> O Decreto nº 81.871/1978 (art. 4º) determina que o número do CRECI apareça em toda publicidade e em qualquer impresso relativo à atividade profissional.</li>
+</ul>
+<p>A manutenção do registro depende do pagamento da anuidade ao conselho.</p>
+
+<h2>Modelos de atuação</h2>
+<p>Depois do registro, o corretor escolhe como vai trabalhar. Os modelos mais comuns são:</p>
+<ul>
+  <li><strong>Associado a uma imobiliária:</strong> a Lei nº 6.530/1978 (art. 6º) prevê que o corretor se associe a imobiliárias por meio de contrato de associação, mantendo sua autonomia profissional. A remuneração é dividida conforme o contrato, e a imobiliária costuma oferecer estrutura, marca e carteira de imóveis.</li>
+  <li><strong>Autônomo:</strong> o corretor trabalha com a própria marca, assume os custos de divulgação, deslocamento e ferramentas, e recebe a remuneração integral dos negócios que intermedeia.</li>
+  <li><strong>Contratado por empresa:</strong> algumas imobiliárias e incorporadoras contratam corretores com vínculo de trabalho, em condições definidas no contrato.</li>
+</ul>
+<p>Não existe um modelo melhor para todos. Para quem está começando, trabalhar ligado a uma empresa costuma facilitar o aprendizado dos processos; a atuação autônoma exige carteira de contatos, organização e capacidade de investimento próprias.</p>
+
+<h2>Como funciona a remuneração</h2>
+<p>A remuneração do corretor é, em regra, a <strong>comissão de corretagem</strong>, devida quando o resultado previsto no contrato de mediação é alcançado (Código Civil, art. 725). Por isso, a renda é variável e pode levar meses para se estabilizar.</p>
+<p>O quanto um corretor recebe depende de muitos fatores, entre eles:</p>
+<ul>
+  <li>o mercado e a região de atuação;</li>
+  <li>o segmento (venda, locação, lançamentos, imóveis rurais);</li>
+  <li>o volume e o valor dos negócios concluídos;</li>
+  <li>o modelo de atuação e a divisão prevista em contrato;</li>
+  <li>o percentual de comissão praticado;</li>
+  <li>a experiência e a carteira de relacionamentos;</li>
+  <li>a capacidade de gerar oportunidades e de conduzir negociações.</li>
+</ul>
+<p>Antes de começar, é prudente ter uma reserva financeira para os primeiros meses. Os detalhes sobre comissão estão em <a href="/blog/comissao-de-corretor-de-imoveis/">comissão de corretagem de imóveis</a>.</p>
+
+<h2>Os primeiros meses na profissão</h2>
 <ol>
-  <li><strong>Escolha um nicho.</strong> Uma região, um tipo de imóvel ou uma faixa de preço. É muito mais fácil ser lembrado como "o corretor de apartamentos no bairro X" do que como "mais um corretor".</li>
-  <li><strong>Conheça o estoque melhor do que ninguém.</strong> Visite os imóveis, anote diferenciais, saiba os preços de venda reais da região.</li>
-  <li><strong>Monte sua base de contatos.</strong> Amigos, família, ex-colegas: todos precisam saber que agora você é corretor. Indicação ainda é uma das maiores fontes de negócio.</li>
-  <li><strong>Crie rotina.</strong> Defina horários fixos para prospecção, atendimento e acompanhamento. Veja como em <a href="/blog/rotina-do-corretor-de-alta-performance/">rotina do corretor de alta performance</a>.</li>
+  <li><strong>Defina onde vai atuar.</strong> Uma região ou um tipo de imóvel bem delimitado permite conhecer o estoque e os preços praticados em profundidade.</li>
+  <li><strong>Estude a documentação básica.</strong> Matrícula do imóvel, certidões, escritura, registro e tributos da transação aparecem em praticamente todo negócio.</li>
+  <li><strong>Registre todos os contatos desde o primeiro dia.</strong> Uma planilha ou um CRM simples evita que oportunidades se percam.</li>
+  <li><strong>Organize uma rotina.</strong> Sem horário imposto, a organização da semana passa a ser responsabilidade do próprio corretor. Veja <a href="/blog/rotina-de-trabalho-do-corretor-de-imoveis/">rotina de trabalho do corretor de imóveis</a>.</li>
+  <li><strong>Aprenda os processos centrais:</strong> <a href="/blog/como-captar-imoveis/">captação de imóveis</a> e <a href="/blog/atendimento-ao-comprador-de-imoveis/">atendimento ao comprador</a>.</li>
 </ol>
-
-<h2>O que diferencia o 1% que se destaca</h2>
-<p>Tirar o CRECI é o requisito mínimo, e todo corretor tem um. O que coloca um profissional entre os que mais vendem é a combinação de <strong>método, constância e posicionamento</strong>: saber captar bons imóveis, conduzir o cliente até o fechamento e ser lembrado quando alguém pensa em comprar ou vender. É exatamente isso que trabalhamos nos <a href="/cursos/">cursos</a> e na <a href="/mentoria/">mentoria individualizada</a>.</p>
 `,
   },
   {
     slug: 'comissao-de-corretor-de-imoveis',
-    titulo: 'Comissão de corretor de imóveis: quanto é e quem paga',
-    h1: 'Comissão de corretor de imóveis: quanto é, quem paga e como proteger a sua',
+    titulo: 'Comissão de corretagem: regras e formalização',
+    h1: 'Comissão de corretagem de imóveis: o que diz a lei, como é definida e como formalizar',
     descricao:
-      'Entenda como funciona a comissão de corretagem, o que diz o Código Civil, como são as tabelas de referência e como negociar sem perder valor.',
-    tema: 'Comissão',
+      'Como o Código Civil trata a remuneração do corretor, o papel das tabelas de referência, quem costuma pagar, parcerias e a importância de formalizar por escrito.',
+    editoria: 'corretagem-e-comissao',
+    personas: ['iniciante', 'desenvolvimento'],
+    pilar: true,
+    autor: 'daniel-ferreira',
     data: '2026-10-01',
+    avisoJuridico: true,
+    fontes: [PLANALTO_CODIGO_CIVIL, PLANALTO_LEI_6530, PLANALTO_DECRETO_81871],
     corpo: `
-<p>A comissão é a remuneração do corretor e, ao mesmo tempo, o ponto em que muitos profissionais perdem dinheiro sem perceber: aceitam descontos sem critério, trabalham sem contrato ou dividem o valor de forma desfavorável. Entender as regras é o primeiro passo para proteger o seu resultado.</p>
+<p>A comissão de corretagem é a forma de remuneração do corretor de imóveis. Boa parte dos conflitos envolvendo comissão nasce de combinações verbais, prazos indefinidos ou parcerias sem registro. Conhecer as regras gerais ajuda a formalizar corretamente cada contratação.</p>
 
-<h2>O que diz a lei</h2>
-<p>O contrato de corretagem está nos <strong>artigos 722 a 729 do Código Civil</strong>. Três pontos importam no dia a dia:</p>
+<h2>O contrato de corretagem no Código Civil</h2>
+<p>O Código Civil trata da corretagem nos <strong>arts. 722 a 729</strong>. Pelo art. 722, no contrato de corretagem uma pessoa se obriga a obter para outra um ou mais negócios, conforme as instruções recebidas. O art. 723 estabelece que o corretor deve executar a mediação com diligência e prudência e prestar ao cliente as informações sobre o andamento do negócio, inclusive esclarecimentos sobre a segurança ou o risco da operação.</p>
+
+<h2>Quando a comissão é devida</h2>
 <ul>
-  <li><strong>Resultado útil (art. 725):</strong> a comissão é devida quando o corretor aproxima as partes e o negócio é concluído, mesmo que depois uma das partes se arrependa.</li>
-  <li><strong>Exclusividade (art. 726):</strong> se houver contrato com exclusividade e o proprietário vender diretamente, o corretor tem direito à comissão integral, salvo se ficar comprovada a sua inércia ou ociosidade.</li>
-  <li><strong>Fim do prazo (art. 727):</strong> se o negócio for fechado depois de encerrado o contrato, mas como fruto do trabalho do corretor, a comissão continua devida.</li>
+  <li><strong>Resultado alcançado (art. 725):</strong> a remuneração é devida quando o corretor consegue o resultado previsto no contrato de mediação, ainda que o negócio não se efetive em virtude de arrependimento das partes.</li>
+  <li><strong>Negócio direto entre as partes (art. 726):</strong> se o negócio é iniciado e concluído diretamente entre as partes, em regra não há comissão. Porém, se a corretagem foi ajustada <strong>por escrito com exclusividade</strong>, o corretor tem direito à remuneração integral mesmo sem a sua mediação, salvo se comprovada sua inércia ou ociosidade.</li>
+  <li><strong>Dispensa ou fim do prazo (art. 727):</strong> se o corretor é dispensado, ou se o prazo do contrato termina, e o negócio se realiza depois como fruto do seu trabalho, a corretagem continua devida.</li>
 </ul>
-<p>Na prática, isso mostra a importância de ter tudo <strong>por escrito</strong>: autorização de venda, prazo, percentual e, quando possível, exclusividade.</p>
+<p>A aplicação dessas regras a casos concretos depende das provas e das circunstâncias de cada negociação, e é frequentemente discutida nos tribunais.</p>
 
-<h2>Quanto é a comissão</h2>
-<p>Não existe um percentual fixado em lei federal. Os sindicatos e conselhos regionais publicam <strong>tabelas de referência de honorários</strong>, que variam por estado e por tipo de operação. Em vendas de imóveis urbanos, as tabelas costumam trabalhar com percentuais entre cerca de 5% e 8% sobre o valor do negócio. Em imóveis rurais e lançamentos, os percentuais são diferentes. Na locação, é comum cobrar o equivalente a um aluguel pela intermediação e um percentual mensal pela administração.</p>
-<p>Consulte sempre a tabela vigente do seu estado e combine o valor com o cliente <strong>antes</strong> de começar a trabalhar.</p>
+<h2>Como o valor é definido</h2>
+<p>O art. 724 do Código Civil determina que, se a remuneração não estiver fixada em lei nem ajustada entre as partes, ela será arbitrada segundo a natureza do negócio e os usos locais. Na prática, o percentual é <strong>combinado com o cliente</strong>, normalmente tendo como referência as tabelas de honorários divulgadas por entidades da categoria em cada região.</p>
+<p>Essas tabelas variam por estado e por tipo de operação (venda de imóvel urbano, rural, lançamentos, locação, administração). Consulte a referência vigente na sua região e registre o percentual acordado antes de iniciar o trabalho.</p>
 
 <h2>Quem paga a comissão</h2>
-<p>Pelo costume do mercado, quem paga é quem contratou o corretor. Na venda, normalmente é o <strong>vendedor</strong>. Mas a lei permite que as partes combinem de outra forma, desde que tudo fique claro no contrato e no instrumento de compra e venda. Evite surpresas no fechamento: deixe explícito desde a captação quem paga e quando.</p>
+<p>Pelo costume do mercado, a comissão é paga por quem contratou o corretor; na venda, normalmente o proprietário. As partes podem combinar de outra forma, desde que isso fique claro e registrado. Deixar essa definição para o momento da assinatura é uma das principais fontes de desentendimento.</p>
 
-<h2>Divisão de comissão entre corretores</h2>
-<p>Nas parcerias, em que um corretor capta e outro traz o comprador, a divisão mais comum é meio a meio, mas tudo é negociável. Formalize a parceria por escrito, mesmo que seja uma simples troca de mensagens com o percentual de cada um. Parcerias mal combinadas acabam com relacionamentos e reputação.</p>
+<h2>Parcerias e divisão de comissão</h2>
+<p>Em parcerias entre corretores — quando um capta o imóvel e outro apresenta o comprador, por exemplo — não há regra legal fixa para a divisão. Vale o que for combinado. Registre por escrito, antes do início da negociação, quem participa, qual a função de cada um e o percentual de cada parte.</p>
 
-<h2>Como negociar sem perder valor</h2>
-<ol>
-  <li><strong>Mostre o trabalho antes de falar de preço.</strong> Apresente o plano de divulgação, a análise de preço e o perfil de comprador que você vai buscar.</li>
-  <li><strong>Troque desconto por contrapartida.</strong> Se for reduzir o percentual, peça exclusividade, prazo maior ou preço de anúncio mais realista.</li>
-  <li><strong>Não negocie comissão no calor do fechamento.</strong> Quem cede na última hora ensina o cliente a pedir desconto na próxima vez.</li>
-  <li><strong>Registre tudo.</strong> A autorização de venda assinada é a sua melhor proteção.</li>
-</ol>
-
-<p>Os corretores que mais faturam não são necessariamente os que cobram mais caro. São os que <strong>defendem o valor do próprio trabalho</strong> com método. Esse é um dos pilares do <a href="/sobre/">Método Corretor 1%</a>. Para aprofundar a captação com exclusividade, leia <a href="/blog/como-captar-imoveis/">como captar imóveis</a>.</p>
+<h2>Formalização da contratação</h2>
+<p>Além de proteger a comissão, a formalização é exigência da própria regulamentação profissional:</p>
+<ul>
+  <li>o Decreto nº 81.871/1978 (art. 5º) estabelece que somente pode anunciar publicamente o corretor que tiver contrato escrito de mediação ou autorização escrita para a alienação do imóvel;</li>
+  <li>a Lei nº 6.530/1978 (art. 20, III) veda anunciar publicamente proposta de transação a que o corretor não esteja autorizado por documento escrito.</li>
+</ul>
+<p>Um documento de autorização deve identificar as partes e o imóvel, as condições de comercialização, o prazo, a existência ou não de exclusividade e a remuneração. O processo de captação e autorização está detalhado em <a href="/blog/como-captar-imoveis/">captação de imóveis</a>.</p>
 `,
   },
   {
     slug: 'como-captar-imoveis',
-    titulo: 'Como captar imóveis e conquistar exclusividade',
-    h1: 'Como captar imóveis: estratégias práticas para conquistar boas exclusividades',
+    titulo: 'Captação de imóveis: processo e exclusividade',
+    h1: 'Captação de imóveis: do primeiro contato com o proprietário à autorização de venda',
     descricao:
-      'Captação é o que sustenta a carreira do corretor. Veja onde encontrar proprietários, como conduzir a primeira visita e como conquistar a exclusividade.',
-    tema: 'Captação',
+      'As etapas da captação de imóveis: origem das oportunidades, entrevista com o proprietário, visita, documentos, preço, autorização escrita e exclusividade.',
+    editoria: 'captacao',
+    personas: ['iniciante', 'desenvolvimento'],
+    pilar: true,
+    autor: 'daniel-ferreira',
     data: '2026-10-01',
+    fontes: [PLANALTO_DECRETO_81871, PLANALTO_LEI_6530, PLANALTO_CODIGO_CIVIL],
     corpo: `
-<p>No mercado imobiliário existe uma frase repetida por quem vende muito: <em>quem tem o imóvel tem o cliente</em>. Compradores aparecem quando há bons imóveis bem precificados. Por isso, a captação é a atividade que mais influencia o faturamento de longo prazo de um corretor.</p>
+<p>Captar é obter, do proprietário, a autorização para intermediar a venda ou a locação de um imóvel. É uma etapa que define boa parte do trabalho que vem depois: um imóvel com preço coerente, documentação em ordem e proprietário bem informado tende a ter uma comercialização mais organizada.</p>
 
-<h2>Captar bem é melhor do que captar muito</h2>
-<p>Uma carteira cheia de imóveis acima do preço, sem documentação ou sem exclusividade dá muito trabalho e pouco resultado. O objetivo não é ter o maior número de anúncios, e sim ter <strong>imóveis vendáveis</strong>: preço coerente com o mercado, proprietário motivado e documentação em ordem.</p>
-
-<h2>Onde encontrar proprietários</h2>
+<h2>O que caracteriza uma boa captação</h2>
+<p>Uma carteira extensa não é, por si só, um bom indicador. Imóveis muito acima do valor de mercado, com documentação pendente ou sem autorização formal consomem tempo e investimento em divulgação sem perspectiva de conclusão. Uma boa captação reúne três elementos:</p>
 <ul>
-  <li><strong>Sua rede de relacionamento:</strong> avise a todos que você ajuda a vender imóveis na sua região de atuação.</li>
-  <li><strong>Prospecção territorial:</strong> escolha alguns condomínios ou ruas e torne-se a referência ali. Converse com porteiros, síndicos e zeladores, sempre com respeito às regras do condomínio.</li>
-  <li><strong>Anúncios de proprietários diretos:</strong> muitos tentam vender sozinhos e, depois de algumas semanas sem resultado, ficam abertos a um profissional.</li>
-  <li><strong>Clientes antigos:</strong> quem comprou com você pode vender no futuro, ou indicar alguém que vai.</li>
-  <li><strong>Conteúdo nas redes:</strong> proprietários pesquisam antes de escolher um corretor. Conteúdo sobre preço, documentação e processo de venda gera confiança.</li>
+  <li>preço compatível com o mercado da região;</li>
+  <li>proprietário com motivação e prazo claros;</li>
+  <li>documentação conhecida e autorização por escrito.</li>
 </ul>
 
-<h2>A primeira visita ao imóvel</h2>
-<p>A visita de captação é uma entrevista de mão dupla: o proprietário avalia você, e você avalia se o imóvel vale o seu tempo. Vá preparado:</p>
-<ol>
-  <li><strong>Leve dados de mercado:</strong> imóveis semelhantes à venda e, se tiver, preços de negócios fechados na região.</li>
-  <li><strong>Pergunte mais do que fala:</strong> por que estão vendendo, qual o prazo, o que farão com o dinheiro. A motivação do proprietário define a negociação.</li>
-  <li><strong>Verifique a documentação:</strong> matrícula atualizada, situação de IPTU e condomínio, eventuais pendências.</li>
-  <li><strong>Apresente seu plano de venda:</strong> fotos profissionais, onde o imóvel será divulgado, como serão as visitas e com que frequência o proprietário receberá retorno.</li>
-</ol>
-
-<h2>Como conquistar a exclusividade</h2>
-<p>A exclusividade protege o seu investimento de tempo e dinheiro. Pelo <strong>artigo 726 do Código Civil</strong>, com exclusividade por escrito, a comissão é devida mesmo que o proprietário venda diretamente, salvo se ficar comprovada a sua inércia. Para o proprietário aceitar, ele precisa enxergar vantagem:</p>
+<h2>De onde vêm as captações</h2>
 <ul>
-  <li>um plano de divulgação concreto, que só faz sentido com exclusividade;</li>
-  <li>relatórios periódicos de visitas e retornos;</li>
-  <li>prazo definido, normalmente de alguns meses, com possibilidade de renovação;</li>
-  <li>o argumento de que um único profissional comprometido protege o imóvel de anúncios desencontrados e preços diferentes na internet.</li>
+  <li><strong>Rede de relacionamento:</strong> pessoas que conhecem o seu trabalho e indicam proprietários.</li>
+  <li><strong>Atuação em uma região delimitada:</strong> conhecer os condomínios e as ruas de uma área permite identificar imóveis disponíveis e ser reconhecido localmente, sempre respeitando as regras de cada condomínio.</li>
+  <li><strong>Proprietários que anunciam por conta própria:</strong> parte deles busca apoio profissional depois de algum tempo.</li>
+  <li><strong>Clientes atendidos anteriormente:</strong> quem comprou ou alugou com você pode vender no futuro ou indicar alguém.</li>
+  <li><strong>Presença digital:</strong> conteúdo informativo e um perfil profissional ajudam proprietários a conhecer o seu trabalho antes do contato.</li>
 </ul>
 
-<h2>Preço: a conversa mais importante</h2>
-<p>Aceitar um imóvel muito acima do valor de mercado só para não perder a captação é o erro mais caro do corretor. O imóvel fica parado, o proprietário se frustra e a culpa recai sobre você. Mostre os números com clareza e combine uma revisão de preço após um período sem propostas.</p>
+<h2>Entrevista inicial com o proprietário</h2>
+<p>Antes de discutir preço, entenda a situação do proprietário. Algumas perguntas essenciais:</p>
+<ul>
+  <li>Por que pretende vender e em que prazo?</li>
+  <li>O imóvel está ocupado? Há inquilino?</li>
+  <li>Quem são os proprietários que constam na matrícula? Todos estão de acordo com a venda?</li>
+  <li>Existe financiamento, inventário ou outra pendência?</li>
+  <li>O imóvel já foi anunciado? Por quanto tempo e com quais resultados?</li>
+</ul>
 
-<p>Captação consistente é método, não sorte. É um dos módulos centrais dos <a href="/cursos/">cursos Corretor 1%</a>. Depois de captar, o próximo passo é <a href="/blog/como-vender-mais-imoveis/">vender mais imóveis</a> com um processo de atendimento eficiente.</p>
+<h2>Visita de captação e levantamento de informações</h2>
+<p>Na visita, registre as características do imóvel com precisão: metragem, número de quartos e vagas, estado de conservação, reformas, posição solar, vista, áreas comuns, valor de condomínio e de IPTU. Fotografe com autorização e anote o que precisa ser verificado em documentos.</p>
+
+<h2>Documentação</h2>
+<p>Solicite ou oriente a obtenção da matrícula atualizada e verifique a situação de IPTU e condomínio. Divergências entre o imóvel real e o que consta na matrícula — como área construída não averbada — precisam ser identificadas cedo, porque podem afetar a venda e o financiamento do comprador.</p>
+
+<h2>Preço</h2>
+<p>A lei permite ao corretor opinar quanto à comercialização imobiliária (Lei nº 6.530/1978, art. 3º). Fundamente a sugestão de preço com dados: imóveis semelhantes à venda, negócios concluídos na região quando houver informação disponível, e as características específicas do imóvel. Apresente os números ao proprietário de forma clara e combine um momento para revisar o preço caso não haja interesse no período definido.</p>
+
+<h2>Autorização por escrito</h2>
+<p>A autorização escrita não é apenas uma boa prática. O Decreto nº 81.871/1978 (art. 5º) estabelece que somente pode anunciar publicamente o corretor que tiver contrato escrito de mediação ou autorização escrita para a alienação do imóvel. O documento deve identificar o imóvel e os proprietários, o preço e as condições, o prazo, a remuneração e se há exclusividade.</p>
+
+<h2>Exclusividade</h2>
+<p>Pelo art. 726 do Código Civil, quando a corretagem é ajustada por escrito com exclusividade, o corretor tem direito à remuneração integral ainda que o negócio seja realizado sem a sua mediação, salvo se comprovada sua inércia ou ociosidade. Para o proprietário, a exclusividade faz sentido quando vem acompanhada de compromissos concretos: plano de divulgação, frequência de retorno, prazo definido e relatórios de visitas e propostas.</p>
+
+<h2>Depois da captação</h2>
+<p>Mantenha o proprietário informado sobre visitas, retornos dos interessados e propostas recebidas. O relacionamento ao longo da comercialização é o que sustenta conversas difíceis, como a revisão de preço. A divulgação do imóvel é tratada em <a href="/blog/marketing-para-corretor-de-imoveis/">marketing para corretor de imóveis</a>, e a formalização da remuneração em <a href="/blog/comissao-de-corretor-de-imoveis/">comissão de corretagem</a>.</p>
 `,
   },
   {
-    slug: 'como-vender-mais-imoveis',
-    titulo: 'Como vender mais imóveis: processo que converte',
-    h1: 'Como vender mais imóveis: o processo dos corretores que mais fecham negócios',
+    slug: 'atendimento-ao-comprador-de-imoveis',
+    titulo: 'Atendimento ao comprador: do contato ao fechamento',
+    h1: 'Atendimento ao comprador de imóveis: do primeiro contato ao fechamento',
     descricao:
-      'Vender mais imóveis não depende de sorte. Veja como qualificar clientes, conduzir visitas, fazer follow-up e chegar ao fechamento com segurança.',
-    tema: 'Vendas',
+      'Como estruturar o atendimento ao comprador de imóveis: primeiro contato, qualificação, seleção de imóveis, visitas, acompanhamento, proposta e conclusão do negócio.',
+    editoria: 'atendimento',
+    personas: ['iniciante', 'desenvolvimento'],
+    pilar: true,
+    autor: 'daniel-ferreira',
     data: '2026-10-01',
+    fontes: [PLANALTO_CODIGO_CIVIL],
     corpo: `
-<p>Dois corretores podem receber o mesmo número de contatos no mês e terminar com resultados completamente diferentes. A diferença quase nunca está na quantidade de clientes, e sim no <strong>processo</strong>: o que acontece entre o primeiro contato e a assinatura.</p>
+<p>O atendimento ao comprador vai do primeiro contato até a assinatura e o registro do negócio. Cada etapa tem objetivos próprios, e organizá-las como um processo ajuda o corretor a atender melhor, perder menos oportunidades e identificar onde precisa melhorar.</p>
 
-<h2>1. Responda rápido</h2>
-<p>Quem procura imóvel costuma falar com vários corretores ao mesmo tempo. O primeiro a responder com atenção ganha vantagem. Tenha um horário fixo para checar mensagens e uma resposta inicial pronta, que apresente você e já faça uma ou duas perguntas de qualificação.</p>
+<h2>1. Primeiro contato</h2>
+<p>Quem procura um imóvel costuma falar com mais de um profissional ao mesmo tempo. Responder com prontidão, apresentar-se com nome e número de inscrição no CRECI e fazer as primeiras perguntas de qualificação já na resposta inicial são práticas que organizam o atendimento desde o começo.</p>
 
-<h2>2. Qualifique antes de mostrar imóveis</h2>
-<p>Levar um cliente a dez visitas sem entender o que ele precisa desgasta você e o cliente. Antes de agendar, descubra:</p>
+<h2>2. Qualificação do comprador</h2>
+<p>Antes de selecionar imóveis, entenda a necessidade do cliente:</p>
 <ul>
-  <li><strong>motivação:</strong> por que quer comprar e por que agora;</li>
+  <li><strong>motivação:</strong> por que pretende comprar;</li>
   <li><strong>prazo:</strong> quando precisa estar no imóvel;</li>
-  <li><strong>capacidade de pagamento:</strong> recursos próprios, financiamento aprovado ou a aprovar, FGTS, venda de outro imóvel;</li>
+  <li><strong>capacidade de pagamento:</strong> recursos próprios, uso de FGTS, financiamento já aprovado ou a solicitar, necessidade de vender outro imóvel;</li>
   <li><strong>decisores:</strong> quem mais participa da decisão;</li>
   <li><strong>critérios:</strong> o que é indispensável e o que é desejável.</li>
 </ul>
+<p>Registre essas informações. Elas orientam a seleção de imóveis e evitam visitas sem aderência ao perfil.</p>
 
-<h2>3. Visitas com roteiro</h2>
-<p>Selecione poucos imóveis, coerentes com o perfil, e visite-os antes, se possível. Durante a visita, observe as reações e pergunte o que o cliente achou de cada ambiente. Ao final, peça que ele compare os imóveis vistos. Essa conversa mostra o que realmente pesa na decisão.</p>
+<h2>3. Seleção de imóveis</h2>
+<p>Apresente poucas opções, coerentes com o perfil. Antes de agendar, confirme disponibilidade, preço, condições aceitas pelo proprietário e eventuais pendências de documentação. Sempre que possível, conheça o imóvel pessoalmente antes de levar o cliente.</p>
 
-<h2>4. Follow-up é onde está o dinheiro</h2>
-<p>Muitas vendas se perdem por falta de acompanhamento. O cliente não disse "não", só esfriou. Tenha um sistema simples, uma planilha ou um CRM, com a próxima ação e a data de cada cliente. Cada contato de acompanhamento deve agregar valor: uma novidade, um imóvel novo, uma informação sobre financiamento. Nunca mande apenas "e aí, alguma novidade?".</p>
+<h2>4. Visitas</h2>
+<p>Combine horários com o proprietário ou responsável, confirme a visita com o cliente e prepare as informações relevantes: metragem, condomínio, IPTU, características da região. Durante a visita, observe as reações e pergunte o que o cliente achou de cada ambiente. Ao final, peça que compare as opções vistas: essa conversa revela o que realmente pesa na decisão.</p>
 
-<h2>5. Proposta e negociação</h2>
+<h2>5. Acompanhamento após a visita</h2>
+<p>Muitos negócios não avançam por falta de acompanhamento, não por recusa do cliente. Registre a próxima ação e a data de cada atendimento em andamento. Cada novo contato deve trazer algo útil: um imóvel compatível, uma informação sobre a documentação, uma atualização sobre condições de pagamento.</p>
+
+<h2>6. Proposta e negociação</h2>
 <ol>
-  <li><strong>Formalize a proposta por escrito:</strong> valor, forma de pagamento, prazos e condições.</li>
-  <li><strong>Prepare os dois lados:</strong> antes de levar a proposta ao proprietário, entenda até onde cada parte pode ir.</li>
-  <li><strong>Negocie condições, não só preço:</strong> prazo de entrega das chaves, itens que ficam no imóvel e forma de pagamento também fecham negócios.</li>
+  <li><strong>Formalize a proposta por escrito:</strong> valor, forma de pagamento, prazos, condições e validade.</li>
+  <li><strong>Apresente a proposta ao proprietário</strong> com o contexto necessário para que ele avalie: perfil do comprador, forma de pagamento e prazos.</li>
+  <li><strong>Considere todas as condições,</strong> não apenas o preço: prazo de entrega das chaves, itens que permanecem no imóvel e cronograma de pagamento também fazem parte do acordo.</li>
+  <li><strong>Registre cada contraproposta</strong> para que as duas partes saibam exatamente o que está sendo negociado.</li>
 </ol>
 
-<h2>6. Fechamento seguro</h2>
-<p>Um negócio só está fechado quando está documentado. Verifique a matrícula atualizada e as certidões necessárias, e acompanhe o cliente até a escritura e o registro. Um fechamento tranquilo vira indicação. Um fechamento problemático vira reclamação.</p>
+<h2>7. Conclusão do negócio</h2>
+<p>O Código Civil (art. 723) determina que o corretor execute a mediação com diligência e prudência e preste ao cliente os esclarecimentos sobre a segurança ou o risco do negócio. Na prática, isso significa acompanhar a verificação da matrícula atualizada e das certidões necessárias, orientar sobre as etapas de escritura e registro e manter as partes informadas até a conclusão.</p>
 
-<h2>Meça para melhorar</h2>
-<p>Anote quantos contatos viram visitas, quantas visitas viram propostas e quantas propostas viram vendas. Esses números mostram exatamente onde o seu processo perde clientes e onde treinar. É assim que trabalhamos na <a href="/mentoria/">mentoria individualizada</a>: diagnóstico com os seus números e plano de ação sob medida.</p>
-<p>Leia também: <a href="/blog/marketing-para-corretor-de-imoveis/">marketing para corretor de imóveis</a>.</p>
+<h2>Registro e indicadores</h2>
+<p>Anote quantos contatos resultam em visitas, quantas visitas resultam em propostas e quantas propostas resultam em negócios. Esses números mostram em que etapa o processo precisa de ajuste. Veja como organizar esse controle em <a href="/blog/rotina-de-trabalho-do-corretor-de-imoveis/">rotina de trabalho do corretor de imóveis</a>.</p>
 `,
   },
   {
-    slug: 'rotina-do-corretor-de-alta-performance',
-    titulo: 'Rotina do corretor de imóveis de alta performance',
-    h1: 'Rotina do corretor de alta performance: como organizar a semana para vender mais',
+    slug: 'rotina-de-trabalho-do-corretor-de-imoveis',
+    titulo: 'Rotina de trabalho do corretor de imóveis',
+    h1: 'Rotina de trabalho do corretor de imóveis: organização da semana e indicadores',
     descricao:
-      'Sem chefe e sem horário fixo, a rotina decide o resultado do corretor. Veja um modelo de semana com prospecção, atendimento, captação e estudo.',
-    tema: 'Produtividade',
+      'Como organizar a semana do corretor de imóveis entre prospecção, captação, atendimento e acompanhamento, e quais indicadores ajudam a avaliar o próprio trabalho.',
+    editoria: 'rotina-e-gestao',
+    personas: ['iniciante', 'desenvolvimento'],
+    pilar: true,
+    autor: 'daniel-ferreira',
     data: '2026-10-01',
     corpo: `
-<p>A liberdade de horário é um dos atrativos da corretagem e também uma das maiores armadilhas. Sem uma rotina definida, o dia é consumido por mensagens, imprevistos e atividades que parecem trabalho mas não geram negócio. Os corretores que se destacam tratam a própria agenda como a de um atleta: <strong>blocos fixos para o que gera resultado</strong>.</p>
+<p>A maior parte dos corretores não tem horário definido por um empregador. Essa autonomia exige que o próprio profissional organize a semana; sem isso, o tempo tende a ser consumido por mensagens e demandas imediatas, enquanto atividades que sustentam o trabalho no médio prazo — como captação e acompanhamento — ficam para depois.</p>
 
-<h2>As quatro atividades que geram dinheiro</h2>
+<h2>As atividades centrais</h2>
 <ol>
-  <li><strong>Prospecção:</strong> buscar novos compradores e proprietários.</li>
-  <li><strong>Captação:</strong> visitar e conquistar imóveis bons para vender.</li>
-  <li><strong>Atendimento:</strong> visitas, propostas e negociações.</li>
-  <li><strong>Acompanhamento:</strong> follow-up de clientes em andamento e pós-venda.</li>
+  <li><strong>Prospecção:</strong> buscar novos proprietários e interessados.</li>
+  <li><strong>Captação:</strong> visitar imóveis, levantar informações e formalizar autorizações.</li>
+  <li><strong>Atendimento:</strong> qualificação, visitas, propostas e negociações.</li>
+  <li><strong>Acompanhamento:</strong> retorno a clientes em andamento, a proprietários e pós-venda.</li>
 </ol>
-<p>Todo o resto, como redes sociais, burocracia e reuniões, é suporte. Importa, mas não pode ocupar o lugar das quatro atividades principais.</p>
+<p>Divulgação, produção de conteúdo, documentação e estudo são atividades de apoio. São necessárias, mas precisam de espaço próprio na agenda para não ocupar o tempo das atividades centrais.</p>
 
-<h2>Um modelo de semana</h2>
-<p>Adapte à sua realidade, mas comece com algo assim:</p>
+<h2>Um exemplo de organização semanal</h2>
+<p>A distribuição abaixo é apenas um ponto de partida. Ajuste conforme o seu segmento e a disponibilidade dos seus clientes:</p>
 <ul>
-  <li><strong>Todas as manhãs (primeira hora):</strong> planejamento do dia e follow-up dos clientes ativos.</li>
-  <li><strong>Segunda e quarta:</strong> blocos de prospecção ativa, com ligações, mensagens e contato com a sua rede.</li>
-  <li><strong>Terça e quinta:</strong> visitas de captação e avaliação de imóveis.</li>
-  <li><strong>Sexta e sábado:</strong> visitas com clientes compradores, que costumam ter mais disponibilidade no fim da semana.</li>
-  <li><strong>Um bloco semanal:</strong> produção de conteúdo e anúncios.</li>
-  <li><strong>Um bloco semanal:</strong> estudo, seja sobre mercado, técnicas de venda ou legislação.</li>
+  <li><strong>Início de cada dia:</strong> revisão da agenda e retorno aos atendimentos em andamento.</li>
+  <li><strong>Dois períodos na semana:</strong> prospecção ativa e contato com a rede de relacionamento.</li>
+  <li><strong>Dois períodos na semana:</strong> visitas de captação e atualização da carteira.</li>
+  <li><strong>Fim da semana:</strong> visitas com compradores, que costumam ter mais disponibilidade nesses dias.</li>
+  <li><strong>Um período semanal:</strong> divulgação dos imóveis e produção de conteúdo.</li>
+  <li><strong>Um período semanal:</strong> estudo de mercado, legislação e documentação.</li>
 </ul>
 
-<h2>Indicadores semanais</h2>
-<p>Defina metas de <strong>atividade</strong>, não só de resultado. Você não controla quando um cliente vai assinar, mas controla quantos contatos faz por semana. Acompanhe, por exemplo:</p>
+<h2>Registro de informações</h2>
+<p>Uma rotina só funciona se as informações estiverem registradas. Use uma planilha ou um sistema de CRM para manter, em um só lugar, os dados de clientes e proprietários, o histórico de contatos, a próxima ação de cada atendimento e a situação de cada imóvel e proposta.</p>
+
+<h2>Indicadores</h2>
+<p>Separe dois tipos de indicador:</p>
 <ul>
-  <li>novos contatos de prospecção;</li>
-  <li>visitas de captação realizadas;</li>
-  <li>visitas com compradores;</li>
-  <li>propostas enviadas.</li>
+  <li><strong>De atividade</strong> (o que depende diretamente de você): contatos de prospecção, visitas de captação, visitas com compradores, propostas encaminhadas.</li>
+  <li><strong>De conversão</strong> (a relação entre as etapas): quantos contatos geram visitas, quantas visitas geram propostas, quantas propostas resultam em negócio.</li>
 </ul>
-<p>Depois de algumas semanas, você vai descobrir a sua própria taxa de conversão e saber quanta atividade precisa para chegar à renda que deseja.</p>
+<p>Depois de algumas semanas de registro, esses números mostram onde o processo perde oportunidades — por exemplo, muitas visitas e poucas propostas indicam que vale revisar a qualificação dos clientes ou a seleção de imóveis.</p>
 
-<h2>Proteja seus blocos</h2>
-<p>Desligue as notificações durante a prospecção. Responda mensagens em horários definidos, exceto as urgentes de negociações em andamento. E aprenda a dizer não a atividades que não levam a nenhum negócio.</p>
+<h2>Proteção dos períodos de trabalho</h2>
+<p>Durante os períodos de prospecção e captação, reduza interrupções: silencie notificações que não sejam de negociações em andamento e responda às demais mensagens em horários definidos.</p>
 
-<h2>Descanso também é estratégia</h2>
-<p>Alta performance não é trabalhar todas as horas do dia. Reserve pelo menos um período de descanso real por semana. Corretor esgotado atende mal, negocia mal e desiste cedo.</p>
-
-<p>Construir rotina sozinho é difícil, e a constância é justamente o que a <a href="/mentoria/">mentoria individualizada</a> trabalha: metas semanais, acompanhamento e ajustes com base nos seus números. Veja também <a href="/blog/como-ser-corretor-de-imoveis/">como ser corretor de imóveis</a> se você está começando.</p>
+<h2>Revisão periódica</h2>
+<p>Uma vez por mês, revise os indicadores, a carteira de imóveis e os atendimentos parados. Ajuste a distribuição da semana com base no que os números mostram. Inclua também períodos de descanso: uma rotina sustentável ao longo do tempo é mais útil do que semanas intensas seguidas de interrupções.</p>
+<p>Leia também: <a href="/blog/atendimento-ao-comprador-de-imoveis/">atendimento ao comprador de imóveis</a> e <a href="/blog/como-captar-imoveis/">captação de imóveis</a>.</p>
 `,
   },
   {
     slug: 'marketing-para-corretor-de-imoveis',
-    titulo: 'Marketing para corretor de imóveis: guia prático',
-    h1: 'Marketing para corretor de imóveis: como ser lembrado e atrair clientes',
+    titulo: 'Marketing para corretor de imóveis: presença e anúncios',
+    h1: 'Marketing para corretor de imóveis: posicionamento, presença digital, anúncios e reputação',
     descricao:
-      'Guia prático de marketing para corretores: posicionamento, Instagram, anúncios de imóveis, fotos, conteúdo e regras de publicidade do CRECI.',
-    tema: 'Marketing',
+      'Como o corretor pode organizar a presença digital, produzir anúncios corretos e informativos, respeitar as regras de publicidade da profissão e construir reputação.',
+    editoria: 'marketing',
+    personas: ['iniciante', 'desenvolvimento'],
+    pilar: true,
+    autor: 'daniel-ferreira',
     data: '2026-10-01',
+    fontes: [PLANALTO_DECRETO_81871, PLANALTO_LEI_6530, PLANALTO_LGPD],
     corpo: `
-<p>O cliente escolhe o corretor muito antes do primeiro contato. Ele vê um anúncio, visita um perfil e lê um conteúdo, e é aí que decide se você parece alguém confiável. Marketing, para o corretor, é construir essa primeira impressão de forma intencional.</p>
+<p>Antes do primeiro contato, o cliente costuma ver um anúncio, um perfil profissional ou um conteúdo publicado pelo corretor. Marketing, para o corretor de imóveis, é organizar essa presença de forma profissional, correta e coerente com a sua área de atuação.</p>
 
-<h2>Comece pelo posicionamento</h2>
-<p>Antes de pensar em postagens, responda: <strong>para quem você trabalha e em que você é especialista?</strong> "Corretor de imóveis em geral" não é posicionamento. "Especialista em apartamentos de alto padrão no bairro X" ou "corretor focado em primeiro imóvel com financiamento" são. Um posicionamento claro deixa o conteúdo mais fácil de produzir e mais fácil de lembrar.</p>
+<h2>Posicionamento</h2>
+<p>Defina com clareza em que você atua: uma região, um tipo de imóvel, uma faixa de preço ou um perfil de cliente. Essa definição orienta o conteúdo que você produz, os imóveis que capta e a forma como se apresenta. Um corretor com atuação delimitada é mais facilmente associado a um assunto e a um lugar.</p>
 
-<h2>Instagram e redes sociais</h2>
+<h2>Presença digital</h2>
 <ul>
-  <li><strong>Perfil profissional:</strong> foto nítida, descrição com sua especialidade e região, número do CRECI e um link de contato.</li>
-  <li><strong>Conteúdo útil:</strong> documentação, financiamento, custos de compra, como avaliar um imóvel. Conteúdo que responde dúvidas atrai clientes, não só curtidas.</li>
-  <li><strong>Bastidores:</strong> visitas, captações e entregas de chaves, sempre com autorização dos clientes. Mostram que você está em atividade.</li>
-  <li><strong>Constância:</strong> um ritmo que você consegue manter vale mais do que uma semana intensa seguida de um mês de silêncio.</li>
+  <li><strong>Perfil profissional:</strong> nome, foto nítida, área de atuação, número de inscrição no CRECI e forma de contato.</li>
+  <li><strong>Perfil de empresa no Google:</strong> para quem atende em uma região, ajuda clientes a encontrar o corretor em buscas locais.</li>
+  <li><strong>Site próprio:</strong> reúne imóveis, conteúdo e contato em um endereço que não depende de uma única rede social.</li>
+  <li><strong>Redes sociais:</strong> funcionam melhor com regularidade possível de manter do que com períodos intensos seguidos de ausência.</li>
 </ul>
 
-<h2>Anúncios de imóveis que vendem</h2>
+<h2>Conteúdo informativo</h2>
+<p>Conteúdo que responde dúvidas reais — documentação, etapas da compra, financiamento, custos da transação, características da região — tende a atrair pessoas com interesse concreto e demonstra conhecimento. Evite promessas e afirmações que não possa comprovar.</p>
+
+<h2>Anúncios de imóveis</h2>
 <ol>
-  <li><strong>Fotos de qualidade:</strong> luz natural, ambientes arrumados, enquadramento horizontal. A foto é o primeiro filtro do comprador.</li>
-  <li><strong>Título com o principal diferencial:</strong> localização, vista, área de lazer, reforma recente.</li>
-  <li><strong>Descrição honesta e completa:</strong> metragem, vagas, condomínio, IPTU e pontos de interesse próximos.</li>
-  <li><strong>Preço coerente:</strong> nenhuma técnica de marketing salva um imóvel muito acima do valor de mercado.</li>
+  <li><strong>Fotografias:</strong> luz natural, ambientes organizados, enquadramento horizontal, sem distorções que alterem a percepção do imóvel.</li>
+  <li><strong>Título:</strong> tipo de imóvel, localização e o principal diferencial.</li>
+  <li><strong>Descrição:</strong> metragem, quartos, vagas, valor de condomínio e IPTU, estado de conservação e pontos de interesse próximos, com informações corretas.</li>
+  <li><strong>Preço:</strong> coerente com o mercado e com o que foi autorizado pelo proprietário.</li>
 </ol>
 
-<h2>Regras de publicidade</h2>
-<p>As normas do sistema COFECI-CRECI exigem que a publicidade do corretor traga a sua identificação com o <strong>número de inscrição no CRECI</strong>. Anuncie apenas imóveis que você está autorizado a intermediar e nunca publique informações que não pode comprovar. Ao coletar dados de clientes, por formulário ou mensagem, respeite a Lei Geral de Proteção de Dados (LGPD).</p>
+<h2>Regras de publicidade da profissão</h2>
+<p>A regulamentação da profissão traz exigências específicas para a publicidade:</p>
+<ul>
+  <li>o número de inscrição do corretor ou da pessoa jurídica deve constar de toda propaganda e de qualquer impresso relativo à atividade profissional (Decreto nº 81.871/1978, art. 4º; Lei nº 6.530/1978, art. 20, IV);</li>
+  <li>somente pode anunciar publicamente o corretor que tiver contrato escrito de mediação ou autorização escrita do proprietário (Decreto nº 81.871/1978, art. 5º);</li>
+  <li>no anúncio de imóvel loteado ou em condomínio, deve constar o número do registro do loteamento ou da incorporação no Registro de Imóveis (Lei nº 6.530/1978, art. 20, V).</li>
+</ul>
+<p>Consulte também as orientações do CRECI da sua região sobre publicidade.</p>
 
-<h2>Autoridade é o marketing de longo prazo</h2>
-<p>Anúncios trazem contatos hoje. Autoridade traz indicações por anos. Depoimentos reais de clientes, conteúdo consistente e presença na sua região de atuação constroem uma reputação que trabalha por você mesmo quando você não está postando.</p>
+<h2>Dados pessoais de clientes</h2>
+<p>Formulários, listas de contatos e conversas por mensagem envolvem dados pessoais. A Lei Geral de Proteção de Dados (Lei nº 13.709/2018) exige que esses dados sejam tratados para finalidades legítimas e informadas ao titular, com segurança e com base legal adequada. Colete apenas o necessário e guarde as informações de forma protegida.</p>
 
-<p>O 1% dos corretores que se destaca não é necessariamente o que mais aparece, e sim o que é <strong>lembrado pelo motivo certo</strong>. Marketing e posicionamento são trilhas dos nossos <a href="/cursos/">cursos</a> e dos <a href="/ebooks/">e-books Corretor 1%</a>.</p>
+<h2>Reputação</h2>
+<p>Avaliações reais de clientes, histórico de atendimentos bem conduzidos e presença consistente na região de atuação constroem reputação ao longo do tempo. Peça avaliações apenas a quem foi efetivamente atendido e nunca publique depoimentos que não sejam autênticos.</p>
+<p>Leia também: <a href="/blog/como-captar-imoveis/">captação de imóveis</a>.</p>
 `,
   },
+];
+
+// URLs antigas de artigos que mudaram de endereço (301 no .htaccess).
+export const redirecionamentosBlog = [
+  ['/blog/como-vender-mais-imoveis/', '/blog/atendimento-ao-comprador-de-imoveis/'],
+  ['/blog/rotina-do-corretor-de-alta-performance/', '/blog/rotina-de-trabalho-do-corretor-de-imoveis/'],
 ];
