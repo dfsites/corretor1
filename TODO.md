@@ -24,3 +24,15 @@
 - 2026-10-01: site publicado por FTP; site antigo removido (backup local); redirecionamentos testados no ar.
 - 2026-10-01: SSL ativo; canônico https://www com redirecionamentos 301.
 - 2026-10-01: nova versão do site (14 páginas, 6 artigos), build e verificação automática.
+
+
+## Auditoria editorial — pendências
+
+- [x] Auditar estrutura atual do blog.
+- [x] Definir autoria de Daniel Ferreira no gerador.
+- [x] Remover linguagem editorial excessivamente promocional dos artigos atuais.
+- [x] Criar planejamento editorial com 55 pautas futuras.
+- [x] Mapear prioridades, personas, clusters e pilares.
+- [ ] Executar npm run build em ambiente com checkout completo.
+- [ ] Executar npm run verificar após o build.
+- [ ] Conferir visualmente desktop e mobile antes do merge/publicação.
