@@ -11,7 +11,12 @@ export const site = {
   subchamada:
     'Alcance a Excelência: Integrando ao Grupo de Elite que Representa 1% dos Corretores de imóveis com Alto Desempenho em Vendas e Comissões!',
   descricao:
-    'Cursos, mentorias individualizadas e e-books para corretores de imóveis que querem alto desempenho em vendas e comissões.',
+    'Formação, conteúdo e materiais profissionais para corretores de imóveis que querem aprimorar carreira, processos e atuação no mercado.',
+  autor: {
+    nome: 'Daniel Ferreira',
+    slug: 'daniel-ferreira',
+    descricao: 'Autor principal do blog Corretor1.',
+  },
   // Empresa responsável (mesmo padrão de rodapé do Guia Gramado e do 4D).
   empresa: {
     nome: '4D Desenvolvimento Pessoal Ltda.',

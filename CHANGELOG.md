@@ -1,3 +1,14 @@
+## 2026-10-01 — Auditoria editorial do blog
+
+- Criada estrutura de autoria para Daniel Ferreira no blog.
+- Ajustado Schema.org para Person/BlogPosting e vínculo de autor.
+- Preparada página de autor em /autor/daniel-ferreira/.
+- Revisado o posicionamento do índice do blog para biblioteca profissional.
+- Revisados títulos e trechos promocionais dos seis artigos existentes, preservando URLs.
+- Adicionados persona, pilar e artigos relacionados aos conteúdos existentes.
+- Criado EDITORIAL.md com 55 pautas futuras, prioridades, personas, clusters e pilares.
+- Mantidas URLs publicadas; nenhum artigo vazio foi criado.
+
 # Changelog
 
 ## 2026-10-01 — Publicação

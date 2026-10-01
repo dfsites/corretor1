@@ -10,7 +10,7 @@ import { ebooks, cursos } from './produtos.mjs';
 
 const RAIZ = join(dirname(fileURLToPath(import.meta.url)), '..');
 // Pastas geradas pelo build (apagadas e recriadas a cada execução).
-const PASTAS_GERADAS = ['sobre', 'cursos', 'mentoria', 'ebooks', 'blog', 'contato', 'politica-de-privacidade'];
+const PASTAS_GERADAS = ['sobre', 'cursos', 'mentoria', 'ebooks', 'blog', 'autor', 'contato', 'politica-de-privacidade'];
 const ATUALIZADO = '2026-10-01';
 
 const esc = (s = '') =>
@@ -154,6 +154,15 @@ function schemaTrilha(itens) {
     })),
   };
 }
+
+const PESSOA_AUTOR = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  '@id': abs(`/autor/${site.autor.slug}/#pessoa`),
+  name: site.autor.nome,
+  url: abs(`/autor/${site.autor.slug}/`),
+  description: site.autor.descricao,
+};
 
 const ORGANIZACAO = {
   '@context': 'https://schema.org',
@@ -430,16 +439,38 @@ paginas.push({
   caminho: '/blog/',
   titulo: 'Blog para corretores de imóveis',
   descricao:
-    'Artigos para corretores de imóveis sobre carreira, CRECI, comissão, captação, vendas, marketing imobiliário e rotina de alta performance.',
-  jsonld: [ORGANIZACAO, schemaTrilha([['/blog/', 'Blog']])],
-  corpo: `${cabecalho({ titulo: 'Blog Corretor 1%', texto: 'Conteúdo prático para corretores de imóveis que querem vender mais e ganhar mais.', trilha: [[null, 'Blog']] })}
-<section class="secao"><div class="container">${cartoesArtigos(artigos)}</div></section>`,
+    'Biblioteca profissional sobre carreira, captação, atendimento, negociação, comissão, rotina, marketing e tecnologia para corretores de imóveis.',
+  jsonld: [ORGANIZACAO, PESSOA_AUTOR, schemaTrilha([['/blog/', 'Blog']])],
+  corpo: `${cabecalho({ titulo: 'Blog Corretor 1%', texto: 'Conteúdo profissional para quem quer entrar na corretagem, está começando ou deseja aprimorar processos e atuação no mercado.', trilha: [[null, 'Blog']] })}
+<section class="secao"><div class="container">
+  <p class="intro">Os artigos são organizados para funcionar como uma biblioteca de consulta, com linguagem técnica, prática e sem promessas de resultado financeiro.</p>
+  ${cartoesArtigos(artigos)}
+</div></section>`,
+});
+
+// Autor
+paginas.push({
+  caminho: `/autor/${site.autor.slug}/`,
+  titulo: site.autor.nome,
+  descricao: `Artigos de ${site.autor.nome} no blog Corretor1.`,
+  jsonld: [PESSOA_AUTOR, ORGANIZACAO, schemaTrilha([[`/autor/${site.autor.slug}/`, site.autor.nome]])],
+  corpo: `${cabecalho({ titulo: site.autor.nome, texto: 'Autor principal do blog Corretor1.', trilha: [[null, 'Autor']] })}
+<section class="secao"><div class="container estreito">
+  <p>Esta página reúne os artigos assinados por ${esc(site.autor.nome)} no Corretor1.</p>
+  <p>O perfil editorial do blog prioriza formação profissional, experiência prática, processos de trabalho, responsabilidade técnica e melhoria contínua na corretagem imobiliária.</p>
+</div></section>
+<section class="secao clara"><div class="container"><h2>Artigos publicados</h2>${cartoesArtigos(artigos)}</div></section>`,
 });
 
 // Artigos
 for (const a of artigos) {
   const caminho = `/blog/${a.slug}/`;
-  const outros = artigos.filter((o) => o.slug !== a.slug).slice(0, 3);
+  const relacionados = (a.relacionados || [])
+    .map((slug) => artigos.find((o) => o.slug === slug))
+    .filter(Boolean);
+  const outros = relacionados.length
+    ? relacionados.slice(0, 3)
+    : artigos.filter((o) => o.slug !== a.slug && o.tema === a.tema).slice(0, 3);
   paginas.push({
     caminho,
     titulo: a.titulo,
@@ -456,9 +487,10 @@ for (const a of artigos) {
         inLanguage: 'pt-BR',
         mainEntityOfPage: abs(caminho),
         image: abs('/assets/img/og-corretor1.jpg'),
-        author: { '@id': abs('/#organizacao') },
+        author: { '@id': abs(`/autor/${site.autor.slug}/#pessoa`) },
         publisher: { '@id': abs('/#organizacao') },
       },
+      PESSOA_AUTOR,
       ORGANIZACAO,
       schemaTrilha([['/blog/', 'Blog'], [caminho, a.h1]]),
     ],
@@ -466,14 +498,14 @@ for (const a of artigos) {
   <p class="trilha"><a href="/">Início</a> › <a href="/blog/">Blog</a> › ${esc(a.tema)}</p>
   <h1>${esc(a.h1)}</h1>
   <p>${esc(a.descricao)}</p>
-  <p class="meta-artigo">Publicado em <time datetime="${a.data}">${dataBR(a.data)}</time> · ${esc(a.tema)}</p>
+  <p class="meta-artigo">Por <a href="/autor/${site.autor.slug}/" rel="author">${esc(site.autor.nome)}</a> · Publicado em <time datetime="${a.data}">${dataBR(a.data)}</time>${a.atualizado && a.atualizado !== a.data ? ` · Revisado em <time datetime="${a.atualizado}">${dataBR(a.atualizado)}</time>` : ''} · ${esc(a.tema)}</p>
 </div></section>
 <article class="artigo"><div class="container estreito">
 ${a.corpo.trim()}
 <aside class="caixa-autor">
-  <h2>Quer aplicar isso com acompanhamento?</h2>
-  <p>Na <a href="/mentoria/">mentoria individualizada Corretor 1%</a> você transforma o conteúdo em plano de ação para a sua realidade.</p>
-  ${botaoContato('Falar sobre a mentoria', 'mentoria individualizada')}
+  <h2>Sobre o autor</h2>
+  <p><a href="/autor/${site.autor.slug}/" rel="author"><strong>${esc(site.autor.nome)}</strong></a> é o autor principal do blog Corretor1.</p>
+  <p>Os conteúdos do blog têm caráter informativo e educacional. Em temas jurídicos, regulatórios ou documentais, consulte a fonte oficial e avalie o caso concreto quando necessário.</p>
 </aside>
 </div></article>
 <section class="secao clara"><div class="container"><h2>Continue lendo</h2>${cartoesArtigos(outros)}</div></section>`,
