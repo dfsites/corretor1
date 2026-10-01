@@ -26,4 +26,5 @@ Corretor contratado pelo comprador (CC arts. 722 a 728; Res. COFECI 326/1992 art
 - As 117 pautas do `docs/PLANO-EDITORIAL.md` estão publicadas. Blog com 123 artigos (cerca de 125 mil palavras) e 11 categorias; site com 143 páginas.
 - Ligação: 9 artigos sem link de entrada ganharam link a partir do artigo mais próximo.
 - Build, verificador e testes no domínio real aprovados.
+- Layout: 143 páginas testadas com 390 px e 1.280 px (286 carregamentos): nenhuma rolagem lateral, um h1 por página, todas as tabelas cabem na tela.
 - Próximos passos possíveis: séries de expansão da seção 6 do plano (glossário, documentos explicados, legislação comentada) e aprofundamento dos artigos mais curtos, conforme os dados do Search Console.
