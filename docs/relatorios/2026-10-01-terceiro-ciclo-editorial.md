@@ -20,3 +20,7 @@ Fontes principais: Lei 6.530/1978, Lei 4.591/1964, Lei 8.245/1991, Lei 10.192/20
 ## Bloco E: locação, FGTS e negociação (7 artigos)
 
 FGTS na compra do imóvel, atendimento ao interessado em locação, garantias locatícias, contraproposta, negociação de prazo e pagamento, imóvel em inventário, venda de imóvel financiado. Fontes: Lei 8.036/1990 (art. 20), Lei 8.245/1991 (arts. 3º, 4º, 20, 22, 23, 37 a 43), Código Civil (arts. 427, 428, 431, 723, 818, 1.647, 1.784, 1.791, 1.793 a 1.795, 1.991), CPC (arts. 610, 611, 619, 664), Lei 9.514/1997 (arts. 22, 25, 29). Todos com aviso jurídico.
+
+## Bloco F: comissão, rotina e registro eletrônico (8 artigos)
+
+Quando a comissão é devida, tabelas de honorários, tributação da comissão, controle de negócios em andamento, organização documental, origem dos clientes, certidões online, serviços eletrônicos de registro. Fontes: Código Civil (723 a 727), Lei 6.530/1978 (art. 17, IV), Decreto 81.871/1978 (art. 16, VIII), Res. COFECI 326/1992 (art. 6º), LC 116/2003, páginas do carnê-leão (Receita Federal), Lei 14.382/2022, Lei 6.015/1973 (art. 19), Lei 13.465/2017 (art. 76), CLT (art. 642-A), páginas oficiais da PGFN/Receita e do TST.

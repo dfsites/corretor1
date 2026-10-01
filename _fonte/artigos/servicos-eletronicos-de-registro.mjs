@@ -66,6 +66,18 @@ export default {
   <li><strong>Depois do registro:</strong> acompanhe o andamento do protocolo e, ao final, a matrícula com o novo registro (veja <a href="/blog/escritura-e-registro/">escritura e registro</a>).</li>
 </ol>
 
+<h2>Como ler a certidão da matrícula</h2>
+<p>A certidão de inteiro teor reproduz a matrícula do imóvel. Uma leitura organizada segue esta ordem:</p>
+<ol>
+  <li><strong>Cabeçalho:</strong> cartório, número da matrícula e data de emissão da certidão.</li>
+  <li><strong>Descrição do imóvel:</strong> localização, área e confrontações. Compare com o imóvel real e com o anúncio.</li>
+  <li><strong>Atos lançados:</strong> registros e averbações aparecem em ordem cronológica, costumam ser numerados e identificados por siglas próprias do cartório. Leia todos, do primeiro ao último.</li>
+  <li><strong>Titularidade atual:</strong> o último registro de transmissão indica quem são os proprietários. Confira se são as pessoas que estão vendendo.</li>
+  <li><strong>Ônus e restrições:</strong> hipoteca, alienação fiduciária, penhora, usufruto, indisponibilidade. Verifique se cada ônus foi cancelado por averbação posterior.</li>
+  <li><strong>Averbações de construção e de alterações:</strong> confirme se a construção existente está averbada.</li>
+</ol>
+<p>Qualquer dúvida na leitura deve ser esclarecida com o cartório ou com o advogado das partes antes de a negociação avançar.</p>
+
 <h2>Extrato eletrônico e contratos</h2>
 <p>A Lei nº 14.382/2022 também prevê a apresentação de extratos eletrônicos para registro. No caso de bens imóveis, o art. 6º, § 1º, III, estabelece que os extratos devem ser acompanhados do arquivamento da íntegra do instrumento contratual, em cópia simples, salvo quando apresentados por tabelião de notas. As instituições financeiras autorizadas a celebrar instrumentos particulares com caráter de escritura pública têm regras próprias. Para o corretor, o importante é saber que esses caminhos existem e que a escolha do procedimento cabe às partes, ao tabelião, à instituição financeira e ao registrador.</p>
 

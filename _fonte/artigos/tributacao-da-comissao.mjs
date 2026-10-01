@@ -29,7 +29,7 @@ export default {
     },
   ],
   corpo: `
-<p>Receber a comissão encerra uma etapa do trabalho e abre outra: documentar o recebimento e cumprir as obrigações tributárias. Para quem começa como autônomo, esse é um dos pontos mais negligenciados da profissão. Este artigo apresenta os documentos e os tributos mais comuns, com base nas fontes oficiais, e explica por que a orientação de um contador é necessária. A visão de carreira sobre a renda está em <a href="/blog/como-funciona-a-remuneracao-do-corretor/">como funciona a remuneração do corretor</a>.</p>
+<p>Receber a comissão encerra uma etapa do trabalho e abre outra: documentar o recebimento e cumprir as obrigações tributárias. Para quem começa como autônomo, esse é um dos pontos mais negligenciados da profissão. Este artigo apresenta os documentos e os tributos mais comuns, com base nas fontes oficiais, e explica por que a orientação de um contador é necessária. A visão de carreira sobre a renda está em <a href="/blog/como-funciona-a-remuneracao-do-corretor/">como funciona a remuneração do corretor</a>, e as regras gerais da comissão em <a href="/blog/comissao-de-corretor-de-imoveis/">comissão de corretagem de imóveis</a>.</p>
 
 <h2>Documentar o recebimento</h2>
 <p>Todo valor recebido deve ter um documento que identifique quem pagou, quanto, quando e a que se refere. Os formatos mais comuns são:</p>
@@ -60,6 +60,18 @@ export default {
 
 <h2>Na parceria, cada um responde pela sua parte</h2>
 <p>Quando a comissão é dividida entre corretores, cada um deve documentar e tributar a parte que efetivamente recebeu. Combine com antecedência como o pagamento será feito (diretamente a cada corretor ou por meio de um deles) e como cada parte será comprovada. Veja <a href="/blog/parcerias-entre-corretores/">parcerias entre corretores</a>.</p>
+
+<h2>Erros comuns</h2>
+<ul>
+  <li><strong>Receber sem documento:</strong> transferências sem recibo dificultam a comprovação do rendimento e de eventuais discussões futuras.</li>
+  <li><strong>Misturar contas pessoais e da atividade:</strong> torna difícil separar receitas e despesas no livro-caixa.</li>
+  <li><strong>Deixar para o fim do ano:</strong> o carnê-leão é mensal. Atrasos geram acréscimos.</li>
+  <li><strong>Supor que a regra de um colega vale para você:</strong> o enquadramento depende da forma de atuação e do município.</li>
+  <li><strong>Esquecer a parte do parceiro:</strong> quando um corretor recebe o valor total e repassa a parte do outro, a documentação precisa mostrar o que pertence a cada um.</li>
+</ul>
+
+<h2>O que levar ao contador</h2>
+<p>A primeira conversa com o contador rende mais quando você leva: a forma de atuação (autônomo, associado, pessoa jurídica), o município onde presta os serviços, a estimativa de receitas mensais, quem costuma pagar (pessoas físicas, imobiliárias, incorporadoras), as principais despesas da atividade e se há outra fonte de renda. Com essas informações, ele consegue indicar o enquadramento, as obrigações mensais e o que precisa ser guardado.</p>
 
 <h2>Checklist mensal</h2>
 <ul>

@@ -65,6 +65,19 @@ export default {
 </ul>
 <p>Evite decisões precipitadas com poucos dados. Negócios imobiliários têm ciclos longos, e um mês pode não representar o comportamento de uma origem. Compare períodos maiores e observe a tendência.</p>
 
+<h2>Exemplo de leitura trimestral</h2>
+<p>Os números abaixo são hipotéticos e servem apenas para mostrar como a comparação funciona:</p>
+<div class="tabela"><table>
+  <thead><tr><th>Origem</th><th>Contatos</th><th>Visitas</th><th>Propostas</th><th>Negócios</th></tr></thead>
+  <tbody>
+    <tr><td>Portal imobiliário</td><td>120</td><td>18</td><td>4</td><td>1</td></tr>
+    <tr><td>Indicação de cliente</td><td>14</td><td>8</td><td>4</td><td>2</td></tr>
+    <tr><td>Placa</td><td>25</td><td>9</td><td>2</td><td>1</td></tr>
+    <tr><td>Redes sociais</td><td>40</td><td>5</td><td>1</td><td>0</td></tr>
+  </tbody>
+</table></div>
+<p>Nesse exemplo, o portal traz o maior volume, mas as indicações têm proporção muito maior de visitas e propostas. A leitura não é "abandonar o portal", e sim entender o papel de cada origem: o portal sustenta o volume, as indicações sustentam a conversão. A decisão de onde investir mais tempo depende também do custo de cada origem e da sua capacidade de atendimento.</p>
+
 <h2>Origens que dependem de você</h2>
 <p>Várias origens são construídas pelo trabalho contínuo do corretor. Veja <a href="/blog/perfil-da-empresa-no-google/">perfil da empresa no Google</a>, <a href="/blog/portais-imobiliarios/">portais imobiliários</a>, <a href="/blog/redes-sociais-do-corretor/">redes sociais do corretor</a> e <a href="/blog/pos-venda-na-corretagem/">pós-venda</a>, que alimenta indicações e clientes antigos. A análise das origens faz parte da rotina descrita em <a href="/blog/rotina-de-trabalho-do-corretor-de-imoveis/">rotina de trabalho do corretor de imóveis</a>.</p>
 `,

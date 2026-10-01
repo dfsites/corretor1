@@ -68,6 +68,24 @@ export default {
   <li><strong>Se houver ajuste diferente da tabela, registre.</strong> Um percentual negociado vale se estiver claro no documento.</li>
 </ul>
 
+<h2>Sobre qual valor a comissão incide</h2>
+<p>Definir o percentual não basta. O contrato também precisa deixar claro sobre qual valor ele incide, porque a negociação pode mudar a base de cálculo. Alguns pontos que costumam gerar dúvida:</p>
+<ul>
+  <li><strong>Preço anunciado ou preço do negócio:</strong> em regra, a referência é o valor efetivamente negociado, e não o preço pedido no anúncio. Deixe isso escrito.</li>
+  <li><strong>Pagamento financiado:</strong> a parte financiada integra o preço do negócio. Se houver acordo diferente, registre.</li>
+  <li><strong>Permuta e pagamento com bens:</strong> quando parte do preço é paga com outro imóvel ou com um veículo, combine como esse valor entra no cálculo.</li>
+  <li><strong>Móveis e itens que permanecem no imóvel:</strong> se tiverem valor destacado no contrato, defina se entram na base.</li>
+  <li><strong>Pagamento parcelado da comissão:</strong> se o cliente propuser pagar em parcelas ou na quitação do preço, registre datas e valores.</li>
+</ul>
+<p><em>Exemplo hipotético:</em> um imóvel anunciado por um valor é vendido por um valor menor, com parte paga por meio de outro imóvel. Sem cláusula sobre a base de cálculo, corretor e proprietário podem ter entendimentos diferentes sobre o valor da comissão. Uma linha no contrato evita a discussão.</p>
+
+<h2>O que a tabela não resolve</h2>
+<ul>
+  <li><strong>Despesas de divulgação:</strong> anúncios pagos, fotos profissionais e materiais impressos. Combine se estão incluídos na comissão ou se serão cobrados à parte, e com que limite.</li>
+  <li><strong>Serviços diferentes da intermediação:</strong> opinião de preço por escrito, parecer técnico, acompanhamento documental avulso. Cada um pode ter regra própria (veja <a href="/blog/opiniao-de-mercado-e-avaliacao-formal/">opinião de mercado e avaliação formal</a>).</li>
+  <li><strong>Desistência:</strong> o momento em que a comissão é devida decorre do contrato e do Código Civil, não da tabela.</li>
+</ul>
+
 <h2>Limites éticos na cobrança</h2>
 <p>O Código de Ética Profissional (Resolução COFECI nº 326/1992), no art. 6º, veda ao corretor, entre outras condutas, promover a intermediação com cobrança de "over-price" (inciso III) e receber honorários ou vantagens que não correspondam a serviços efetiva e licitamente prestados (inciso V). Na prática, o valor cobrado deve ser transparente para quem paga e corresponder ao serviço contratado. Veja <a href="/blog/etica-profissional-na-corretagem/">ética profissional na corretagem</a>.</p>
 

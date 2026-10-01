@@ -3,7 +3,7 @@ export default {
   titulo: 'Organização documental da intermediação',
   h1: 'Organização documental da intermediação',
   descricao:
-    'Como organizar os documentos de cada imóvel e de cada negócio: estrutura de pastas, nomes de arquivos, versões, validade, guarda, acesso e cuidados com dados pessoais.',
+    'Como organizar os documentos de cada imóvel e de cada negócio: pastas, nomes de arquivos, versões, validade, guarda, acesso e cuidados com dados pessoais.',
   editoria: 'rotina-e-gestao',
   personas: ['iniciante'],
   pilar: 'rotina-de-trabalho-do-corretor-de-imoveis',
@@ -67,6 +67,21 @@ export default {
 
 <h2>Guarda e descarte</h2>
 <p>Defina por quanto tempo cada grupo de documentos será guardado depois do encerramento do negócio. Esse prazo deve considerar as obrigações fiscais da sua atividade e a possibilidade de discussões futuras, por exemplo sobre a comissão. Como esses prazos dependem de regras tributárias e de prescrição aplicáveis a cada caso, confirme a política de guarda com seu contador e, se necessário, com um advogado. Depois do prazo, descarte de forma segura: arquivos apagados de todos os locais, inclusive cópias de backup, e papéis triturados.</p>
+
+<h2>O que não pode faltar na pasta de um negócio concluído</h2>
+<ul>
+  <li>autorização ou contrato de corretagem assinado;</li>
+  <li>todas as versões das propostas e contrapropostas, com o aceite final;</li>
+  <li>contrato assinado entre as partes e, depois, a escritura e a matrícula com o registro;</li>
+  <li>certidões usadas no negócio, com datas de emissão;</li>
+  <li>registro das visitas e das principais comunicações;</li>
+  <li>comprovantes de pagamento do sinal, quando passaram pelo corretor;</li>
+  <li>recibo ou nota da comissão e, em parcerias, o combinado entre os corretores.</li>
+</ul>
+<p>Essa pasta completa é também a melhor proteção do corretor se houver discussão sobre a comissão. Veja <a href="/blog/quando-a-comissao-e-devida/">quando a comissão é devida</a>.</p>
+
+<h2>Mensagens também são documentos</h2>
+<p>Muitas combinações acontecem por mensagem: confirmação de visita, aceite de condição, envio de documento. Quando uma mensagem registrar algo relevante para o negócio, guarde uma cópia na pasta (exportação da conversa ou captura de tela com data visível). Depender apenas do histórico do aplicativo é arriscado: telefones são trocados, contas são apagadas e conversas se perdem. Veja <a href="/blog/atendimento-por-whatsapp/">atendimento por WhatsApp</a>.</p>
 
 <h2>Uma rotina curta</h2>
 <ol>

@@ -51,6 +51,21 @@ export default {
   <li><strong>Link para a pasta de documentos</strong> do negócio (veja <a href="/blog/organizacao-documental/">organização documental</a>).</li>
 </ul>
 
+<h2>Exemplo de registro de um negócio</h2>
+<p>O quadro abaixo mostra, de forma hipotética, como um negócio fica registrado no meio do caminho:</p>
+<div class="tabela"><table>
+  <thead><tr><th>Campo</th><th>Registro (exemplo hipotético)</th></tr></thead>
+  <tbody>
+    <tr><td>Negócio</td><td>Apartamento 302, venda; comprador A; vendedores B e C</td></tr>
+    <tr><td>Etapa</td><td>Crédito em análise, desde 03/10</td></tr>
+    <tr><td>Próximo passo</td><td>Receber resultado da avaliação do imóvel; corretor; até 10/10</td></tr>
+    <tr><td>Pendências</td><td>Certidão de ônus atualizada (vendedores, até 08/10); declaração de quitação do condomínio (síndico, até 09/10)</td></tr>
+    <tr><td>Prazos críticos</td><td>Condição de crédito vence em 30/10; certidões emitidas em 25/09</td></tr>
+    <tr><td>Última atualização às partes</td><td>02/10, por mensagem</td></tr>
+  </tbody>
+</table></div>
+<p>Com esse registro, qualquer pessoa da equipe sabe em segundos o que está acontecendo e o que precisa ser feito.</p>
+
 <h2>Pendência sem dono não anda</h2>
 <p>A causa mais comum de atraso é a pendência que todos supõem que outra pessoa está resolvendo. Registre cada pendência com três informações: o que é, quem resolve e até quando. <em>Exemplo hipotético:</em> "certidão de ônus atualizada; vendedor; até sexta". Se a pendência depende de terceiros, como um banco ou um cartório, o responsável no seu controle é quem vai acompanhar e cobrar o retorno.</p>
 
