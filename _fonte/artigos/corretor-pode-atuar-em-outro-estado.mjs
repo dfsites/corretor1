@@ -49,6 +49,6 @@ export default {
   <li>Mudança de domicílio pede a análise da transferência da inscrição principal, como explicado em <a href="/blog/inscricao-no-creci/">inscrição no CRECI</a>.</li>
   <li>Parcerias com um corretor inscrito na outra região são uma alternativa comum, desde que formalizadas. Veja <a href="/blog/parcerias-entre-corretores/">parcerias entre corretores</a>.</li>
 </ul>
-<p>Os procedimentos, formulários e valores são definidos por cada regional. Confirme com o CRECI da região onde pretende atuar antes de anunciar ou negociar. O caminho completo da profissão está em <a href="/blog/como-ser-corretor-de-imoveis/">como se tornar corretor de imóveis</a>.</p>
+<p>Os procedimentos, formulários e valores são definidos por cada regional. Confirme com o CRECI da região onde pretende atuar antes de anunciar ou negociar. A inscrição principal e as demais etapas de entrada na profissão estão em <a href="/blog/como-ser-corretor-de-imoveis/">como se tornar corretor de imóveis</a>.</p>
 `,
 };

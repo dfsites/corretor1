@@ -42,6 +42,6 @@ export default {
   <li>organizar a agenda com blocos fixos para retornos e visitas;</li>
   <li>ser transparente com o cliente sobre os horários em que poderá atender.</li>
 </ul>
-<p>Veja também <a href="/blog/agenda-do-corretor/">agenda do corretor</a> e <a href="/blog/planejamento-financeiro-do-corretor/">planejamento financeiro do corretor</a>, que ajuda a decidir quando faz sentido deixar o outro emprego. O caminho completo da profissão está em <a href="/blog/como-ser-corretor-de-imoveis/">como se tornar corretor de imóveis</a>.</p>
+<p>Veja também <a href="/blog/agenda-do-corretor/">agenda do corretor</a> e <a href="/blog/planejamento-financeiro-do-corretor/">planejamento financeiro do corretor</a>, que ajuda a decidir quando faz sentido deixar o outro emprego. Para quem ainda avalia a transição, os requisitos de entrada estão em <a href="/blog/como-ser-corretor-de-imoveis/">como se tornar corretor de imóveis</a>.</p>
 `,
 };

@@ -107,6 +107,6 @@ export default {
   <li><strong>Surge a proposta de ajustar o preço para ficar com uma diferença.</strong> É a prática vedada pelo art. 6º, III. A remuneração deve ser a combinada no contrato, de conhecimento das partes.</li>
   <li><strong>Um negócio claramente não vai se concretizar, mas o corretor mantém a exclusividade.</strong> Reter negócio sem probabilidade de realizá-lo é vedado (art. 6º, XVIII). A conversa franca com o proprietário é o caminho.</li>
 </ul>
-<p>Em todas essas situações, o registro por escrito do que foi orientado e combinado protege o cliente e o próprio corretor. A formalização das relações com clientes está em <a href="/blog/contrato-de-corretagem/">contrato de corretagem</a> e <a href="/blog/autorizacao-de-venda/">autorização de venda</a>.</p>
+<p>Em todas essas situações, o registro por escrito do que foi orientado e combinado protege o cliente e o próprio corretor. A formalização das relações com clientes está em contrato de corretagem e <a href="/blog/autorizacao-de-venda/">autorização de venda</a>.</p>
 `,
 };

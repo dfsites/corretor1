@@ -14,7 +14,7 @@ export default {
   ],
   corpo: `
 <p>A Lei nº 6.530/1978 (art. 3º) atribui ao corretor a intermediação na compra, venda, permuta e locação de imóveis, sem distinguir tipo de imóvel. Na prática, porém, cada segmento tem clientes, documentos, ritmos e riscos próprios. Especializar-se é escolher onde aprofundar conhecimento para atender melhor e ser reconhecido por isso.</p>
-<p>Este artigo trata da especialização por tipo de imóvel e por segmento. A especialização por região tem artigo próprio em <a href="/blog/especializacao-por-regiao/">especialização por região</a>, e a visão geral da carreira está em <a href="/blog/desenvolvimento-profissional-do-corretor/">desenvolvimento profissional do corretor</a>.</p>
+<p>O recorte aqui é o tipo de imóvel e o segmento de mercado. A especialização por região tem artigo próprio em <a href="/blog/especializacao-por-regiao/">especialização por região</a>, e a visão geral da carreira está em <a href="/blog/desenvolvimento-profissional-do-corretor/">desenvolvimento profissional do corretor</a>.</p>
 
 <h2>Por que se especializar</h2>
 <p>O corretor generalista atende qualquer demanda, mas raramente conhece cada uma a fundo. A especialização traz vantagens concretas:</p>

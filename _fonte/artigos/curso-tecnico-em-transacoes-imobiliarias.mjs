@@ -24,7 +24,7 @@ export default {
     },
   ],
   corpo: `
-<p>Para exercer a corretagem de imóveis, a Lei nº 6.530/1978 (art. 2º) exige o título de <strong>Técnico em Transações Imobiliárias</strong>, conhecido como TTI. É a formação que permite a inscrição no CRECI e, por isso, a primeira decisão concreta de quem pretende entrar na profissão. Este artigo trata do curso em si e de como escolher a escola. O caminho completo até o registro está em <a href="/blog/como-ser-corretor-de-imoveis/">como se tornar corretor de imóveis</a>, e as etapas da inscrição em <a href="/blog/inscricao-no-creci/">inscrição no CRECI</a>.</p>
+<p>Para exercer a corretagem de imóveis, a Lei nº 6.530/1978 (art. 2º) exige o título de <strong>Técnico em Transações Imobiliárias</strong>, conhecido como TTI. É a formação que permite a inscrição no CRECI e, por isso, a primeira decisão concreta de quem pretende entrar na profissão. As demais etapas até o registro estão em <a href="/blog/como-ser-corretor-de-imoveis/">como se tornar corretor de imóveis</a>, e as etapas da inscrição em <a href="/blog/inscricao-no-creci/">inscrição no CRECI</a>.</p>
 
 <h2>O que é o curso de TTI</h2>
 <p>O TTI é um curso técnico de nível médio, oferecido por instituições de ensino autorizadas pelos órgãos educacionais competentes. Ao final, o aluno recebe um diploma de técnico, que é o documento apresentado ao CRECI no pedido de inscrição.</p>
@@ -57,7 +57,7 @@ export default {
 </table></div>
 
 <h2>Estágio supervisionado</h2>
-<p>Quando o curso exige estágio para a conclusão e a obtenção do diploma, o aluno normalmente precisa de uma inscrição de estagiário no CRECI. O CRECI de São Paulo orienta que, estando matriculado e frequentando o curso com estágio obrigatório, o aluno requeira o registro de estágio no conselho. Os documentos e as regras variam conforme o regional, e o artigo <a href="/blog/inscricao-no-creci/">inscrição no CRECI</a> traz exemplos.</p>
+<p>Quando o curso exige estágio para a conclusão e a obtenção do diploma, o aluno normalmente precisa de uma inscrição de estagiário no CRECI. O CRECI de São Paulo orienta que, estando matriculado e frequentando o curso com estágio obrigatório, o aluno requeira o registro de estágio no conselho. Os documentos e as regras variam conforme o regional, e o artigo inscrição no CRECI traz exemplos.</p>
 <p>Além da exigência formal, o estágio é a melhor oportunidade de conhecer a rotina de uma imobiliária antes de decidir como atuar. Vale escolher o local de estágio pensando no tipo de imóvel e na região em que você pretende trabalhar.</p>
 
 <h2>Como escolher a escola</h2>

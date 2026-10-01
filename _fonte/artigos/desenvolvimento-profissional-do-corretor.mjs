@@ -27,7 +27,7 @@ export default {
   ],
   corpo: `
 <p>Obter o registro no CRECI encerra a etapa de formação obrigatória, mas não define que tipo de profissional o corretor vai se tornar. Isso depende de escolhas feitas ao longo dos anos: onde atuar, com que tipo de imóvel trabalhar, como se relacionar com clientes e colegas, o que estudar e como organizar a própria atividade.</p>
-<p>Este artigo apresenta uma visão geral desse percurso. Cada tema aqui tratado pode ser aprofundado em textos específicos; a ideia é oferecer um mapa para quem está no início ou para quem já atua e quer organizar os próximos passos.</p>
+<p>O que segue é um mapa desse percurso, para quem está no início ou já atua e quer organizar os próximos passos. Cada tema tem um texto específico, indicado ao longo das seções.</p>
 
 <h2>As etapas da carreira</h2>
 <p>Não existe um calendário oficial para a carreira do corretor. A divisão abaixo descreve fases que se repetem com frequência no mercado, mas a duração de cada uma varia conforme a região, o segmento, o tempo dedicado e o modelo de atuação.</p>

@@ -15,7 +15,7 @@ export default {
     { titulo: 'Lei nº 6.530/1978, art. 3º (Planalto)', url: 'https://www.planalto.gov.br/ccivil_03/leis/l6530.htm' },
   ],
   corpo: `
-<p>Avaliar imóveis é uma das especializações possíveis para o corretor. No sistema COFECI-CRECI, essa atividade se organiza em torno do Cadastro Nacional de Avaliadores Imobiliários (CNAI) e do Parecer Técnico de Avaliação Mercadológica (PTAM), regulamentados pela Resolução COFECI nº 1.066/2007. Este artigo trata do cadastro e da rotina de quem atua como avaliador. A diferença entre opinião de mercado, PTAM e avaliação conforme norma técnica está em <a href="/blog/opiniao-de-mercado-e-avaliacao-formal/">opinião de mercado e avaliação formal</a>.</p>
+<p>Avaliar imóveis é uma das especializações possíveis para o corretor. No sistema COFECI-CRECI, essa atividade se organiza em torno do Cadastro Nacional de Avaliadores Imobiliários (CNAI) e do Parecer Técnico de Avaliação Mercadológica (PTAM), regulamentados pela Resolução COFECI nº 1.066/2007. O foco aqui é o cadastro e a rotina de quem atua como avaliador. A diferença entre opinião de mercado, PTAM e avaliação conforme norma técnica está em <a href="/blog/opiniao-de-mercado-e-avaliacao-formal/">opinião de mercado e avaliação formal</a>.</p>
 
 <h2>O que é o CNAI</h2>
 <p>O CNAI é um cadastro organizado e mantido pelo Conselho Federal de Corretores de Imóveis, que expede certificados de registro de avaliador para os corretores nele inscritos e compartilha o cadastro com os Conselhos Regionais (Resolução COFECI nº 1.066/2007, art. 1º).</p>
@@ -45,13 +45,13 @@ export default {
 <p>O inscrito no CNAI tem direito a usar o selo certificador, fornecido pelo Conselho Regional, em cada PTAM que emitir (art. 8º). O selo tem numeração individual e sequencial e mecanismo de autenticação. Seu fornecimento depende do preenchimento da Declaração de Avaliação Mercadológica, e o selo fica vinculado a essa declaração (art. 10). Cabe ao avaliador requerer o selo e afixá-lo nas vias do parecer (art. 11).</p>
 
 <h2>Guarda de documentos</h2>
-<p>O avaliador deve manter em arquivo, por <strong>cinco anos</strong>, cópias do PTAM, da Declaração de Avaliação Mercadológica e do selo vinculado, e apresentá-las ao Conselho Regional, quando solicitadas, no prazo máximo de cinco dias úteis (art. 12). Na prática, isso exige um arquivo organizado e com cópia de segurança. Veja <a href="/blog/organizacao-documental/">organização documental</a> e <a href="/blog/backup-e-seguranca-da-informacao/">backup e segurança da informação</a>.</p>
+<p>O avaliador deve manter em arquivo, por <strong>cinco anos</strong>, cópias do PTAM, da Declaração de Avaliação Mercadológica e do selo vinculado, e apresentá-las ao Conselho Regional, quando solicitadas, no prazo máximo de cinco dias úteis (art. 12). Isso exige um arquivo organizado e com cópia de segurança. Veja <a href="/blog/organizacao-documental/">organização documental</a> e <a href="/blog/backup-e-seguranca-da-informacao/">backup e segurança da informação</a>.</p>
 
 <h2>Responsabilidade do avaliador</h2>
 <p>Quem se inscreve no CNAI se submete às regras da resolução. O art. 14 estabelece que transgredir seus dispositivos, ou adotar comportamento antiético que comprometa a dignidade do cadastro, é considerado infração ética de natureza grave, nos termos do Código de Ética Profissional (Resolução COFECI nº 326/1992). Veja <a href="/blog/etica-profissional-na-corretagem/">ética profissional na corretagem</a>.</p>
 
 <h2>O que o PTAM deve conter</h2>
-<p>O art. 5º da resolução lista requisitos mínimos do parecer: identificação do solicitante, objetivo, identificação e caracterização do imóvel, metodologia, valor resultante com data de referência e identificação, breve currículo e assinatura do corretor avaliador. A caracterização inclui proprietário, número da matrícula e localização. O conteúdo técnico do parecer e a escolha do instrumento adequado para cada finalidade estão em <a href="/blog/opiniao-de-mercado-e-avaliacao-formal/">opinião de mercado e avaliação formal</a>.</p>
+<p>O art. 5º da resolução lista requisitos mínimos do parecer: identificação do solicitante, objetivo, identificação e caracterização do imóvel, metodologia, valor resultante com data de referência e identificação, breve currículo e assinatura do corretor avaliador. A caracterização inclui proprietário, número da matrícula e localização. O conteúdo técnico do parecer e a escolha do instrumento adequado para cada finalidade estão em opinião de mercado e avaliação formal.</p>
 
 <h2>A rotina de um pedido de avaliação</h2>
 <p>Na prática, um pedido de PTAM costuma seguir esta sequência:</p>

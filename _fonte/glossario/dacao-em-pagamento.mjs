@@ -23,7 +23,7 @@ export default {
 <h2>Onde aparece na rotina do corretor</h2>
 <ul>
   <li>Proprietário com dívida que negocia entregar o imóvel ao credor.</li>
-  <li>Negociações em que parte do pagamento de um imóvel é feita com outro bem, situação próxima da permuta.</li>
+  <li>Negociações em que parte do pagamento de um imóvel é feita com outro bem, situação próxima da <a href="/blog/permuta-de-imoveis/">permuta</a>.</li>
   <li>Imóveis que chegaram a empresas ou pessoas como forma de quitação e depois são colocados à venda.</li>
 </ul>
 
@@ -37,7 +37,7 @@ export default {
   <li>Concordância do cônjuge, quando exigida, e de todos os coproprietários.</li>
   <li>Origem da propriedade quando o imóvel recebido em dação for revendido.</li>
 </ul>
-<p>O art. 359 traz um risco que o corretor deve conhecer: se o credor perder a coisa recebida por evicção, a obrigação original volta a existir e a quitação dada fica sem efeito, ressalvados os direitos de terceiros. Por isso, a análise documental do imóvel é tão importante quanto em uma venda comum.</p>
+<p>O art. 359 traz um risco que o corretor deve conhecer: se o credor perder a coisa recebida por <a href="/glossario/evicao/">evicção</a>, a obrigação original volta a existir e a quitação dada fica sem efeito, ressalvados os direitos de terceiros. Por isso, a análise documental do imóvel é tão importante quanto em uma venda comum.</p>
 
 <h2>Base legal</h2>
 <p>Código Civil, arts. 108, 356, 357, 359 e 1.245.</p>

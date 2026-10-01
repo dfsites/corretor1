@@ -52,6 +52,6 @@ export default {
   <li>Durante o curso, o caminho é o estágio registrado, sob supervisão. Veja <a href="/blog/estagiario-pode-intermediar-imoveis/">estagiário de corretagem pode intermediar negócios?</a></li>
   <li>Depois de inscrito, formalize parcerias apenas com profissionais registrados. Veja <a href="/blog/parcerias-entre-corretores/">parcerias entre corretores</a>.</li>
 </ul>
-<p>O caminho completo está em <a href="/blog/como-ser-corretor-de-imoveis/">como se tornar corretor de imóveis</a>.</p>
+<p>Como obter o registro está em <a href="/blog/como-ser-corretor-de-imoveis/">como se tornar corretor de imóveis</a>.</p>
 `,
 };

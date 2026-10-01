@@ -20,7 +20,7 @@ export default {
     },
   ],
   corpo: `
-<p>A primeira imobiliária costuma definir muito do que o corretor aprende nos primeiros anos: os processos, o segmento, o padrão de atendimento e a forma de lidar com clientes e colegas. Escolher bem exige olhar além da conversa inicial. Este artigo reúne critérios práticos para essa avaliação. O contrato em si é tratado em <a href="/blog/contrato-de-associacao-corretor-imobiliaria/">contrato de associação entre corretor e imobiliária</a>.</p>
+<p>A primeira imobiliária costuma definir muito do que o corretor aprende nos primeiros anos: os processos, o segmento, o padrão de atendimento e a forma de lidar com clientes e colegas. Escolher bem exige olhar além da conversa inicial. O contrato em si é tratado em <a href="/blog/contrato-de-associacao-corretor-imobiliaria/">contrato de associação entre corretor e imobiliária</a>.</p>
 
 <h2>Regularidade da empresa</h2>
 <p>Comece pelo básico. A pessoa jurídica que atua com intermediação imobiliária deve estar inscrita no Conselho Regional de Corretores de Imóveis e ter como sócio gerente ou diretor um corretor individualmente inscrito (Lei nº 6.530/1978, art. 6º, § 1º). Confira:</p>
@@ -84,6 +84,6 @@ export default {
   <li>Exigências típicas de emprego (horários rígidos, punições) em um contrato de associação.</li>
   <li>Anúncios sem número de CRECI ou de imóveis sem autorização escrita.</li>
 </ul>
-<p>O caminho completo de quem está entrando na profissão está em <a href="/blog/como-ser-corretor-de-imoveis/">como se tornar corretor de imóveis</a>, e os modelos de atuação em <a href="/blog/corretor-autonomo-associado-ou-contratado/">corretor autônomo, associado ou contratado</a>.</p>
+<p>As etapas anteriores, da formação ao registro, estão em <a href="/blog/como-ser-corretor-de-imoveis/">como se tornar corretor de imóveis</a>, e os modelos de atuação em <a href="/blog/corretor-autonomo-associado-ou-contratado/">corretor autônomo, associado ou contratado</a>.</p>
 `,
 };

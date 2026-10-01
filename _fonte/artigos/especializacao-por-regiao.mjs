@@ -10,7 +10,7 @@ export default {
   autor: 'daniel-ferreira',
   data: '2026-10-01',
   corpo: `
-<p>Escolher uma região para começar é uma decisão de início de carreira, tratada em <a href="/blog/como-escolher-regiao-de-atuacao/">como escolher a região de atuação</a>. Especializar-se nela é outra coisa: é um trabalho contínuo de acumular informação, relacionamentos e histórico de negócios até que o corretor conheça aquela área melhor do que a maioria dos profissionais que atuam ali. Este artigo trata desse aprofundamento, que faz parte do <a href="/blog/desenvolvimento-profissional-do-corretor/">desenvolvimento profissional do corretor</a>.</p>
+<p>Escolher uma região para começar é uma decisão de início de carreira, tratada em <a href="/blog/como-escolher-regiao-de-atuacao/">como escolher a região de atuação</a>. Especializar-se nela é outra coisa: é um trabalho contínuo de acumular informação, relacionamentos e histórico de negócios até que o corretor conheça aquela área em profundidade, com dados e histórico próprios. Esse aprofundamento faz parte do <a href="/blog/desenvolvimento-profissional-do-corretor/">desenvolvimento profissional do corretor</a>.</p>
 
 <h2>O que significa conhecer uma região</h2>
 <p>Conhecimento local não é saber o nome dos bairros. É conseguir responder, com segurança e sem consultar ninguém, perguntas como:</p>

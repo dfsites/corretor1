@@ -17,7 +17,7 @@ export default {
     },
   ],
   corpo: `
-<p>O uso do FGTS aparece em boa parte dos atendimentos de compra de moradia. Muitas vezes o comprador conta com esse recurso para compor a entrada ou para reduzir o valor financiado. O problema é que o direito de usar o saldo depende de condições legais e de uma análise que não é feita pelo corretor. Este artigo reúne as regras gerais previstas em lei e mostra como tratar o assunto no <a href="/blog/atendimento-ao-comprador-de-imoveis/">atendimento ao comprador</a> sem criar expectativas que podem não se confirmar. O funcionamento do financiamento em si está em <a href="/blog/financiamento-imobiliario-para-corretores/">financiamento imobiliário para corretores</a>.</p>
+<p>O uso do FGTS aparece em boa parte dos atendimentos de compra de moradia. Muitas vezes o comprador conta com esse recurso para compor a entrada ou para reduzir o valor financiado. O problema é que o direito de usar o saldo depende de condições legais e de uma análise que não é feita pelo corretor. Conhecer as regras gerais previstas em lei permite tratar o assunto no <a href="/blog/atendimento-ao-comprador-de-imoveis/">atendimento ao comprador</a> sem criar expectativas que podem não se confirmar. O funcionamento do financiamento em si está em <a href="/blog/financiamento-imobiliario-para-corretores/">financiamento imobiliário para corretores</a>.</p>
 
 <h2>O que a lei permite</h2>
 <p>A Lei nº 8.036/1990 lista, no art. 20, as situações em que a conta vinculada do FGTS pode ser movimentada. Três delas se relacionam diretamente com a moradia:</p>
@@ -59,7 +59,7 @@ export default {
 <p>Não é só o comprador que passa por análise. Como a lei exige que a operação seja financiável nas condições do SFH, o imóvel também é avaliado pelo agente financeiro. Documentação regular, matrícula sem pendências que impeçam o registro e uso residencial são pontos que o corretor pode conferir antes, como parte da <a href="/blog/documentacao-na-captacao/">documentação na fase de captação</a>. Um imóvel com pendências documentais pode inviabilizar o uso do FGTS mesmo quando o comprador atende a todas as condições.</p>
 
 <h2>FGTS e cronograma do negócio</h2>
-<p>A liberação do FGTS acontece dentro do processo conduzido pelo agente financeiro e tem prazos próprios. Na prática, isso afeta o cronograma combinado entre as partes:</p>
+<p>A liberação do FGTS acontece dentro do processo conduzido pelo agente financeiro e tem prazos próprios, o que afeta o cronograma combinado entre as partes:</p>
 <ul>
   <li>o valor do FGTS normalmente não está disponível no momento da proposta e não deve ser usado para pagar o sinal;</li>
   <li>o pagamento ao vendedor com recursos do FGTS depende da conclusão da análise e da assinatura do contrato com o agente financeiro;</li>

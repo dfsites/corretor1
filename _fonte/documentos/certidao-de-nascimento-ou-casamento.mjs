@@ -8,7 +8,8 @@ export default {
   data: '2026-10-01',
   avisoJuridico: true,
   fontes: [
-    { titulo: 'Lei nº 6.015/1973 (Registros Públicos), arts. 29 e 70 (Planalto)', url: 'https://www.planalto.gov.br/ccivil_03/leis/l6015compilada.htm' },
+    { titulo: 'Lei nº 6.015/1973 (Registros Públicos), arts. 29, 70 e 100 (Planalto)', url: 'https://www.planalto.gov.br/ccivil_03/leis/l6015compilada.htm' },
+    { titulo: 'Lei nº 6.515/1977 (Lei do Divórcio), art. 32 (Planalto)', url: 'https://www.planalto.gov.br/ccivil_03/leis/l6515.htm' },
     { titulo: 'Código Civil (Lei nº 10.406/2002), art. 1.647 (Planalto)', url: 'https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm' },
   ],
   relacionados: ['/blog/documentacao-na-captacao/', '/glossario/outorga-conjugal/', '/blog/imovel-em-inventario/'],
@@ -17,7 +18,7 @@ export default {
 
 <h2>Para que serve</h2>
 <p>O Código Civil (art. 1.647, I) estabelece que nenhum dos cônjuges pode, sem autorização do outro, alienar ou gravar de ônus real bens imóveis, exceto no regime da separação absoluta. A certidão de casamento mostra se a pessoa é casada e qual o regime de bens: a Lei nº 6.015/1973 (art. 70) exige que o assento de casamento indique o regime e, quando houver pacto antenupcial, a data e o cartório da escritura.</p>
-<p>Além disso, o registro civil recebe averbações de fatos que mudam o estado civil, como separação, divórcio e nulidade do casamento (art. 29, § 1º, da mesma lei). Uma certidão antiga pode mostrar alguém como casado que já se divorciou, ou o contrário.</p>
+<p>Além disso, o registro civil recebe averbações que alteram a situação do casamento, como a nulidade, a anulação e a separação (arts. 29, § 1º, e 100 da mesma lei), e a sentença de divórcio só produz efeitos depois de registrada (Lei nº 6.515/1977, art. 32). Uma certidão antiga pode mostrar alguém como casado que já se divorciou, ou o contrário.</p>
 
 <h2>Quem emite</h2>
 <p>O Cartório de Registro Civil das Pessoas Naturais onde foi feito o registro do nascimento ou do casamento.</p>

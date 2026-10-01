@@ -17,7 +17,7 @@ export default {
   relacionados: ['/blog/atuacao-em-locacao-e-administracao/', '/blog/especializacao-por-tipo-de-imovel/', '/glossario/acao-de-despejo/'],
   corpo: `
 <h2>O que é</h2>
-<p>Ação renovatória é a ação judicial pela qual o locatário de imóvel destinado ao comércio exige a renovação do contrato de locação, por igual prazo, quando cumpre os requisitos da Lei do Inquilinato. Ela protege o ponto comercial, que tem valor para o negócio instalado no imóvel.</p>
+<p>Ação renovatória é a ação judicial, distinta da <a href="/glossario/acao-de-despejo/">ação de despejo</a>, pela qual o locatário de imóvel destinado ao comércio exige a renovação do contrato de locação, por igual prazo, quando cumpre os requisitos da Lei do Inquilinato. Ela protege o ponto comercial, que tem valor para o negócio instalado no imóvel.</p>
 
 <h2>Requisitos</h2>
 <p>O art. 51 da Lei nº 8.245/1991 exige, cumulativamente:</p>
@@ -35,7 +35,7 @@ export default {
 <h2>Onde aparece na rotina do corretor</h2>
 <ul>
   <li>Venda de loja, sala ou galpão locado: o comprador precisa saber se o locatário pode ter direito à renovação.</li>
-  <li>Captação para locação comercial, quando o proprietário pergunta sobre prazos longos.</li>
+  <li><a href="/blog/captacao-para-locacao/">Captação para locação</a> comercial, quando o proprietário pergunta sobre prazos longos.</li>
   <li>Opinião de mercado sobre imóvel comercial com contrato em vigor.</li>
 </ul>
 

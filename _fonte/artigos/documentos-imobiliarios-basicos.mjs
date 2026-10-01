@@ -29,10 +29,10 @@ export default {
     },
   ],
   corpo: `
-<p>Quem começa na corretagem ouve, desde a primeira semana, termos como matrícula, averbação, certidão de ônus, escritura e ITBI. Entender o que cada um significa é condição para atender bem, responder às dúvidas de compradores e proprietários e perceber quando um negócio exige atenção especial. Este artigo apresenta os conceitos. O uso prático na captação está em <a href="/blog/documentacao-na-captacao/">documentação na fase de captação</a>, e o caminho final da venda em <a href="/blog/escritura-e-registro/">escritura e registro</a>.</p>
+<p>Quem começa na corretagem ouve, desde a primeira semana, termos como matrícula, averbação, certidão de ônus, escritura e ITBI. Entender o que cada um significa é condição para atender bem, responder às dúvidas de compradores e proprietários e perceber quando um negócio exige atenção especial. O uso prático na captação está em <a href="/blog/documentacao-na-captacao/">documentação na fase de captação</a>, e o caminho final da venda em <a href="/blog/escritura-e-registro/">escritura e registro</a>.</p>
 
 <h2>Registro de Imóveis: onde a propriedade existe juridicamente</h2>
-<p>No Brasil, a propriedade de um imóvel se transfere entre vivos com o registro do título no Registro de Imóveis (Código Civil, art. 1.245). De forma mais ampla, o art. 1.227 estabelece que os direitos reais sobre imóveis constituídos ou transmitidos por atos entre vivos só se adquirem com esse registro, salvo exceções previstas no próprio Código. Na prática, isso significa que assinar um contrato ou mesmo uma escritura não basta: enquanto o título não for registrado, quem vendeu continua sendo considerado dono (art. 1.245, § 1º).</p>
+<p>No Brasil, a propriedade de um imóvel se transfere entre vivos com o registro do título no Registro de Imóveis (Código Civil, art. 1.245). De forma mais ampla, o art. 1.227 estabelece que os direitos reais sobre imóveis constituídos ou transmitidos por atos entre vivos só se adquirem com esse registro, salvo exceções previstas no próprio Código. Por isso, assinar um contrato ou mesmo uma escritura não basta: enquanto o título não for registrado, quem vendeu continua sendo considerado dono (art. 1.245, § 1º).</p>
 <p>Cada imóvel pertence a um Registro de Imóveis, de acordo com a sua localização. Os atos relativos ao imóvel são feitos na serventia da situação do imóvel (Lei nº 6.015/1973, art. 169).</p>
 
 <h2>Matrícula</h2>
@@ -92,6 +92,6 @@ export default {
 
 <h2>O papel do corretor</h2>
 <p>O corretor não substitui o tabelião, o oficial de registro nem o advogado. Seu papel é conhecer esses documentos o suficiente para identificar pendências cedo, orientar as partes sobre o que será exigido e acompanhar o processo até a conclusão, cumprindo o dever de prestar esclarecimentos sobre a segurança do negócio. Os limites da atuação profissional estão em <a href="/blog/o-que-faz-um-corretor-de-imoveis/">o que faz um corretor de imóveis</a>. Para quem está começando, estudar esses documentos faz parte dos <a href="/blog/primeiros-passos-depois-do-creci/">primeiros passos depois de obter o CRECI</a>.</p>
-<p>Esses conceitos fazem parte da base de quem está começando na profissão. O caminho completo, da formação ao início da carreira, está em <a href="/blog/como-ser-corretor-de-imoveis/">como se tornar corretor de imóveis</a>.</p>
+<p>Esses conceitos integram a formação inicial descrita em <a href="/blog/como-ser-corretor-de-imoveis/">como se tornar corretor de imóveis</a>.</p>
 `,
 };

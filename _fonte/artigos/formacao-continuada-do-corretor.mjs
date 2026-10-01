@@ -11,7 +11,7 @@ export default {
   data: '2026-10-01',
   fontes: [],
   corpo: `
-<p>O registro no CRECI marca o início do exercício profissional, não o fim da formação. Normas mudam, procedimentos de cartório e de financiamento se modernizam, o mercado de cada região se transforma e o próprio corretor passa a atender negócios mais complexos à medida que a carreira avança. Este artigo trata de como organizar a atualização ao longo dos anos. O estudo dos primeiros meses tem um roteiro próprio em <a href="/blog/o-que-estudar-nos-primeiros-meses/">o que estudar nos primeiros meses como corretor</a>, e a visão geral da carreira está em <a href="/blog/desenvolvimento-profissional-do-corretor/">desenvolvimento profissional do corretor de imóveis</a>.</p>
+<p>O registro no CRECI marca o início do exercício profissional, não o fim da formação. Normas mudam, procedimentos de cartório e de financiamento se modernizam, o mercado de cada região se transforma e o próprio corretor passa a atender negócios mais complexos à medida que a carreira avança. A atualização precisa, por isso, de organização ao longo dos anos. O estudo dos primeiros meses tem um roteiro próprio em <a href="/blog/o-que-estudar-nos-primeiros-meses/">o que estudar nos primeiros meses como corretor</a>, e a visão geral da carreira está em <a href="/blog/desenvolvimento-profissional-do-corretor/">desenvolvimento profissional do corretor de imóveis</a>.</p>
 
 <h2>Por que a formação precisa continuar</h2>
 <p>Três razões práticas sustentam a formação continuada:</p>

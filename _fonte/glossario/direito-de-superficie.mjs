@@ -19,12 +19,12 @@ export default {
 <p>A concessão pode ser gratuita ou onerosa. O superficiário responde pelos encargos e tributos do imóvel, e o direito pode ser transferido a terceiros e aos herdeiros.</p>
 
 <h2>Onde aparece na rotina do corretor</h2>
-<p>O tema é menos frequente na venda residencial comum, mas aparece em terrenos comerciais, áreas usadas para empreendimentos de longo prazo, instalações em terreno de terceiros e em negociações em que o proprietário quer rentabilizar o terreno sem vendê-lo. Pode aparecer também na matrícula de imóveis oferecidos à venda.</p>
+<p>O tema é menos frequente na venda residencial comum, mas aparece em terrenos comerciais, áreas usadas para empreendimentos de longo prazo, instalações em terreno de terceiros e em negociações em que o proprietário quer rentabilizar o terreno sem vendê-lo. Pode aparecer também na <a href="/glossario/matricula-do-imovel/">matrícula</a> de imóveis oferecidos à venda.</p>
 
 <h2>O que verificar</h2>
 <ul>
   <li>Se há direito de superfície registrado na matrícula, por quanto tempo e em que condições.</li>
-  <li>Quem pode vender o quê: o terreno, o direito de superfície, ou os dois, e a necessidade de respeitar o direito de preferência.</li>
+  <li>Quem pode vender o quê: o terreno, o direito de superfície, ou os dois, e a necessidade de respeitar o <a href="/glossario/direito-de-preferencia/">direito de preferência</a>.</li>
   <li>O que acontece com as construções ao fim do prazo, conforme o contrato.</li>
 </ul>
 <p>Situações assim exigem leitura cuidadosa do título e orientação jurídica antes de qualquer proposta.</p>

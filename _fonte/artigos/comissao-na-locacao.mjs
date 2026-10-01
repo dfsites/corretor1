@@ -15,7 +15,7 @@ export default {
     { titulo: 'Código Civil (Lei nº 10.406/2002), arts. 722 a 729: da corretagem (Planalto)', url: 'https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm' },
   ],
   corpo: `
-<p>Na locação, a remuneração do corretor costuma se dividir em duas parcelas com naturezas diferentes: a remuneração pela <strong>intermediação</strong>, que encontra o locatário e formaliza o contrato, e a remuneração pela <strong>administração</strong>, cobrada durante a vigência do contrato quando o corretor ou a imobiliária administra o imóvel. As regras gerais da comissão de corretagem estão em <a href="/blog/comissao-de-corretor-de-imoveis/">comissão de corretagem de imóveis</a>; este artigo trata das particularidades da locação.</p>
+<p>Na locação, a remuneração do corretor costuma se dividir em duas parcelas com naturezas diferentes: a remuneração pela <strong>intermediação</strong>, que encontra o locatário e formaliza o contrato, e a remuneração pela <strong>administração</strong>, cobrada durante a vigência do contrato quando o corretor ou a imobiliária administra o imóvel. As regras gerais da comissão de corretagem estão em <a href="/blog/comissao-de-corretor-de-imoveis/">comissão de corretagem de imóveis</a>; a locação tem particularidades próprias, a começar por quem paga.</p>
 
 <h2>Quem paga: o que diz a Lei do Inquilinato</h2>
 <p>A Lei nº 8.245/1991 (art. 22, VII) inclui entre as obrigações do <strong>locador</strong> pagar as taxas de administração imobiliária, se houver, e de intermediações, nestas compreendidas as despesas necessárias à aferição da idoneidade do pretendente ou de seu fiador.</p>

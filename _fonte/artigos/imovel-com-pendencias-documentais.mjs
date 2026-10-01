@@ -22,7 +22,7 @@ export default {
   ],
   corpo: `
 <p>Nem todo imóvel chega à captação com a documentação em ordem. Construção que não consta da matrícula, área diferente da real, proprietário que nunca registrou a compra, herdeiros que ainda não fizeram inventário: situações assim são frequentes e não impedem, por si só, o trabalho do corretor. O que muda é a forma de conduzir.</p>
-<p>O processo completo de captação está em <a href="/blog/como-captar-imoveis/">captação de imóveis</a>, e a conferência básica de documentos em <a href="/blog/documentacao-na-captacao/">documentação na fase de captação</a>. Este artigo trata do passo seguinte: o que fazer quando essa conferência revela um problema.</p>
+<p>O processo completo de captação está em <a href="/blog/como-captar-imoveis/">captação de imóveis</a>, e a conferência básica de documentos em <a href="/blog/documentacao-na-captacao/">documentação na fase de captação</a>. O passo seguinte, tratado aqui, é o que fazer quando essa conferência revela um problema.</p>
 
 <h2>Princípio: identificar cedo e informar</h2>
 <p>Uma pendência descoberta na captação é um item de planejamento. A mesma pendência descoberta depois de aceita uma proposta costuma derrubar o negócio, frustrar o comprador e desgastar a relação com o proprietário. Além disso, o Código Civil (art. 723, parágrafo único) obriga o corretor a prestar ao cliente os esclarecimentos sobre a segurança ou o risco do negócio, sob pena de responder por perdas e danos.</p>

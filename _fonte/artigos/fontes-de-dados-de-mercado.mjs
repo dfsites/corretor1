@@ -20,7 +20,7 @@ export default {
     },
   ],
   corpo: `
-<p>Uma sugestão de preço é tão boa quanto os dados que a sustentam. O pilar <a href="/blog/preco-de-mercado-de-imoveis/">preço de mercado</a> explica como fundamentar a sugestão, e o artigo sobre <a href="/blog/imoveis-comparaveis/">imóveis comparáveis</a> mostra como selecionar e analisar as referências. Este artigo trata de uma etapa anterior: onde buscar os dados, o que cada fonte realmente mostra e quais cuidados ela exige.</p>
+<p>Uma sugestão de preço é tão boa quanto os dados que a sustentam. O pilar <a href="/blog/preco-de-mercado-de-imoveis/">preço de mercado</a> explica como fundamentar a sugestão, e o artigo sobre <a href="/blog/imoveis-comparaveis/">imóveis comparáveis</a> mostra como selecionar e analisar as referências. Antes de tudo isso vem a coleta: onde buscar os dados, o que cada fonte realmente mostra e quais cuidados ela exige.</p>
 
 <h2>Dois tipos de dado: preço pedido e preço pago</h2>
 <p>Antes de qualquer fonte, uma distinção. Quase toda informação disponível sobre imóveis se encaixa em um de dois grupos:</p>

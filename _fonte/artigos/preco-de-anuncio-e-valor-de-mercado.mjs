@@ -22,7 +22,7 @@ export default {
   ],
   corpo: `
 <p>Um mesmo imóvel costuma ter vários números associados a ele: o valor que o proprietário pede, o valor pelo qual imóveis parecidos foram vendidos, o valor que a prefeitura usa para cobrar impostos e o valor que o banco atribui quando analisa um financiamento. Quando esses números se misturam na conversa, proprietário e comprador tomam decisões com base em referências erradas.</p>
-<p>Este artigo separa cada conceito e mostra para que serve cada um. A forma de fundamentar a sugestão de preço está no pilar <a href="/blog/preco-de-mercado-de-imoveis/">preço de mercado de imóveis</a>.</p>
+<p>Cada número tem uma finalidade própria, explicada abaixo. A forma de fundamentar a sugestão de preço está no pilar <a href="/blog/preco-de-mercado-de-imoveis/">preço de mercado de imóveis</a>.</p>
 
 <h2>Preço de anúncio</h2>
 <p>É o valor pedido pelo proprietário e divulgado em portais, placas e redes sociais. Quem decide o preço de anúncio é o proprietário, idealmente orientado pelo corretor a partir de uma pesquisa de mercado.</p>
@@ -65,7 +65,7 @@ export default {
   <li>esse valor é estimado por critérios técnicos, como análise de preços praticados no mercado, informações de cartórios e agentes financeiros e características do imóvel;</li>
   <li>os municípios e o Distrito Federal devem divulgar os critérios utilizados, e o contribuinte pode contestar o valor apresentando avaliação contraditória, nos termos da legislação local.</li>
 </ul>
-<p>Na prática, o corretor não calcula o imposto. Ele orienta o comprador a consultar a prefeitura sobre o valor que será considerado e os procedimentos locais. As etapas de escritura e registro estão em <a href="/blog/escritura-e-registro/">escritura e registro</a>, e os documentos envolvidos em <a href="/blog/documentos-imobiliarios-basicos/">documentos imobiliários que o corretor precisa conhecer</a>.</p>
+<p>O corretor não calcula o imposto. Ele orienta o comprador a consultar a prefeitura sobre o valor que será considerado e os procedimentos locais. As etapas de escritura e registro estão em <a href="/blog/escritura-e-registro/">escritura e registro</a>, e os documentos envolvidos em <a href="/blog/documentos-imobiliarios-basicos/">documentos imobiliários que o corretor precisa conhecer</a>.</p>
 
 <h3>Valor de avaliação do agente financeiro</h3>
 <p>Quando há financiamento, a instituição financeira faz a própria avaliação do imóvel. As regras de cada instituição definem como esse valor é considerado na concessão do crédito. Se a avaliação ficar abaixo do preço combinado, o comprador pode precisar complementar o pagamento com recursos próprios ou renegociar. Por isso, em negócios com financiamento, convém tratar essa possibilidade antes de assinar compromissos. Veja <a href="/blog/financiamento-imobiliario-para-corretores/">financiamento imobiliário para corretores</a>.</p>

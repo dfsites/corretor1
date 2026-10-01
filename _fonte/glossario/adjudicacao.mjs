@@ -28,10 +28,10 @@ export default {
 <p>Adjudicar é atribuir a alguém, por decisão judicial ou por procedimento previsto em lei, a propriedade de um bem. No mercado imobiliário a palavra aparece em pelo menos três situações diferentes, e confundir uma com a outra é causa frequente de mal-entendido.</p>
 
 <h2>Na execução de dívidas</h2>
-<p>O art. 876 do Código de Processo Civil permite ao credor (exequente), oferecendo preço não inferior ao da avaliação, requerer que lhe sejam adjudicados os bens penhorados. Em vez de o imóvel ir a leilão, ele passa ao credor como forma de pagamento da dívida.</p>
+<p>O art. 876 do Código de Processo Civil permite ao credor (exequente), oferecendo preço não inferior ao da avaliação, requerer que lhe sejam adjudicados os bens <a href="/glossario/penhora/">penhorados</a>. Em vez de o imóvel ir a leilão, ele passa ao credor como forma de pagamento da dívida.</p>
 
 <h2>Adjudicação compulsória</h2>
-<p>O art. 1.418 do Código Civil prevê que o promitente comprador titular de direito real pode exigir do promitente vendedor, ou de terceiros a quem os direitos forem cedidos, a outorga da escritura definitiva; se houver recusa, pode requerer ao juiz a adjudicação do imóvel. É o caminho para quem pagou o preço combinado em uma promessa de compra e venda e não consegue a escritura.</p>
+<p>O art. 1.418 do Código Civil prevê que o promitente comprador titular de direito real pode exigir do promitente vendedor, ou de terceiros a quem os direitos forem cedidos, a outorga da escritura definitiva; se houver recusa, pode requerer ao juiz a adjudicação do imóvel. É o caminho para quem pagou o preço combinado em uma <a href="/glossario/promessa-de-compra-e-venda/">promessa de compra e venda</a> e não consegue a escritura.</p>
 <p>Desde a Lei nº 14.382/2022, o art. 216-B da Lei de Registros Públicos admite a adjudicação compulsória extrajudicial, feita no registro de imóveis da situação do bem, sem prejuízo da via judicial. Entre os documentos exigidos estão o instrumento da promessa ou da cessão e a prova do inadimplemento, e o requerente deve estar representado por advogado.</p>
 
 <h2>Onde aparece na rotina do corretor</h2>

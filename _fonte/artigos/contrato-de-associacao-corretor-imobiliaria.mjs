@@ -21,7 +21,7 @@ export default {
     },
   ],
   corpo: `
-<p>Grande parte dos corretores começa a carreira associada a uma imobiliária. É um caminho que dá acesso a carteira de imóveis, marca e volume de atendimento, mas que depende de um documento muitas vezes assinado sem leitura atenta: o contrato de associação. Este artigo trata desse contrato. A comparação entre trabalhar associado, como autônomo ou com vínculo de emprego está em <a href="/blog/corretor-autonomo-associado-ou-contratado/">corretor autônomo, associado ou contratado</a>.</p>
+<p>Grande parte dos corretores começa a carreira associada a uma imobiliária. É um caminho que dá acesso a carteira de imóveis, marca e volume de atendimento, mas que depende de um documento muitas vezes assinado sem leitura atenta: o contrato de associação. A comparação entre trabalhar associado, como autônomo ou com vínculo de emprego está em <a href="/blog/corretor-autonomo-associado-ou-contratado/">corretor autônomo, associado ou contratado</a>.</p>
 
 <h2>O que a lei prevê</h2>
 <p>A associação foi incluída na Lei nº 6.530/1978 pela Lei nº 13.097/2015. O art. 6º estabelece:</p>
@@ -72,6 +72,6 @@ export default {
 <p>A imobiliária inscrita no CRECI está sujeita aos mesmos deveres das pessoas físicas inscritas e deve ter como sócio gerente ou diretor um corretor individualmente inscrito (Lei nº 6.530/1978, art. 6º, caput e § 1º). Ao se associar, confira se a empresa está regularmente inscrita no conselho da sua região.</p>
 
 <h2>Leia também</h2>
-<p>A divisão de comissão com corretores de outras empresas está em <a href="/blog/parcerias-entre-corretores/">parcerias entre corretores</a>. Como a renda se forma nos diferentes modelos está em <a href="/blog/como-funciona-a-remuneracao-do-corretor/">como funciona a remuneração do corretor</a>. O caminho completo de quem está entrando na profissão está em <a href="/blog/como-ser-corretor-de-imoveis/">como se tornar corretor de imóveis</a>.</p>
+<p>A divisão de comissão com corretores de outras empresas está em <a href="/blog/parcerias-entre-corretores/">parcerias entre corretores</a>. Como a renda se forma nos diferentes modelos está em <a href="/blog/como-funciona-a-remuneracao-do-corretor/">como funciona a remuneração do corretor</a>. Formação e registro, que vêm antes da associação, estão em <a href="/blog/como-ser-corretor-de-imoveis/">como se tornar corretor de imóveis</a>.</p>
 `,
 };

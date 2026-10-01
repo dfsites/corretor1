@@ -20,8 +20,8 @@ export default {
     { titulo: 'Lei nº 13.709/2018: Lei Geral de Proteção de Dados Pessoais (Planalto)', url: 'https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm' },
   ],
   corpo: `
-<p>O curso de Técnico em Transações Imobiliárias dá a base para o registro, mas o trabalho diário exige conhecimentos que só fazem sentido quando aparecem em um negócio real. Os primeiros meses são o melhor momento para estudar com método: há tempo, as dúvidas surgem a cada atendimento e o que se aprende ali sustenta o restante da carreira. Este artigo propõe uma sequência de estudo. Ela pode ser adaptada ao seu segmento.</p>
-<p>Se você ainda está no início do processo, veja antes <a href="/blog/primeiros-passos-depois-do-creci/">primeiros passos depois de obter o CRECI</a>. O caminho completo está em <a href="/blog/como-ser-corretor-de-imoveis/">como se tornar corretor de imóveis</a>.</p>
+<p>O curso de Técnico em Transações Imobiliárias dá a base para o registro, mas o trabalho diário exige conhecimentos que só fazem sentido quando aparecem em um negócio real. Os primeiros meses são o melhor momento para estudar com método: há tempo, as dúvidas surgem a cada atendimento e o que se aprende ali sustenta o restante da carreira. Ela pode ser adaptada ao seu segmento.</p>
+<p>Se você ainda está no início do processo, veja antes <a href="/blog/primeiros-passos-depois-do-creci/">primeiros passos depois de obter o CRECI</a>. A sequência desde a formação técnica está em <a href="/blog/como-ser-corretor-de-imoveis/">como se tornar corretor de imóveis</a>.</p>
 
 <h2>Os blocos de estudo</h2>
 <div class="tabela"><table>

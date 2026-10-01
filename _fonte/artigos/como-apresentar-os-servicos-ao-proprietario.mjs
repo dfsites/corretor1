@@ -21,7 +21,7 @@ export default {
   ],
   corpo: `
 <p>Depois da <a href="/blog/entrevista-inicial-com-o-proprietario/">entrevista inicial</a> e da <a href="/blog/visita-de-captacao/">visita de captação</a>, chega o momento em que o proprietário decide se vai confiar a venda ao corretor. Muitas captações se perdem nessa conversa, não por falta de capacidade técnica, mas porque o proprietário não entendeu o que o corretor vai fazer, como vai prestar contas e o que acontece se a venda demorar.</p>
-<p>Apresentar os serviços é explicar, de forma organizada e verificável, o trabalho que será feito. Não é discurso de convencimento nem lista de promessas. Este artigo aprofunda essa etapa do processo descrito em <a href="/blog/como-captar-imoveis/">captação de imóveis</a>.</p>
+<p>Apresentar os serviços é explicar, de forma organizada e verificável, o trabalho que será feito. Não é discurso de convencimento nem lista de promessas. É uma das etapas do processo descrito em <a href="/blog/como-captar-imoveis/">captação de imóveis</a>.</p>
 
 <h2>O que o proprietário quer saber</h2>
 <p>Mesmo quando não pergunta diretamente, o proprietário costuma ter cinco dúvidas:</p>
@@ -95,6 +95,6 @@ export default {
 </ul>
 
 <h2>Depois da apresentação</h2>
-<p>Se o proprietário pedir tempo para decidir, combine uma data para o próximo contato e envie o resumo do que foi apresentado. Se ele aceitar, formalize a <a href="/blog/autorizacao-de-venda/">autorização de venda</a> antes de qualquer divulgação e registre o imóvel na sua <a href="/blog/organizacao-da-carteira-de-imoveis/">carteira</a> com todas as condições combinadas.</p>
+<p>Se o proprietário pedir tempo para decidir, combine uma data para o próximo contato e envie o resumo do que foi apresentado. Se ele aceitar, formalize a autorização de venda antes de qualquer divulgação e registre o imóvel na sua <a href="/blog/organizacao-da-carteira-de-imoveis/">carteira</a> com todas as condições combinadas.</p>
 `,
 };

@@ -14,7 +14,7 @@ export default {
   ],
   corpo: `
 <p>Reputação é o que clientes, colegas e parceiros esperam de você antes mesmo do primeiro contato. Na corretagem, ela pesa mais do que em muitas outras atividades: o cliente entrega ao corretor decisões de alto valor, informações pessoais e, muitas vezes, a chave da própria casa. Uma reputação sólida não se constrói com propaganda, e sim com a soma de atendimentos bem conduzidos ao longo do tempo.</p>
-<p>Este artigo aprofunda o tema que aparece de forma resumida em <a href="/blog/desenvolvimento-profissional-do-corretor/">desenvolvimento profissional do corretor</a>.</p>
+<p>O tema aparece de forma resumida em <a href="/blog/desenvolvimento-profissional-do-corretor/">desenvolvimento profissional do corretor</a>.</p>
 
 <h2>O que forma a reputação de um corretor</h2>
 <p>Na prática, quatro elementos se repetem:</p>

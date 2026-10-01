@@ -49,7 +49,7 @@ const artigosBase = [
     data: '2026-10-01',
     fontes: [PLANALTO_LEI_6530, PLANALTO_DECRETO_81871, PLANALTO_CODIGO_CIVIL, COFECI],
     corpo: `
-<p>A corretagem de imóveis é uma profissão regulamentada no Brasil. Antes de pensar em clientes e negócios, quem pretende atuar na área precisa cumprir requisitos formais de formação e registro. Este artigo reúne esse caminho e os pontos práticos do início da carreira, para quem está avaliando a profissão ou acabou de obter o registro.</p>
+<p>A corretagem de imóveis é uma profissão regulamentada no Brasil. Antes de pensar em clientes e negócios, quem pretende atuar na área precisa cumprir requisitos formais de formação e registro.</p>
 
 <h2>O que faz um corretor de imóveis</h2>
 <p>A <strong>Lei nº 6.530/1978</strong> define, no art. 3º, que compete ao corretor de imóveis exercer a intermediação na compra, venda, permuta e locação de imóveis, podendo ainda opinar quanto à comercialização imobiliária.</p>
@@ -275,7 +275,7 @@ const artigosBase = [
 <p>A estrutura da proposta escrita e as diferenças entre proposta, contraproposta e contrato estão em <a href="/blog/proposta-de-compra-de-imovel/">proposta de compra de imóvel</a>.</p>
 
 <h2>7. Conclusão do negócio</h2>
-<p>O Código Civil (art. 723) determina que o corretor execute a mediação com diligência e prudência e preste ao cliente os esclarecimentos sobre a segurança ou o risco do negócio. Na prática, isso significa acompanhar a verificação da matrícula atualizada e das certidões necessárias, orientar sobre as etapas de escritura e registro e manter as partes informadas até a conclusão.</p>
+<p>O Código Civil (art. 723) determina que o corretor execute a mediação com diligência e prudência e preste ao cliente os esclarecimentos sobre a segurança ou o risco do negócio. Isso inclui acompanhar a verificação da matrícula atualizada e das certidões necessárias, orientar sobre as etapas de escritura e registro e manter as partes informadas até a conclusão.</p>
 
 <h2>Registro e indicadores</h2>
 <p>Anote quantos contatos resultam em visitas, quantas visitas resultam em propostas e quantas propostas resultam em negócios. Esses números mostram em que etapa o processo precisa de ajuste. Veja como organizar esse controle em <a href="/blog/rotina-de-trabalho-do-corretor-de-imoveis/">rotina de trabalho do corretor de imóveis</a>.</p>

@@ -22,7 +22,7 @@ export default {
     },
   ],
   corpo: `
-<p>Na intermediação com exclusividade, o proprietário confia a um único corretor ou a uma única imobiliária a tarefa de encontrar comprador para o imóvel, por um prazo determinado. A exclusividade tem efeito jurídico definido no Código Civil e muda a forma de trabalhar dos dois lados. Este artigo explica o que a lei estabelece, o que a exclusividade exige do corretor e como apresentá-la ao proprietário. Ele aprofunda um trecho do artigo sobre <a href="/blog/como-captar-imoveis/">captação de imóveis</a>.</p>
+<p>Na intermediação com exclusividade, o proprietário confia a um único corretor ou a uma única imobiliária a tarefa de encontrar comprador para o imóvel, por um prazo determinado. A exclusividade tem efeito jurídico definido no Código Civil e muda a forma de trabalhar dos dois lados: o que a lei estabelece, o que a exclusividade exige do corretor e como apresentá-la ao proprietário. O tema aprofunda um trecho do artigo sobre <a href="/blog/como-captar-imoveis/">captação de imóveis</a>.</p>
 
 <h2>O que diz o Código Civil</h2>
 <p>O art. 726 do Código Civil trata do negócio feito diretamente entre as partes:</p>

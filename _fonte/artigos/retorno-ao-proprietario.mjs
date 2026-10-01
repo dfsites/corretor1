@@ -21,7 +21,7 @@ export default {
   ],
   corpo: `
 <p>Depois que o imóvel é captado e anunciado, o proprietário passa a depender do corretor para saber o que está acontecendo. Quando o retorno falha, a confiança se desgasta rapidamente: o proprietário começa a cobrar notícias, desconfia da divulgação e fica mais resistente a qualquer sugestão, inclusive de revisão de preço.</p>
-<p>Este artigo trata de como organizar esse retorno. Ele complementa a etapa final do processo descrito em <a href="/blog/como-captar-imoveis/">captação de imóveis</a>.</p>
+<p>Organizar esse retorno completa a etapa final do processo descrito em <a href="/blog/como-captar-imoveis/">captação de imóveis</a>.</p>
 
 <h2>Um dever, não uma cortesia</h2>
 <p>O Código Civil (art. 723) determina que o corretor execute a mediação com diligência e prudência e preste ao cliente, espontaneamente, todas as informações sobre o andamento do negócio. O parágrafo único acrescenta o dever de esclarecer sobre a segurança ou o risco do negócio, as alterações de valores e outros fatores que possam influir nos resultados. Informar o proprietário, portanto, faz parte do próprio serviço.</p>

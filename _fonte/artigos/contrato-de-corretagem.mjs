@@ -29,7 +29,7 @@ export default {
     },
   ],
   corpo: `
-<p>Toda intermediação imobiliária se apoia em um contrato de corretagem, ainda que ele nem sempre tenha esse nome. A autorização de venda assinada pelo proprietário e o acordo com um comprador que contrata o corretor para encontrar um imóvel são exemplos. O Código Civil dedica oito artigos ao tema (arts. 722 a 729). O pilar <a href="/blog/comissao-de-corretor-de-imoveis/">comissão de corretagem de imóveis</a> resume as regras de remuneração; este artigo trata do contrato como um todo: natureza, deveres, remuneração, forma e prova.</p>
+<p>Toda intermediação imobiliária se apoia em um contrato de corretagem, ainda que ele nem sempre tenha esse nome. A autorização de venda assinada pelo proprietário e o acordo com um comprador que contrata o corretor para encontrar um imóvel são exemplos. O Código Civil dedica oito artigos ao tema (arts. 722 a 729). As regras de remuneração estão resumidas em <a href="/blog/comissao-de-corretor-de-imoveis/">comissão de corretagem de imóveis</a>, mas o contrato vai além da comissão: envolve a natureza da relação, os deveres do corretor, a forma e a prova do que foi combinado.</p>
 
 <h2>O que é o contrato de corretagem</h2>
 <p>O art. 722 define: pelo contrato de corretagem, uma pessoa, não ligada a outra em virtude de mandato, de prestação de serviços ou por qualquer relação de dependência, obriga-se a obter para a segunda um ou mais negócios, conforme as instruções recebidas.</p>
@@ -39,7 +39,7 @@ export default {
   <li><strong>Obrigação de obter negócio.</strong> O objeto do contrato é o resultado: a venda, a compra, a permuta ou a locação pretendida.</li>
   <li><strong>Instruções recebidas.</strong> Preço, condições, prazo e limites de atuação vêm do cliente. Atuar fora dessas instruções expõe o corretor a conflitos sobre a remuneração e a sua responsabilidade.</li>
 </ul>
-<p>Na linguagem do Código Civil, a corretagem também aparece como "contrato de mediação" (art. 725). As duas expressões se referem à mesma relação.</p>
+<p>Na linguagem do Código Civil, a corretagem também aparece como "contrato de mediação" (art. 725). As duas expressões se referem à mesma relação. O comentário dos primeiros dispositivos está em <a href="/legislacao/codigo-civil-arts-722-a-724/">Código Civil, arts. 722 a 724</a>.</p>
 
 <h2>Quem contrata o corretor</h2>
 <p>A parte que contrata é quem tem interesse no negócio e dá as instruções. Na venda, normalmente é o proprietário, por meio da <a href="/blog/autorizacao-de-venda/">autorização de venda</a>. Mas o comprador também pode contratar um corretor para encontrar um imóvel com determinadas características. Nesse caso, as mesmas regras se aplicam, e convém formalizar: o que o comprador procura, o prazo, a remuneração e quem a paga.</p>
@@ -85,7 +85,7 @@ export default {
   <li>o anúncio público depende de contrato escrito de mediação ou autorização escrita (Decreto nº 81.871/1978, art. 5º);</li>
   <li>o Código de Ética exige a contratação por escrito e prévia.</li>
 </ul>
-<p>Na prática, portanto, o contrato escrito é o padrão profissional. Além de cumprir as normas, ele resolve o problema da prova: em uma discussão sobre comissão, será preciso demonstrar o que foi contratado e o trabalho realizado. Guarde o contrato assinado e os registros que mostram a atuação: anúncios, visitas agendadas e realizadas, propostas encaminhadas e mensagens trocadas com as partes. Um sistema de registro organizado ajuda nisso; veja <a href="/blog/crm-para-corretor/">CRM para corretor de imóveis</a>.</p>
+<p>Por isso, o contrato escrito é o padrão profissional. Além de cumprir as normas, ele resolve o problema da prova: em uma discussão sobre comissão, será preciso demonstrar o que foi contratado e o trabalho realizado. Guarde o contrato assinado e os registros que mostram a atuação: anúncios, visitas agendadas e realizadas, propostas encaminhadas e mensagens trocadas com as partes. Um sistema de registro organizado ajuda nisso; veja <a href="/blog/crm-para-corretor/">CRM para corretor de imóveis</a>.</p>
 
 <h2>O que um contrato escrito deve conter</h2>
 <p>Sem pretender substituir a revisão de um advogado, os itens abaixo costumam constar de um contrato de corretagem bem redigido:</p>

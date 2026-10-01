@@ -16,7 +16,7 @@ export default {
     },
   ],
   corpo: `
-<p>O corretor que acaba de obter o registro enfrenta um ciclo conhecido: proprietários e compradores preferem quem já tem experiência, e a experiência só vem com negócios. Romper esse ciclo não depende de esperar a primeira indicação. Há caminhos que permitem participar de negociações reais, com acompanhamento, enquanto a carteira própria se forma. Este artigo reúne esses caminhos e os cuidados de cada um.</p>
+<p>O corretor que acaba de obter o registro enfrenta um ciclo conhecido: proprietários e compradores preferem quem já tem experiência, e a experiência só vem com negócios. Romper esse ciclo não depende de esperar a primeira indicação. Há caminhos que permitem participar de negociações reais, com acompanhamento, enquanto a carteira própria se forma.</p>
 
 <h2>O que conta como experiência</h2>
 <p>Experiência útil, na corretagem, é ter passado pelas etapas completas de um negócio: captação, preço, divulgação, atendimento, visitas, proposta, negociação, documentação e conclusão. Quem já acompanhou alguns processos inteiros reconhece problemas antes que eles aconteçam: uma matrícula com pendência, um comprador sem crédito aprovado, uma proposta mal redigida. Por isso, o objetivo dos primeiros meses é participar do maior número possível de etapas, mesmo que em negócios que não sejam seus.</p>

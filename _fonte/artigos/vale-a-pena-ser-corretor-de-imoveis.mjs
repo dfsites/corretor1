@@ -20,7 +20,7 @@ export default {
     },
   ],
   corpo: `
-<p>A pergunta "vale a pena?" não tem resposta única. A corretagem de imóveis pode ser uma profissão estável e bem remunerada para algumas pessoas e uma fonte de frustração para outras, dependendo do perfil, do momento financeiro e da disposição para construir uma carteira ao longo do tempo. Este artigo reúne os pontos que costumam pesar na decisão, sem promessas e sem desestímulo. O caminho formal até o registro está em <a href="/blog/como-ser-corretor-de-imoveis/">como se tornar corretor de imóveis</a>.</p>
+<p>A pergunta "vale a pena?" não tem resposta única. A corretagem de imóveis pode ser uma profissão estável e bem remunerada para algumas pessoas e uma fonte de frustração para outras, dependendo do perfil, do momento financeiro e da disposição para construir uma carteira ao longo do tempo. O caminho formal até o registro está em <a href="/blog/como-ser-corretor-de-imoveis/">como se tornar corretor de imóveis</a>.</p>
 
 <h2>Como é o trabalho na prática</h2>
 <p>De fora, a profissão costuma ser associada a visitas e assinaturas. Na rotina, a maior parte do tempo vai para atividades menos visíveis: procurar imóveis para captar, conversar com proprietários, responder interessados, organizar agenda, conferir documentos, acompanhar negociações que podem durar semanas. As atribuições legais e as tarefas do dia a dia estão descritas em <a href="/blog/o-que-faz-um-corretor-de-imoveis/">o que faz um corretor de imóveis</a>.</p>

@@ -44,6 +44,6 @@ export default {
   <li>Considere colocar outro corretor para atender o comprador, o que ajuda a afastar dúvidas sobre imparcialidade.</li>
   <li>Registre propostas e condições por escrito, como em qualquer negociação.</li>
 </ul>
-<p>Mais sobre deveres profissionais em <a href="/blog/etica-profissional-na-corretagem/">ética profissional na corretagem</a>. O caminho completo da profissão está em <a href="/blog/como-ser-corretor-de-imoveis/">como se tornar corretor de imóveis</a>.</p>
+<p>Mais sobre deveres profissionais em <a href="/blog/etica-profissional-na-corretagem/">ética profissional na corretagem</a>. Os deveres profissionais desde o registro estão resumidos em <a href="/blog/como-ser-corretor-de-imoveis/">como se tornar corretor de imóveis</a>.</p>
 `,
 };

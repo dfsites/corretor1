@@ -35,8 +35,8 @@ export default {
     { titulo: 'Conselho Federal de Corretores de Imóveis (COFECI)', url: 'https://www.cofeci.gov.br/' },
   ],
   corpo: `
-<p>A inscrição no Conselho Regional de Corretores de Imóveis (CRECI) é o que autoriza o exercício da profissão. Sem ela, não é possível intermediar compra, venda, permuta ou locação de imóveis. Este artigo detalha o processo: o que a lei exige, quais etapas costumam existir, que documentos são normalmente pedidos e quais custos estão envolvidos. A visão geral da carreira, incluindo formação e modelos de atuação, está em <a href="/blog/como-ser-corretor-de-imoveis/">como se tornar corretor de imóveis</a>.</p>
-<p>Um aviso importante antes de tudo: <strong>cada Conselho Regional define o seu próprio procedimento</strong> dentro das normas do Conselho Federal. Documentos, formato do pedido (online ou presencial), valores e prazos variam. Os exemplos deste artigo indicam o que é comum, e a referência final é sempre o site do CRECI do estado onde você vai atuar.</p>
+<p>A inscrição no Conselho Regional de Corretores de Imóveis (CRECI) é o que autoriza o exercício da profissão. Sem ela, não é possível intermediar compra, venda, permuta ou locação de imóveis. A visão geral da carreira, incluindo formação e modelos de atuação, está em <a href="/blog/como-ser-corretor-de-imoveis/">como se tornar corretor de imóveis</a>.</p>
+<p>Um aviso importante antes de tudo: <strong>cada Conselho Regional define o seu próprio procedimento</strong> dentro das normas do Conselho Federal. Documentos, formato do pedido (online ou presencial), valores e prazos variam. Os exemplos abaixo indicam o que é comum, e a referência final é sempre o site do CRECI do estado onde você vai atuar.</p>
 
 <h2>O que a lei exige</h2>
 <p>Três dispositivos formam a base do processo:</p>

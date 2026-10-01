@@ -22,7 +22,7 @@ export default {
     },
   ],
   corpo: `
-<p>A carteira do CRECI resolve a parte formal. A partir dela, o corretor pode intermediar, mas ainda não tem carteira de imóveis, rede de clientes nem rotina. Os primeiros meses definem muito do que vem depois: hábitos de organização, região de atuação, forma de registrar informações e reputação inicial. Este artigo organiza essa fase em etapas práticas. A visão geral da entrada na profissão está em <a href="/blog/como-ser-corretor-de-imoveis/">como se tornar corretor de imóveis</a>.</p>
+<p>A carteira do CRECI resolve a parte formal. A partir dela, o corretor pode intermediar, mas ainda não tem carteira de imóveis, rede de clientes nem rotina. Os primeiros meses definem muito do que vem depois: hábitos de organização, região de atuação, forma de registrar informações e reputação inicial. A visão geral da entrada na profissão está em <a href="/blog/como-ser-corretor-de-imoveis/">como se tornar corretor de imóveis</a>.</p>
 
 <h2>1. Deixe a situação profissional em ordem</h2>
 <p>Antes de atender o primeiro cliente, resolva o básico:</p>

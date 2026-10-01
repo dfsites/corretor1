@@ -16,7 +16,7 @@ export default {
     },
   ],
   corpo: `
-<p>A remuneração do corretor de imóveis está ligada ao resultado. Pelo art. 725 do Código Civil, a comissão é devida quando o corretor obtém o resultado previsto no contrato de mediação. Na prática, isso significa meses sem entrada de dinheiro seguidos de recebimentos concentrados, e um intervalo longo entre o trabalho feito e o pagamento. Este artigo trata da parte que costuma ser deixada para depois: como organizar as finanças para que essa oscilação não comprometa a carreira.</p>
+<p>A remuneração do corretor de imóveis está ligada ao resultado. Pelo art. 725 do Código Civil, a comissão é devida quando o corretor obtém o resultado previsto no contrato de mediação. O resultado são meses sem entrada de dinheiro seguidos de recebimentos concentrados, e um intervalo longo entre o trabalho feito e o pagamento. Organizar as finanças para que essa oscilação não comprometa a carreira costuma ficar para depois, e é disso que tratam as seções a seguir.</p>
 <p>O texto não traz recomendação de investimento nem orientação tributária individual. Para impostos e contribuições, o caminho é um contador que conheça o seu modelo de atuação.</p>
 
 <h2>Por que a renda do corretor oscila</h2>
