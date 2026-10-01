@@ -35,3 +35,17 @@ Sete frentes, sem sobreposição de arquivos: (1) começando na profissão e os 
 - Remissões idênticas reescritas (prospecção; organização da carteira).
 - Erros jurídicos: nenhum. Conferidos: Leis 8.245/1991, 6.530/1978, 6.015/1973, 4.591/1964, 4.947/1966, 9.393/1996, 12.651/2012, Código Civil, CTN art. 130, Res. COFECI 326/1992 e 1.066/2007.
 - Fusão ou remoção: nenhuma; pares próximos (pessoa jurídica, CNAI/PTAM, autorização/exclusividade/renovação, documentação/pendências) têm ângulos distintos e remissões entre si.
+
+### Legislação comentada (18 páginas)
+
+- 14 páginas ajustadas: aberturas meta e blocos "Limites deste comentário" repetidos reescritos como seções próprias de cada norma.
+- Erros jurídicos corrigidos (texto vigente lido):
+  1. Lei 6.530, art. 20, X: a infração é deixar de pagar a contribuição devida ao Regional (o texto generalizava "anuidade em atraso").
+  2. Lei 6.530, art. 6º, § 1º: retirada a afirmação de que o sócio gerente "responde tecnicamente pela empresa perante o Conselho", sem base no artigo.
+  3. CC art. 724 c/c Lei 6.530, art. 17, IV: tabelas (feitas pelos sindicatos e homologadas pelos CRECIs) "podem servir de referência" sobre usos locais, e não "são" esses usos.
+  4. CC art. 728: o contrato de associação "funciona como ajuste" da divisão, e não é por definição o "ajuste em contrário".
+  5. Lei 8.245, art. 40, III: redação completada (alienação ou gravação de todos os bens imóveis do fiador ou mudança de residência sem comunicação).
+  6. LGPD, art. 7º, §§ 3º e 4º: regras de dados de acesso público e de dados tornados públicos pelo titular, antes misturadas, separadas.
+  7. LGPD, arts. 8º § 5º, 16, 18: eliminação de dados não é absoluta; depende da base legal, e parceiros devem ser comunicados.
+- Conferidas sem alteração: CC 725 a 727, Decreto 81.871 (2 páginas), Lei 6.530 conselhos; Res. COFECI 1.065 (com 1.402) e 1.066 (com Ato 001/2011).
+- Fusão ou remoção: nenhuma.

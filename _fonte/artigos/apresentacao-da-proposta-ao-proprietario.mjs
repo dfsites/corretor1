@@ -16,7 +16,7 @@ export default {
     },
   ],
   corpo: `
-<p>A proposta escrita é o ponto em que a negociação deixa de ser intenção e passa a ter condições concretas. O pilar <a href="/blog/proposta-de-compra-de-imovel/">proposta de compra de imóvel</a> explica como estruturar o documento e as diferenças entre interesse, proposta, contraproposta e contrato. Este artigo trata do passo seguinte: a conversa com o proprietário. A forma como a proposta é apresentada influencia a qualidade da decisão dele e a confiança das duas partes no corretor.</p>
+<p>A proposta escrita é o ponto em que a negociação deixa de ser intenção e passa a ter condições concretas. O pilar <a href="/blog/proposta-de-compra-de-imovel/">proposta de compra de imóvel</a> explica como estruturar o documento e as diferenças entre interesse, proposta, contraproposta e contrato. Depois de redigida, a proposta precisa ser levada ao proprietário, e a forma como a proposta é apresentada influencia a qualidade da decisão dele e a confiança das duas partes no corretor.</p>
 
 <h2>O papel do corretor nessa conversa</h2>
 <p>O corretor intermedeia. Ele não representa apenas o comprador nem apenas o vendedor no sentido de defender um contra o outro: seu trabalho é fazer a informação circular de forma completa e correta para que as partes decidam. O art. 723 do Código Civil obriga o corretor a executar a mediação com diligência e prudência e a prestar ao cliente, espontaneamente, todas as informações sobre o andamento do negócio. O parágrafo único acrescenta o dever de esclarecer sobre a segurança ou o risco do negócio, as alterações de valores e outros fatores que possam influir no resultado, sob pena de responder por perdas e danos.</p>
@@ -60,7 +60,7 @@ export default {
 <ul>
   <li><strong>Aceite:</strong> registre por escrito e siga para as etapas descritas em <a href="/blog/do-aceite-ao-contrato/">do aceite da proposta ao contrato</a>.</li>
   <li><strong>Recusa:</strong> registre o motivo, se o proprietário quiser informar, e comunique o comprador sem acrescentar opiniões.</li>
-  <li><strong>Contraproposta:</strong> formalize as novas condições por escrito antes de levá-las ao comprador. O tratamento da contraproposta está no pilar <a href="/blog/proposta-de-compra-de-imovel/">proposta de compra de imóvel</a>.</li>
+  <li><strong>Contraproposta:</strong> formalize as novas condições por escrito antes de levá-las ao comprador. A condução das rodadas está em <a href="/blog/contraproposta/">contraproposta</a>.</li>
   <li><strong>Pedido de prazo:</strong> combine uma data dentro da validade da proposta e avise o comprador.</li>
 </ul>
 <p>Se a proposta envolver sinal, explique ao proprietário o que foi previsto sobre ele; as regras gerais estão em <a href="/blog/sinal-e-arras/">sinal e arras na compra de imóvel</a>.</p>

@@ -25,7 +25,7 @@ export default {
   <li>salvo disposição em contrário, cada contratante paga metade das despesas com o instrumento da troca;</li>
   <li>é anulável a troca de valores desiguais entre ascendentes e descendentes sem o consentimento dos outros descendentes e do cônjuge do alienante.</li>
 </ul>
-<p>Na prática, isso quer dizer que a permuta segue, em linhas gerais, a lógica da compra e venda: proposta, contrato, escritura e registro, agora para cada um dos imóveis. As etapas finais estão em <a href="/blog/escritura-e-registro/">escritura e registro</a>.</p>
+<p>Assim, a permuta segue, em linhas gerais, a lógica da compra e venda: proposta, contrato, escritura e registro, agora para cada um dos imóveis. As etapas finais estão em <a href="/blog/escritura-e-registro/">escritura e registro</a>.</p>
 
 <h2>Permuta pura e permuta com torna</h2>
 <p>Na <strong>permuta pura</strong>, os imóveis têm valores considerados equivalentes e a troca é feita sem pagamento adicional. Na <strong>permuta com torna</strong>, uma das partes paga à outra a diferença de valor, em dinheiro ou em outra forma combinada.</p>

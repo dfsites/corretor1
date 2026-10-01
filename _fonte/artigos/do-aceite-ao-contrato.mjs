@@ -42,7 +42,7 @@ export default {
 <p>A Lei de Registros Públicos inclui entre os atos de registro os contratos de compromisso de compra e venda de imóveis não loteados (Lei nº 6.015/1973, art. 167, I, item 9). Se e quando registrar a promessa é uma decisão das partes, normalmente orientada pelo advogado, considerando prazo até a escritura, valor envolvido e riscos do negócio.</p>
 
 <h3>Escritura direta</h3>
-<p>Quando o pagamento é à vista e a documentação está pronta, as partes podem ir diretamente à escritura pública, exigida pelo art. 108 do Código Civil para imóveis de valor superior a trinta vezes o maior salário mínimo, salvo disposição legal em contrário. No financiamento com alienação fiduciária, o contrato bancário pode ter efeitos de escritura pública (Lei nº 9.514/1997, art. 38). As duas hipóteses estão explicadas em <a href="/blog/escritura-e-registro/">escritura e registro</a>.</p>
+<p>Quando o pagamento é à vista e a documentação está pronta, as partes podem ir diretamente à escritura pública, exigida pelo art. 108 do Código Civil para imóveis de valor superior a trinta vezes o maior salário mínimo, salvo disposição legal em contrário. No financiamento com alienação fiduciária, o contrato bancário pode ter efeitos de escritura pública (Lei nº 9.514/1997, art. 38). Confirme com a instituição financeira qual instrumento será usado.</p>
 
 <h2>3. Conferir a documentação</h2>
 <p>A análise documental deveria ter começado na captação (veja <a href="/blog/documentacao-na-captacao/">documentação na captação</a>). Agora ela precisa ser atualizada e completada para a escritura. Em geral, o comprador, o advogado ou o cartório solicitam:</p>

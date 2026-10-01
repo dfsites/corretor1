@@ -17,7 +17,7 @@ export default {
     },
   ],
   corpo: `
-<p>Em muitas negociações, o preço deixa de ser o principal obstáculo depois das primeiras rodadas. O que separa as partes passa a ser quando e como o dinheiro será pago e quando o imóvel será entregue. Um cronograma bem montado resolve impasses que o desconto sozinho não resolve, e um cronograma mal montado é a origem de boa parte dos conflitos depois da assinatura. Este artigo trata desses elementos dentro da lógica da <a href="/blog/proposta-de-compra-de-imovel/">proposta de compra de imóvel</a>.</p>
+<p>Em muitas negociações, o preço deixa de ser o principal obstáculo depois das primeiras rodadas. O que separa as partes passa a ser quando e como o dinheiro será pago e quando o imóvel será entregue. Um cronograma bem montado resolve impasses que o desconto sozinho não resolve, e um cronograma mal montado é a origem de boa parte dos conflitos depois da assinatura. Prazo e pagamento são itens da <a href="/blog/proposta-de-compra-de-imovel/">proposta de compra de imóvel</a> e merecem a mesma atenção que o valor.</p>
 
 <h2>Por que prazo e pagamento importam tanto</h2>
 <p>Para o vendedor, receber mais à vista pode valer mais do que um preço nominal maior parcelado. Para o comprador, um prazo maior para pagar parte do valor pode viabilizar a compra. Também pesam as datas: o vendedor pode precisar de tempo para desocupar, e o comprador pode ter data para sair de onde mora. Conhecer a motivação de cada parte, levantada na <a href="/blog/qualificacao-do-comprador/">qualificação do comprador</a> e na <a href="/blog/entrevista-inicial-com-o-proprietario/">entrevista com o proprietário</a>, é o que permite propor combinações que funcionem.</p>
@@ -61,8 +61,7 @@ export default {
 <p>Quando parte do preço depende de financiamento, o instrumento deve prever o que acontece se o crédito não for aprovado no prazo combinado: complementação com recursos próprios, prorrogação ou desfazimento, com ou sem devolução do sinal. Essa definição precisa ser negociada antes do aceite, não depois da recusa do banco.</p>
 
 <h2>Parcelamento direto com o vendedor</h2>
-<p>Às vezes o vendedor aceita receber parte do preço em parcelas, sem banco. Para o comprador, isso pode viabilizar a compra. Para o vendedor, cria um risco: transferir o imóvel e não receber. As formas de proteção são variadas e precisam de orientação jurídica, mas o corretor deve saber que existem. A Lei nº 9.514/1997, no art. 22, define a alienação fiduciária como o negócio pelo qual o fiduciante, para garantir uma obrigação, transfere ao credor a propriedade resolúvel do imóvel, e o parágrafo único admite que ela seja contratada por pessoa física ou jurídica. Ou seja, o próprio vendedor pode figurar como credor fiduciário em uma venda parcelada.</p>
-<p>Também é preciso combinar como as parcelas serão corrigidas ao longo do tempo e o que acontece em caso de atraso. Esses pontos ficam no contrato, redigido com assessoria jurídica.</p>
+<p>Às vezes o vendedor aceita receber parte do preço em parcelas, sem banco. Para o comprador, isso pode viabilizar a compra. Para o vendedor, cria um risco: transferir o imóvel e não receber. Há formas de proteção, como a alienação fiduciária em favor do próprio vendedor (Lei nº 9.514/1997, art. 22, § 1º), além de regras sobre correção das parcelas e atraso. Os modelos, riscos e cuidados estão em <a href="/blog/parcelamento-direto-com-o-vendedor/">venda com parcelamento direto com o vendedor</a>.</p>
 
 <h2>Desocupação e entrega das chaves</h2>
 <p>A data de entrega é tão importante quanto o preço. Defina:</p>
@@ -91,6 +90,6 @@ export default {
   <li>Esquecer de definir a partir de quando as despesas do imóvel mudam de responsável.</li>
 </ul>
 <p>Depois do acordo, o cronograma passa a ser acompanhado no <a href="/blog/controle-de-negocios-em-andamento/">controle de negócios em andamento</a>.</p>
-<p>Duas formas específicas de pagamento têm artigos próprios: <a href="/blog/parcelamento-direto-com-o-vendedor/">venda com parcelamento direto com o vendedor</a> e <a href="/blog/permuta-de-imoveis/">permuta de imóveis</a>.</p>
+<p>Quando parte do pagamento é feita com outro imóvel, veja <a href="/blog/permuta-de-imoveis/">permuta de imóveis</a>.</p>
 `,
 };

@@ -17,7 +17,7 @@ export default {
   ],
   corpo: `
 <p>Divergência entre comprador e vendedor não é sinal de negócio perdido. Ela aparece em quase toda negociação, antes ou depois do aceite da proposta, e costuma ter origem em expectativas que não ficaram claras no começo. O que define o resultado é a forma como o corretor conduz o problema: com informação, registro e equilíbrio entre as partes.</p>
-<p>Este artigo trata das divergências que surgem durante a negociação e na fase entre o aceite e a escritura. A estrutura da proposta está no pilar <a href="/blog/proposta-de-compra-de-imovel/">proposta de compra de imóvel</a>, e a troca de condições em rodadas está em <a href="/blog/contraproposta/">contraproposta</a>.</p>
+<p>Elas surgem tanto durante a negociação quanto na fase entre o aceite e a escritura. A estrutura da proposta está no pilar <a href="/blog/proposta-de-compra-de-imovel/">proposta de compra de imóvel</a>, e a troca de condições em rodadas está em <a href="/blog/contraproposta/">contraproposta</a>.</p>
 
 <h2>Onde as divergências costumam aparecer</h2>
 <ul>
@@ -31,7 +31,7 @@ export default {
 
 <h2>O que o Código Civil espera do corretor</h2>
 <p>O art. 723 do Código Civil determina que o corretor execute a mediação com diligência e prudência e preste ao cliente, espontaneamente, todas as informações sobre o andamento do negócio. O parágrafo único acrescenta que ele deve prestar esclarecimentos sobre a segurança ou o risco do negócio, as alterações de valores e outros fatores que possam influir no resultado.</p>
-<p>Na prática, isso significa que uma divergência não pode ser escondida de uma das partes, nem administrada com informações parciais para "salvar" o negócio. O corretor informa o que sabe, aponta os riscos que conhece e deixa a decisão com quem tem o direito de decidir.</p>
+<p>Por isso, uma divergência não pode ser escondida de uma das partes, nem administrada com informações parciais para "salvar" o negócio. O corretor informa o que sabe, aponta os riscos que conhece e deixa a decisão com quem tem o direito de decidir.</p>
 
 <h2>Como conduzir uma divergência</h2>
 <ol>

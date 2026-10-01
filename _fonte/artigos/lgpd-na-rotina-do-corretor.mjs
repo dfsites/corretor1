@@ -30,7 +30,7 @@ export default {
   ],
   corpo: `
 <p>O corretor de imóveis lida com dados pessoais o tempo todo. Nome, telefone e CPF do proprietário, estado civil e dados do cônjuge, renda e uso de FGTS do comprador, cópias de documentos de identidade, comprovantes de residência, matrículas em que constam os titulares do imóvel. A Lei Geral de Proteção de Dados Pessoais (Lei nº 13.709/2018, a LGPD) estabelece regras para esse tratamento, e elas se aplicam à atividade de intermediação imobiliária.</p>
-<p>Este artigo mostra como a lei se traduz em cuidados práticos na rotina: o que coletar, como guardar, com quem compartilhar, quando eliminar e como responder a pedidos dos titulares.</p>
+<p>Na rotina, a lei se traduz em cuidados práticos: o que coletar, como guardar, com quem compartilhar, quando eliminar e como responder a pedidos dos titulares. O comentário dos dispositivos está em <a href="/legislacao/lgpd-conceitos-e-bases-legais/">LGPD: conceitos e bases legais</a> e <a href="/legislacao/lgpd-direitos-e-seguranca/">LGPD: direitos e segurança</a>.</p>
 
 <h2>A LGPD se aplica ao corretor?</h2>
 <p>Sim. O art. 4º da lei exclui de sua aplicação o tratamento feito por pessoa natural para fins exclusivamente particulares e não econômicos. A intermediação imobiliária é atividade profissional e econômica, e por isso não se enquadra nessa exceção, seja o corretor autônomo, associado a uma imobiliária ou integrante de uma empresa.</p>

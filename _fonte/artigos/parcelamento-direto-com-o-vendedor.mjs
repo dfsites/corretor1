@@ -16,13 +16,13 @@ export default {
       url: 'https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm',
     },
     {
-      titulo: 'Lei nº 9.514/1997, art. 22: alienação fiduciária de coisa imóvel (Planalto)',
+      titulo: 'Lei nº 9.514/1997, art. 22 e § 1º: alienação fiduciária de coisa imóvel (Planalto)',
       url: 'https://www.planalto.gov.br/ccivil_03/leis/l9514.htm',
     },
   ],
   corpo: `
 <p>Na venda com parcelamento direto, o vendedor aceita receber parte do preço em parcelas, sem a participação de um banco. Para o comprador, pode ser a forma de viabilizar a compra. Para o vendedor, significa assumir o papel de credor. A operação exige mais cuidado do que uma venda à vista ou financiada, porque a proteção das duas partes depende inteiramente do que for contratado.</p>
-<p>O tema aparece em resumo no artigo <a href="/blog/negociacao-de-prazo-e-pagamento/">negociação de prazo e forma de pagamento</a>. Aqui ele é aprofundado.</p>
+<p>O parcelamento é uma das combinações possíveis de prazo e forma de pagamento (as demais estão em <a href="/blog/negociacao-de-prazo-e-pagamento/">negociação de prazo e forma de pagamento</a>) e a que mais depende de garantias bem escolhidas.</p>
 
 <h2>O risco de cada parte</h2>
 <ul>
@@ -35,7 +35,7 @@ export default {
 <p>Há caminhos diferentes, e a escolha depende da situação das partes e da orientação de um advogado. O corretor precisa conhecer as alternativas para explicar o que cada uma significa:</p>
 <ol>
   <li><strong>Promessa de compra e venda com escritura após a quitação.</strong> O comprador assume o compromisso de pagar e o vendedor, o de transferir ao final. Pelo art. 1.417 do Código Civil, a promessa sem cláusula de arrependimento, celebrada por instrumento público ou particular e registrada no Cartório de Registro de Imóveis, dá ao promitente comprador direito real à aquisição do imóvel. O art. 1.418 permite exigir a escritura definitiva e, se houver recusa, pedir a adjudicação ao juiz.</li>
-  <li><strong>Escritura com garantia em favor do vendedor.</strong> A propriedade é transferida desde logo, e o imóvel fica vinculado ao pagamento. A Lei nº 9.514/1997, no art. 22, define a alienação fiduciária como o negócio pelo qual o fiduciante, para garantir uma obrigação, transfere ao credor a propriedade resolúvel do imóvel, e o parágrafo único permite que ela seja contratada por pessoa física ou jurídica. O Código Civil também prevê a hipoteca: pelo art. 1.419, nas dívidas garantidas por hipoteca, o bem fica sujeito, por vínculo real, ao cumprimento da obrigação.</li>
+  <li><strong>Escritura com garantia em favor do vendedor.</strong> A propriedade é transferida desde logo, e o imóvel fica vinculado ao pagamento. A Lei nº 9.514/1997, no art. 22, define a alienação fiduciária como o negócio pelo qual o fiduciante, para garantir uma obrigação, contrata a transferência ao credor da propriedade resolúvel do imóvel, e o § 1º do mesmo artigo permite que ela seja contratada por pessoa física ou jurídica, não sendo privativa das entidades que operam no Sistema de Financiamento Imobiliário. O Código Civil também prevê a hipoteca: pelo art. 1.419, nas dívidas garantidas por hipoteca, o bem fica sujeito, por vínculo real, ao cumprimento da obrigação.</li>
   <li><strong>Cláusula resolutiva.</strong> Pelo art. 474, a cláusula resolutiva expressa opera de pleno direito; a tácita depende de interpelação judicial. Pelo art. 475, a parte lesada pelo inadimplemento pode pedir a resolução do contrato ou exigir o cumprimento, com indenização por perdas e danos.</li>
 </ol>
 <p>Cada estrutura tem consequências diferentes em caso de atraso, de desistência ou de morte de uma das partes. Por isso o contrato deve ser elaborado ou revisado por advogado.</p>
