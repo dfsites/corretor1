@@ -43,6 +43,7 @@ for (const arq of arquivos) {
   if (h1s !== 1) erros.push(`${rel}: ${h1s} elementos <h1>`);
   if (/lorem|ipsum|example\.com|Jhon Doe/i.test(html)) erros.push(`${rel}: texto de exemplo encontrado`);
   if (rel !== '404.html' && !/<link rel="canonical"/.test(html)) erros.push(`${rel}: sem canonical`);
+  if (!html.includes('googletagmanager.com/gtag/js?id=G-')) erros.push(`${rel}: sem tag do Google Analytics`);
 
   if (titulos.has(titulo)) erros.push(`${rel}: title duplicado com ${titulos.get(titulo)}`);
   titulos.set(titulo, rel);

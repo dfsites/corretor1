@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-10-01 — Google Analytics 4
+
+- Tag GA4 `G-QW0NECVSML` (gtag.js) no `<head>` de todas as páginas, configurada em `_fonte/site.mjs` (`ga4`).
+- Política de Privacidade: seção Cookies passa a informar o uso do Google Analytics, com links para a política do Google e o complemento de desativação.
+- Verificador: toda página precisa ter a tag do Analytics.
+
 ## 2026-10-01 — Primeiro ciclo editorial (15 artigos)
 
 - 15 artigos novos em `_fonte/artigos/<slug>.mjs` (carregados automaticamente por `_fonte/artigos.mjs`): 5 pilares (preço de mercado, visitas, proposta de compra, desenvolvimento profissional, ferramentas digitais) e 10 satélites (o que faz um corretor, inscrição no CRECI, primeiros passos, autorização de venda, entrevista com o proprietário, qualificação do comprador, parcerias, regras de publicidade, controle de follow-up, LGPD).

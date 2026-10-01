@@ -57,7 +57,16 @@ function layout({ caminho, titulo, descricao, corpo, jsonld = [], tipoOg = 'webs
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>${esc(tituloCompleto)}</title>
+${site.ga4 ? `<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=${site.ga4}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '${site.ga4}');
+</script>
+` : ''}<title>${esc(tituloCompleto)}</title>
 <meta name="description" content="${esc(descricao)}">
 <link rel="canonical" href="${abs(caminho)}">
 <meta name="robots" content="index, follow, max-image-preview:large">
@@ -681,13 +690,13 @@ paginas.push({
   <h2>Quem é o responsável</h2>
   <p>O site ${esc(site.nome)} é mantido por ${esc(site.empresa.nome)}, CNPJ ${esc(site.empresa.cnpj)}, ${esc(site.empresa.endereco)}, controladora dos dados pessoais tratados por meio deste site.</p>
   <h2>Quais dados coletamos</h2>
-  <p>Este site não possui cadastro nem formulários. Coletamos apenas os dados que você nos envia voluntariamente ao entrar em contato por e-mail${site.contato.whatsapp ? ' ou WhatsApp' : ''}, como nome, telefone, e-mail e o conteúdo da mensagem.</p>
+  <p>Este site não possui cadastro nem formulários. Além dos dados de navegação coletados pelo Google Analytics (veja a seção Cookies), coletamos apenas os dados que você nos envia voluntariamente ao entrar em contato por e-mail${site.contato.whatsapp ? ' ou WhatsApp' : ''}, como nome, telefone, e-mail e o conteúdo da mensagem.</p>
   <h2>Para que usamos</h2>
   <p>Usamos esses dados exclusivamente para responder ao seu contato e apresentar os nossos cursos, mentorias e e-books, com base no seu consentimento e no legítimo interesse, conforme a Lei nº 13.709/2018 (LGPD).</p>
   <h2>Compras</h2>
   <p>As compras de cursos e e-books são processadas por plataformas de pagamento de terceiros, que têm as próprias políticas de privacidade. Não armazenamos dados de cartão neste site.</p>
   <h2>Cookies</h2>
-  <p>Este site não utiliza cookies de rastreamento ou publicidade. Se isso mudar, esta política será atualizada.</p>
+  <p>Este site utiliza o Google Analytics, serviço do Google, para medir a audiência de forma agregada: páginas visitadas, tempo de permanência, origem do acesso e tipo de dispositivo. Para isso, o Google Analytics utiliza cookies e dados de navegação, tratados pelo Google conforme a <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Política de Privacidade do Google</a>. Não utilizamos cookies de publicidade. Você pode bloquear ou apagar cookies nas configurações do seu navegador ou usar o <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">complemento de desativação do Google Analytics</a>.</p>
   <h2>Seus direitos</h2>
   <p>Você pode solicitar a qualquer momento acesso, correção ou exclusão dos seus dados pelo e-mail <a href="mailto:${esc(site.contato.email)}">${esc(site.contato.email)}</a>.</p>
 </div></section>`,

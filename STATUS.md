@@ -19,6 +19,10 @@ E-books e cursos: listas vazias — páginas mostram "em breve" até o propriet�
 
 Title/description únicos, canonical, Open Graph (+ article:*), JSON-LD (Organization, WebSite, BlogPosting com autor Person, ProfilePage, BreadcrumbList, FAQPage), sitemap.xml, robots.txt, redirecionamentos 301 das páginas do template antigo.
 
+## Analytics
+
+Google Analytics 4 (`G-QW0NECVSML`) em todas as páginas desde 2026-10-01, sem banner de consentimento (a Política de Privacidade informa o uso). Search Console: meta tag de verificação publicada.
+
 ## Infraestrutura
 
 Hospedagem: Uni5 (Apache), FTP/SSH ativos. HTTPS válido; canônico https://www.corretor1.com.br com 301 de http e sem-www.

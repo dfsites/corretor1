@@ -7,6 +7,8 @@ export const site = {
   // O .htaccess redireciona http e o domínio sem www para cá.
   url: 'https://www.corretor1.com.br',
   idioma: 'pt-BR',
+  // Google Analytics 4 (tag gtag.js). Vazio = sem Analytics.
+  ga4: 'G-QW0NECVSML',
   // Verificação de propriedade no Google Search Console (meta tag).
   googleSiteVerification: 'tE0lujlWTsUE-eYKiytet6rVLgqj5y1F138MaNtylP8',
   chamada: 'Faça parte da elite do mercado imobiliário!',
