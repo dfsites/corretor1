@@ -18,7 +18,7 @@ export default {
   fontes: [CODIGO_CIVIL],
   corpo: `
 <p>Em quase toda compra de imóvel existe um valor pago no início, antes da escritura. No mercado ele é chamado de sinal, entrada ou arras, muitas vezes sem distinção. Para o Código Civil, porém, as arras têm regras próprias, e o efeito delas muda conforme o que as partes escreveram. Entender essas regras ajuda o corretor a orientar a redação da proposta e do contrato e a evitar conflitos quando um dos lados desiste.</p>
-<p>Este artigo aprofunda um ponto tratado de forma resumida em <a href="/blog/proposta-de-compra-de-imovel/">proposta de compra de imóvel</a>. Ele não substitui a análise de um advogado na redação do contrato.</p>
+<p>Na <a href="/blog/proposta-de-compra-de-imovel/">proposta de compra de imóvel</a>, o sinal aparece como um dos itens a combinar; as regras abaixo mostram o que acontece com ele em cada cenário. Nada disso substitui a análise de um advogado na redação do contrato.</p>
 
 <h2>Sinal, arras e entrada: os termos</h2>
 <p>O Código Civil usa as expressões "arras" e "sinal" como equivalentes (arts. 417 a 420). Trata-se do dinheiro ou outro bem móvel que uma parte entrega à outra na conclusão do contrato. "Entrada", por sua vez, é um termo comercial: indica a primeira parcela do preço, que pode ou não ter sido combinada como arras.</p>

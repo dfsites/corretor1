@@ -22,7 +22,7 @@ export default {
 <p>A Lei nº 7.433/1985 (art. 1º, § 2º) determina que o tabelião consigne no ato notarial a apresentação do comprovante de pagamento do imposto de transmissão. O Decreto nº 93.240/1986 (art. 1º, II) prevê a apresentação do comprovante quando o imposto incidir, ressalvadas as hipóteses em que a lei autorize o pagamento após a lavratura.</p>
 
 <h2>Quem emite</h2>
-<p>A prefeitura do município onde está o imóvel. Alíquota, base de cálculo, forma de declaração, prazos e eventuais isenções são definidos pela lei de cada município. Por isso, este texto não indica percentuais: consulte sempre a regra local.</p>
+<p>A prefeitura do município onde está o imóvel. Alíquota, base de cálculo, forma de declaração, prazos e eventuais isenções são definidos pela lei de cada município. Não existe percentual único no país: consulte sempre a regra local.</p>
 
 <h2>Como solicitar</h2>
 <p>Na maioria dos municípios, a guia é gerada a partir de uma declaração de transação, feita por sistema da prefeitura ou pelo tabelionato, com dados do imóvel (inscrição imobiliária e matrícula), das partes e do valor do negócio. Em alguns lugares, o cartório participa do preenchimento; em outros, o próprio contribuinte declara. Quem é responsável pelo pagamento é definido pela lei municipal e pelo que as partes combinaram no contrato.</p>

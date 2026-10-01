@@ -19,3 +19,11 @@ Sete frentes, sem sobreposição de arquivos: (1) começando na profissão e os 
 - Alterados 8: links contextuais no corpo para os 7 verbetes que não tinham nenhum (ação renovatória, adjudicação, dação em pagamento, direito de superfície, locação por temporada, partilha, usucapião) e ressalva no verbete inventário (hipóteses de inventário em cartório também dependem de normas extrajudiciais; confirmar com advogado e tabelionato).
 - Erros jurídicos: nenhum. Conferidos no Planalto: Lei 8.245/1991 (arts. 5º, 9º, 20, 50 a 52, 59), Código Civil (arts. 288, 359, 1.351, 1.372, 1.373, 1.418, 1.793), CPC art. 876, Lei 6.015/1973 (arts. 216-B, 234, 235), Lei 9.514/1997 (arts. 23, 26, 39), Lei 4.380/1964 art. 8º, Lei 4.591/1964 art. 67-A, Lei 13.465/2017 art. 13.
 - Fusão ou redirecionamento: nenhum. Pares próximos tratam de conceitos distintos e já remetem um ao outro.
+
+### Começando na profissão e os 6 artigos iniciais (26 textos)
+
+- Aberturas meta ("Este artigo…") removidas ou reescritas em 13 textos; a remissão repetida "O caminho completo… está em…" reescrita de forma distinta em 11 textos, mantendo o link para o pilar; "Na prática, isso…" substituído em 2.
+- Links repetidos para o mesmo destino reduzidos ao primeiro (curso TTI; o que faz um corretor).
+- Duplicação: "corretor autônomo, associado ou contratado" transcrevia os §§ 2º a 4º do art. 6º da Lei 6.530 e repetia o checklist do artigo sobre contrato de associação; trocado por resumo e link.
+- Erros jurídicos: nenhum. Conferidos: Lei 6.530/1978, Decreto 81.871/1978, Código Civil, CLT, Lei 8.906/1994, LCP art. 47, Lei 6.015/1973, Res. COFECI 326/1992, 327/1992 e 1.476/2022, página do CRECI-SP.
+- Fusão ou remoção: nenhuma (pares próximos têm ângulos distintos).

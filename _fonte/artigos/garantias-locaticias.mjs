@@ -56,7 +56,7 @@ export default {
 <p>Na análise cadastral, o fiador é avaliado com o mesmo cuidado do pretendente: renda, patrimônio e regularidade documental, conforme os critérios definidos pelo locador ou pela administradora.</p>
 
 <h2>Seguro de fiança locatícia</h2>
-<p>O seguro de fiança locatícia é contratado com uma seguradora e, segundo o art. 41, abrange a totalidade das obrigações do locatário. Na prática, a seguradora faz a própria análise do pretendente e define condições e custo. É uma alternativa para quem não tem fiador e não quer imobilizar dinheiro em caução. Ao apresentar essa opção, oriente o interessado a ler as condições da apólice: coberturas, franquias, vigência e forma de renovação.</p>
+<p>O seguro de fiança locatícia é contratado com uma seguradora e, segundo o art. 41, abrange a totalidade das obrigações do locatário. A seguradora faz a própria análise do pretendente e define condições e custo. É uma alternativa para quem não tem fiador e não quer imobilizar dinheiro em caução. Ao apresentar essa opção, oriente o interessado a ler as condições da apólice: coberturas, franquias, vigência e forma de renovação.</p>
 
 <h2>Cessão fiduciária de quotas de fundo de investimento</h2>
 <p>Incluída na lei em 2005, essa modalidade usa quotas de fundo de investimento como garantia. O art. 40 prevê a substituição da garantia em caso de exoneração da garantia constituída por quotas ou de liquidação ou encerramento do fundo. É menos comum no dia a dia e depende de instituições que operem esse tipo de produto.</p>

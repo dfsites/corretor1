@@ -87,7 +87,7 @@ export default {
 </table></div>
 
 <h2>Como conversar sobre pendências</h2>
-<p>Encontrar uma pendência não significa recusar a captação. Significa informar o proprietário, explicar o impacto na venda e combinar como ela será tratada: regularizar antes de anunciar, anunciar informando a situação ou ajustar as condições. O que não deve acontecer é anunciar escondendo a pendência. Quando a questão for jurídica (inventário, divergência de titularidade, regularização de construção), oriente o proprietário a buscar advogado ou o profissional técnico adequado.</p>
+<p>Encontrar uma pendência não significa recusar a captação. Significa informar o proprietário, explicar o impacto na venda e combinar como ela será tratada: regularizar antes de anunciar, anunciar informando a situação ou ajustar as condições. O que não deve acontecer é anunciar escondendo a pendência. Quando a questão for jurídica (inventário, divergência de titularidade, regularização de construção), oriente o proprietário a buscar advogado ou o profissional técnico adequado. A condução da captação nesses casos está em <a href="/blog/imovel-com-pendencias-documentais/">imóvel com pendências documentais</a>.</p>
 
 <h2>Registro e guarda dos documentos</h2>
 <p>Os documentos recebidos contêm dados pessoais dos proprietários. Guarde-os em local seguro, compartilhe apenas com quem precisa e somente para a finalidade da venda. Veja <a href="/blog/lgpd-na-rotina-do-corretor/">LGPD na rotina do corretor</a>.</p>

@@ -19,7 +19,7 @@ export default {
   ],
   corpo: `
 <p>A proposta é o ponto em que o interesse de um comprador se transforma em condições concretas: preço, forma de pagamento, prazos. É também uma das etapas em que mais surgem desentendimentos, quase sempre porque algo importante ficou combinado de forma verbal, vaga ou incompleta.</p>
-<p>Este artigo explica as etapas que costumam ser confundidas (interesse, proposta, contraproposta e contrato), o que a proposta escrita deve conter e o que o Código Civil diz sobre proposta, aceitação, sinal e contrato preliminar. Não substitui a análise de um advogado em cada negociação, especialmente na redação de contratos.</p>
+<p>Boa parte desses problemas vem da confusão entre quatro etapas diferentes: interesse, proposta, contraproposta e contrato. Cada uma tem efeitos próprios no Código Civil, e nenhuma orientação geral substitui a análise de um advogado na redação dos contratos.</p>
 
 <h2>Interesse, proposta, contraproposta e contrato</h2>
 <h3>Manifestação de interesse</h3>
@@ -28,7 +28,7 @@ export default {
 <p>Proposta é a oferta com os elementos essenciais do negócio: quem compra, o que compra, por quanto e como paga. O art. 427 do Código Civil estabelece que a proposta de contrato obriga o proponente, se o contrário não resultar dos termos dela, da natureza do negócio ou das circunstâncias do caso. Ou seja, a regra é que a proposta vincula quem a faz, mas há exceções, e o efeito concreto depende do que foi escrito e das circunstâncias. Por isso a redação importa.</p>
 <p>O art. 428 trata das situações em que a proposta deixa de ser obrigatória, por exemplo quando feita sem prazo e não aceita imediatamente pela pessoa presente, quando feita sem prazo a pessoa ausente e já decorreu tempo suficiente para a resposta, ou quando a retratação do proponente chega à outra parte antes ou junto com a própria proposta. Na prática imobiliária, o modo mais claro de evitar dúvidas é fixar na proposta um prazo de validade.</p>
 <h3>Contraproposta</h3>
-<p>Quando o proprietário responde com outro valor ou outras condições, não está aceitando. O art. 431 do Código Civil prevê que a aceitação fora do prazo, com adições, restrições ou modificações, importa nova proposta. Cada contraproposta, portanto, é uma nova oferta, que pode ser aceita, recusada ou respondida com outra.</p>
+<p>Quando o proprietário responde com outro valor ou outras condições, não está aceitando. O art. 431 do Código Civil prevê que a aceitação fora do prazo, com adições, restrições ou modificações, importa nova proposta. Cada contraproposta, portanto, é uma nova oferta, que pode ser aceita, recusada ou respondida com outra. Como conduzir e registrar cada rodada está em <a href="/blog/contraproposta/">contraproposta</a>.</p>
 <h3>Contrato</h3>
 <p>A aceitação da proposta não transfere o imóvel. Pelo art. 108 do Código Civil, salvo disposição legal em contrário, a escritura pública é essencial à validade dos negócios que visem à transferência de direitos reais sobre imóveis de valor superior a trinta vezes o maior salário mínimo vigente no país. E, pelo art. 1.245, a propriedade se transfere entre vivos mediante o registro do título no Registro de Imóveis. Entre a proposta aceita e a escritura, é comum que as partes assinem um contrato preliminar (compromisso ou promessa de compra e venda), que formaliza as obrigações até a conclusão.</p>
 
@@ -63,14 +63,8 @@ export default {
 <p><em>Exemplo hipotético de condição bem definida:</em> "O pagamento de R$ 300.000,00 será feito por meio de financiamento bancário. Caso o crédito não seja aprovado em até 45 dias da assinatura do contrato preliminar, o negócio poderá ser desfeito por qualquer das partes, com devolução integral do sinal ao comprador." Os valores e prazos são ilustrativos; a redação final deve ser feita no contrato, com orientação jurídica.</p>
 
 <h2>Sinal e arras: o que o Código Civil prevê</h2>
-<p>O sinal pago na assinatura do contrato é tratado pelo Código Civil como arras. As regras principais:</p>
-<ul>
-  <li><strong>Art. 417:</strong> em caso de execução do contrato, as arras devem ser restituídas ou computadas na prestação devida, se do mesmo gênero da principal. Na compra e venda, o sinal normalmente é abatido do preço.</li>
-  <li><strong>Art. 418:</strong> se quem deu as arras não cumprir o contrato, a outra parte pode tê-lo por desfeito, retendo-as; se quem as recebeu não cumprir, quem as deu pode desfazer o contrato e exigir a devolução mais o equivalente, com atualização monetária, juros e honorários de advogado.</li>
-  <li><strong>Art. 419:</strong> a parte inocente pode pedir indenização suplementar, se provar maior prejuízo, ou exigir a execução do contrato com perdas e danos, valendo as arras como mínimo.</li>
-  <li><strong>Art. 420:</strong> se o contrato prever direito de arrependimento, as arras têm função apenas indenizatória: quem as deu as perde; quem as recebeu devolve mais o equivalente, sem indenização suplementar.</li>
-</ul>
-<p>A consequência prática é que o documento precisa dizer claramente se há ou não direito de arrependimento, porque isso muda o efeito do sinal. Essa definição deve ser feita com cuidado e, de preferência, com orientação jurídica.</p>
+<p>O sinal entregue na conclusão do contrato é tratado pelo Código Civil como arras (arts. 417 a 420). Em resumo: se o contrato é cumprido, o sinal é abatido do preço; se uma das partes não cumpre, a outra pode desfazer o negócio, retendo o sinal ou exigindo a devolução mais o equivalente; e, se o contrato prevê direito de arrependimento, o sinal passa a ter função apenas indenizatória.</p>
+<p>A consequência prática é que o documento precisa dizer claramente se há ou não direito de arrependimento, porque isso muda o efeito do sinal. A explicação artigo por artigo, com a diferença entre arras confirmatórias e penitenciais, está em <a href="/blog/sinal-e-arras/">sinal e arras na compra de imóvel</a>.</p>
 
 <h2>Como apresentar a proposta ao proprietário</h2>
 <p>Leve a proposta por escrito e apresente o contexto necessário para que o proprietário avalie: perfil do comprador, origem dos recursos, prazos e condições. O proprietário decide melhor quando entende não só o valor, mas a segurança e o cronograma do pagamento.</p>
@@ -91,10 +85,10 @@ export default {
   <li><strong>Financiamento,</strong> quando houver: análise do imóvel e da documentação pela instituição.</li>
   <li><strong>Escritura e registro,</strong> nos termos dos arts. 108 e 1.245.</li>
 </ol>
-<p>A redação do contrato preliminar e da escritura envolve questões jurídicas que variam em cada caso. O papel do corretor é acompanhar o processo, manter as partes informadas e garantir que as condições negociadas cheguem corretamente ao contrato.</p>
+<p>A redação do contrato preliminar e da escritura envolve questões jurídicas que variam em cada caso. O papel do corretor é acompanhar o processo, manter as partes informadas e garantir que as condições negociadas cheguem corretamente ao contrato. As etapas estão detalhadas em <a href="/blog/do-aceite-ao-contrato/">do aceite da proposta ao contrato</a> e em <a href="/blog/escritura-e-registro/">escritura e registro</a>.</p>
 
 <h2>Mais de um decisor</h2>
-<p>Do lado do comprador, a proposta deve ser assinada por quem vai assumir as obrigações. Do lado do vendedor, todos os titulares que constam na matrícula precisam concordar. Se algum vendedor for casado, o art. 1.647 do Código Civil exige, salvo no regime da separação absoluta, a autorização do cônjuge para alienar bens imóveis. Saber disso desde a <a href="/blog/autorizacao-de-venda/">autorização de venda</a> evita surpresas no momento do aceite.</p>
+<p>Do lado do comprador, a proposta deve ser assinada por quem vai assumir as obrigações. Do lado do vendedor, todos os titulares que constam na matrícula precisam concordar. Se algum vendedor for casado, o art. 1.647 do Código Civil exige, salvo no regime da separação absoluta, a autorização do cônjuge para alienar bens imóveis. Saber disso desde a <a href="/blog/autorizacao-de-venda/">autorização de venda</a> evita surpresas no momento do aceite. A condução de negociações com várias pessoas envolvidas está em <a href="/blog/visitas-com-varios-decisores/">visitas com famílias e mais de um decisor</a>.</p>
 
 <h2>Erros comuns</h2>
 <ul>
