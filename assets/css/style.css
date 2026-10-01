@@ -194,3 +194,14 @@ p { margin: 0 0 1em; }
 /* Citações e exemplos destacados nos artigos */
 .artigo blockquote { margin: 1.5em 0; padding: 14px 18px; background: var(--fundo-2); border-left: 4px solid var(--ouro); border-radius: 6px; color: var(--texto); }
 .artigo blockquote p:last-child { margin-bottom: 0; }
+
+/* Índices das séries de referência (glossário, documentos, legislação) */
+.letras { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 24px; }
+.letras a { display: inline-block; min-width: 34px; text-align: center; padding: 6px 8px; border: 1px solid var(--borda); border-radius: 6px; text-decoration: none; font-weight: 700; }
+.letras a:hover { background: var(--fundo-2); }
+.grupo-indice { margin-bottom: 32px; }
+.grupo-indice h2 { margin: 0 0 12px; font-size: 1.4rem; }
+.lista-indice { list-style: none; padding: 0; margin: 0; display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+.lista-indice li { background: #fff; border: 1px solid var(--borda); border-radius: var(--raio); padding: 14px 16px; }
+.lista-indice a { font-weight: 700; text-decoration: none; }
+.lista-indice span { display: block; font-size: .9rem; color: var(--texto-suave); margin-top: 4px; }

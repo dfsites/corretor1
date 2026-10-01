@@ -9,10 +9,11 @@ import { artigos, redirecionamentosBlog } from './artigos.mjs';
 import { autores } from './autores.mjs';
 import { editorias, personas, trilhas, MIN_ARTIGOS_CATEGORIA } from './editorias.mjs';
 import { ebooks, cursos } from './produtos.mjs';
+import { colecoes, itensColecao } from './colecoes.mjs';
 
 const RAIZ = join(dirname(fileURLToPath(import.meta.url)), '..');
 // Pastas geradas pelo build (apagadas e recriadas a cada execução).
-const PASTAS_GERADAS = ['sobre', 'cursos', 'mentoria', 'ebooks', 'blog', 'contato', 'politica-de-privacidade', 'autor'];
+const PASTAS_GERADAS = ['sobre', 'cursos', 'mentoria', 'ebooks', 'blog', 'contato', 'politica-de-privacidade', 'autor', 'glossario', 'documentos', 'legislacao'];
 const ATUALIZADO = '2026-10-01';
 
 const esc = (s = '') =>
@@ -83,7 +84,7 @@ ${site.googleSiteVerification ? `<meta name="google-site-verification" content="
 ${metaExtra}
 <link rel="icon" href="/assets/img/favicon.png" type="image/png">
 <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
-<link rel="stylesheet" href="/assets/css/style.css?v=${ATUALIZADO}j">
+<link rel="stylesheet" href="/assets/css/style.css?v=${ATUALIZADO}k">
 ${schemas}
 </head>
 <body>
@@ -101,7 +102,7 @@ ${schemas}
 ${corpo}
 </main>
 ${rodape()}
-<script src="/assets/js/site.js?v=${ATUALIZADO}j" defer></script>
+<script src="/assets/js/site.js?v=${ATUALIZADO}k" defer></script>
 </body>
 </html>
 `;
@@ -128,7 +129,10 @@ function rodape() {
       </div>
       <div>
         <h2>Navegação</h2>
-        <ul>${MENU.map(([h, r]) => `<li><a href="${h}">${r}</a></li>`).join('')}<li><a href="/contato/">Contato</a></li></ul>
+        <ul>${MENU.map(([h, r]) => `<li><a href="${h}">${r}</a></li>`).join('')}${colecoes
+          .filter((c) => itensColecao[c.id].length)
+          .map((c) => `<li><a href="/${c.id}/">${c.nome}</a></li>`)
+          .join('')}<li><a href="/contato/">Contato</a></li></ul>
       </div>
       <div>
         <h2>Artigos</h2>
@@ -490,11 +494,15 @@ function schemaPessoa(id, completo = false) {
 
 // Links para artigos ainda não publicados viram texto simples (voltam a ser link quando o artigo existir).
 const slugsPublicados = new Set(artigos.map((a) => a.slug));
+const caminhosPublicados = new Set([
+  ...artigos.map((a) => `/blog/${a.slug}/`),
+  ...colecoes.flatMap((c) => itensColecao[c.id].map((it) => `/${c.id}/${it.slug}/`)),
+]);
 const pendentes = new Set();
 function semLinksPendentes(html) {
-  return html.replace(/<a href="\/blog\/([a-z0-9-]+)\/">([\s\S]*?)<\/a>/g, (inteiro, slug, texto) => {
-    if (slugsPublicados.has(slug) || slug === 'categoria') return inteiro;
-    pendentes.add(slug);
+  return html.replace(/<a href="(\/(?:blog|glossario|documentos|legislacao)\/([a-z0-9-]+)\/)">([\s\S]*?)<\/a>/g, (inteiro, caminho, slug, texto) => {
+    if (caminhosPublicados.has(caminho) || slug === 'categoria') return inteiro;
+    pendentes.add(caminho);
     return texto;
   });
 }
@@ -542,6 +550,17 @@ paginas.push({
   <p class="intro">Escolha a trilha que corresponde ao seu momento na profissão.</p>
   <div class="grade">${trilhasPersona}</div>
 </div></section>
+${
+  colecoes.some((c) => itensColecao[c.id].length)
+    ? `<section class="secao"><div class="container">
+  <h2>Biblioteca de referência</h2>
+  <div class="grade">${colecoes
+    .filter((c) => itensColecao[c.id].length)
+    .map((c) => `<div class="cartao"><h3><a href="/${c.id}/">${esc(c.nome)}</a></h3><p>${esc(c.intro)}</p><a class="mais" href="/${c.id}/">Consultar →</a></div>`)
+    .join('')}</div>
+</div></section>`
+    : ''
+}
 <section class="secao"><div class="container">
 ${secoesEditoria}
 </div></section>`,
@@ -667,6 +686,170 @@ for (const [id, p] of Object.entries(autores)) {
   });
 }
 
+// ---------- Séries de referência: glossário, documentos, legislação ----------
+const semAcento = (t) => t.normalize('NFD').replace(/[̀-ͯ]/g, '');
+const urlItem = (colId, item) => `/${colId}/${item.slug}/`;
+function htmlRelacionados(caminhos = []) {
+  const itens = caminhos
+    .map((c) => {
+      const blog = c.match(/^\/blog\/([a-z0-9-]+)\/$/);
+      if (blog) {
+        const a = artigos.find((x) => x.slug === blog[1]);
+        return a ? `<li><a href="${c}">${esc(a.h1)}</a></li>` : '';
+      }
+      const col = c.match(/^\/(glossario|documentos|legislacao)\/([a-z0-9-]+)\/$/);
+      if (col) {
+        const it = (itensColecao[col[1]] || []).find((x) => x.slug === col[2]);
+        return it ? `<li><a href="${c}">${esc(it.h1)}</a></li>` : '';
+      }
+      return '';
+    })
+    .filter(Boolean);
+  return itens.length ? `<section class="neste-tema"><h2>Leia também</h2><ul>${itens.join('')}</ul></section>` : '';
+}
+
+for (const c of colecoes) {
+  const lista = itensColecao[c.id];
+  if (!lista.length) continue;
+  const caminhoIndice = `/${c.id}/`;
+
+  // Índice da série
+  let conteudoIndice;
+  if (c.id === 'glossario') {
+    const porLetra = {};
+    for (const it of [...lista].sort((x, y) => semAcento(x.termo || x.h1).localeCompare(semAcento(y.termo || y.h1), 'pt-BR'))) {
+      const letra = semAcento(it.termo || it.h1).charAt(0).toUpperCase();
+      (porLetra[letra] ||= []).push(it);
+    }
+    const letras = Object.keys(porLetra);
+    conteudoIndice = `<nav class="letras" aria-label="Letras do glossário">${letras.map((l) => `<a href="#letra-${l}">${l}</a>`).join(' ')}</nav>
+${letras
+  .map(
+    (l) => `<section class="grupo-indice" id="letra-${l}"><h2>${l}</h2><ul class="lista-indice">${porLetra[l]
+      .map((it) => `<li><a href="${urlItem(c.id, it)}">${esc(it.termo || it.h1)}</a><span>${esc(it.descricao)}</span></li>`)
+      .join('')}</ul></section>`,
+  )
+  .join('\n')}`;
+  } else if (c.id === 'legislacao') {
+    const grupos = {};
+    for (const it of lista) (grupos[it.grupo || 'Outras normas'] ||= []).push(it);
+    conteudoIndice = Object.entries(grupos)
+      .map(
+        ([g, its]) => `<section class="grupo-indice"><h2>${esc(g)}</h2><ul class="lista-indice">${its
+          .sort((x, y) => (x.ordem || 0) - (y.ordem || 0))
+          .map((it) => `<li><a href="${urlItem(c.id, it)}">${esc(it.h1)}</a><span>${esc(it.descricao)}</span></li>`)
+          .join('')}</ul></section>`,
+      )
+      .join('\n');
+  } else {
+    conteudoIndice = `<ul class="lista-indice">${[...lista]
+      .sort((x, y) => x.h1.localeCompare(y.h1, 'pt-BR'))
+      .map((it) => `<li><a href="${urlItem(c.id, it)}">${esc(it.h1)}</a><span>${esc(it.descricao)}</span></li>`)
+      .join('')}</ul>`;
+  }
+  paginas.push({
+    caminho: caminhoIndice,
+    titulo: c.titulo,
+    descricao: c.descricao,
+    jsonld: [
+      c.id === 'glossario'
+        ? {
+            '@context': 'https://schema.org',
+            '@type': 'DefinedTermSet',
+            '@id': abs(`${caminhoIndice}#glossario`),
+            name: c.nome,
+            description: c.descricao,
+            url: abs(caminhoIndice),
+            hasDefinedTerm: lista.map((it) => ({ '@type': 'DefinedTerm', name: it.termo || it.h1, url: abs(urlItem(c.id, it)) })),
+          }
+        : { '@context': 'https://schema.org', '@type': 'CollectionPage', name: c.nome, description: c.descricao, url: abs(caminhoIndice) },
+      schemaTrilha([[caminhoIndice, c.nome]]),
+    ],
+    corpo: `${cabecalho({ titulo: c.nome, texto: esc(c.intro), trilha: [[null, c.nome]] })}
+<section class="secao"><div class="container">
+${conteudoIndice}
+</div></section>`,
+  });
+
+  // Páginas dos itens
+  for (const it of lista) {
+    const caminho = urlItem(c.id, it);
+    const autor = autores[it.autor || 'daniel-ferreira'];
+    const idAutor = it.autor || 'daniel-ferreira';
+    if (!autor) throw new Error(`${c.id}/${it.slug}: autor inexistente`);
+    const atualizado = it.atualizado && it.atualizado !== it.data ? it.atualizado : null;
+    const vizinhos = lista.filter((x) => x.slug !== it.slug && (c.id !== 'legislacao' || x.grupo === it.grupo)).slice(0, 6);
+    paginas.push({
+      caminho,
+      titulo: it.titulo,
+      descricao: it.descricao,
+      tipoOg: 'article',
+      metaExtra: [
+        `<meta name="author" content="${esc(autor.nome)}">`,
+        `<meta property="article:published_time" content="${it.data}">`,
+        `<meta property="article:modified_time" content="${it.atualizado || it.data}">`,
+        `<meta property="article:author" content="${abs(urlAutor(idAutor))}">`,
+        `<meta property="article:section" content="${esc(c.nome)}">`,
+      ].join('\n'),
+      jsonld: [
+        {
+          '@context': 'https://schema.org',
+          '@type': 'Article',
+          headline: it.h1,
+          description: it.descricao,
+          datePublished: it.data,
+          dateModified: it.atualizado || it.data,
+          inLanguage: 'pt-BR',
+          mainEntityOfPage: abs(caminho),
+          image: abs('/assets/img/og-corretor1.jpg'),
+          articleSection: c.nome,
+          author: { '@type': 'Person', '@id': idPessoa(idAutor), name: autor.nome, url: abs(urlAutor(idAutor)) },
+          publisher: { '@id': abs('/#organizacao') },
+          ...(it.fontes?.length ? { citation: it.fontes.map((f) => f.url) } : {}),
+          ...(c.id === 'glossario'
+            ? { about: { '@type': 'DefinedTerm', name: it.termo || it.h1, inDefinedTermSet: abs('/glossario/#glossario') } }
+            : {}),
+        },
+        schemaPessoa(idAutor),
+        ORGANIZACAO,
+        schemaTrilha([[caminhoIndice, c.nome], [caminho, it.h1]]),
+      ],
+      corpo: `<section class="cabecalho-pagina"><div class="container estreito">
+  <p class="trilha"><a href="/">Início</a> › <a href="${caminhoIndice}">${esc(c.nome)}</a></p>
+  <h1>${esc(it.h1)}</h1>
+  <p>${esc(it.descricao)}</p>
+  <p class="meta-artigo">Por <a rel="author" href="${urlAutor(idAutor)}">${esc(autor.nome)}</a> · Publicado em <time datetime="${it.data}">${dataBR(it.data)}</time>${
+    atualizado ? ` · Atualizado em <time datetime="${atualizado}">${dataBR(atualizado)}</time>` : ''
+  }</p>
+</div></section>
+<article class="artigo"><div class="container estreito">
+${semLinksPendentes(it.corpo.trim())}
+${htmlRelacionados(it.relacionados)}
+${it.avisoJuridico ? '<p class="aviso-juridico">Conteúdo informativo, elaborado a partir da legislação citada. Não substitui a orientação de um advogado para um caso concreto.</p>' : ''}
+${
+  it.fontes?.length
+    ? `<section class="fontes"><h2>Fontes e referências</h2><ul>${it.fontes
+        .map((f) => `<li><a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.titulo)}</a></li>`)
+        .join('')}</ul></section>`
+    : ''
+}
+<aside class="caixa-autor">
+  <p class="rotulo">Sobre o autor</p>
+  <p><a href="${urlAutor(idAutor)}"><strong>${esc(autor.nome)}</strong></a></p>
+  <p>${esc(autor.resumo)}</p>
+</aside>
+</div></article>
+${
+  vizinhos.length
+    ? `<section class="secao clara"><div class="container"><h2>Mais em ${esc(c.nome)}</h2><ul class="lista-indice">${vizinhos
+        .map((v) => `<li><a href="${urlItem(c.id, v)}">${esc(v.termo || v.h1)}</a><span>${esc(v.descricao)}</span></li>`)
+        .join('')}</ul><p><a href="${caminhoIndice}">Ver todos →</a></p></div></section>`
+    : ''
+}`,
+    });
+  }
+}
+
 // Contato
 const canais = [
   site.contato.whatsapp && `<li><strong>WhatsApp:</strong> <a href="${esc(linkWhats())}" target="_blank" rel="noopener">enviar mensagem</a></li>`,
@@ -741,7 +924,9 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${paginas
   .map((p) => {
-    const art = artigos.find((a) => `/blog/${a.slug}/` === p.caminho);
+    const art =
+      artigos.find((a) => `/blog/${a.slug}/` === p.caminho) ||
+      colecoes.flatMap((c) => itensColecao[c.id].map((it) => ({ ...it, caminho: `/${c.id}/${it.slug}/` }))).find((it) => it.caminho === p.caminho);
     return `  <url><loc>${abs(p.caminho)}</loc><lastmod>${art ? art.atualizado || art.data : ATUALIZADO}</lastmod></url>`;
   })
   .join('\n')}
