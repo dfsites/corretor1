@@ -38,6 +38,9 @@ p { margin: 0 0 1em; }
 .topo .container { display: flex; align-items: center; justify-content: space-between; min-height: 68px; }
 .marca { font-family: var(--serif); font-size: 1.6rem; font-weight: 700; color: #fff; text-decoration: none; letter-spacing: .5px; }
 .marca span { color: var(--ouro); }
+.marca:hover { color: #fff; }
+/* Links sobre fundo escuro não podem ficar escuros no hover */
+.trilha a:hover, .secao.escura a:hover, .faixa-cta a:not(.botao):hover { color: #fff; }
 .menu { display: flex; gap: 4px; list-style: none; margin: 0; padding: 0; }
 .menu a { display: block; padding: 10px 12px; color: #e8e6df; text-decoration: none; font-size: .97rem; border-radius: 6px; }
 .menu a:hover, .menu a[aria-current="page"] { color: var(--ouro); }

@@ -70,7 +70,7 @@ function layout({ caminho, titulo, descricao, corpo, jsonld = [], tipoOg = 'webs
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="/assets/img/favicon.png" type="image/png">
 <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
-<link rel="stylesheet" href="/assets/css/style.css?v=${ATUALIZADO}b">
+<link rel="stylesheet" href="/assets/css/style.css?v=${ATUALIZADO}c">
 ${schemas}
 </head>
 <body>
@@ -88,7 +88,7 @@ ${schemas}
 ${corpo}
 </main>
 ${rodape()}
-<script src="/assets/js/site.js?v=${ATUALIZADO}b" defer></script>
+<script src="/assets/js/site.js?v=${ATUALIZADO}c" defer></script>
 </body>
 </html>
 `;
@@ -127,7 +127,7 @@ function rodape() {
       </div>
     </div>
     <div class="final">
-      <p>© ${new Date(ATUALIZADO).getFullYear()} ${esc(site.nome)} · <a href="/politica-de-privacidade/">Política de Privacidade</a></p>
+      <p>© 2024–${new Date(ATUALIZADO).getFullYear()} ${esc(site.nome)}. Todos os direitos reservados. · <a href="/politica-de-privacidade/">Política de Privacidade</a></p>
     </div>
   </div>
 </footer>`;
