@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-10-01 — Capas de compartilhamento refeitas
+
+- Capas passam a usar a mesma imagem do topo do site, com a sombra do hero, o logo e textos da proposta ("Formação e prática para corretores de imóveis"; nos textos, o título de cada um). Sem foto do autor, a pedido do proprietário.
+- Endereço da imagem versionado (`?v=`, constante `VERSAO_CAPAS` em `build.mjs`) para as redes baixarem a capa nova.
+
 ## 2026-10-01 — Capas de compartilhamento
 
 - Capa geral nova (`assets/img/capa-corretor1.jpg`) e capa própria com o título de cada um dos 211 textos (`assets/img/capas/<tipo>/<slug>.jpg`), geradas por `_fonte/gerar_capas.mjs`.

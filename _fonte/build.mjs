@@ -48,6 +48,8 @@ function botaoContato(rotulo, assunto, classe = 'botao') {
 // ---------- Layout ----------
 // Capas de compartilhamento: geradas por _fonte/gerar_capas.mjs; sem capa própria, usa a capa geral.
 const CAPA_PADRAO = '/assets/img/capa-corretor1.jpg';
+// Mude ao regenerar as capas, para as redes sociais baixarem a imagem nova em vez da guardada em cache.
+const VERSAO_CAPAS = '20261001c';
 const capaDe = (tipo, slug) => (existsSync(join(RAIZ, 'assets', 'img', 'capas', tipo, `${slug}.jpg`)) ? `/assets/img/capas/${tipo}/${slug}.jpg` : CAPA_PADRAO);
 
 function layout({ caminho, titulo, descricao, corpo, jsonld = [], tipoOg = 'website', imagem = CAPA_PADRAO, metaExtra = '' }) {
@@ -83,12 +85,12 @@ ${site.googleSiteVerification ? `<meta name="google-site-verification" content="
 <meta property="og:title" content="${esc(tituloCompleto)}">
 <meta property="og:description" content="${esc(descricao)}">
 <meta property="og:url" content="${abs(caminho)}">
-<meta property="og:image" content="${abs(imagem)}">
+<meta property="og:image" content="${abs(imagem)}?v=${VERSAO_CAPAS}">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="${esc(tituloCompleto)}">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="${abs(imagem)}">
+<meta name="twitter:image" content="${abs(imagem)}?v=${VERSAO_CAPAS}">
 ${metaExtra}
 <link rel="icon" href="/assets/img/favicon.png" type="image/png">
 <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">

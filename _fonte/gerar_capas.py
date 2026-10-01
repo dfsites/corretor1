@@ -18,7 +18,6 @@ FUNDO = (0, 29, 35)
 LARANJA = (255, 111, 15)
 BRANCO = (255, 255, 255)
 CINZA = (190, 200, 202)
-FOTO = os.path.join(RAIZ, 'assets/img/autores/daniel-ferreira.webp')
 
 
 def fonte(nome, tam):
@@ -40,50 +39,59 @@ def quebrar(draw, texto, f, largura):
     return linhas
 
 
-foto = Image.open(FOTO).convert('RGB').resize((84, 84), Image.LANCZOS)
-mascara = Image.new('L', (84, 84), 0)
-ImageDraw.Draw(mascara).ellipse((0, 0, 83, 83), fill=255)
+# Fundo: a mesma imagem do topo do site, recortada em 1200x630, com a sombra do hero (escura à esquerda).
+FUNDO_IMG = os.path.join(RAIZ, 'assets/img/elite-1920.webp')
+base = Image.open(FUNDO_IMG).convert('RGB')
+escala = max(W / base.width, H / base.height)
+base = base.resize((round(base.width * escala), round(base.height * escala)), Image.LANCZOS)
+x0 = (base.width - W) // 2
+y0 = round((base.height - H) * 0.4)
+base = base.crop((x0, y0, x0 + W, y0 + H))
+sombra = Image.new('RGBA', (W, H))
+ds = ImageDraw.Draw(sombra)
+for x in range(W):
+    t = x / W
+    alfa = 0.94 - 0.42 * t if t < 0.5 else 0.73 - 0.76 * (t - 0.5)
+    ds.line((x, 0, x, H), fill=(0, 29, 35, round(255 * max(0.32, alfa))))
+FUNDO_PRONTO = Image.alpha_composite(base.convert('RGBA'), sombra).convert('RGB')
 
 
 def capa(destino, rotulo, titulo, subtitulo=None):
-    im = Image.new('RGB', (W, H), FUNDO)
+    im = FUNDO_PRONTO.copy()
     d = ImageDraw.Draw(im)
-    d.rectangle((0, 0, 14, H), fill=LARANJA)
     # Marca
-    fm = fonte('georgiab.ttf', 44)
-    d.text((72, 56), 'Corretor', font=fm, fill=BRANCO)
-    d.text((72 + d.textlength('Corretor', font=fm), 56), '1%', font=fm, fill=LARANJA)
+    fm = fonte('georgiab.ttf', 46)
+    d.text((72, 60), 'Corretor', font=fm, fill=BRANCO)
+    d.text((72 + d.textlength('Corretor', font=fm), 60), '1%', font=fm, fill=LARANJA)
     # Rótulo
-    d.text((72, 150), rotulo.upper(), font=fonte('segoeuib.ttf', 24), fill=LARANJA)
-    # Título: maior tamanho que caiba em até 4 linhas
-    largura = W - 72 - 90
-    for tam in (64, 58, 52, 48, 44, 40):
+    d.text((72, 160), rotulo.upper(), font=fonte('segoeuib.ttf', 24), fill=LARANJA)
+    # Título: maior tamanho que caiba em até 4 linhas, na metade esquerda ampliada
+    largura = 760
+    for tam in (62, 56, 50, 46, 42, 38):
         ft = fonte('georgiab.ttf', tam)
         linhas = quebrar(d, titulo, ft, largura)
         if len(linhas) <= 4:
             break
     linhas = linhas[:4]
-    y = 196
+    y = 204
     for linha in linhas:
         d.text((72, y), linha, font=ft, fill=BRANCO)
         y += int(tam * 1.18)
     if subtitulo:
-        d.text((72, y + 10), subtitulo, font=fonte('segoeui.ttf', 28), fill=CINZA)
-    # Rodapé: autor e domínio
-    d.line((72, 500, W - 72, 500), fill=(40, 70, 76), width=2)
-    im.paste(foto, (72, 520), mascara)
-    d.text((172, 528), 'Daniel Ferreira', font=fonte('segoeuib.ttf', 28), fill=BRANCO)
-    d.text((172, 566), 'Corretor de imóveis · CRECI-DF 12.668', font=fonte('segoeui.ttf', 22), fill=CINZA)
-    fd = fonte('segoeuib.ttf', 26)
-    dom = 'corretor1.com.br'
-    d.text((W - 72 - d.textlength(dom, font=fd), 548), dom, font=fd, fill=LARANJA)
+        fs = fonte('segoeui.ttf', 28)
+        for linha in quebrar(d, subtitulo, fs, largura):
+            d.text((72, y + 12), linha, font=fs, fill=(225, 230, 232))
+            y += 38
+    # Rodapé: só o domínio
+    d.rectangle((72, 548, 132, 552), fill=LARANJA)
+    d.text((72, 562), 'corretor1.com.br', font=fonte('segoeuib.ttf', 26), fill=BRANCO)
     caminho = os.path.join(RAIZ, destino)
     os.makedirs(os.path.dirname(caminho), exist_ok=True)
     im.save(caminho, 'JPEG', quality=82, optimize=True, progressive=True)
 
 
-capa('assets/img/capa-corretor1.jpg', 'Para corretores de imóveis', 'Biblioteca profissional para corretores de imóveis',
-     'Carreira, captação, negociação, legislação e glossário')
+capa('assets/img/capa-corretor1.jpg', 'Para corretores de imóveis', 'Formação e prática para corretores de imóveis',
+     'Do primeiro passo à carreira: artigos, glossário e legislação comentada')
 for item in LISTA:
     capa(item['arquivo'], item['rotulo'], item['titulo'])
 print(f'capas geradas: {len(LISTA) + 1}')
