@@ -17,11 +17,11 @@ export default {
   ],
   corpo: `
 <p>A visita é o momento em que o comprador confronta o que imaginou com o imóvel real. Uma visita bem preparada confirma ou descarta uma opção com rapidez e deixa informação útil para as próximas escolhas. Uma visita improvisada costuma gerar o contrário: o cliente sai com dúvidas, o proprietário não recebe um retorno consistente e o corretor perde a chance de entender o que realmente pesa na decisão.</p>
-<p>Este artigo trata da visita com o comprador ou locatário: o que fazer antes, durante e depois. A visita ao imóvel para captação é outro assunto, tratado em <a href="/blog/como-captar-imoveis/">captação de imóveis</a> e na <a href="/blog/entrevista-inicial-com-o-proprietario/">entrevista inicial com o proprietário</a>.</p>
+<p>O assunto aqui é a visita com o comprador ou locatário: o que fazer antes, durante e depois. A visita ao imóvel para captação é outro assunto, tratado em <a href="/blog/como-captar-imoveis/">captação de imóveis</a> e na <a href="/blog/entrevista-inicial-com-o-proprietario/">entrevista inicial com o proprietário</a>.</p>
 
 <h2>Antes de qualquer visita: qualificação</h2>
 <p>A seleção de imóveis depende do que o corretor sabe sobre o cliente. Antes de agendar, é preciso conhecer a motivação, o prazo, a capacidade de pagamento, os critérios indispensáveis e quem participa da decisão. Sem isso, a agenda se enche de visitas que não tinham chance de avançar. O roteiro completo está em <a href="/blog/qualificacao-do-comprador/">qualificação do comprador</a>, e o processo de atendimento como um todo em <a href="/blog/atendimento-ao-comprador-de-imoveis/">atendimento ao comprador de imóveis</a>.</p>
-<p>Na prática, apresentar poucas opções coerentes com o perfil rende mais do que levar o cliente a muitos imóveis. Quando o cliente recusa vários imóveis seguidos, o problema raramente está nos imóveis: em geral, a qualificação precisa ser revista.</p>
+<p>Apresentar poucas opções coerentes com o perfil rende mais do que levar o cliente a muitos imóveis. Quando o cliente recusa vários imóveis seguidos, o problema raramente está nos imóveis: em geral, a qualificação precisa ser revista.</p>
 
 <h2>O que o corretor precisa saber sobre o imóvel</h2>
 <p>O cliente vai perguntar, e a resposta precisa ser correta. Respostas improvisadas sobre metragem, condomínio ou documentação criam expectativas que depois não se confirmam. Antes da visita, reúna:</p>
@@ -34,13 +34,13 @@ export default {
   <li><strong>Entorno:</strong> comércio, escolas, transporte, ruído, trânsito nos horários de pico. Se possível, conheça a região em mais de um horário.</li>
   <li><strong>Pontos fracos:</strong> o que o cliente certamente vai notar (uma infiltração antiga, um quarto pequeno, uma vista bloqueada). É melhor tratar disso com informação do que ser surpreendido pela pergunta.</li>
 </ul>
-<p>Sempre que possível, visite o imóvel antes de levar o cliente. Fotos de anúncio não mostram cheiro, ruído, iluminação real nem o estado das áreas comuns.</p>
+<p>Sempre que possível, visite o imóvel antes de levar o cliente. Fotos de anúncio não mostram cheiro, ruído, iluminação real nem o estado das áreas comuns. Como montar a ficha do imóvel e onde confirmar cada dado está em <a href="/blog/informacoes-antes-da-visita/">o que o corretor deve saber sobre o imóvel antes da visita</a>.</p>
 <p>Confirme também com o proprietário que preço e condições continuam válidos. Se a <a href="/blog/autorizacao-de-venda/">autorização de venda</a> estiver vencida ou se o proprietário tiver mudado de ideia sobre o valor, a visita começa em terreno falso.</p>
 
 <h2>Agendamento e confirmação</h2>
 <p>A visita envolve pelo menos três agendas: a do cliente, a do corretor e a de quem libera o imóvel (proprietário, inquilino, portaria ou outro corretor). Alguns cuidados evitam a maior parte dos desencontros:</p>
 <ol>
-  <li><strong>Combine com o ocupante com antecedência.</strong> Se o imóvel estiver alugado, a visita depende da combinação com o inquilino, nos termos do contrato de locação. Respeite horários e avise com o tempo que foi combinado.</li>
+  <li><strong>Combine com o ocupante com antecedência.</strong> Se o imóvel estiver alugado, a visita depende da combinação com o inquilino, com combinação prévia de dia e hora (Lei nº 8.245/1991, art. 23, IX). Os cuidados próprios desse caso estão em <a href="/blog/visita-a-imovel-ocupado/">visita a imóvel ocupado por inquilino</a>.</li>
   <li><strong>Confirme no dia.</strong> Uma mensagem pela manhã, com endereço, horário e nome de quem vai receber, reduz faltas dos dois lados.</li>
   <li><strong>Informe quem vai visitar.</strong> Portarias costumam pedir nome e documento. Envie os dados antes para não deixar o cliente esperando na entrada.</li>
   <li><strong>Teste as chaves.</strong> Quando as chaves ficam com o corretor ou em uma imobiliária, confira antes se todas abrem. Uma porta que não abre na frente do cliente compromete a visita inteira.</li>
@@ -49,7 +49,7 @@ export default {
 
 <h2>Sequência de visitas no mesmo dia</h2>
 <p>Quando há mais de um imóvel no roteiro, a ordem importa. Organize a sequência pela proximidade geográfica, para não perder tempo no trânsito, e deixe intervalo suficiente entre os endereços. Atrasos acumulados acabam com a última visita do dia.</p>
-<p>Evite programar mais imóveis do que o cliente consegue comparar. Depois de algumas visitas seguidas, os detalhes se misturam. Se o roteiro for longo, faça uma pausa curta entre os imóveis para registrar as primeiras impressões do cliente enquanto ainda estão claras.</p>
+<p>Evite programar mais imóveis do que o cliente consegue comparar. Depois de algumas visitas seguidas, os detalhes se misturam. Se o roteiro for longo, faça uma pausa curta entre os imóveis para registrar as primeiras impressões do cliente enquanto ainda estão claras. O planejamento do roteiro está detalhado em <a href="/blog/sequencia-de-visitas/">como organizar uma sequência de visitas</a>.</p>
 <p><em>Exemplo hipotético:</em> três apartamentos no mesmo bairro, com 45 minutos entre um início e outro. Ao sair de cada um, o corretor pergunta ao cliente o que mais gostou e o que mais o incomodou, e anota as respostas antes de seguir para o próximo.</p>
 
 <h2>Preparação do imóvel</h2>
@@ -76,7 +76,7 @@ export default {
 <p>A decisão de compra envolve valores altos e, muitas vezes, mais de uma pessoa. Insistir para que o cliente se decida durante a visita, ou criar urgência artificial, compromete a confiança. Se houver outro interessado de fato, informe com objetividade; se não houver, não invente.</p>
 
 <h2>Visitas com mais de um decisor</h2>
-<p>Quando a compra envolve cônjuge, familiares, sócios ou alguém que ajuda no pagamento, convém saber disso desde a qualificação. Visitar primeiro com uma pessoa e depois repetir com os demais é comum; o importante é registrar a opinião de cada um e não tratar o "gostei" de quem foi à primeira visita como decisão do grupo. Quando possível, agende a segunda visita com todos os que decidem.</p>
+<p>Quando a compra envolve cônjuge, familiares, sócios ou alguém que ajuda no pagamento, convém saber disso desde a qualificação. Visitar primeiro com uma pessoa e depois repetir com os demais é comum; o importante é registrar a opinião de cada um e não tratar o "gostei" de quem foi à primeira visita como decisão do grupo. Quando possível, agende a segunda visita com todos os que decidem; se alguém não puder ir, uma <a href="/blog/visitas-virtuais/">visita virtual</a> ajuda a nivelar a informação. O tema está aprofundado em <a href="/blog/visitas-com-varios-decisores/">visitas com famílias e mais de um decisor</a>.</p>
 
 <h2>Segurança</h2>
 <p>A visita leva o corretor a imóveis, muitas vezes desocupados, com pessoas que ele conhece pouco. Algumas práticas reduzem riscos sem constranger o cliente:</p>
@@ -87,10 +87,10 @@ export default {
   <li>manter o controle das chaves e não entregá-las ao visitante;</li>
   <li>em caso de desconforto, encerrar a visita ou remarcá-la acompanhado.</li>
 </ul>
-<p>Os mesmos cuidados protegem o proprietário: o corretor responde por quem leva ao imóvel.</p>
+<p>Os mesmos cuidados protegem o proprietário: o corretor responde por quem leva ao imóvel. O protocolo completo está em <a href="/blog/seguranca-em-visitas/">segurança do corretor durante visitas</a>.</p>
 
 <h2>Depois da visita: registro interno</h2>
-<p>O que não é anotado no mesmo dia se perde. Registre, para cada visita:</p>
+<p>O que não é anotado no mesmo dia se perde. Registre, para cada visita (o detalhamento está em <a href="/blog/registro-apos-a-visita/">o que registrar depois da visita</a>):</p>
 <ul>
   <li>data, imóvel e quem participou;</li>
   <li>o que o cliente gostou e o que o incomodou, com as palavras dele quando possível;</li>
@@ -99,7 +99,7 @@ export default {
   <li>próximo passo combinado e a data do próximo contato.</li>
 </ul>
 <p>Esse registro alimenta o acompanhamento do cliente, assunto de <a href="/blog/controle-de-follow-up/">controle de follow-up</a>, e pode ser mantido em planilha ou CRM, como descrito em <a href="/blog/ferramentas-digitais-do-corretor/">ferramentas digitais do corretor</a>. Se a visita resultar em interesse concreto, o passo seguinte é a <a href="/blog/proposta-de-compra-de-imovel/">proposta de compra</a>.</p>
-<p>O retorno ao proprietário sobre visitas e interessados é parte do relacionamento construído na captação. Mantenha o proprietário informado sobre o que os visitantes observaram, sem expor dados pessoais dos clientes. Esse acompanhamento está descrito em <a href="/blog/como-captar-imoveis/">captação de imóveis</a>.</p>
+<p>O retorno ao proprietário sobre visitas e interessados é parte do relacionamento construído na captação. Mantenha o proprietário informado sobre o que os visitantes observaram, sem expor dados pessoais dos clientes. Esse acompanhamento está descrito em <a href="/blog/retorno-ao-proprietario/">retorno ao proprietário</a>.</p>
 
 <h2>Checklist da visita</h2>
 <div class="tabela"><table>

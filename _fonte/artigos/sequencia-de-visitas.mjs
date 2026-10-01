@@ -11,7 +11,7 @@ export default {
   data: '2026-10-01',
   fontes: [],
   corpo: `
-<p>Levar o comprador a vários imóveis no mesmo dia economiza deslocamentos e ajuda a comparar opções. Mas um roteiro mal montado produz o efeito contrário: atrasos, proprietários esperando, cliente cansado e impressões misturadas. Este artigo detalha como planejar a sequência. A visão geral da visita (preparação, condução e registro) está no pilar <a href="/blog/visitas-a-imoveis/">visitas a imóveis</a>.</p>
+<p>Levar o comprador a vários imóveis no mesmo dia economiza deslocamentos e ajuda a comparar opções. Mas um roteiro mal montado produz o efeito contrário: atrasos, proprietários esperando, cliente cansado e impressões misturadas. A visão geral da visita (preparação, condução e registro) está no pilar <a href="/blog/visitas-a-imoveis/">visitas a imóveis</a>.</p>
 
 <h2>Quantos imóveis colocar no roteiro</h2>
 <p>Não há número fixo, mas há um limite prático: a capacidade do cliente de lembrar e comparar o que viu. Depois de muitas visitas seguidas, detalhes de um imóvel passam a ser atribuídos a outro. Para a maioria dos atendimentos, um roteiro curto, com poucos imóveis bem escolhidos, rende mais do que uma maratona.</p>

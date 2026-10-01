@@ -86,7 +86,7 @@ export default {
     <tr><td>Mercado</td><td>Oferta semelhante, tempo de venda</td><td>Influencia a faixa e a estratégia</td></tr>
   </tbody>
 </table></div>
-<p>Essa ficha alimenta a pesquisa de <a href="/blog/imoveis-comparaveis/">imóveis comparáveis</a> e ajuda a explicar ao proprietário por que o imóvel dele está acima ou abaixo de uma referência.</p>
+<p>Essa ficha alimenta a pesquisa de imóveis comparáveis e ajuda a explicar ao proprietário por que o imóvel dele está acima ou abaixo de uma referência.</p>
 
 <h2>Erros comuns</h2>
 <ul>

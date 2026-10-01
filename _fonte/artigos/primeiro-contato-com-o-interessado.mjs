@@ -16,7 +16,7 @@ export default {
     },
   ],
   corpo: `
-<p>O primeiro contato é a mensagem ou a ligação de alguém que viu um anúncio, uma placa ou uma indicação e quer saber mais. É uma etapa curta, mas ela define se o atendimento começa organizado ou se vira uma troca solta de mensagens. Este artigo trata só desse momento inicial. A visão completa do processo está em <a href="/blog/atendimento-ao-comprador-de-imoveis/">atendimento ao comprador de imóveis</a>, e o levantamento detalhado do perfil do cliente em <a href="/blog/qualificacao-do-comprador/">qualificação do comprador</a>.</p>
+<p>O primeiro contato é a mensagem ou a ligação de alguém que viu um anúncio, uma placa ou uma indicação e quer saber mais. É uma etapa curta, mas ela define se o atendimento começa organizado ou se vira uma troca solta de mensagens. O foco aqui é só esse momento inicial. A visão completa do processo está em <a href="/blog/atendimento-ao-comprador-de-imoveis/">atendimento ao comprador de imóveis</a>, e o levantamento detalhado do perfil do cliente em <a href="/blog/qualificacao-do-comprador/">qualificação do comprador</a>.</p>
 
 <h2>A origem do contato já diz alguma coisa</h2>
 <p>Antes de responder, observe por onde a pessoa chegou. Cada origem traz informações diferentes e pede uma resposta um pouco diferente:</p>
@@ -66,7 +66,7 @@ export default {
   <li>A compra seria com recursos próprios, financiamento ou ainda está em definição?</li>
   <li>Qual é o melhor canal e horário para falarmos?</li>
 </ul>
-<p>Faça poucas perguntas por mensagem, e de preferência uma de cada vez quando o interessado responder de forma curta. Um questionário extenso logo no primeiro contato afasta. Na conversa seguinte, já com mais confiança, aprofunde a necessidade, a capacidade de pagamento e os decisores, como descrito em <a href="/blog/qualificacao-do-comprador/">qualificação do comprador</a>.</p>
+<p>Faça poucas perguntas por mensagem, e de preferência uma de cada vez quando o interessado responder de forma curta. Um questionário extenso logo no primeiro contato afasta. Na conversa seguinte, já com mais confiança, aprofunde a necessidade, a capacidade de pagamento e os decisores, que são o conteúdo da qualificação.</p>
 
 <h2>Quando o imóvel anunciado não serve</h2>
 <p>É comum que, depois de duas ou três respostas, fique claro que o imóvel que gerou o contato não atende: o orçamento não fecha, a região não é a ideal, faltam vagas. Diga isso com clareza. Em seguida, com o que você já sabe da necessidade, pergunte se a pessoa quer conhecer outras opções. Enviar uma lista de imóveis sem entender o que ela procura raramente funciona.</p>

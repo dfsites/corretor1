@@ -49,3 +49,12 @@ Sete frentes, sem sobreposição de arquivos: (1) começando na profissão e os 
   7. LGPD, arts. 8º § 5º, 16, 18: eliminação de dados não é absoluta; depende da base legal, e parceiros devem ser comunicados.
 - Conferidas sem alteração: CC 725 a 727, Decreto 81.871 (2 páginas), Lei 6.530 conselhos; Res. COFECI 1.065 (com 1.402) e 1.066 (com Ato 001/2011).
 - Fusão ou remoção: nenhuma.
+
+### Preço e mercado, atendimento e visitas (31 textos)
+
+- Aberturas meta e "Na prática" repetitivos reescritos em cerca de 25 textos.
+- Duplicação enxugada: a seção de revisão de preço em "conversa sobre preço" virou remissão ao artigo próprio; a tabela de fontes em "imóveis comparáveis" virou resumo com links para "fontes de dados de mercado".
+- Pilares de preço e de visitas passaram a linkar seus satélites no texto; links repetidos removidos.
+- Correção jurídica: visita a imóvel alugado depende de combinação prévia de dia e hora (Lei 8.245/1991, art. 23, IX), e não dos "termos do contrato".
+- Conferidos sem erro: Res. COFECI 1.066/2007, CTN, CDC, Leis 6.015, 8.245, 10.192, 8.036, 9.514, 4.380, Código Civil, LGPD, Decreto 81.871.
+- Fusão ou remoção: nenhuma.

@@ -28,7 +28,7 @@ export default {
 </ul>
 <p>Esses dados já fazem parte de um bom <a href="/blog/primeiro-contato-com-o-interessado/">primeiro contato</a> e da <a href="/blog/qualificacao-do-comprador/">qualificação do comprador</a>, então a identificação não precisa soar como desconfiança. Basta explicar que é o procedimento padrão para visitas.</p>
 <h3>Cuidados com dados pessoais</h3>
-<p>Identificar o visitante envolve coletar dados pessoais, e a LGPD se aplica. O art. 6º da Lei nº 13.709/2018 estabelece, entre outros, os princípios da finalidade (tratar os dados para propósitos legítimos, específicos e informados ao titular) e da necessidade (limitar o tratamento ao mínimo necessário). Na prática:</p>
+<p>Identificar o visitante envolve coletar dados pessoais, e a LGPD se aplica. O art. 6º da Lei nº 13.709/2018 estabelece, entre outros, os princípios da finalidade (tratar os dados para propósitos legítimos, específicos e informados ao titular) e da necessidade (limitar o tratamento ao mínimo necessário). Por isso:</p>
 <ul>
   <li>peça apenas o que é necessário para a visita e o atendimento;</li>
   <li>informe para que os dados serão usados;</li>
@@ -87,7 +87,7 @@ export default {
 <ul>
   <li>Avise o término a quem acompanha a sua agenda.</li>
   <li>Confira se o imóvel ficou fechado, com luzes apagadas e janelas trancadas.</li>
-  <li>Registre a visita na ficha do cliente e do imóvel, como descrito em <a href="/blog/visitas-a-imoveis/">visitas a imóveis</a>.</li>
+  <li>Registre a visita na ficha do cliente e do imóvel, como descrito em <a href="/blog/registro-apos-a-visita/">o que registrar depois da visita</a>.</li>
   <li>Se houve qualquer situação estranha, registre o que aconteceu e informe o proprietário, a imobiliária e, quando for o caso, a administração do condomínio. Em situação de crime ou ameaça, procure a polícia.</li>
 </ul>
 

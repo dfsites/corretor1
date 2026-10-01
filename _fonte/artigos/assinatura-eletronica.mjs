@@ -29,7 +29,7 @@ export default {
     },
   ],
   corpo: `
-<p>Autorização de venda, proposta, contrato de corretagem, contrato de locação, recibos: boa parte dos documentos da intermediação pode ser assinada eletronicamente, o que reduz deslocamentos e acelera a formalização. Isso não significa que qualquer documento possa ser assinado de qualquer forma, nem que a assinatura eletrônica substitua a escritura pública ou o registro. Este artigo explica os tipos de assinatura, a base legal e os limites. A visão geral de ferramentas está em <a href="/blog/ferramentas-digitais-do-corretor/">ferramentas digitais do corretor</a>.</p>
+<p>Autorização de venda, proposta, contrato de corretagem, contrato de locação, recibos: boa parte dos documentos da intermediação pode ser assinada eletronicamente, o que reduz deslocamentos e acelera a formalização. Isso não significa que qualquer documento possa ser assinado de qualquer forma, nem que a assinatura eletrônica substitua a escritura pública ou o registro. A visão geral de ferramentas está em <a href="/blog/ferramentas-digitais-do-corretor/">ferramentas digitais do corretor</a>.</p>
 
 <h2>O que é assinatura eletrônica</h2>
 <p>A Lei nº 14.063/2020 (art. 3º, II) define assinatura eletrônica como os dados em formato eletrônico que se ligam ou estão logicamente associados a outros dados em formato eletrônico e que são utilizados pelo signatário para assinar. O conceito é amplo: inclui desde uma confirmação por e-mail ou código até a assinatura com certificado digital.</p>

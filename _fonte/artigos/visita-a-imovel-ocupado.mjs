@@ -18,11 +18,11 @@ export default {
   ],
   corpo: `
 <p>Vender um imóvel alugado envolve três partes com interesses diferentes: o proprietário quer vender, o comprador quer conhecer o imóvel e o inquilino continua morando ou trabalhando ali, com direitos previstos em lei. A organização das visitas precisa respeitar esses direitos e, ao mesmo tempo, permitir que a venda avance.</p>
-<p>Este artigo trata desse caso específico. As orientações gerais estão em <a href="/blog/visitas-a-imoveis/">visitas a imóveis</a>.</p>
+<p>As orientações gerais estão em <a href="/blog/visitas-a-imoveis/">visitas a imóveis</a>; aqui ficam as particularidades do imóvel alugado.</p>
 
 <h2>O que a lei prevê sobre visitas</h2>
 <p>A Lei nº 8.245/1991 (art. 23, IX) obriga o locatário a permitir a vistoria do imóvel pelo locador ou por seu mandatário, mediante combinação prévia de dia e hora, e a admitir que o imóvel seja visitado e examinado por terceiros na hipótese prevista no art. 27, que trata da venda do imóvel locado.</p>
-<p>Na prática, isso significa que o inquilino não pode impedir as visitas de interessados na compra, mas elas precisam ser combinadas previamente com ele. Visitas sem aviso, em horários inadequados ou em frequência excessiva desgastam a relação e podem gerar conflito.</p>
+<p>Assim, o inquilino não pode impedir as visitas de interessados na compra, mas elas precisam ser combinadas previamente com ele. Visitas sem aviso, em horários inadequados ou em frequência excessiva desgastam a relação e podem gerar conflito.</p>
 
 <h2>Direito de preferência do inquilino</h2>
 <p>Antes de vender a terceiros, o proprietário precisa oferecer o imóvel ao inquilino nas mesmas condições. O art. 27 garante ao locatário preferência para adquirir o imóvel em igualdade de condições com terceiros, e determina que o locador lhe dê conhecimento do negócio por notificação judicial, extrajudicial ou outro meio de ciência inequívoca. A comunicação deve conter todas as condições do negócio, em especial preço, forma de pagamento, existência de ônus reais e local e horário em que a documentação pode ser examinada.</p>
