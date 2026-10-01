@@ -94,5 +94,6 @@ export default {
   <li>Mudar de foco a cada poucos meses, sem dar tempo para construir conhecimento e reputação.</li>
   <li>Confundir especialização com exclusão: recusar atendimento em vez de encaminhar a um colega.</li>
 </ul>
+<p>Um segmento com regras próprias está detalhado em <a href="/blog/corretagem-de-imoveis-rurais/">corretagem de imóveis rurais</a>.</p>
 `,
 };

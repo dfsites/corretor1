@@ -91,5 +91,6 @@ export default {
   <li>Esquecer de definir a partir de quando as despesas do imóvel mudam de responsável.</li>
 </ul>
 <p>Depois do acordo, o cronograma passa a ser acompanhado no <a href="/blog/controle-de-negocios-em-andamento/">controle de negócios em andamento</a>.</p>
+<p>Duas formas específicas de pagamento têm artigos próprios: <a href="/blog/parcelamento-direto-com-o-vendedor/">venda com parcelamento direto com o vendedor</a> e <a href="/blog/permuta-de-imoveis/">permuta de imóveis</a>.</p>
 `,
 };

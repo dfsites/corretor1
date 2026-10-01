@@ -92,5 +92,6 @@ export default {
 
 <h2>Por que isso é parte do dever do corretor</h2>
 <p>A Lei nº 6.530/1978 (art. 3º) atribui ao corretor a possibilidade de opinar quanto à comercialização imobiliária, e o Código Civil (art. 723, parágrafo único) exige que ele preste ao cliente esclarecimentos sobre a segurança ou o risco do negócio e sobre as alterações de valores. Uma opinião de preço fundamentada em comparáveis bem escolhidos é a forma prática de cumprir esses deveres. A apresentação desse material ao dono do imóvel está em <a href="/blog/conversa-sobre-preco-com-o-proprietario/">como conversar com o proprietário sobre preço</a>.</p>
+<p>Onde buscar esses dados está em <a href="/blog/fontes-de-dados-de-mercado/">fontes de dados para pesquisa de mercado imobiliário</a>.</p>
 `,
 };

@@ -105,5 +105,6 @@ export default {
 
 <h2>Quando o contrato termina</h2>
 <p>O contrato pode terminar pela conclusão do negócio, pelo fim do prazo ou pela dispensa do corretor. O ponto de atenção é o art. 727: mesmo depois da dispensa ou do fim do prazo, se o negócio se realizar como fruto do trabalho do corretor, a remuneração continua devida. Por isso, ao encerrar um contrato, é prudente registrar por escrito os interessados que o corretor apresentou durante a vigência. A conduta esperada nesse momento também envolve a ética: o Código de Ética veda reter negócio sem probabilidade de realizá-lo e abandonar negócio sem motivo justo e prévia ciência do cliente (art. 6º, XVIII e XII).</p>
+<p>Quando quem contrata o corretor é o comprador, os cuidados estão em <a href="/blog/corretor-contratado-pelo-comprador/">contratação do corretor pelo comprador</a>.</p>
 `,
 };

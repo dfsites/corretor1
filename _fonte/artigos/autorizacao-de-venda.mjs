@@ -121,5 +121,6 @@ export default {
 
 <h2>Alterações durante a vigência</h2>
 <p>Preço, condições, prazo e exclusividade podem mudar ao longo da comercialização. Toda alteração deve ser registrada por escrito, por aditivo ou nova autorização, com a assinatura dos titulares. Isso mantém o anúncio coerente com o que foi autorizado e preserva a prova do que foi combinado.</p>
+<p>O que fazer ao fim do prazo está em <a href="/blog/renovacao-da-autorizacao-de-venda/">renovação e encerramento da autorização de venda</a>.</p>
 `,
 };

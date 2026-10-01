@@ -7,7 +7,7 @@
 
 ## Próximo
 
-- Quarto ciclo do `docs/PLANO-EDITORIAL.md` (20 pautas P3).
+- Avaliar no Search Console quais artigos aprofundar e iniciar as séries de expansão (seção 6 do plano).
 - Foto do autor (quadrada) em `assets/img/autores/` e campo `foto` em `_fonte/autores.mjs`.
 
 - Cadastrar os e-books (capa, preço, link de compra) em `_fonte/produtos.mjs`.
@@ -19,6 +19,8 @@
 - Confirmar a divisão de papéis com corretor50k.com.br.
 
 ## Concluído
+
+- 2026-10-01: quarto ciclo editorial: 20 artigos; banco de 117 pautas concluído (blog com 123).
 
 - 2026-10-01: terceiro ciclo editorial: 55 artigos publicados (blog com 103).
 

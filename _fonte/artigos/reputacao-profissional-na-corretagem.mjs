@@ -85,5 +85,6 @@ export default {
 
 <h2>Reputação se constrói devagar e se perde rápido</h2>
 <p>Não existe atalho. Cada atendimento conta, inclusive os que não resultam em negócio: o comprador que não fechou com você hoje pode voltar daqui a dois anos, ou indicar alguém, se tiver sido bem atendido. A melhor forma de proteger a reputação é ter processos claros de atendimento e registro, que tornam o bom atendimento a regra, e não a exceção.</p>
+<p>A parte digital desse tema, com pedidos e respostas a avaliações, está em <a href="/blog/avaliacoes-de-clientes/">avaliações de clientes e reputação digital</a>.</p>
 `,
 };

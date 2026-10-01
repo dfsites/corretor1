@@ -1,5 +1,10 @@
 # Changelog
 
+## 2026-10-01 — Quarto ciclo editorial (20 artigos): banco de 117 pautas concluído
+
+- 20 artigos novos (detalhes em `docs/relatorios/2026-10-01-quarto-ciclo-editorial.md`); blog com 123 artigos.
+- Plano editorial: todas as 117 pautas marcadas como publicadas.
+
 ## 2026-10-01 — Terceiro ciclo editorial (55 artigos)
 
 - 55 artigos novos (detalhes em `docs/relatorios/2026-10-01-terceiro-ciclo-editorial.md`); blog com 103 artigos e 11 categorias.

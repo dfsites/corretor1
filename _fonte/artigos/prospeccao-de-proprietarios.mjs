@@ -98,5 +98,6 @@ export default {
   <li>Desistir de quem não vende agora, em vez de manter o contato com respeito.</li>
 </ul>
 <p>Quando o contato evolui para uma conversa sobre venda, o próximo passo é a <a href="/blog/entrevista-inicial-com-o-proprietario/">entrevista inicial com o proprietário</a>.</p>
+<p>Uma situação frequente na prospecção está em <a href="/blog/proprietario-que-anuncia-por-conta-propria/">proprietário que anuncia por conta própria</a>.</p>
 `,
 };

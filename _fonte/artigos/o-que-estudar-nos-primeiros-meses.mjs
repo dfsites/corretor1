@@ -78,5 +78,6 @@ export default {
 
 <h2>O que pode esperar</h2>
 <p>Tributação detalhada, avaliação formal de imóveis, inventários e operações mais complexas podem ficar para depois que a base estiver firme. Quando surgirem em um negócio, estude o caso concreto e, se necessário, envolva o profissional adequado. Para a formação ao longo da carreira, veja <a href="/blog/desenvolvimento-profissional-do-corretor/">desenvolvimento profissional do corretor</a>.</p>
+<p>Depois dos primeiros meses, o estudo continua; veja <a href="/blog/formacao-continuada-do-corretor/">formação continuada do corretor</a>.</p>
 `,
 };
